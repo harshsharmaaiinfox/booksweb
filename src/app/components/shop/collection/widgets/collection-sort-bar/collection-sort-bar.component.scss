@@ -1,0 +1,63 @@
+.sort-top-bar-wrapper {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+
+  .sort-top-bar-inner {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .sort-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2f2f2f;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+
+  select2 {
+    width: 220px;
+
+    ::ng-deep .select2-container {
+      width: 100% !important;
+
+      .select2-selection {
+        border: 1.5px solid #ddd;
+        border-radius: 0;
+        padding: 7px 36px 7px 12px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #2f2f2f;
+        min-height: 38px;
+        display: flex;
+        align-items: center;
+        background: #fff;
+        transition: border-color 0.2s;
+
+        &:hover { border-color: #2f2f2f; }
+      }
+
+      &.select2-container--open .select2-selection {
+        border-color: #2f2f2f;
+      }
+    }
+
+    ::ng-deep .select2-dropdown {
+      border: 1.5px solid #ddd;
+      border-radius: 0;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      margin-top: 2px;
+
+      .select2-results__option {
+        padding: 9px 12px;
+        font-size: 13px;
+        color: #555;
+
+        &:hover { background: #faf9f6; color: #6d645f; }
+        &[aria-selected="true"] { background: #2f2f2f; color: #fff; font-weight: 600; }
+      }
+    }
+  }
+}

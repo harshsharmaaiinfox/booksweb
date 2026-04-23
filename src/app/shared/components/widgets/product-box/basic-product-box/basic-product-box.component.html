@@ -1,0 +1,62 @@
+<div class="kf-product" [class]="class">
+
+    <!-- Image -->
+    <div class="kf-product-media">
+        <a [routerLink]="['/product/', product.slug]" class="kf-img-link">
+            <img appLazyLoad [src]="product.product_thumbnail ?
+                product.product_thumbnail.original_url :
+                'assets/images/product.png'" class="kf-img lazy-loading" [alt]="product.name"
+                placeholder="assets/images/placeholder.png">
+        </a>
+
+        <!-- Badge -->
+        <span class="kf-badge"
+            [ngClass]="product.is_sale_enable ? 'kf-badge--sale' : product.is_featured ? 'kf-badge--new' : product.is_trending ? 'kf-badge--hot' : ''"
+            *ngIf="product.is_trending || product.is_sale_enable || product.is_featured">
+            {{ (product.is_sale_enable ? 'sale' : product.is_featured ? 'new' : product.is_trending ? 'hot' : '') | translate }}
+        </span>
+
+        <!-- Wishlist -->
+        <button class="kf-wish" (click)="addToWishlist(product)" [class.active]="product.is_wishlist">
+            <i class="ri-heart-line" *ngIf="!product.is_wishlist"></i>
+            <i class="ri-heart-fill" *ngIf="product.is_wishlist"></i>
+        </button>
+
+        <!-- Quick View -->
+        <button class="kf-quick" (click)="cartPopupModal.openModal(product)">
+            <i class="ri-eye-line"></i>
+        </button>
+
+        <!-- Close (Wishlist page) -->
+        <div class="product-close-btn" *ngIf="close">
+            <app-button [class]="'btn close-button'" [spinner]="false" [id]="'close_btn'"
+                (click)="removeWishlist(product.id)">
+                <i class="ri-close-line"></i>
+            </app-button>
+        </div>
+    </div>
+
+    <!-- Details -->
+    <div class="kf-product-body">
+        <div class="kf-product-top">
+            <a [routerLink]="['/product/', product.slug]" class="kf-name-link">
+                <h3 class="kf-name">{{ product.name }}</h3>
+            </a>
+            <span class="kf-desc" *ngIf="product.short_description">{{ product.short_description }}</span>
+        </div>
+
+        <div class="kf-product-bottom">
+            <div class="kf-price-row">
+                <span class="kf-price">{{ product.price | currencySymbol }}</span>
+                <span class="kf-stock" *ngIf="product.stock_status == 'in_stock'">In Stock</span>
+            </div>
+            <div class="kf-cart-row">
+                <app-product-cart-button [product]="product" [text]="'Add to Bag'"></app-product-cart-button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<app-product-detail-modal #productDetailModal [product]="product"></app-product-detail-modal>
+<app-variation-modal #variationModal></app-variation-modal>
+<app-cart-popup-modal #cartPopupModal></app-cart-popup-modal>

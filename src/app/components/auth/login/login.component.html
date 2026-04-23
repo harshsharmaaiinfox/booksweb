@@ -1,0 +1,94 @@
+<section class="kfa-page">
+  <div class="kfa-split">
+
+    <!-- LEFT PANEL -->
+    <div class="kfa-left">
+      <a [routerLink]="['/']" class="kfa-back-home">
+        <i class="ri-arrow-left-line"></i> Home
+      </a>
+      <div class="kfa-left-body">
+        <p class="kfa-eyebrow">Welcome back</p>
+        <h1>Sign in to<br>your account</h1>
+        <p class="kfa-left-sub">Access your orders, wishlist and account details.</p>
+      </div>
+      <div class="kfa-left-footer">
+        <span>Don't have an account?</span>
+        <a [routerLink]="['/auth/register']">Create one <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="kfa-right">
+      <div class="kfa-form-wrap">
+        <app-alert></app-alert>
+
+        <div class="kfa-form-head">
+          <p class="kfa-eyebrow kfa-eyebrow--dark">Login</p>
+          <h2>Enter your details</h2>
+        </div>
+
+        <form [formGroup]="form" (ngSubmit)="submit()" class="kfa-form">
+
+          <!-- Email -->
+          <div class="kfa-field">
+            <label for="email">{{ 'Email Address' | translate }}</label>
+            <input type="email" id="email" formControlName="email"
+              placeholder="{{ 'enter_your_email' | translate }}"
+              (input)="filterEmailCharacters($event)"
+              pattern="[a-zA-Z0-9._\-+@]+"
+              [class.kfa-input-error]="form.controls['email'].touched && form.controls['email'].invalid">
+            <span class="kfa-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['required']">
+              {{ 'Email Is Required' | translate }}
+            </span>
+            <span class="kfa-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['email']">
+              {{ 'Invalid Email' | translate }}
+            </span>
+          </div>
+
+          <!-- Password -->
+          <div class="kfa-field">
+            <label for="password">{{ 'Password' | translate }}</label>
+            <input type="password" id="password" formControlName="password"
+              placeholder="••••••••"
+              [class.kfa-input-error]="form.controls['password'].touched && form.controls['password'].invalid">
+            <span class="kfa-error" *ngIf="form.controls['password'].touched && form.controls['password'].errors?.['required']">
+              {{ 'Password Is Required' | translate }}
+            </span>
+          </div>
+
+          <!-- ReCaptcha -->
+          <div class="kfa-field" *ngIf="reCaptcha">
+            <re-captcha formControlName="recaptcha"></re-captcha>
+            <span class="kfa-error" *ngIf="form.controls['recaptcha']?.touched && form.controls['recaptcha']?.errors?.['required']">
+              {{ 'ReCaptcha is Required' | translate }}
+            </span>
+          </div>
+
+          <!-- Options -->
+          <div class="kfa-options-row">
+            <label class="kfa-check">
+              <input type="checkbox" id="remeberme">
+              <span class="kfa-check-box"></span>
+              <span>{{ 'Remember Me' | translate }}</span>
+            </label>
+            <a [routerLink]="['/auth/forgot-password']" class="kfa-forgot">
+              {{ 'Forgot Password' | translate }}?
+            </a>
+          </div>
+
+          <!-- Submit -->
+          <app-button [id]="'login_btn'" [class]="'kfa-submit-btn'">
+            {{ 'Login' | translate }} <i class="ri-arrow-right-line"></i>
+          </app-button>
+
+        </form>
+
+        <div class="kfa-alt-link">
+          <span>{{ "Dont Have An Account" | translate }}?</span>
+          <a [routerLink]="['/auth/register']">{{ 'Sign up' | translate }} <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

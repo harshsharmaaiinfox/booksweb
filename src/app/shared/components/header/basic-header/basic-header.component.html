@@ -1,0 +1,94 @@
+<header class="kahua-header" [class.sticky-active]="stick && sticky" [ngClass]="!stick && sticky ? class : ''">
+
+  <!-- Main Brand Row -->
+  <div class="kh-main">
+    <div class="container-fluid-lg">
+      <div class="kh-main__row">
+
+        <!-- Mobile toggle -->
+        <div class="kh-main__toggle d-xl-none">
+          <app-navbar-menu-button (activeMenu)="toggle($event)" [show]="active"></app-navbar-menu-button>
+        </div>
+
+        <!-- Logo -->
+        <div class="kh-main__logo">
+          <app-logo [textClass]="'txt-theme f-w-600'" [data]="data" [logo]="logo"></app-logo>
+        </div>
+
+        <!-- Contact 24/7 -->
+        <div class="kh-contact d-none d-lg-flex">
+          <div class="kh-contact__icon">
+            <i class="ri-phone-line"></i>
+          </div>
+          <div class="kh-contact__text">
+            <span class="kh-contact__label">Contact us 24/7</span>
+            <a class="kh-contact__num" href="tel:{{ data?.header?.support_number || '+918545565854' }}">
+              {{ data?.header?.support_number || '(+91) 85455 65854' }}
+            </a>
+          </div>
+        </div>
+
+        <!-- Search -->
+        <div class="kh-search d-none d-md-block">
+          <app-box-search [style]="'standard'"></app-box-search>
+        </div>
+
+        <!-- Right actions -->
+        <div class="kh-main__actions">
+          <div class="kh-act kh-act--account">
+            <app-my-account></app-my-account>
+            <span class="kh-act__label d-none d-lg-inline">Account</span>
+          </div>
+
+          <div class="kh-act kh-act--wish d-none d-md-flex">
+            <app-header-wishlist></app-header-wishlist>
+          </div>
+
+          <div class="kh-act kh-act--cart">
+            <app-header-cart></app-header-cart>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Mobile-only search (below row) -->
+      <div class="kh-search kh-search--mobile d-md-none">
+        <app-box-search [style]="'standard'"></app-box-search>
+      </div>
+    </div>
+  </div>
+
+  <!-- Menu Bar -->
+  <div class="kh-menu d-none d-xl-block">
+    <div class="container-fluid-lg">
+      <nav class="kh-menu__nav">
+        <app-menu></app-menu>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer -->
+  <div class="d-xl-none">
+    <div class="kh-drawer offcanvas offcanvas-collapse" [class.show]="active">
+      <div class="kh-drawer__head">
+        <div class="kh-drawer__brand">
+          <i class="ri-shirt-line"></i>
+          <span>Kahua Fashion</span>
+        </div>
+        <button class="kh-drawer__close" (click)="toggle(false)">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+      <div class="kh-drawer__body">
+        <app-menu></app-menu>
+      </div>
+      <div class="kh-drawer__foot">
+        <a href="tel:{{ data?.header?.support_number || '+918545565854' }}">
+          <i class="ri-phone-line"></i> {{ data?.header?.support_number || '+91 85455 65854' }}
+        </a>
+      </div>
+    </div>
+    <div class="offcanvas-backdrop fade" *ngIf="active" [class.show]="active" (click)="toggle(false)"></div>
+  </div>
+
+</header>

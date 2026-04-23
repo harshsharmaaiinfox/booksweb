@@ -1,0 +1,579 @@
+// ============================================
+// Kahua Fashion — Order Details Page
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+$border: #e8e4df;
+
+// =============================================
+// EYEBROW
+// =============================================
+.kfo-eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: $olive;
+  margin: 0 0 6px;
+}
+
+// =============================================
+// LOADING
+// =============================================
+.kfo-loading {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  background: $bg;
+
+  .spinner-border {
+    color: $warm;
+    width: 28px;
+    height: 28px;
+    border-width: 2px;
+  }
+
+  p {
+    font-size: 13px;
+    color: $warm;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+}
+
+// =============================================
+// HERO
+// =============================================
+.kfo-hero {
+  background: $text;
+  padding: 48px 0 40px;
+
+  .kfo-hero-inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .kfo-hero-left {
+    h1 {
+      font-size: 38px;
+      font-weight: 700;
+      color: $white;
+      margin: 0;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+
+      @media (max-width: 768px) { font-size: 28px; }
+    }
+  }
+
+  .kfo-btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: 1.5px solid rgba($white, 0.25);
+    color: rgba($white, 0.7);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    i { font-size: 16px; }
+
+    &:hover {
+      border-color: $white;
+      color: $white;
+    }
+  }
+}
+
+// =============================================
+// BODY LAYOUT
+// =============================================
+.kfo-body {
+  background: $bg;
+  padding: 32px 0 60px;
+}
+
+.kfo-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 24px;
+  align-items: flex-start;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.kfo-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.kfo-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: sticky;
+  top: 24px;
+
+  @media (max-width: 1100px) {
+    position: relative;
+    top: 0;
+  }
+}
+
+// =============================================
+// PANELS
+// =============================================
+.kfo-panel {
+  background: $white;
+  border: 1px solid $border;
+
+  & + .kfo-panel {
+    border-top: none;
+  }
+}
+
+.kfo-panel-head {
+  padding: 18px 24px;
+  border-bottom: 1px solid $border;
+  background: $text;
+
+  .kfo-eyebrow { color: $olive; }
+
+  h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: $white;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+}
+
+.kfo-panel-body {
+  padding: 24px;
+
+  &.kfo-no-pad {
+    padding: 0;
+  }
+}
+
+// =============================================
+// ORDER TRACKER
+// =============================================
+.kfo-tracker {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  gap: 8px;
+  padding: 8px 0 4px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    right: 16px;
+    height: 1.5px;
+    background: $border;
+    z-index: 0;
+  }
+}
+
+.kfo-tracker-step {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+
+  .kfo-tracker-dot {
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid $border;
+    background: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+
+    img {
+      width: 18px;
+      height: 18px;
+      opacity: 0.3;
+      filter: grayscale(1);
+    }
+  }
+
+  .kfo-tracker-label {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #ccc;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  &.kfo-active {
+    .kfo-tracker-dot {
+      background: $olive;
+      border-color: $olive;
+
+      img {
+        opacity: 1;
+        filter: brightness(0) invert(1);
+      }
+    }
+
+    .kfo-tracker-label {
+      color: $text;
+      font-weight: 700;
+    }
+  }
+
+  &.kfo-cancelled {
+    .kfo-tracker-dot {
+      background: #c0392b;
+      border-color: #c0392b;
+
+      img {
+        opacity: 1;
+        filter: brightness(0) invert(1);
+      }
+    }
+
+    .kfo-tracker-label { color: #c0392b; }
+  }
+}
+
+@media (max-width: 575px) {
+  .kfo-tracker {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    &::before { display: none; }
+  }
+
+  .kfo-tracker-step {
+    flex-direction: row;
+    flex: unset;
+    width: 100%;
+    align-items: center;
+    gap: 14px;
+
+    .kfo-tracker-label {
+      text-align: left;
+    }
+  }
+}
+
+// =============================================
+// PRODUCT TABLE
+// =============================================
+.kfo-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  thead tr {
+    background: $bg;
+    border-bottom: 1px solid $border;
+
+    th {
+      padding: 12px 20px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #bbb;
+      text-align: left;
+    }
+  }
+
+  tbody tr {
+    border-bottom: 1px solid $border;
+
+    &:last-child { border-bottom: none; }
+
+    td {
+      padding: 16px 20px;
+      font-size: 13px;
+      font-weight: 500;
+      color: $text;
+      vertical-align: middle;
+    }
+  }
+
+  .kfo-product-img {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    display: block;
+    border: 1px solid $border;
+  }
+
+  .kfo-product-name {
+    font-weight: 600;
+    max-width: 220px;
+  }
+
+  .kfo-subtotal {
+    font-weight: 700;
+    color: $text;
+  }
+}
+
+// =============================================
+// PRODUCT MOBILE CARDS
+// =============================================
+.kfo-product-cards {
+  display: flex;
+  flex-direction: column;
+
+  .kfo-product-card {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    border-bottom: 1px solid $border;
+
+    &:last-child { border-bottom: none; }
+
+    .kfo-product-card-img {
+      width: 60px;
+      height: 60px;
+      flex-shrink: 0;
+      border: 1px solid $border;
+      overflow: hidden;
+
+      img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    }
+
+    .kfo-product-card-info {
+      flex: 1;
+
+      .kfo-product-card-name {
+        font-size: 13px;
+        font-weight: 600;
+        color: $text;
+        margin: 0 0 10px;
+      }
+
+      .kfo-product-card-rows {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .kfo-product-card-row {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        color: $warm;
+
+        span:last-child { font-weight: 600; color: $text; }
+
+        &--total span:last-child { font-weight: 700; color: $text; }
+      }
+    }
+  }
+}
+
+// =============================================
+// SUB ORDER MOBILE CARDS
+// =============================================
+.kfo-suborder-cards {
+  display: flex;
+  flex-direction: column;
+
+  .kfo-suborder-card {
+    padding: 16px;
+    border-bottom: 1px solid $border;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &:last-child { border-bottom: none; }
+
+    .kfo-suborder-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: $warm;
+
+      span:last-child { font-weight: 600; color: $text; }
+    }
+
+    .kfo-btn-view {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 4px;
+      padding: 8px 14px;
+      border: 1.5px solid $text;
+      color: $text;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-decoration: none;
+      transition: all 0.2s;
+
+      &:hover { background: $text; color: $white; }
+    }
+  }
+}
+
+// =============================================
+// STATUS BADGES
+// =============================================
+.kfo-status-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1.5px solid $border;
+  color: $warm;
+
+  &.kfo-status-delivered { border-color: $olive; color: $olive; }
+  &.kfo-status-cancelled { border-color: #c0392b; color: #c0392b; }
+  &.kfo-status-pending   { border-color: #e0a800; color: #b8860b; }
+  &.kfo-status-processing { border-color: $warm; color: $warm; }
+  &.kfo-status-shipped   { border-color: $text; color: $text; }
+}
+
+// =============================================
+// ICON LINK
+// =============================================
+.kfo-icon-link {
+  color: $text;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:hover { color: $olive; }
+}
+
+// =============================================
+// CONSUMER DETAILS
+// =============================================
+.kfo-detail-block {
+  padding: 14px 0;
+  border-bottom: 1px solid $border;
+
+  &:first-child { padding-top: 0; }
+  &:last-child  { border-bottom: none; padding-bottom: 0; }
+
+  .kfo-detail-label {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #bbb;
+    margin-bottom: 6px;
+  }
+
+  .kfo-detail-value {
+    font-size: 13px;
+    color: $text;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+
+  .kfo-detail-phone {
+    color: $warm;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+}
+
+// =============================================
+// PAYMENT STATUS
+// =============================================
+.kfo-payment-status {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border: 1.5px solid $border;
+  color: $warm;
+
+  &.kfo-ps-paid      { border-color: $olive; color: $olive; }
+  &.kfo-ps-pending   { border-color: #e0a800; color: #b8860b; }
+  &.kfo-ps-failed    { border-color: #c0392b; color: #c0392b; }
+}
+
+// =============================================
+// SUMMARY
+// =============================================
+.kfo-summary {
+  display: flex;
+  flex-direction: column;
+}
+
+.kfo-summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid $border;
+  font-size: 13px;
+  color: $warm;
+
+  span:last-child { font-weight: 600; color: $text; }
+
+  &.kfo-discount {
+    color: $olive;
+    span:last-child { color: $olive; }
+  }
+}
+
+.kfo-summary-divider {
+  height: 1.5px;
+  background: $text;
+  margin: 6px 0;
+}
+
+.kfo-summary-total {
+  border-bottom: none;
+  padding-top: 12px;
+
+  span:first-child {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $text;
+  }
+
+  span:last-child {
+    font-size: 20px;
+    font-weight: 700;
+    color: $text;
+  }
+}

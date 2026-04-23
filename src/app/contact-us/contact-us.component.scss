@@ -1,0 +1,269 @@
+// ============================================
+// Kahua Fashion — Contact Us
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+
+.kfc-eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: $warm;
+  margin: 0 0 10px;
+}
+
+// =============================================
+// HERO
+// =============================================
+.kfc-hero {
+  background: $text;
+  padding: 70px 0;
+
+  .kfc-hero-inner {
+    max-width: 580px;
+
+    .kfc-eyebrow { color: $olive; }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 700;
+      color: $white;
+      line-height: 1.1;
+      margin: 0 0 18px;
+      letter-spacing: -0.5px;
+
+      @media (max-width: 768px) { font-size: 30px; }
+    }
+
+    .kfc-hero-sub {
+      font-size: 15px;
+      color: rgba($white, 0.5);
+      line-height: 1.7;
+      margin: 0;
+    }
+  }
+}
+
+// =============================================
+// CONTACT CARDS (3 columns)
+// =============================================
+.kfc-cards {
+  padding: 0;
+  margin-top: -30px;
+  position: relative;
+  z-index: 1;
+
+  .kfc-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border: 1px solid #eee;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .kfc-card {
+    background: $white;
+    padding: 32px 28px;
+    text-align: center;
+    border-right: 1px solid #eee;
+    transition: background 0.2s;
+
+    &:last-child { border-right: none; }
+
+    @media (max-width: 768px) {
+      border-right: none;
+      border-bottom: 1px solid #eee;
+      &:last-child { border-bottom: none; }
+    }
+
+    &:hover { background: $bg; }
+
+    i {
+      font-size: 28px;
+      color: $olive;
+      display: block;
+      margin-bottom: 14px;
+    }
+
+    h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: $text;
+      margin: 0 0 6px;
+    }
+
+    a, span {
+      font-size: 13px;
+      color: $warm;
+      text-decoration: none;
+      line-height: 1.6;
+    }
+
+    a:hover { color: $olive; }
+  }
+}
+
+// =============================================
+// MAIN — Form + Info side by side
+// =============================================
+.kfc-main {
+  padding: 60px 0;
+  background: $bg;
+}
+
+.kfc-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 50px;
+  align-items: flex-start;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+// ---- Form Side ----
+.kfc-form-side {
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: $text;
+    margin: 0 0 28px;
+  }
+}
+
+.kfc-field {
+  margin-bottom: 18px;
+
+  label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $text;
+    margin-bottom: 6px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid #ddd;
+    border-radius: 0;
+    font-size: 14px;
+    color: $text;
+    background: $white;
+    font-family: inherit;
+    transition: border-color 0.2s;
+    resize: vertical;
+
+    &:focus {
+      outline: none;
+      border-color: $text;
+    }
+
+    &::placeholder {
+      color: #ccc;
+      font-size: 13px;
+    }
+  }
+
+  .kfc-error {
+    display: block;
+    font-size: 11px;
+    color: #c0392b;
+    margin-top: 5px;
+    font-weight: 500;
+  }
+}
+
+.kfc-field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.kfc-submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 32px;
+  background: $text;
+  color: $white;
+  border: 1.5px solid $text;
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.25s;
+  margin-top: 6px;
+
+  &:hover:not(:disabled) {
+    background: $olive;
+    border-color: $olive;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+}
+
+// ---- Info Side ----
+.kfc-info-side {
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: $text;
+    margin: 0 0 24px;
+  }
+}
+
+.kfc-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  tr {
+    border-bottom: 1px solid #eee;
+    &:last-child { border-bottom: none; }
+  }
+
+  td {
+    padding: 14px 0;
+    font-size: 14px;
+    color: $text;
+    vertical-align: top;
+    line-height: 1.6;
+  }
+
+  .kfc-td-label {
+    width: 100px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #bbb;
+    padding-right: 16px;
+  }
+
+  a {
+    color: $olive;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}

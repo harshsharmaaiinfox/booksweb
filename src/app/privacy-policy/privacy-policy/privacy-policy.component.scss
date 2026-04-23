@@ -1,0 +1,148 @@
+// ============================================
+// Kahua Fashion — Policy Page
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+
+.kfp-hero {
+  background: $text;
+  padding: 50px 0;
+
+  .kfp-hero-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+    .kfp-eyebrow {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: $olive;
+      margin: 0 0 10px;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: $white;
+      margin: 0 0 12px;
+      line-height: 1.2;
+
+      @media (max-width: 768px) { font-size: 24px; }
+    }
+
+    p {
+      font-size: 14px;
+      color: rgba($white, 0.5);
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+}
+
+.kfp-content {
+  padding: 50px 0;
+  background: $bg;
+  display: flex;
+  justify-content: center;
+
+  .container-fluid-lg {
+    display: flex;
+    justify-content: center;
+  }
+
+  .kfp-card {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    background: $white;
+    border: 1px solid #eee;
+    padding: 40px;
+
+    @media (max-width: 768px) { padding: 24px; }
+  }
+
+  .kfp-updated {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #bbb;
+    margin-bottom: 28px;
+    display: block;
+  }
+
+  .kfp-section {
+    margin-bottom: 32px;
+
+    &:last-child { margin-bottom: 0; }
+
+    h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: $text;
+      margin: 0 0 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    p, li {
+      font-size: 14px;
+      color: $warm;
+      line-height: 1.85;
+      margin: 0 0 12px;
+
+      &:last-child { margin-bottom: 0; }
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 8px 0;
+
+      li { margin-bottom: 6px; }
+    }
+
+    strong { color: $text; }
+
+    a {
+      color: $olive;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  .kfp-contact {
+    margin-top: 36px;
+    padding-top: 28px;
+    border-top: 1px solid #eee;
+
+    h3 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: $text;
+      margin: 0 0 16px;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    p {
+      font-size: 13px;
+      color: $warm;
+      line-height: 1.7;
+      margin: 0 0 4px;
+
+      a {
+        color: $olive;
+        text-decoration: none;
+        &:hover { text-decoration: underline; }
+      }
+    }
+  }
+}

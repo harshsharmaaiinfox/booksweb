@@ -1,0 +1,181 @@
+// ============================================
+// Kahua Fashion — Dashboard Sidebar
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+
+.kf-sidebar-card {
+  background: $white;
+  border: 1px solid #eee;
+  overflow: hidden;
+
+  @media (max-width: 991px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}
+
+// ---- User Block ----
+.kf-user-block {
+  padding: 24px 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 1px solid #eee;
+  background: $bg;
+
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+
+  .kf-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: $warm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    span {
+      color: $white;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+
+  .kf-user-info {
+    min-width: 0;
+
+    h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: $text;
+      margin: 0 0 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    p {
+      font-size: 12px;
+      color: #999;
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+// ---- Navigation ----
+.kf-nav {
+  padding: 8px 0;
+
+  @media (max-width: 991px) {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    gap: 4px;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 20px;
+    color: $warm;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+    border-left: 3px solid transparent;
+    position: relative;
+
+    @media (max-width: 991px) {
+      border-left: none;
+      padding: 8px 14px;
+      border-radius: 0;
+      border: 1px solid #eee;
+      font-size: 12px;
+    }
+
+    i {
+      font-size: 17px;
+      color: #bbb;
+      transition: color 0.2s;
+      flex-shrink: 0;
+
+      @media (max-width: 991px) {
+        font-size: 15px;
+      }
+    }
+
+    &:hover {
+      color: $text;
+      background: $bg;
+
+      i { color: $warm; }
+    }
+
+    &.active {
+      color: $text;
+      font-weight: 700;
+      background: $bg;
+      border-left-color: $olive;
+
+      @media (max-width: 991px) {
+        border-color: $olive;
+        background: rgba($olive, 0.05);
+      }
+
+      i { color: $olive; }
+    }
+
+    .kf-badge {
+      margin-left: auto;
+      background: $olive;
+      color: $white;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 10px;
+      min-width: 18px;
+      text-align: center;
+    }
+  }
+
+  .kf-nav-divider {
+    height: 1px;
+    background: #eee;
+    margin: 6px 0;
+
+    @media (max-width: 991px) {
+      display: none;
+    }
+  }
+
+  .kf-logout {
+    color: #c0392b !important;
+
+    i { color: #c0392b !important; }
+
+    &:hover {
+      background: rgba(#c0392b, 0.04);
+    }
+  }
+}

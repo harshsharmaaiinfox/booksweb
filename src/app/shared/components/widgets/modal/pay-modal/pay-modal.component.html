@@ -1,0 +1,57 @@
+<ng-template #payModal let-modal>
+
+  <!-- Header -->
+  <div class="kfpm-header">
+    <div class="kfpm-header-text">
+      <p class="kfpm-eyebrow">Retry Payment</p>
+      <h3>{{ 'pay_now' | translate }}</h3>
+    </div>
+    <button class="kfpm-close" (click)="modal.dismiss('Cross click')">
+      <i class="ri-close-line"></i>
+    </button>
+  </div>
+
+  <!-- Body -->
+  <div class="kfpm-body">
+    <p class="kfpm-instruction">{{ 'Select your preferred payment method' | translate }}</p>
+
+    <div class="kfpm-methods">
+      <ng-container *ngFor="let payment of (setting$ | async)?.payment_methods">
+        <label class="kfpm-method" [for]="payment.name" *ngIf="payment.status">
+          <input
+            class="kfpm-radio"
+            type="radio"
+            name="payment_method"
+            [value]="payment.name"
+            [id]="payment.name"
+            [formControl]="paymentType">
+          <div class="kfpm-method-inner">
+            <span class="kfpm-method-name">
+              {{ (payment.title ? payment.title : payment.name) | titleCase }}
+            </span>
+            <span class="kfpm-method-check">
+              <i class="ri-check-line"></i>
+            </span>
+          </div>
+        </label>
+      </ng-container>
+    </div>
+
+    <div class="kfpm-error" *ngIf="paymentType?.touched && paymentType.errors?.['required']">
+      <i class="ri-alert-line"></i>
+      {{ 'select_payment_method_is_required' | translate }}
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="kfpm-footer">
+    <button class="kfpm-btn-cancel" (click)="modal.dismiss('Cancel')">
+      {{ 'cancel' | translate }}
+    </button>
+    <button class="kfpm-btn-submit" (click)="submit()">
+      <i class="ri-check-line"></i>
+      {{ 'submit' | translate }}
+    </button>
+  </div>
+
+</ng-template>

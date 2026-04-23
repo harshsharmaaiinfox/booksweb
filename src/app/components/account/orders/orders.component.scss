@@ -1,0 +1,321 @@
+// ============================================
+// Kahua Fashion — Orders Page
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+
+.orders-page-container {
+
+  // ---- Header ----
+  .orders-page-header {
+    background: $white;
+    padding: 20px 24px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    border-radius: 0;
+    box-shadow: none;
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+
+      .header-icon-wrapper {
+        display: none;
+      }
+
+      .header-text-content {
+        .page-title {
+          color: $text;
+          font-weight: 700;
+          font-size: 13px;
+          text-transform: uppercase;
+          letter-spacing: 1.5px;
+          margin: 0;
+        }
+
+        .page-subtitle {
+          display: none;
+        }
+      }
+    }
+
+    .btn-back-dashboard {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      background: transparent;
+      color: $warm;
+      border: 1.5px solid #ddd;
+      border-radius: 0;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.2s;
+      box-shadow: none;
+
+      i { font-size: 14px; }
+
+      &:hover {
+        background: $text;
+        color: $white;
+        border-color: $text;
+        transform: none;
+      }
+    }
+  }
+
+  // ---- Orders Grid ----
+  .orders-list-container {
+    .orders-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .order-card {
+      background: $white;
+      border: 1px solid #eee;
+      border-radius: 0;
+      box-shadow: none;
+      transition: border-color 0.2s;
+      overflow: hidden;
+
+      &:hover {
+        border-color: rgba($olive, 0.3);
+        transform: none;
+        box-shadow: none;
+      }
+
+      // Card Header
+      .order-card-header {
+        background: $bg;
+        padding: 16px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #eee;
+
+        .order-number-section {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+
+          .order-icon-wrapper {
+            display: none;
+          }
+
+          .order-label {
+            font-size: 10px;
+            font-weight: 600;
+            color: #bbb;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 2px;
+            display: block;
+          }
+
+          .order-number {
+            color: $text;
+            font-weight: 700;
+            font-size: 15px;
+            margin: 0;
+          }
+        }
+
+        .order-status-badge {
+          padding: 4px 12px;
+          border-radius: 0;
+          font-size: 10px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+
+          &.status-completed, &.status-paid {
+            background: rgba($olive, 0.1);
+            color: $olive;
+          }
+
+          &.status-pending {
+            background: rgba(#e67e22, 0.1);
+            color: #e67e22;
+          }
+
+          &.status-failed {
+            background: rgba(#c0392b, 0.08);
+            color: #c0392b;
+          }
+
+          &.status-processing {
+            background: rgba($warm, 0.1);
+            color: $warm;
+          }
+        }
+      }
+
+      // Card Body
+      .order-card-body {
+        padding: 18px 20px;
+
+        .order-info-row {
+          display: flex;
+          gap: 32px;
+          margin-bottom: 12px;
+          flex-wrap: wrap;
+
+          &:last-child { margin-bottom: 0; }
+
+          .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0;
+
+            > i { display: none; }
+
+            .info-label {
+              display: block;
+              color: #bbb;
+              font-size: 10px;
+              font-weight: 600;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              margin-bottom: 2px;
+            }
+
+            .info-value {
+              display: block;
+              color: $text;
+              font-size: 13px;
+              font-weight: 600;
+
+              &.amount {
+                color: $text;
+                font-size: 15px;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+
+      // Card Footer
+      .order-card-footer {
+        padding: 14px 20px;
+        background: transparent;
+        border-top: 1px solid #eee;
+
+        .btn-view-order {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          padding: 8px 18px;
+          background: transparent;
+          color: $text;
+          border: 1.5px solid $text;
+          border-radius: 0;
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 11px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          transition: all 0.2s;
+          box-shadow: none;
+
+          i { font-size: 14px; }
+
+          &:hover {
+            background: $text;
+            color: $white;
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .orders-pagination {
+      margin-top: 24px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+// ---- Empty State ----
+.orders-empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 350px;
+  padding: 40px;
+  background: $white;
+  border: 1px solid #eee;
+
+  .empty-state-content {
+    text-align: center;
+
+    i {
+      font-size: 48px;
+      color: #ddd;
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    h4 {
+      color: #999;
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+}
+
+// ---- Responsive ----
+@media (max-width: 768px) {
+  .orders-page-container {
+    .orders-page-header {
+      padding: 16px 18px;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .btn-back-dashboard {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+
+    .orders-list-container .order-card {
+      .order-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 14px 16px;
+      }
+
+      .order-card-body {
+        padding: 14px 16px;
+        .order-info-row { gap: 20px; }
+      }
+
+      .order-card-footer {
+        padding: 12px 16px;
+        .btn-view-order {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

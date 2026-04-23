@@ -1,0 +1,12 @@
+<div class="sort-top-bar-wrapper">
+  <div class="sort-top-bar-inner">
+    <span class="sort-label">Sort By</span>
+    <select2
+      [data]="sorting"
+      [value]="filter?.['sortBy']"
+      placeholder="Default"
+      displaySearchStatus="hidden"
+      (update)="sortByFilter($event)">
+    </select2>
+  </div>
+</div>

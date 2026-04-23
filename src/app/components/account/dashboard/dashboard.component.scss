@@ -1,0 +1,200 @@
+// ============================================
+// Kahua Fashion — Dashboard Page
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+
+.kf-dash-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+// ---- Welcome ----
+.kf-welcome {
+  background: $text;
+  padding: 32px;
+  color: $white;
+
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    color: $white;
+  }
+
+  p {
+    font-size: 13px;
+    color: rgba($white, 0.6);
+    margin: 0;
+  }
+
+  @media (max-width: 575px) {
+    padding: 24px 20px;
+    h2 { font-size: 18px; }
+  }
+}
+
+// ---- Section ----
+.kf-section {
+  background: $white;
+  border: 1px solid #eee;
+}
+
+.kf-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  h3 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: $text;
+    margin: 0;
+  }
+
+  .kf-edit-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: $warm;
+    text-decoration: none;
+    transition: color 0.2s;
+
+    i { font-size: 14px; }
+
+    &:hover { color: $olive; }
+  }
+}
+
+// ---- Profile Info Grid ----
+.kf-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+
+  @media (max-width: 575px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.kf-info-item {
+  padding: 18px 24px;
+  border-bottom: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  &:nth-child(2n) {
+    border-right: none;
+  }
+
+  &:last-child,
+  &:nth-last-child(2):nth-child(odd) {
+    border-bottom: none;
+  }
+
+  @media (max-width: 575px) {
+    border-right: none;
+    &:last-child { border-bottom: none; }
+  }
+
+  .kf-info-label {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #bbb;
+  }
+
+  .kf-info-value {
+    font-size: 14px;
+    font-weight: 500;
+    color: $text;
+    line-height: 1.5;
+    word-break: break-word;
+  }
+}
+
+// ---- Quick Links Grid ----
+.kf-quick-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.kf-quick-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 28px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-right: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  @media (max-width: 768px) {
+    &:nth-child(2n) { border-right: none; }
+  }
+
+  @media (max-width: 480px) {
+    border-right: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 18px 24px;
+  }
+
+  i {
+    font-size: 24px;
+    color: $warm;
+    transition: color 0.2s;
+
+    @media (max-width: 480px) {
+      font-size: 20px;
+    }
+  }
+
+  span {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: $warm;
+    transition: color 0.2s;
+  }
+
+  &:hover {
+    background: $bg;
+
+    i { color: $olive; }
+    span { color: $text; }
+  }
+}

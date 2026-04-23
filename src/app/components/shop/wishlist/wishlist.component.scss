@@ -1,0 +1,200 @@
+// ============================================
+// Kahua Fashion — Wishlist Page
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+
+.kfw-eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: $warm;
+  margin: 0 0 10px;
+}
+
+// =============================================
+// HERO
+// =============================================
+.kfw-hero {
+  background: $text;
+  padding: 60px 0 50px;
+
+  .container-fluid-lg {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .kfw-hero-inner {
+    .kfw-eyebrow { color: $olive; }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 700;
+      color: $white;
+      line-height: 1.1;
+      margin: 0 0 14px;
+      letter-spacing: -0.5px;
+
+      @media (max-width: 768px) { font-size: 30px; }
+    }
+
+    .kfw-hero-sub {
+      font-size: 14px;
+      color: rgba($white, 0.45);
+      line-height: 1.7;
+      margin: 0;
+      max-width: 420px;
+    }
+  }
+
+  .kfw-hero-badge {
+    text-align: right;
+
+    .kfw-badge-count {
+      display: block;
+      font-size: 52px;
+      font-weight: 700;
+      color: $olive;
+      line-height: 1;
+
+      @media (max-width: 768px) { font-size: 36px; }
+    }
+
+    .kfw-badge-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: rgba($white, 0.35);
+    }
+  }
+}
+
+// =============================================
+// CONTENT SECTION
+// =============================================
+.kfw-content {
+  background: $bg;
+  padding: 50px 0;
+}
+
+// =============================================
+// EMPTY STATE
+// =============================================
+.kfw-empty {
+  padding: 90px 20px;
+  text-align: center;
+  background: $white;
+  border: 1px solid #eee;
+
+  .kfw-empty-icon {
+    width: 80px;
+    height: 80px;
+    border: 1.5px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 28px;
+
+    i {
+      font-size: 36px;
+      color: $olive;
+    }
+  }
+
+  .kfw-eyebrow {
+    color: $olive;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: $text;
+    margin: 0 0 14px;
+    letter-spacing: -0.3px;
+  }
+
+  .kfw-empty-desc {
+    font-size: 14px;
+    color: rgba($warm, 0.8);
+    line-height: 1.8;
+    max-width: 400px;
+    margin: 0 auto 32px;
+  }
+
+  .kfw-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 30px;
+    background: $text;
+    color: $white;
+    border: 1.5px solid $text;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: all 0.25s;
+
+    i { font-size: 16px; }
+
+    &:hover {
+      background: $olive;
+      border-color: $olive;
+      color: $white;
+    }
+  }
+}
+
+// =============================================
+// RESPONSIVE
+// =============================================
+@media (max-width: 768px) {
+  .kfw-hero {
+    padding: 40px 0;
+
+    .container-fluid-lg {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .kfw-hero-badge {
+      text-align: left;
+    }
+  }
+
+  .kfw-empty {
+    padding: 60px 20px;
+
+    h2 { font-size: 22px; }
+
+    .kfw-btn {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .kfw-empty {
+    padding: 50px 16px;
+
+    .kfw-empty-icon {
+      width: 64px;
+      height: 64px;
+
+      i { font-size: 28px; }
+    }
+
+    h2 { font-size: 20px; }
+  }
+}

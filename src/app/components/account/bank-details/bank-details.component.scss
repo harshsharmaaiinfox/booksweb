@@ -1,0 +1,225 @@
+// ============================================
+// Kahua Fashion — Bank Details Page
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+
+.bank-details-page-container {
+
+  // ---- Header ----
+  .bank-details-page-header {
+    background: $white;
+    padding: 20px 24px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 14px;
+    border-radius: 0;
+    box-shadow: none;
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      .header-icon-wrapper { display: none; }
+
+      .header-text-content {
+        .page-title {
+          color: $text;
+          font-weight: 700;
+          font-size: 13px;
+          text-transform: uppercase;
+          letter-spacing: 1.5px;
+          margin: 0;
+        }
+        .page-subtitle { display: none; }
+      }
+    }
+
+    .btn-back-dashboard {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      background: transparent;
+      color: $warm;
+      border: 1.5px solid #ddd;
+      border-radius: 0;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.2s;
+      box-shadow: none;
+
+      i { font-size: 14px; }
+
+      &:hover {
+        background: $text;
+        color: $white;
+        border-color: $text;
+      }
+    }
+  }
+
+  // ---- Sections ----
+  .bank-details-section,
+  .paypal-details-section {
+    background: $white;
+    border: 1px solid #eee;
+    margin-bottom: 16px;
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 24px;
+      border-bottom: 1px solid #eee;
+      background: $bg;
+
+      .section-icon-wrapper { display: none; }
+
+      .section-title {
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: $text;
+        margin: 0;
+      }
+
+      .section-subtitle { display: none; }
+    }
+
+    .form-fields-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      padding: 0;
+
+      @media (max-width: 575px) {
+        grid-template-columns: 1fr;
+      }
+
+      .form-field-wrapper {
+        padding: 18px 24px;
+        border-bottom: 1px solid #f5f5f5;
+        border-right: 1px solid #f5f5f5;
+
+        &:nth-child(2n) { border-right: none; }
+        &:last-child { border-bottom: none; }
+
+        @media (max-width: 575px) {
+          border-right: none;
+        }
+
+        .form-label-modern {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          color: $text;
+          font-weight: 600;
+          font-size: 11px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          margin-bottom: 8px;
+
+          i { display: none; }
+        }
+
+        .form-input-modern {
+          width: 100%;
+          padding: 11px 14px;
+          border: 1.5px solid #ddd;
+          border-radius: 0;
+          font-size: 14px;
+          color: $text;
+          background: $white;
+          transition: border-color 0.2s;
+          font-family: inherit;
+
+          &:focus {
+            outline: none;
+            border-color: $text;
+            box-shadow: none;
+          }
+
+          &::placeholder {
+            color: #ccc;
+            font-size: 13px;
+          }
+
+          &.is-invalid {
+            border-color: #c0392b;
+          }
+        }
+
+        .error-message {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          color: #c0392b;
+          font-size: 12px;
+          margin-top: 6px;
+          font-weight: 500;
+
+          i { font-size: 14px; }
+        }
+      }
+    }
+  }
+
+  // ---- Save Button ----
+  .form-actions {
+    margin-top: 20px;
+
+    .btn-save {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 12px 28px;
+      background: $text;
+      color: $white;
+      border: 1.5px solid $text;
+      border-radius: 0;
+      font-weight: 700;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+      transition: all 0.2s;
+
+      i { font-size: 16px; }
+
+      &:hover {
+        background: $olive;
+        border-color: $olive;
+      }
+    }
+  }
+}
+
+// ---- Responsive ----
+@media (max-width: 768px) {
+  .bank-details-page-container {
+    .bank-details-page-header {
+      padding: 16px 18px;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .btn-back-dashboard {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  }
+}

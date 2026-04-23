@@ -1,0 +1,66 @@
+// Kahua Fashion — Payment Block
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$white: #fff;
+$border: #e8e4df;
+
+.checkout-detail {
+  .payment-option {
+    .payment-category {
+      .form-check.custom-form-check {
+        padding: 14px 16px;
+        border: 1.5px solid $border;
+        background: $white;
+        transition: border-color 0.2s;
+        margin-bottom: 8px;
+        cursor: pointer;
+
+        &:last-child { margin-bottom: 0; }
+
+        &:hover { border-color: $warm; }
+
+        &.hide-check-box {
+          .form-check-input { display: none; }
+
+          .form-check-label {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            color: $text;
+            cursor: pointer;
+            margin: 0;
+
+            &::before {
+              content: '';
+              width: 14px;
+              height: 14px;
+              border: 1.5px solid #ccc;
+              border-radius: 50%;
+              flex-shrink: 0;
+              transition: all 0.2s;
+            }
+
+            .payment-icon {
+              max-width: 60px;
+              height: auto;
+              object-fit: contain;
+            }
+          }
+
+          input[type="radio"]:checked + .form-check-label {
+            color: $olive;
+
+            &::before {
+              background: $olive;
+              border-color: $olive;
+            }
+          }
+        }
+      }
+    }
+  }
+}

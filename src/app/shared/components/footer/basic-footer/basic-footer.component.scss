@@ -1,0 +1,470 @@
+// ============================================
+// Kahua Fashion — Footer
+// ============================================
+
+$primary: #6B8E23;
+$secondary: #D2B48C;
+$accent: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #ffffff;
+
+$footer-bg: #000000;
+$footer-text: rgba($white, 0.6);
+$footer-heading: $white;
+$footer-hover: $secondary;
+$footer-muted: rgba($white, 0.35);
+
+// =============================================
+// NEWSLETTER
+// =============================================
+.kf-newsletter {
+  background: $bg;
+  background-image: none !important;
+  padding: 64px 0;
+  text-align: center;
+
+  > .container-fluid-lg {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 48px 0;
+  }
+}
+
+.newsletter-inner {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter-heading {
+  font-size: 40px;
+  font-weight: 400;
+  color: $text;
+  margin: 0 0 10px;
+  line-height: 1.2;
+  font-family: Georgia, 'Times New Roman', serif;
+
+  em {
+    font-style: italic;
+    color: $accent;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 24px;
+  }
+}
+
+.newsletter-sub {
+  font-size: 14px;
+  color: lighten($text, 30%);
+  margin: 0 0 30px;
+
+  @media (max-width: 768px) {
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+}
+
+.newsletter-form {
+  display: block;
+  text-align: left;
+
+  .form-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+
+    @media (max-width: 480px) {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+
+  .input-col {
+    flex: 1;
+
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 500;
+      color: $text;
+      margin-bottom: 6px;
+    }
+
+    input {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1.5px solid $text;
+      border-radius: 0;
+      background: transparent;
+      font-size: 14px;
+      color: $text;
+      outline: none;
+      transition: border-color 0.2s;
+      box-sizing: border-box;
+
+      &:focus {
+        border-color: $primary;
+      }
+    }
+  }
+
+  .join-btn {
+    padding: 11px 38px;
+    background: $accent;
+    color: $white;
+    border: 1.5px solid $accent;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s;
+    white-space: nowrap;
+
+    &:hover:not(:disabled) {
+      background: darken($accent, 10%);
+      border-color: darken($accent, 10%);
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    @media (max-width: 480px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .subscription-feedback {
+    margin-top: 16px;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 4px;
+    animation: fadeIn 0.4s ease-in-out;
+    line-height: 1.5;
+
+    &.feedback-loading {
+      background-color: #F8F5F2;
+      color: #8C8C8C;
+      border: 1px solid #EAE2D8;
+    }
+
+    &.feedback-success {
+      background-color: #F8F5F2;
+      color: #799761;
+      border: 1px solid #EAE2D8;
+    }
+
+    &.feedback-error {
+      background-color: #F8F5F2;
+      color: #B86B6B;
+      border: 1px solid #EAE2D8;
+    }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+// =============================================
+// MAIN FOOTER
+// =============================================
+:host {
+  display: block;
+
+  // Remove global footer background shapes
+  ::ng-deep {
+    &::before,
+    &::after,
+    .footer-section-2::before,
+    .footer-section-2::after {
+      display: none !important;
+      background-image: none !important;
+    }
+  }
+}
+
+// Override parent wrapper styles
+::ng-deep .footer-section-2,
+::ng-deep .footer-color-3 {
+  background-color: #000 !important;
+  background-image: none !important;
+
+  &::before,
+  &::after {
+    display: none !important;
+  }
+}
+
+.kf-footer {
+  background: #000 !important;
+  background-image: none !important;
+  padding: 48px 0 32px;
+
+  > .container-fluid-lg {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 36px 0 24px;
+  }
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1.2fr;
+  gap: 48px;
+
+  @media (max-width: 991px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+
+  @media (max-width: 575px) {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+// ---- Column Head ----
+.col-head {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 575px) {
+    cursor: pointer;
+    padding: 16px 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba($white, 0.06);
+  }
+
+  h5 {
+    font-size: 15px;
+    font-weight: 700;
+    color: $footer-heading;
+    margin: 0;
+  }
+
+  .mob-toggle {
+    font-size: 20px;
+    color: $footer-muted;
+    display: none;
+    transition: transform 0.3s;
+
+    @media (max-width: 575px) {
+      display: block;
+    }
+  }
+
+  &.open .mob-toggle {
+    transform: rotate(45deg);
+    color: $secondary;
+  }
+}
+
+// ---- Column Body ----
+.col-links {
+  @media (max-width: 575px) {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.35s ease;
+  }
+
+  &.expanded,
+  &.always-open {
+    @media (max-width: 575px) {
+      max-height: 600px;
+      opacity: 1;
+      padding-bottom: 18px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 1024px) {
+    max-height: none !important;
+    opacity: 1 !important;
+    overflow: visible !important;
+  }
+
+  // All lists — direct and child component
+  ul,
+  ::ng-deep ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+
+    li {
+      display: block !important;
+      margin-bottom: 10px !important;
+      color: $footer-text;
+      font-size: 14px;
+      line-height: 1.65;
+
+      &:last-child {
+        margin-bottom: 0 !important;
+      }
+
+      a {
+        color: $footer-text !important;
+        text-decoration: none !important;
+        transition: color 0.2s;
+        font-size: 14px;
+        display: inline-block;
+
+        &:hover {
+          color: $footer-hover !important;
+        }
+      }
+    }
+  }
+}
+
+// ---- Store Info ----
+.store-info {
+  li {
+    margin-bottom: 18px !important;
+    line-height: 1.7 !important;
+
+    &.store-hours {
+      padding-top: 4px;
+      border-top: 1px solid rgba($white, 0.06);
+    }
+
+    &.store-contact {
+      padding-top: 4px;
+      border-top: 1px solid rgba($white, 0.06);
+    }
+  }
+}
+
+// ---- Social Icons ----
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 22px;
+
+  a {
+    color: $footer-text;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.2s;
+    line-height: 1;
+
+    &:hover {
+      color: $white;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+// ---- Copyright ----
+.footer-copyright {
+  margin-top: 22px;
+
+  p {
+    color: $footer-muted;
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  ::ng-deep h6 {
+    font-size: 12px;
+    color: $footer-muted;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+}
+
+// =============================================
+// BACK TO TOP
+// =============================================
+.back-to-top-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 1000;
+  width: 46px;
+  height: 46px;
+  background: $text;
+  color: $white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.8);
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+
+  .btt-arrow {
+    font-size: 22px;
+    color: $white;
+    line-height: 1;
+    font-weight: 300;
+  }
+
+  &:hover {
+    background: $primary;
+    transform: translateY(-3px);
+  }
+
+  @media (max-width: 575px) {
+    bottom: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    i { font-size: 18px; }
+  }
+}
+
+// =============================================
+// DARK MODE
+// =============================================
+html.dark {
+  .kf-newsletter {
+    background: #1a1a1a;
+
+    .newsletter-heading { color: #eee; }
+    .newsletter-sub { color: #777; }
+    .newsletter-form .input-col {
+      label { color: #ccc; }
+      input { border-color: #555; color: #eee; }
+    }
+  }
+
+  .kf-footer {
+    background: #111;
+  }
+}

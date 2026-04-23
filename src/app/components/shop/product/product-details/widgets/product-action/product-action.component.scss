@@ -1,0 +1,79 @@
+// ============================================
+// Kahua Fashion — Product Action (Stock bar + Links)
+// ============================================
+
+$primary: #6B8E23;
+$secondary: #D2B48C;
+$accent: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #ffffff;
+
+// ---- Stock Progress Bar ----
+.progress-sec {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba($secondary, 0.25);
+
+  .left-progressbar {
+    h6 {
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      color: $accent !important;
+      margin-bottom: 10px !important;
+    }
+
+    .progress {
+      height: 4px !important;
+      border-radius: 0 !important;
+      background: #eee !important;
+      overflow: hidden;
+
+      .progress-bar {
+        background: $accent !important;
+        border-radius: 0 !important;
+      }
+    }
+
+    .danger-progress .progress-bar {
+      background: #c0392b !important;
+    }
+
+    .warning-progress .progress-bar {
+      background: $secondary !important;
+    }
+  }
+}
+
+// ---- Size Chart / Delivery / Question Links ----
+.size-delivery-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba($secondary, 0.25);
+  flex-wrap: wrap;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: $text !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: color 0.2s;
+
+    i {
+      font-size: 16px;
+      color: $accent;
+    }
+
+    &:hover {
+      color: $accent !important;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<app-breadcrumb [breadcrumb]="breadcrumb"></app-breadcrumb>
+<section class="kf-dashboard">
+    <div class="container-fluid-lg">
+        <div class="kf-dash-layout">
+            <!-- Sidebar -->
+            <aside class="kf-dash-sidebar">
+                <app-sidebar></app-sidebar>
+            </aside>
+            <!-- Content -->
+            <main class="kf-dash-content">
+                <div class="box-loader" *ngIf="(loadingStatus$ | async)">
+                    <app-loader [loaderClass]="'custom-loader-wrapper blur-bg'"></app-loader>
+                </div>
+                <router-outlet></router-outlet>
+            </main>
+        </div>
+    </div>
+</section>

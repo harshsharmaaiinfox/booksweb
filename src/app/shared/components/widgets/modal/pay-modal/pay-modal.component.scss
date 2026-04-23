@@ -1,0 +1,231 @@
+// ============================================
+// Kahua Fashion — Pay Modal
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+$border: #e8e4df;
+$error: #c0392b;
+
+// =============================================
+// HEADER
+// =============================================
+.kfpm-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px 28px 20px;
+  background: $text;
+  border-bottom: none;
+
+  .kfpm-eyebrow {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $olive;
+    margin: 0 0 4px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: $white;
+    margin: 0;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+  }
+}
+
+.kfpm-close {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid rgba($white, 0.2);
+  background: transparent;
+  color: rgba($white, 0.5);
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.2s;
+  flex-shrink: 0;
+  margin-top: 2px;
+
+  &:hover {
+    border-color: $white;
+    color: $white;
+  }
+}
+
+// =============================================
+// BODY
+// =============================================
+.kfpm-body {
+  padding: 24px 28px;
+  background: $bg;
+
+  .kfpm-instruction {
+    font-size: 12px;
+    color: $warm;
+    margin: 0 0 18px;
+    font-weight: 500;
+  }
+}
+
+// =============================================
+// PAYMENT METHODS
+// =============================================
+.kfpm-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.kfpm-method {
+  display: block;
+  cursor: pointer;
+  margin: 0;
+
+  .kfpm-radio {
+    display: none;
+
+    &:checked + .kfpm-method-inner {
+      border-color: $text;
+      background: $white;
+
+      .kfpm-method-name {
+        color: $text;
+        font-weight: 700;
+      }
+
+      .kfpm-method-check {
+        opacity: 1;
+        background: $olive;
+        border-color: $olive;
+        color: $white;
+      }
+    }
+  }
+
+  .kfpm-method-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border: 1.5px solid $border;
+    background: $white;
+    margin-top: -1px;
+    transition: border-color 0.2s, background 0.2s;
+
+    &:hover {
+      border-color: $warm;
+      z-index: 1;
+      position: relative;
+    }
+  }
+
+  &:first-child .kfpm-method-inner { margin-top: 0; }
+}
+
+.kfpm-method-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: $text;
+  transition: all 0.15s;
+}
+
+.kfpm-method-check {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid $border;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: transparent;
+  transition: all 0.15s;
+  opacity: 0.4;
+}
+
+// =============================================
+// ERROR
+// =============================================
+.kfpm-error {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: $error;
+  border: 1.5px solid rgba($error, 0.3);
+  padding: 10px 14px;
+  background: rgba($error, 0.04);
+
+  i { font-size: 15px; }
+}
+
+// =============================================
+// FOOTER
+// =============================================
+.kfpm-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 16px 28px;
+  border-top: 1px solid $border;
+  background: $white;
+
+  @media (max-width: 480px) {
+    flex-direction: column-reverse;
+
+    button { width: 100%; justify-content: center; }
+  }
+}
+
+.kfpm-btn-cancel {
+  padding: 10px 22px;
+  background: transparent;
+  border: 1.5px solid $border;
+  color: $warm;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    border-color: $text;
+    color: $text;
+  }
+}
+
+.kfpm-btn-submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 22px;
+  background: $text;
+  border: 1.5px solid $text;
+  color: $white;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  i { font-size: 14px; }
+
+  &:hover {
+    background: $olive;
+    border-color: $olive;
+  }
+}

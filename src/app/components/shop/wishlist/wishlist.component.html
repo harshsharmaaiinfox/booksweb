@@ -1,0 +1,65 @@
+<!-- Hero -->
+<section class="kfw-hero">
+  <div class="container-fluid-lg">
+    <div class="kfw-hero-inner">
+      <p class="kfw-eyebrow">My Wishlist</p>
+      <h1>Items you<br>love</h1>
+      <p class="kfw-hero-sub">Your saved favourites, all in one place. Add to cart whenever you're ready.</p>
+    </div>
+    <div class="kfw-hero-badge" *ngIf="(wishlistItems$ | async)?.data?.length">
+      <span class="kfw-badge-count">{{ (wishlistItems$ | async)?.data?.length }}</span>
+      <span class="kfw-badge-label">{{ (wishlistItems$ | async)?.data?.length === 1 ? 'Item' : 'Items' }} Saved</span>
+    </div>
+  </div>
+</section>
+
+<!-- Wishlist Content -->
+<section class="kfw-content section-lg-space">
+  <div class="container-fluid-lg">
+
+    <ng-container *ngIf="wishlistService?.skeletonLoader else productContent">
+      <div class="row g-sm-3 g-2">
+        <div class="col-xxl-2 col-lg-3 col-md-4 col-6 product-box-contain"
+          *ngFor="let item of skeletonItems">
+          <app-skeleton-product-box></app-skeleton-product-box>
+        </div>
+      </div>
+    </ng-container>
+
+    <ng-template #productContent>
+      <ng-container *ngIf="(wishlistItems$ | async)?.data?.length; else emptyState">
+        <div class="row g-sm-3 g-2"
+          [ngClass]="{
+            'product_border': (themeOption$ | async)?.product?.full_border || (themeOption$ | async)?.product?.product_box_border,
+            'product_img_bg': (themeOption$ | async)?.product?.image_bg,
+            'full_bg': (themeOption$ | async)?.product?.product_box_bg
+          }">
+          <div class="col-xxl-2 col-lg-3 col-md-4 col-6 product-box-contain"
+            *ngFor="let product of (wishlistItems$ | async)?.data">
+            <app-product-box [product]="product" [close]="true" [class]="'product-box-3'" [style]="'horizontal'">
+            </app-product-box>
+          </div>
+        </div>
+      </ng-container>
+
+      <!-- Empty State -->
+      <ng-template #emptyState>
+        <div class="kfw-empty">
+          <div class="kfw-empty-icon">
+            <i class="ri-heart-line"></i>
+          </div>
+          <p class="kfw-eyebrow">Nothing Here Yet</p>
+          <h2>Your wishlist is empty</h2>
+          <p class="kfw-empty-desc">
+            Browse our collection and save items you love. They'll appear right here.
+          </p>
+          <a [routerLink]="['/collections']" class="kfw-btn">
+            <span>Start Shopping</span>
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </ng-template>
+    </ng-template>
+
+  </div>
+</section>

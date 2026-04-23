@@ -1,0 +1,51 @@
+// ============================================
+// Kahua Fashion — Product Information
+// ============================================
+
+$primary: #6B8E23;
+$secondary: #D2B48C;
+$accent: #6D645F;
+$text: #2F2F2F;
+
+.pickup-box {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba($secondary, 0.25);
+
+  .product-title h4 {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    color: $text !important;
+    margin-bottom: 16px !important;
+  }
+
+  .product-info-list {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    li {
+      font-size: 13px !important;
+      color: #777 !important;
+      line-height: 1.5;
+      padding-left: 0 !important;
+      list-style: none !important;
+      list-style-type: none !important;
+
+      &::before {
+        display: none !important;
+        content: none !important;
+      }
+
+      &::marker {
+        display: none !important;
+        content: "" !important;
+      }
+    }
+  }
+}

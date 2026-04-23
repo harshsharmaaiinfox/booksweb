@@ -1,0 +1,441 @@
+// ============================================
+// Kahua Fashion — Address Modal
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+
+// ---- Header ----
+.modern-modal-header {
+  background: $bg;
+  padding: 24px 28px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0;
+
+  .modal-header-content {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    .modal-icon-wrapper {
+      width: 44px;
+      height: 44px;
+      border-radius: 0;
+      background: $text;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $white;
+      font-size: 20px;
+      box-shadow: none;
+    }
+
+    .modal-title-content {
+      .modal-title {
+        color: $text;
+        font-weight: 700;
+        font-size: 18px;
+        margin: 0 0 2px;
+      }
+
+      .modal-subtitle {
+        color: #999;
+        font-size: 12px;
+        margin: 0;
+      }
+    }
+  }
+
+  .btn-close-modal {
+    width: 36px;
+    height: 36px;
+    border-radius: 0;
+    border: none;
+    background: transparent;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $text;
+      transform: none;
+      background: transparent;
+    }
+  }
+}
+
+// ---- Body ----
+.modern-modal-body {
+  padding: 28px;
+  max-height: 80vh;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar { width: 3px; }
+  &::-webkit-scrollbar-thumb { background: #ddd; }
+
+  .address-form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .form-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
+    }
+
+    .form-field-wrapper {
+      .form-label-modern {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: $text;
+        font-weight: 600;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+
+        i { display: none; }
+      }
+
+      .form-input-modern,
+      .form-textarea-modern {
+        width: 100%;
+        padding: 12px 14px;
+        border: 1.5px solid #ddd;
+        border-radius: 0;
+        font-size: 14px;
+        color: $text;
+        background: $white;
+        transition: border-color 0.2s;
+        font-family: inherit;
+
+        &:focus {
+          outline: none;
+          border-color: $text;
+          background: $white;
+          box-shadow: none;
+        }
+
+        &::placeholder {
+          color: #ccc;
+          font-size: 13px;
+        }
+
+        &.is-invalid {
+          border-color: #c0392b;
+          &:focus { border-color: #c0392b; }
+        }
+      }
+
+      .form-textarea-modern {
+        resize: vertical;
+        min-height: 60px;
+      }
+
+      // Select2 overrides
+      .custom-select-modern {
+        width: 100%;
+
+        ::ng-deep {
+          .select2-container {
+            width: 100% !important;
+
+            .select2-selection {
+              padding: 12px 14px;
+              padding-right: 36px;
+              border: 1.5px solid #ddd;
+              border-radius: 0;
+              background: $white;
+              min-height: 46px;
+              display: flex;
+              align-items: center;
+              transition: border-color 0.2s;
+
+              .select2-selection__rendered {
+                padding: 0 !important;
+                line-height: 1.5;
+                overflow: visible !important;
+                text-overflow: unset !important;
+                white-space: normal !important;
+                width: 100%;
+                color: $text;
+                font-size: 14px;
+              }
+
+              .select2-selection__arrow {
+                right: 12px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+              }
+
+              &:focus, &:focus-within {
+                border-color: $text;
+                box-shadow: none;
+              }
+            }
+
+            &.select2-container--open .select2-selection {
+              border-color: $text;
+              box-shadow: none;
+            }
+          }
+
+          .select2-dropdown {
+            border: 1.5px solid #ddd;
+            border-radius: 0;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            margin-top: 4px;
+
+            .select2-search .select2-search__field {
+              padding: 10px 12px;
+              border: 1.5px solid #ddd;
+              border-radius: 0;
+              font-size: 13px;
+
+              &:focus {
+                border-color: $text;
+                outline: none;
+              }
+            }
+
+            .select2-results .select2-results__options .select2-results__option {
+              padding: 10px 14px;
+              font-size: 13px;
+              transition: all 0.15s;
+
+              &[aria-selected="true"], &--highlighted {
+                background: $bg;
+                color: $text;
+              }
+            }
+          }
+        }
+      }
+
+      // Phone input
+      .phone-input-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        .phone-prefix {
+          position: absolute;
+          left: 1px;
+          top: 50%;
+          transform: translateY(-50%);
+          background: $bg;
+          border-right: 1px solid #eee;
+          padding: 12px;
+          color: $text;
+          font-weight: 600;
+          font-size: 14px;
+          z-index: 2;
+          pointer-events: none;
+          height: calc(100% - 3px);
+          display: flex;
+          align-items: center;
+          min-width: 50px;
+          justify-content: center;
+        }
+
+        .phone-input {
+          padding-left: 75px !important;
+          width: 100%;
+
+          &.is-invalid {
+            padding-left: 75px !important;
+          }
+        }
+      }
+
+      .phone-field-modern .phone-input-wrapper {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+
+        .phone-code-select {
+          flex: 0 0 130px;
+          min-width: 130px;
+
+          ::ng-deep .select2-container .select2-selection {
+            padding: 12px 14px;
+            padding-right: 36px;
+            border: 1.5px solid #ddd;
+            border-radius: 0;
+            background: $white;
+            min-height: 46px;
+            display: flex;
+            align-items: center;
+
+            &:focus, &:focus-within {
+              border-color: $text;
+              box-shadow: none;
+            }
+          }
+
+          ::ng-deep .select2-container.select2-container--open .select2-selection {
+            border-color: $text;
+            box-shadow: none;
+          }
+        }
+
+        .phone-input {
+          flex: 1;
+          min-height: 46px;
+          padding: 12px 14px;
+          border: 1.5px solid #ddd;
+          border-radius: 0;
+          font-size: 14px;
+          color: $text;
+          background: $white;
+          transition: border-color 0.2s;
+          font-family: inherit;
+
+          &:focus {
+            outline: none;
+            border-color: $text;
+            box-shadow: none;
+          }
+
+          &::placeholder { color: #ccc; font-size: 13px; }
+
+          &.is-invalid {
+            border-color: #c0392b;
+            &:focus { border-color: #c0392b; }
+          }
+        }
+      }
+
+      .error-message {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        color: #c0392b;
+        font-size: 12px;
+        margin-top: 6px;
+        font-weight: 500;
+
+        i { font-size: 14px; }
+      }
+    }
+  }
+
+  // ---- Footer ----
+  .modern-modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+
+    .btn-cancel {
+      padding: 11px 24px;
+      border: 1.5px solid #ddd;
+      background: $white;
+      color: $warm;
+      border-radius: 0;
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.2s;
+
+      &:hover {
+        border-color: $text;
+        color: $text;
+      }
+    }
+
+    ::ng-deep .btn-submit {
+      padding: 11px 24px;
+      border: 1.5px solid $text;
+      background: $text;
+      color: $white;
+      border-radius: 0;
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+      box-shadow: none;
+
+      i { font-size: 15px; }
+
+      &:hover {
+        background: $olive;
+        border-color: $olive;
+        transform: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+// ---- Responsive ----
+@media (max-width: 576px) {
+  .modern-modal-header {
+    padding: 18px 20px;
+
+    .modal-header-content {
+      .modal-icon-wrapper { width: 38px; height: 38px; font-size: 18px; }
+      .modal-title-content .modal-title { font-size: 16px; }
+    }
+
+    .btn-close-modal { position: absolute; top: 18px; right: 18px; }
+  }
+
+  .modern-modal-body {
+    padding: 20px;
+
+    .address-form-fields {
+      gap: 16px;
+
+      .form-row {
+        grid-template-columns: 1fr;
+        gap: 12px;
+
+        &.state-city-row, &.area-pincode-row {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      .form-field-wrapper {
+        .phone-field-modern .phone-input-wrapper {
+          flex-direction: column;
+          gap: 10px;
+          .phone-code-select { flex: 1; min-width: 100%; }
+        }
+      }
+    }
+
+    .modern-modal-footer {
+      flex-direction: column-reverse;
+      gap: 8px;
+
+      .btn-cancel, ::ng-deep .btn-submit {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  }
+}

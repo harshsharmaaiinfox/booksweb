@@ -1,0 +1,325 @@
+// ============================================
+// Kahua Fashion — Addresses Page
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+
+.addresses-page-container {
+
+  // ---- Header ----
+  .addresses-page-header {
+    background: $white;
+    padding: 20px 24px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 14px;
+    border-radius: 0;
+    box-shadow: none;
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      .header-icon-wrapper { display: none; }
+
+      .header-text-content {
+        .page-title {
+          color: $text;
+          font-weight: 700;
+          font-size: 13px;
+          text-transform: uppercase;
+          letter-spacing: 1.5px;
+          margin: 0;
+        }
+        .page-subtitle { display: none; }
+      }
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .btn-back-dashboard {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 16px;
+        background: transparent;
+        color: $warm;
+        border: 1.5px solid #ddd;
+        border-radius: 0;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.2s;
+        box-shadow: none;
+
+        i { font-size: 14px; }
+
+        &:hover {
+          background: $text;
+          color: $white;
+          border-color: $text;
+        }
+      }
+
+      .btn-add-address {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 16px;
+        background: $text;
+        color: $white;
+        border: 1.5px solid $text;
+        border-radius: 0;
+        font-weight: 600;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.2s;
+        box-shadow: none;
+
+        i { font-size: 14px; }
+
+        &:hover {
+          background: $olive;
+          border-color: $olive;
+        }
+      }
+    }
+  }
+
+  // ---- Address Grid ----
+  .addresses-list-container {
+    .addresses-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 16px;
+    }
+
+    .address-card {
+      background: $white;
+      border: 1px solid #eee;
+      border-radius: 0;
+      box-shadow: none;
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.2s;
+
+      &:hover {
+        border-color: rgba($olive, 0.3);
+        transform: none;
+        box-shadow: none;
+      }
+
+      // Header
+      .address-card-header {
+        background: $bg;
+        padding: 14px 20px;
+        border-bottom: 1px solid #eee;
+
+        .address-title-section {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          .address-icon-wrapper { display: none; }
+
+          .address-label {
+            font-size: 10px;
+            font-weight: 600;
+            color: #bbb;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 2px;
+            display: block;
+          }
+
+          .address-title {
+            color: $text;
+            font-weight: 700;
+            font-size: 14px;
+            margin: 0;
+          }
+        }
+      }
+
+      // Body
+      .address-card-body {
+        padding: 18px 20px;
+        flex: 1;
+
+        .address-info-item {
+          display: flex;
+          align-items: flex-start;
+          gap: 0;
+          margin-bottom: 14px;
+
+          &:last-child { margin-bottom: 0; }
+
+          > i { display: none; }
+
+          .info-label {
+            display: block;
+            color: #bbb;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 3px;
+          }
+
+          .info-value {
+            display: block;
+            color: $text;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1.6;
+          }
+        }
+
+        .address-info-row {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 14px;
+          margin-top: 14px;
+          padding-top: 14px;
+          border-top: 1px solid #f5f5f5;
+
+          .address-info-item { margin-bottom: 0; }
+        }
+      }
+
+      // Footer
+      .address-card-footer {
+        padding: 14px 20px;
+        background: transparent;
+        border-top: 1px solid #eee;
+        display: flex;
+        gap: 8px;
+
+        .btn-edit-address,
+        .btn-delete-address {
+          flex: 1;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          padding: 8px 14px;
+          border-radius: 0;
+          font-weight: 600;
+          font-size: 11px;
+          text-transform: uppercase;
+          letter-spacing: 0.8px;
+          cursor: pointer;
+          transition: all 0.2s;
+
+          i { font-size: 14px; }
+        }
+
+        .btn-edit-address {
+          background: transparent;
+          color: $text;
+          border: 1.5px solid $text;
+          box-shadow: none;
+
+          &:hover {
+            background: $text;
+            color: $white;
+            transform: none;
+          }
+        }
+
+        .btn-delete-address {
+          background: transparent;
+          color: #999;
+          border: 1.5px solid #ddd;
+          box-shadow: none;
+
+          &:hover {
+            background: #c0392b;
+            color: $white;
+            border-color: #c0392b;
+            transform: none;
+          }
+        }
+      }
+    }
+  }
+
+  // ---- Empty State ----
+  .addresses-empty-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    padding: 40px;
+    background: $white;
+    border: 1px solid #eee;
+
+    .empty-state-content {
+      text-align: center;
+
+      i {
+        font-size: 48px;
+        color: #ddd;
+        margin-bottom: 14px;
+        display: block;
+      }
+
+      h4 {
+        color: #999;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0;
+      }
+    }
+  }
+}
+
+// ---- Responsive ----
+@media (max-width: 768px) {
+  .addresses-page-container {
+    .addresses-page-header {
+      padding: 16px 18px;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .header-actions {
+        width: 100%;
+        .btn-back-dashboard, .btn-add-address {
+          flex: 1;
+          justify-content: center;
+        }
+      }
+    }
+
+    .addresses-list-container {
+      .addresses-grid { grid-template-columns: 1fr; }
+
+      .address-card {
+        .address-card-body {
+          padding: 14px 16px;
+          .address-info-row { grid-template-columns: 1fr; }
+        }
+        .address-card-footer {
+          padding: 12px 16px;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

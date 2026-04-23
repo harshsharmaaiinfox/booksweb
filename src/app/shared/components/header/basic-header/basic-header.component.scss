@@ -1,0 +1,838 @@
+// ============================================
+// Kahua Fashion — Reference-matched Header
+// Purple accent / light theme
+// ============================================
+
+$purple:   #7C3AED;
+$purple-d: #6D28D9;
+$black:    #111111;
+$white:    #ffffff;
+$offwhite: #f5f5f7;
+$text:     #1a1a1a;
+$muted:    #6b7280;
+$soft:     #9ca3af;
+$border:   #e5e7eb;
+$searchbg: #f3f4f6;
+
+// =============================================
+// HEADER WRAPPER
+// =============================================
+.kahua-header {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+  background: $white;
+
+  &.sticky-active {
+    .kh-main {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      z-index: 1001;
+      box-shadow: 0 2px 16px rgba($black, 0.08);
+      animation: slideDown 0.3s ease-out;
+    }
+    .kh-menu {
+      position: fixed;
+      top: 96px; left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+  }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+// =============================================
+// MAIN BRAND ROW
+// =============================================
+.kh-main {
+  background: $white;
+  border-bottom: 1px solid $border;
+  padding: 0 25px;
+
+  &__row {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    height: 96px;
+  }
+
+  &__logo {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+
+    ::ng-deep .web-logo {
+      display: flex;
+      align-items: center;
+
+      img {
+        height: 56px !important;
+        width: auto !important;
+        max-width: 240px !important;
+        object-fit: contain !important;
+      }
+    }
+  }
+
+  &__toggle {
+    ::ng-deep {
+      .navbar-toggler,
+      .navbar-menu-button {
+        border: none !important;
+        padding: 0 !important;
+        background: none !important;
+        box-shadow: none !important;
+
+        .navbar-toggler-icon i {
+          font-size: 26px;
+          color: $text;
+          &:hover { color: $purple; }
+        }
+      }
+    }
+  }
+
+  &__actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-shrink: 0;
+  }
+}
+
+// =============================================
+// CONTACT 24/7
+// =============================================
+.kh-contact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+
+  &__icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1.5px solid $border;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $text;
+
+    i { font-size: 20px; }
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+
+  &__label {
+    font-size: 13px;
+    font-weight: 400;
+    color: $muted;
+  }
+
+  &__num {
+    font-size: 15px;
+    font-weight: 700;
+    color: $text;
+    text-decoration: none;
+    margin-top: 2px;
+
+    &:hover { color: $purple; }
+  }
+}
+
+// =============================================
+// SEARCH
+// =============================================
+.kh-search {
+  flex: 1 1 auto;
+  max-width: 640px;
+  min-width: 220px;
+
+  ::ng-deep {
+    app-box-search {
+      display: block;
+      width: 100%;
+    }
+
+    app-box-search > div:not(.search-bg-overlay):not(.search-full):not(.input-group):not(.searchbar-box-2) {
+      position: relative !important;
+      display: flex !important;
+      align-items: center !important;
+      width: 100% !important;
+    }
+
+    app-box-search > .search-bg-overlay { display: none !important; }
+    app-box-search > .search-full { display: none !important; }
+
+    input.form-control,
+    input[type="search"] {
+      flex: 1 1 auto;
+      width: 100% !important;
+      height: 52px !important;
+      padding: 0 64px 0 22px !important;
+      background: $searchbg !important;
+      border: 1px solid transparent !important;
+      border-radius: 10px !important;
+      font-size: 14.5px !important;
+      color: $text !important;
+      outline: none !important;
+      box-shadow: none !important;
+      transition: all 0.2s ease;
+
+      &::placeholder {
+        color: $soft !important;
+        font-weight: 400;
+      }
+
+      &:focus {
+        background: $white !important;
+        border-color: $purple !important;
+        box-shadow: 0 0 0 3px rgba($purple, 0.12) !important;
+      }
+    }
+
+    app-button {
+      position: absolute !important;
+      top: 6px !important;
+      right: 6px !important;
+      bottom: 6px !important;
+      display: flex !important;
+      z-index: 2;
+    }
+
+    button.search-button,
+    button[id*="search"],
+    app-button > button {
+      width: 48px !important;
+      height: 40px !important;
+      background: $purple !important;
+      border: none !important;
+      border-radius: 8px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      color: $white !important;
+      cursor: pointer !important;
+      padding: 0 !important;
+      box-shadow: none !important;
+      transition: background 0.2s ease !important;
+
+      > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      i {
+        font-size: 20px !important;
+        color: $white !important;
+        line-height: 1 !important;
+      }
+
+      &:hover { background: $purple-d !important; }
+    }
+
+    app-search-dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 20;
+    }
+  }
+}
+
+.kh-search--mobile {
+  padding: 10px 0 14px;
+  max-width: 100%;
+  min-width: 0;
+}
+
+// =============================================
+// RIGHT ACTIONS
+// =============================================
+.kh-act {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  &__label {
+    font-size: 14px;
+    font-weight: 500;
+    color: $text;
+    white-space: nowrap;
+  }
+
+  // ---- Currency (INR)
+  &--currency {
+    ::ng-deep {
+      app-currency > div,
+      .dropdown {
+        position: relative;
+      }
+
+      button,
+      .btn,
+      app-button button {
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        padding: 6px 4px !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        color: $text !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 3px;
+
+        span { color: $text !important; }
+        i {
+          font-size: 16px !important;
+          color: $muted !important;
+        }
+
+        &:hover { color: $purple !important; }
+      }
+
+      .dropdown-menu {
+        border: 1px solid $border !important;
+        border-radius: 8px !important;
+        box-shadow: 0 10px 30px rgba($black, 0.08) !important;
+        padding: 6px 0 !important;
+
+        .dropdown-item {
+          padding: 8px 16px !important;
+          font-size: 13px !important;
+          color: $text !important;
+          &:hover { background: rgba($purple, 0.08) !important; color: $purple !important; }
+        }
+      }
+    }
+  }
+
+  // ---- Account (icon + label)
+  &--account {
+    ::ng-deep {
+      .kf-account-btn,
+      a.kf-account-btn {
+        width: 36px !important;
+        height: 36px !important;
+        border-radius: 50% !important;
+        background: transparent !important;
+        border: none !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-decoration: none !important;
+        transition: background 0.2s ease;
+
+        i {
+          font-size: 22px !important;
+          color: $text !important;
+        }
+
+        .user-avatar {
+          width: 30px; height: 30px;
+          border-radius: 50%; overflow: hidden;
+
+          img { width: 100%; height: 100%; object-fit: cover; }
+
+          .avatar-initial {
+            width: 100%; height: 100%;
+            display: flex; align-items: center; justify-content: center;
+            background: $purple;
+            color: $white; font-weight: 700; font-size: 13px;
+          }
+        }
+
+        &:hover {
+          background: $offwhite !important;
+          i { color: $purple !important; }
+        }
+      }
+    }
+  }
+
+  // ---- Wishlist & Cart
+  &--wish,
+  &--cart {
+    ::ng-deep {
+      .header-wishlist,
+      .btn.header-wishlist,
+      a.header-wishlist,
+      .onhover-dropdown.header-badge app-button button {
+        position: relative;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 36px !important;
+        height: 36px !important;
+        border-radius: 50% !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        cursor: pointer !important;
+        text-decoration: none !important;
+        transition: background 0.2s ease;
+
+        > div {
+          position: relative;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+        }
+
+        i {
+          font-size: 22px !important;
+          color: $text !important;
+          line-height: 1 !important;
+          display: block !important;
+        }
+
+        .badge,
+        .badge-number {
+          position: absolute !important;
+          top: 0 !important;
+          right: 0 !important;
+          transform: translate(35%, -20%) !important;
+          background: $purple !important;
+          color: $white !important;
+          font-size: 10px !important;
+          font-weight: 700 !important;
+          min-width: 18px !important;
+          height: 18px !important;
+          padding: 0 5px !important;
+          border-radius: 9px !important;
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          border: 2px solid $white !important;
+          line-height: 1 !important;
+        }
+
+        &:hover {
+          background: $offwhite !important;
+          i { color: $purple !important; }
+        }
+      }
+    }
+  }
+}
+
+// =============================================
+// MENU BAR (kept — purple accents)
+// =============================================
+.kh-menu {
+  background: $white;
+  border-bottom: 1px solid $border;
+  padding: 0 25px;
+
+  &__nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  ::ng-deep {
+    .navbar-nav {
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: center;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      .nav-item {
+        position: relative;
+
+        .nav-link {
+          color: $text !important;
+          font-size: 14px !important;
+          font-weight: 600 !important;
+          letter-spacing: 0.3px !important;
+          padding: 16px 18px !important;
+          border-radius: 0 !important;
+          transition: color 0.2s ease !important;
+          white-space: nowrap;
+          background: none !important;
+          display: block;
+          position: relative;
+
+          &::after {
+            content: '' !important;
+            position: absolute;
+            bottom: 0;
+            left: 18px;
+            right: 18px;
+            height: 2px;
+            background: $purple;
+            transform: scaleX(0);
+            transform-origin: center;
+            transition: transform 0.25s ease;
+            border: none !important;
+          }
+
+          &:hover,
+          &.active {
+            color: $purple !important;
+            &::after { transform: scaleX(1); }
+          }
+        }
+
+        &:first-child .nav-link { padding-left: 0 !important; &::after { left: 0; } }
+
+        .dropdown-toggle::after {
+          content: '\ea4e' !important;
+          font-family: 'remixicon' !important;
+          position: static !important;
+          display: inline-block !important;
+          width: auto !important;
+          height: auto !important;
+          font-size: 12px !important;
+          margin-left: 4px !important;
+          vertical-align: middle !important;
+          border: none !important;
+          background: none !important;
+          transform: none !important;
+          transition: transform 0.25s ease !important;
+          color: $muted !important;
+        }
+
+        &:hover .dropdown-toggle::after {
+          transform: rotate(180deg) !important;
+          color: $purple !important;
+        }
+
+        .dropdown-menu {
+          border: 1px solid $border !important;
+          border-top: 2px solid $purple !important;
+          border-radius: 0 0 8px 8px !important;
+          box-shadow: 0 12px 32px rgba($black, 0.1) !important;
+          padding: 8px 0 !important;
+          min-width: 210px !important;
+          background: $white !important;
+          margin-top: 0 !important;
+
+          .dropdown-item {
+            padding: 10px 20px !important;
+            color: $text !important;
+            font-size: 13px !important;
+            font-weight: 500 !important;
+            transition: all 0.2s ease !important;
+            background: none !important;
+
+            &::after { display: none !important; }
+
+            &:hover {
+              background: rgba($purple, 0.06) !important;
+              color: $purple !important;
+              padding-left: 26px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// =============================================
+// MOBILE DRAWER
+// =============================================
+.kh-drawer {
+  background: $white !important;
+  box-shadow: 4px 0 48px rgba($black, 0.2) !important;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+
+  &__head {
+    padding: 0 20px;
+    height: 64px;
+    background: $purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    i { font-size: 20px; color: $white; }
+
+    span {
+      color: $white;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+    }
+  }
+
+  &__close {
+    width: 34px; height: 34px;
+    border-radius: 6px;
+    border: 1px solid rgba($white, 0.28);
+    background: transparent;
+    color: $white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: rgba($white, 0.15);
+      transform: rotate(90deg);
+    }
+  }
+
+  &__body {
+    flex: 1;
+    overflow-y: auto;
+
+    ::ng-deep {
+      .navbar-nav {
+        padding: 0; margin: 0;
+
+        .nav-item {
+          border-bottom: 1px solid $border;
+          &:last-child { border-bottom: none; }
+
+          .nav-link {
+            padding: 14px 22px !important;
+            color: $text !important;
+            font-weight: 600 !important;
+            font-size: 13.5px !important;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.2s ease;
+            background: none !important;
+
+            &:hover {
+              color: $purple !important;
+              background: rgba($purple, 0.05) !important;
+              padding-left: 26px !important;
+            }
+          }
+
+          .dropdown-toggle::after {
+            content: '\ea4e' !important;
+            font-family: 'remixicon' !important;
+            border: none !important;
+            font-size: 14px;
+            color: $soft;
+            transition: transform 0.25s ease;
+          }
+
+          .dropdown-toggle[aria-expanded="true"]::after {
+            transform: rotate(180deg) !important;
+            color: $purple;
+          }
+
+          .dropdown-menu {
+            background: rgba($purple, 0.04);
+            border: none;
+            box-shadow: none;
+            padding: 0; margin: 0;
+            border-left: 2px solid $purple;
+
+            .dropdown-item {
+              padding: 11px 22px 11px 36px !important;
+              color: $muted !important;
+              font-size: 12.5px !important;
+              font-weight: 500 !important;
+              border-bottom: 1px solid $border;
+              background: none !important;
+              transition: all 0.2s ease;
+
+              &:hover {
+                background: rgba($purple, 0.08) !important;
+                color: $purple !important;
+                padding-left: 42px !important;
+              }
+
+              &:last-child { border-bottom: none; }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__foot {
+    padding: 16px 22px;
+    border-top: 1px solid $border;
+    flex-shrink: 0;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: $text;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+
+      i { color: $purple; font-size: 16px; }
+      &:hover { color: $purple; }
+    }
+  }
+}
+
+// =============================================
+// DARK MODE
+// =============================================
+html.dark {
+  $dk-bg:      #0c0c0c;
+  $dk-surface: #1c1c1c;
+  $dk-text:    #e0e0e0;
+  $dk-border:  #2c2c2c;
+
+  .kahua-header { background: $dk-bg; }
+
+  .kh-main {
+    background: $dk-bg;
+    border-bottom-color: $dk-border;
+  }
+
+  .kh-contact {
+    &__icon { border-color: $dk-border; color: $dk-text; }
+    &__label { color: #888; }
+    &__num { color: $dk-text; }
+  }
+
+  .kh-search ::ng-deep {
+    input.form-control, input[type="search"] {
+      background: $dk-surface !important;
+      color: $dk-text !important;
+      &::placeholder { color: #777 !important; }
+      &:focus { background: $dk-surface !important; }
+    }
+  }
+
+  .kh-act {
+    &__label { color: $dk-text; }
+
+    ::ng-deep {
+      .kf-account-btn i,
+      .header-wishlist i,
+      .onhover-dropdown.header-badge app-button button i { color: $dk-text !important; }
+
+      .kf-account-btn:hover,
+      .header-wishlist:hover,
+      .onhover-dropdown.header-badge app-button button:hover { background: $dk-surface !important; }
+
+      .badge, .badge-number { border-color: $dk-bg !important; }
+    }
+  }
+
+  .kh-menu {
+    background: $dk-bg;
+    border-bottom-color: $dk-border;
+
+    ::ng-deep .navbar-nav .nav-item .nav-link { color: $dk-text !important; }
+  }
+
+  .kh-drawer {
+    background: $dk-bg !important;
+
+    &__body ::ng-deep .navbar-nav .nav-item {
+      border-bottom-color: $dk-border;
+
+      .nav-link {
+        color: $dk-text !important;
+        &:hover { color: lighten(#7C3AED, 15%) !important; background: rgba(#7C3AED, 0.08) !important; }
+      }
+
+      .dropdown-menu {
+        background: $dk-surface;
+        .dropdown-item {
+          color: #888 !important;
+          border-bottom-color: $dk-border;
+        }
+      }
+    }
+
+    &__foot { border-top-color: $dk-border; }
+  }
+}
+
+// =============================================
+// RESPONSIVE
+// =============================================
+@media (max-width: 1399px) {
+  .kh-main__row { gap: 18px; }
+  .kh-search { max-width: 420px; }
+}
+
+@media (max-width: 1199px) {
+  .kh-main__row { height: 80px; gap: 14px; }
+  .kh-main__logo ::ng-deep .web-logo img { height: 46px !important; }
+  .kh-contact__icon { width: 38px; height: 38px; i { font-size: 18px; } }
+  .kh-contact__label { font-size: 12px; }
+  .kh-contact__num { font-size: 13.5px; }
+  .kh-main__actions { gap: 10px; }
+}
+
+@media (max-width: 991px) {
+  .kh-main__row { height: 72px; }
+  .kh-search { min-width: 200px; }
+}
+
+@media (max-width: 767px) {
+  .kh-main { padding: 0 14px; }
+  .kh-menu { padding: 0 14px; }
+  .kh-main__row {
+    height: 64px;
+    gap: 10px;
+  }
+  .kh-main__logo ::ng-deep .web-logo img {
+    height: 40px !important;
+    max-width: 160px !important;
+  }
+  .kh-main__actions { gap: 6px; }
+
+  .kh-act ::ng-deep {
+    .kf-account-btn,
+    .header-wishlist,
+    .onhover-dropdown.header-badge app-button button {
+      width: 36px !important;
+      height: 36px !important;
+      i { font-size: 20px !important; }
+    }
+  }
+
+  .kh-search--mobile ::ng-deep {
+    input.form-control, input[type="search"] {
+      height: 44px !important;
+      padding: 0 56px 0 16px !important;
+    }
+    app-button, button[id*="search"] {
+      width: 42px !important;
+      height: 34px !important;
+      top: 5px !important;
+      right: 5px !important;
+      bottom: 5px !important;
+      i { font-size: 18px !important; }
+    }
+  }
+}

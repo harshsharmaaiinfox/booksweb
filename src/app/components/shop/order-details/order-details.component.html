@@ -1,0 +1,346 @@
+<!-- Loading -->
+<div class="kfo-loading" *ngIf="loading">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <p>Fetching order details…</p>
+</div>
+
+<ng-container *ngIf="!loading">
+
+  <!-- No order found -->
+  <app-no-data
+    [class]="'no-data-added'"
+    [image]="'assets/svg/empty-items.svg'"
+    [text]="'no_order_found'"
+    *ngIf="!order">
+  </app-no-data>
+
+  <ng-container *ngIf="order">
+
+    <!-- ===== HERO ===== -->
+    <section class="kfo-hero">
+      <div class="container-fluid-lg">
+        <div class="kfo-hero-inner">
+          <div class="kfo-hero-left">
+            <p class="kfo-eyebrow">Order Details</p>
+            <h1>#{{ order.order_number }}</h1>
+          </div>
+          <div class="kfo-hero-right">
+            <a [routerLink]="['/account/orders']" class="kfo-btn-ghost">
+              <i class="ri-arrow-left-line"></i> Back to Orders
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BODY ===== -->
+    <section class="kfo-body">
+      <div class="container-fluid-lg">
+        <div class="kfo-layout">
+
+          <!-- ===== LEFT COLUMN ===== -->
+          <div class="kfo-main">
+
+            <!-- ORDER TRACKING -->
+            <div class="kfo-panel" *ngIf="!order?.sub_orders?.length">
+              <div class="kfo-panel-head">
+                <p class="kfo-eyebrow">Live Status</p>
+                <h3>Order Tracking</h3>
+              </div>
+              <div class="kfo-panel-body">
+                <div class="kfo-tracker">
+                  <div class="kfo-tracker-line"></div>
+                  <ng-container *ngFor="let status of orderStatuses">
+                    <div class="kfo-tracker-step"
+                      [class.kfo-active]="status?.sequence! <= order.order_status.sequence!"
+                      [class.d-none]="
+                        (status?.sequence! >= order.order_status.sequence! && order.order_status?.slug == 'cancelled') ||
+                        status?.slug == 'cancelled' ||
+                        (order.is_digital_only && (status?.slug == 'shipped' || status?.slug == 'out-for-delivery'))
+                      ">
+                      <div class="kfo-tracker-dot">
+                        <img src="assets/svg/tracking/{{status?.slug}}.svg" alt="{{ status?.name }}">
+                      </div>
+                      <span class="kfo-tracker-label">{{ status?.name?.replaceAll('_', ' ') | titlecase }}</span>
+                    </div>
+                  </ng-container>
+
+                  <!-- Cancelled -->
+                  <div class="kfo-tracker-step kfo-cancelled"
+                    *ngIf="order?.order_status?.slug == 'cancelled'">
+                    <div class="kfo-tracker-dot">
+                      <img src="assets/svg/tracking/{{order.order_status.slug}}.svg" alt="Cancelled">
+                    </div>
+                    <span class="kfo-tracker-label">{{ order.order_status.name.replaceAll('_', ' ') | titlecase }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ORDERED PRODUCTS -->
+            <div class="kfo-panel" *ngIf="order?.products?.length">
+              <div class="kfo-panel-head">
+                <p class="kfo-eyebrow">What you ordered</p>
+                <h3>Ordered Products</h3>
+              </div>
+              <div class="kfo-panel-body kfo-no-pad">
+
+                <!-- Desktop Table -->
+                <table class="kfo-table d-none d-md-table">
+                  <thead>
+                    <tr>
+                      <th>{{ 'image' | translate }}</th>
+                      <th>{{ 'name' | translate }}</th>
+                      <th>{{ 'price' | translate }}</th>
+                      <th>{{ 'quantity' | translate }}</th>
+                      <th>{{ 'subtotal' | translate }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let product of order.products">
+                      <td>
+                        <img class="kfo-product-img"
+                          [src]="product?.pivot?.variation && product?.pivot?.variation?.variation_image
+                            ? product?.pivot?.variation?.variation_image?.original_url
+                            : product?.product_thumbnail
+                            ? product?.product_thumbnail?.original_url
+                            : 'assets/images/product.png'"
+                          alt="product">
+                      </td>
+                      <td class="kfo-product-name">
+                        {{ product?.pivot?.variation ? product?.pivot?.variation?.name : product?.name }}
+                      </td>
+                      <td>{{ product?.pivot?.single_price | currencySymbol }}</td>
+                      <td>{{ product?.pivot?.quantity }}</td>
+                      <td class="kfo-subtotal">{{ product?.pivot?.subtotal | currencySymbol }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- Mobile Cards -->
+                <div class="kfo-product-cards d-md-none">
+                  <div class="kfo-product-card" *ngFor="let product of order.products">
+                    <div class="kfo-product-card-img">
+                      <img
+                        [src]="product?.pivot?.variation && product?.pivot?.variation?.variation_image
+                          ? product?.pivot?.variation?.variation_image?.original_url
+                          : product?.product_thumbnail
+                          ? product?.product_thumbnail?.original_url
+                          : 'assets/images/product.png'"
+                        alt="product">
+                    </div>
+                    <div class="kfo-product-card-info">
+                      <p class="kfo-product-card-name">
+                        {{ product?.pivot?.variation ? product?.pivot?.variation?.name : product?.name }}
+                      </p>
+                      <div class="kfo-product-card-rows">
+                        <div class="kfo-product-card-row">
+                          <span>{{ 'price' | translate }}</span>
+                          <span>{{ product?.pivot?.single_price | currencySymbol }}</span>
+                        </div>
+                        <div class="kfo-product-card-row">
+                          <span>{{ 'quantity' | translate }}</span>
+                          <span>{{ product?.pivot?.quantity }}</span>
+                        </div>
+                        <div class="kfo-product-card-row kfo-product-card-row--total">
+                          <span>{{ 'subtotal' | translate }}</span>
+                          <span>{{ product?.pivot?.subtotal | currencySymbol }}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- SUB ORDERS -->
+            <div class="kfo-panel" *ngIf="order?.sub_orders?.length">
+              <div class="kfo-panel-head">
+                <p class="kfo-eyebrow">Sub-orders</p>
+                <h3>{{ 'sub_orders' | translate }}</h3>
+              </div>
+              <div class="kfo-panel-body kfo-no-pad">
+
+                <!-- Desktop Table -->
+                <table class="kfo-table d-none d-md-table">
+                  <thead>
+                    <tr>
+                      <th>{{ 'order_number' | translate }}</th>
+                      <th>{{ 'order_date' | translate }}</th>
+                      <th>{{ 'total_amount' | translate }}</th>
+                      <th>{{ 'status' | translate }}</th>
+                      <th>{{ 'action' | translate }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let subOrder of order.sub_orders">
+                      <td><strong>#{{ subOrder.order_number }}</strong></td>
+                      <td>{{ subOrder.created_at | date: 'dd MMM yyyy, hh:mm a' }}</td>
+                      <td>{{ subOrder.amount | currencySymbol }}</td>
+                      <td>
+                        <span class="kfo-status-badge kfo-status-{{ subOrder.order_status.slug }}">
+                          {{ subOrder.order_status.name }}
+                        </span>
+                      </td>
+                      <td>
+                        <a [routerLink]="['/order/details']"
+                          [queryParams]="{ order_number: subOrder.order_number, email_or_phone: email_or_phone }"
+                          class="kfo-icon-link">
+                          <i class="ri-eye-line"></i>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- Mobile Cards -->
+                <div class="kfo-suborder-cards d-md-none">
+                  <div class="kfo-suborder-card" *ngFor="let subOrder of order.sub_orders">
+                    <div class="kfo-suborder-row">
+                      <span>{{ 'order_number' | translate }}</span>
+                      <span><strong>#{{ subOrder.order_number }}</strong></span>
+                    </div>
+                    <div class="kfo-suborder-row">
+                      <span>{{ 'order_date' | translate }}</span>
+                      <span>{{ subOrder.created_at | date: 'dd MMM yyyy' }}</span>
+                    </div>
+                    <div class="kfo-suborder-row">
+                      <span>{{ 'total_amount' | translate }}</span>
+                      <span>{{ subOrder.amount | currencySymbol }}</span>
+                    </div>
+                    <div class="kfo-suborder-row">
+                      <span>{{ 'status' | translate }}</span>
+                      <span class="kfo-status-badge kfo-status-{{ subOrder.order_status.slug }}">
+                        {{ subOrder.order_status.name }}
+                      </span>
+                    </div>
+                    <a [routerLink]="['/order/details']"
+                      [queryParams]="{ order_number: subOrder.order_number, email_or_phone: email_or_phone }"
+                      class="kfo-btn-view">
+                      <i class="ri-eye-line"></i> {{ 'view_details' | translate }}
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- ===== RIGHT COLUMN ===== -->
+          <div class="kfo-sidebar">
+
+            <!-- CONSUMER DETAILS -->
+            <div class="kfo-panel">
+              <div class="kfo-panel-head">
+                <p class="kfo-eyebrow">Who & Where</p>
+                <h3>{{ 'consumer_details' | translate }}</h3>
+              </div>
+              <div class="kfo-panel-body">
+
+                <div class="kfo-detail-block" *ngIf="order?.billing_address">
+                  <span class="kfo-detail-label">{{ 'billing_address' | translate }}</span>
+                  <div class="kfo-detail-value">
+                    <div *ngIf="order.billing_address.floor_no">Floor {{ order.billing_address.floor_no }}</div>
+                    <div *ngIf="order.billing_address.flat_no">Flat {{ order.billing_address.flat_no }}</div>
+                    <div *ngIf="order.billing_address.building">{{ order.billing_address.building }}</div>
+                    <div *ngIf="order.billing_address.road">{{ order.billing_address.road }}</div>
+                    <div>{{ order.billing_address.street }}</div>
+                    <div>{{ order.billing_address.city }}, {{ getStateName(order.billing_address.state_id) }}, {{ getCountryName(order.billing_address.country_id) }} — {{ order.billing_address.pincode }}</div>
+                    <div class="kfo-detail-phone">+{{ order.billing_address.country_code }} {{ order.billing_address.phone }}</div>
+                  </div>
+                </div>
+
+                <div class="kfo-detail-block" *ngIf="order?.shipping_address && !order?.is_digital_only">
+                  <span class="kfo-detail-label">{{ 'shipping_address' | translate }}</span>
+                  <div class="kfo-detail-value">
+                    <div *ngIf="order.shipping_address.floor_no">Floor {{ order.shipping_address.floor_no }}</div>
+                    <div *ngIf="order.shipping_address.flat_no">Flat {{ order.shipping_address.flat_no }}</div>
+                    <div *ngIf="order.shipping_address.building">{{ order.shipping_address.building }}</div>
+                    <div *ngIf="order.shipping_address.road">{{ order.shipping_address.road }}</div>
+                    <div>{{ order.shipping_address.street }}</div>
+                    <div>{{ order.shipping_address.city }}, {{ getStateName(order.shipping_address.state_id) }}, {{ getCountryName(order.shipping_address.country_id) }} — {{ order.shipping_address.pincode }}</div>
+                    <div class="kfo-detail-phone">+{{ order.shipping_address.country_code }} {{ order.shipping_address.phone }}</div>
+                  </div>
+                </div>
+
+                <div class="kfo-detail-block" *ngIf="order?.delivery_description && !order?.is_digital_only">
+                  <span class="kfo-detail-label">{{ 'delivery_slot' | translate }}</span>
+                  <div class="kfo-detail-value">{{ order.delivery_description }}</div>
+                </div>
+
+                <div class="kfo-detail-block" *ngIf="order?.payment_method">
+                  <span class="kfo-detail-label">{{ 'payment_mode' | translate }}</span>
+                  <div class="kfo-detail-value">
+                    <ng-container [ngSwitch]="order?.payment_method">
+                      <span *ngSwitchCase="'mangal fashion_nabu'">Pay By UPI INTENT 3</span>
+                      <span *ngSwitchCase="'pay_drill'">Cash Free</span>
+                      <span *ngSwitchCase="'star_mangal'">Pay via UPI App</span>
+                      <span *ngSwitchDefault>{{ order?.payment_method | titleCase }}</span>
+                    </ng-container>
+                  </div>
+                </div>
+
+                <div class="kfo-detail-block" *ngIf="order?.payment_method">
+                  <span class="kfo-detail-label">{{ 'payment_status' | translate }}</span>
+                  <div class="kfo-detail-value">
+                    <span class="kfo-payment-status kfo-ps-{{ order.payment_status }}">
+                      {{ order.payment_status | uppercase }}
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- SUMMARY -->
+            <div class="kfo-panel">
+              <div class="kfo-panel-head">
+                <p class="kfo-eyebrow">Financials</p>
+                <h3>{{ 'summary' | translate }}</h3>
+              </div>
+              <div class="kfo-panel-body">
+                <div class="kfo-summary">
+                  <div class="kfo-summary-row">
+                    <span>{{ 'subtotal' | translate }}</span>
+                    <span>{{ (order.amount ?? 0) | currencySymbol }}</span>
+                  </div>
+                  <div class="kfo-summary-row" *ngIf="!order?.is_digital_only">
+                    <span>{{ 'shipping' | translate }}</span>
+                    <span>{{ (order.shipping_total ?? 0) | currencySymbol }}</span>
+                  </div>
+                  <div class="kfo-summary-row">
+                    <span>{{ 'tax' | translate }}</span>
+                    <span>{{ (order.tax_total ?? 0) | currencySymbol }}</span>
+                  </div>
+                  <div class="kfo-summary-row kfo-discount" *ngIf="order.points_amount != 0">
+                    <span>{{ 'points' | translate }}</span>
+                    <span>−{{ order.points_amount | currencySymbol }}</span>
+                  </div>
+                  <div class="kfo-summary-row kfo-discount" *ngIf="order.wallet_balance != 0">
+                    <span>{{ 'wallet_balance' | translate }}</span>
+                    <span>−{{ order.wallet_balance | currencySymbol }}</span>
+                  </div>
+                  <div class="kfo-summary-row kfo-discount" *ngIf="order.coupon_total_discount != 0">
+                    <span>{{ 'coupon_discount' | translate }}</span>
+                    <span>−{{ order.coupon_total_discount | currencySymbol }}</span>
+                  </div>
+                  <div class="kfo-summary-divider"></div>
+                  <div class="kfo-summary-row kfo-summary-total">
+                    <span>{{ 'total' | translate }}</span>
+                    <span>{{ (order.total ?? 0) | currencySymbol }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </ng-container>
+</ng-container>

@@ -1,0 +1,74 @@
+// ============================================
+// Kahua Fashion — Account Button (No dropdown)
+// ============================================
+
+$text: #2F2F2F;
+$olive: #6B8E23;
+$white: #fff;
+
+.kf-account-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: $text;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background 0.2s;
+  cursor: pointer;
+
+  i {
+    font-size: 18px;
+    color: $white;
+  }
+
+  &:hover {
+    background: $olive;
+  }
+
+  // Logged in state
+  &.logged-in {
+    background: $olive;
+    padding: 0;
+
+    .user-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .avatar-initial {
+      color: $white;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    &:hover {
+      background: darken($olive, 10%);
+    }
+  }
+}
+
+// Dark mode
+html.dark {
+  .kf-account-btn {
+    background: #eee;
+
+    i { color: #1a1a1a; }
+
+    &:hover { background: #ccc; }
+
+    &.logged-in {
+      background: $olive;
+      &:hover { background: darken($olive, 10%); }
+    }
+  }
+}

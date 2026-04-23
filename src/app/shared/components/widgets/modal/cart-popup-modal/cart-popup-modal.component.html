@@ -1,0 +1,98 @@
+<ng-template #cartPopupModal let-modal>
+  <div class="kf-modal">
+
+    <!-- Close -->
+    <button type="button" class="kf-modal-close" (click)="modal.dismiss('Cross click')">
+      <i class="ri-close-line"></i>
+    </button>
+
+    <div class="kf-modal-inner" *ngIf="product">
+
+      <!-- Left: Image -->
+      <div class="kf-modal-image">
+        <img [src]="product?.product_thumbnail ? product?.product_thumbnail?.original_url : 'assets/images/product.png'"
+          [alt]="product?.name">
+
+        <!-- Badge on image -->
+        <span class="kf-modal-badge" *ngIf="product?.is_sale_enable">Sale</span>
+      </div>
+
+      <!-- Right: Details -->
+      <div class="kf-modal-details">
+
+        <div class="kf-detail-scroll">
+
+          <!-- Name & Price -->
+          <h2 class="kf-modal-name">{{ product?.name }}</h2>
+          <p class="kf-modal-desc" *ngIf="product?.short_description" [innerHTML]="product?.short_description"></p>
+
+          <div class="kf-modal-price-block">
+            <span class="kf-modal-price">{{ currentPrice | currencySymbol }}</span>
+            <div class="kf-modal-rating" *ngIf="(product?.rating_count ?? 0) > 0">
+              <ngb-rating [rate]="product?.rating_count || 0" [readonly]="true" [max]="5"></ngb-rating>
+              <span class="kf-rating-count" *ngIf="(product?.reviews_count ?? 0) > 0">({{ product?.reviews_count }})</span>
+            </div>
+          </div>
+
+          <!-- Specs -->
+          <div class="kf-modal-specs">
+            <div class="kf-spec" *ngIf="product?.sku">
+              <span class="kf-spec-label">SKU</span>
+              <span class="kf-spec-value">{{ product?.sku }}</span>
+            </div>
+            <div class="kf-spec">
+              <span class="kf-spec-label">Availability</span>
+              <span class="kf-spec-value" [class.kf-in-stock]="product?.stock_status === 'in_stock'"
+                [class.kf-out-stock]="product?.stock_status !== 'in_stock'">
+                {{ product?.stock_status === 'in_stock' ? 'In Stock' : 'Out of Stock' }}
+              </span>
+            </div>
+            <div class="kf-spec" *ngIf="product?.quantity">
+              <span class="kf-spec-label">Qty Left</span>
+              <span class="kf-spec-value">{{ product?.quantity }}</span>
+            </div>
+          </div>
+
+          <!-- Attributes (Size, Color, etc.) -->
+          <div class="kf-attr-group" *ngFor="let attribute of productAttributes">
+            <div *ngIf="availableAttributeValues[attribute.id]?.length">
+              <label class="kf-attr-label">{{ attribute.name }}: <strong>{{ selectedAttributeValues[attribute.id]?.value }}</strong></label>
+              <div class="kf-attr-options">
+                <button *ngFor="let attrValue of availableAttributeValues[attribute.id]"
+                  class="kf-attr-btn"
+                  [class.active]="selectedAttributeValues[attribute.id]?.id === attrValue.id"
+                  [attr.data-style]="attribute.style"
+                  (click)="selectAttributeValue(attribute.id, attrValue)">
+                  {{ attrValue.value }}
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Sticky Bottom Actions -->
+        <div class="kf-modal-actions">
+          <div class="kf-qty">
+            <button type="button" (click)="updateQuantity(-1)"><i class="ri-subtract-line"></i></button>
+            <input type="text" [value]="quantity" readonly>
+            <button type="button" (click)="updateQuantity(1)"><i class="ri-add-line"></i></button>
+          </div>
+
+          <button type="button" class="kf-wishlist-btn" (click)="toggleWishlist(product)"
+            [class.active]="product.is_wishlist">
+            <i class="ri-heart-line" *ngIf="!product.is_wishlist"></i>
+            <i class="ri-heart-fill" *ngIf="product.is_wishlist"></i>
+          </button>
+
+          <button type="button" class="kf-add-btn" (click)="addToCart()" [disabled]="addToCartLoader">
+            <span class="spinner-border spinner-border-sm" *ngIf="addToCartLoader"></span>
+            <span *ngIf="!addToCartLoader">Add to Bag</span>
+            <span *ngIf="addToCartLoader">Adding...</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</ng-template>

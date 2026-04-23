@@ -1,0 +1,161 @@
+// ============================================
+// Kahua Fashion — Product Tabs
+// ============================================
+
+$primary: #6B8E23;
+$secondary: #D2B48C;
+$accent: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+
+.modern-product-tabs {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba($secondary, 0.25);
+
+  .modern-tabs {
+    border-bottom: 2px solid #eee;
+    display: flex;
+    gap: 0;
+    margin-bottom: 24px;
+
+    .nav-item {
+      margin-bottom: -2px;
+
+      .modern-tab-link {
+        padding: 12px 24px;
+        color: #999;
+        font-weight: 600;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: none;
+        border-bottom: 2px solid transparent;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.2s;
+
+        &:hover {
+          color: $text;
+        }
+
+        &.active {
+          color: $text;
+          border-bottom-color: $text;
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .modern-tab-outlet {
+    padding-top: 10px;
+  }
+
+  .modern-description-content {
+    padding: 10px 0;
+
+    .modern-description-text {
+      color: #555;
+      line-height: 1.7;
+      font-size: 14px;
+
+      ul, ol {
+        padding-left: 18px;
+        margin: 10px 0;
+
+        li {
+          margin-bottom: 8px;
+          color: #555;
+          line-height: 1.6;
+          font-size: 14px;
+        }
+      }
+
+      p {
+        margin-bottom: 10px;
+        color: #555;
+        line-height: 1.7;
+        font-size: 14px;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        color: $text;
+        font-weight: 700;
+        margin-top: 16px;
+        margin-bottom: 8px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 16px 0;
+
+        th, td {
+          padding: 10px 12px;
+          border: 1px solid #eee;
+          text-align: left;
+          font-size: 13px;
+        }
+
+        th {
+          background: $bg;
+          font-weight: 600;
+          color: $text;
+        }
+      }
+
+      strong, b {
+        font-weight: 600;
+        color: $text;
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 4px;
+      }
+    }
+
+    .modern-show-more-btn {
+      margin-top: 16px;
+      padding: 10px 20px;
+      background: transparent;
+      color: $text;
+      border: 1.5px solid $text;
+      border-radius: 0;
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.25s;
+
+      i {
+        margin-left: 6px;
+        transition: transform 0.3s;
+
+        &.rotate {
+          transform: rotate(180deg);
+        }
+      }
+
+      &:hover {
+        background: $text;
+        color: #fff;
+        border-color: $text;
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .modern-product-tabs .modern-tabs .nav-item .modern-tab-link {
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+}

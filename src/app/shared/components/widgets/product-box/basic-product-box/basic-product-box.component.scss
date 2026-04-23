@@ -1,0 +1,376 @@
+// ============================================
+// Kahua Fashion — Product Card
+// ============================================
+
+$primary: #6B8E23;
+$secondary: #D2B48C;
+$accent: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #ffffff;
+
+:host {
+  display: block;
+  height: 100%;
+}
+
+.kf-product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: $white;
+  border: 1px solid #eee;
+  transition: border-color 0.3s;
+
+  &:hover {
+    border-color: $secondary;
+
+    .kf-img {
+      transform: scale(1.04);
+    }
+
+    .kf-wish,
+    .kf-quick {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+// =============================================
+// IMAGE
+// =============================================
+.kf-product-media {
+  position: relative;
+  overflow: hidden;
+  background: #f5f5f3;
+  aspect-ratio: 4 / 4;
+}
+
+.kf-img-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.kf-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+// ---- Badge ----
+.kf-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  padding: 4px 12px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: $white;
+  background: $text;
+
+  &--sale { background: $accent; }
+  &--new  { background: $primary; }
+  &--hot  { background: #C0392B; }
+}
+
+// ---- Wishlist & Quick View ----
+.kf-wish,
+.kf-quick {
+  position: absolute;
+  right: 12px;
+  z-index: 3;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+  i {
+    font-size: 18px;
+    color: $text;
+    transition: color 0.2s;
+  }
+
+  &:hover i {
+    color: $accent;
+  }
+
+  &.active i {
+    color: #e74c3c;
+  }
+}
+
+.kf-wish {
+  top: 12px;
+}
+
+.kf-quick {
+  top: 56px;
+  transition-delay: 0.05s;
+}
+
+// ---- Close button ----
+.product-close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+
+  .close-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    background: $white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+
+    i { font-size: 16px; color: $text; }
+
+    &:hover {
+      background: #f5f5f5;
+    }
+  }
+}
+
+// =============================================
+// BODY
+// =============================================
+.kf-product-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 12px;
+
+  @media (max-width: 768px) {
+    padding: 12px;
+    gap: 10px;
+  }
+}
+
+.kf-product-top {
+  flex: 1;
+}
+
+.kf-name-link {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover .kf-name {
+    color: $accent;
+  }
+}
+
+.kf-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: $text;
+  margin: 0 0 4px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: color 0.2s;
+
+  @media (max-width: 768px) {
+    font-size: 13px;
+  }
+}
+
+.kf-desc {
+  font-size: 12px;
+  color: #999;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// ---- Price + Stock ----
+.kf-price-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.kf-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: $text;
+  letter-spacing: -0.3px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.kf-stock {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: $primary;
+  border: 1px solid rgba($primary, 0.3);
+  padding: 3px 8px;
+}
+
+// ---- Add to Bag ----
+.kf-cart-row {
+  ::ng-deep app-product-cart-button {
+    width: 100%;
+    display: block;
+
+    button,
+    a {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 11px 16px;
+      background: $text;
+      color: $white;
+      border: 1px solid $text;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+      transition: all 0.25s;
+
+      &:hover {
+        background: transparent;
+        color: $text;
+      }
+    }
+
+    // Quantity box when item is in cart
+    .cart_qty.qty-box {
+      .input-group {
+        display: flex;
+
+        button {
+          background: $text !important;
+          border: 1px solid $text !important;
+          border-radius: 0 !important;
+          color: $white !important;
+          padding: 8px 14px !important;
+          min-width: 40px;
+
+          i { color: $white !important; }
+
+          &:hover {
+            background: transparent !important;
+            color: $text !important;
+            i { color: $text !important; }
+          }
+        }
+
+        input {
+          border: 1px solid #ddd !important;
+          border-radius: 0 !important;
+          text-align: center;
+          font-weight: 600;
+          font-size: 14px;
+          color: $text;
+        }
+      }
+    }
+  }
+}
+
+// =============================================
+// DARK MODE
+// =============================================
+html.dark {
+  .kf-product {
+    background: #1a1a1a;
+    border-color: #333;
+
+    &:hover {
+      border-color: $secondary;
+    }
+  }
+
+  .kf-product-media {
+    background: #222;
+  }
+
+  .kf-wish,
+  .kf-quick {
+    background: #2a2a2a;
+
+    i { color: #ccc; }
+
+    &:hover i { color: $secondary; }
+  }
+
+  .kf-name { color: #eee; }
+  .kf-desc { color: #777; }
+  .kf-price { color: #eee; }
+
+  .kf-stock {
+    color: lighten($primary, 10%);
+    border-color: rgba($primary, 0.3);
+  }
+
+  .kf-cart-row ::ng-deep app-product-cart-button {
+    button, a {
+      background: #eee;
+      color: #1a1a1a;
+      border-color: #eee;
+
+      &:hover {
+        background: transparent;
+        color: #eee;
+      }
+    }
+  }
+}
+
+// =============================================
+// RTL
+// =============================================
+body.rtl {
+  .kf-badge {
+    left: auto;
+    right: 12px;
+  }
+
+  .kf-wish,
+  .kf-quick {
+    right: auto;
+    left: 12px;
+    transform: translateX(-10px);
+  }
+
+  .kf-product:hover {
+    .kf-wish,
+    .kf-quick {
+      transform: translateX(0);
+    }
+  }
+}

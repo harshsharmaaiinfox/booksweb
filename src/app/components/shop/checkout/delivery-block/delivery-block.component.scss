@@ -1,0 +1,121 @@
+// Kahua Fashion — Delivery Block
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$white: #fff;
+$border: #e8e4df;
+
+.checkout-detail {
+  .delivery-option {
+    .delivery-category {
+      .shipment-detail {
+        .form-check.custom-form-check {
+          padding: 14px 16px;
+          border: 1.5px solid $border;
+          background: $white;
+          transition: border-color 0.2s, background 0.2s;
+          cursor: pointer;
+
+          &:hover {
+            border-color: $warm;
+          }
+
+          .form-check-input {
+            accent-color: $olive;
+          }
+
+          .form-check-label {
+            font-size: 13px;
+            font-weight: 600;
+            color: $text;
+            cursor: pointer;
+          }
+
+          &.hide-check-box {
+            .form-check-input { display: none; }
+
+            .form-check-label {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+
+              &::before {
+                content: '';
+                width: 14px;
+                height: 14px;
+                border: 1.5px solid #ccc;
+                border-radius: 50%;
+                flex-shrink: 0;
+                transition: all 0.2s;
+              }
+            }
+
+            input[type="radio"]:checked + .form-check-label {
+              color: $olive;
+
+              &::before {
+                background: $olive;
+                border-color: $olive;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.future-box {
+  margin-top: 16px;
+
+  .future-option {
+    padding: 16px;
+    background: $white;
+    border: 1px solid $border;
+
+    .delivery-items {
+      h4 {
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: $text;
+        margin-bottom: 12px;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 14px;
+          border: 1.5px solid $border;
+          color: $warm;
+          font-size: 13px;
+          font-weight: 500;
+          text-decoration: none;
+          transition: all 0.2s;
+
+          &:hover {
+            border-color: $text;
+            color: $text;
+          }
+        }
+
+        li.active a {
+          background: $text;
+          border-color: $text;
+          color: $white;
+        }
+      }
+    }
+  }
+}

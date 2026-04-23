@@ -1,0 +1,279 @@
+// ============================================
+// Kahua Fashion — About Us (Editorial)
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+
+.kfa-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: $warm;
+  margin: 0 0 10px;
+}
+
+// =============================================
+// INTRO — Big headline, off-white bg
+// =============================================
+.kfa-intro {
+  padding: 80px 0 60px;
+  background: $bg;
+
+  .kfa-headline {
+    font-size: 52px;
+    font-weight: 700;
+    color: $text;
+    line-height: 1.1;
+    margin: 0;
+    letter-spacing: -1px;
+
+    em {
+      font-style: italic;
+      color: $olive;
+      font-weight: 400;
+    }
+
+    @media (max-width: 768px) { font-size: 34px; }
+    @media (max-width: 480px) { font-size: 26px; }
+  }
+}
+
+// =============================================
+// STATS — Horizontal band
+// =============================================
+.kfa-stats {
+  background: $text;
+  padding: 32px 0;
+
+  .kfa-stats-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    @media (max-width: 575px) {
+      flex-wrap: wrap;
+      gap: 24px 0;
+    }
+  }
+
+  .kfa-stat {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid rgba($white, 0.08);
+
+    &:last-child { border-right: none; }
+
+    @media (max-width: 575px) {
+      flex: 0 0 50%;
+      border-right: none;
+    }
+
+    .kfa-stat-num {
+      display: block;
+      font-size: 32px;
+      font-weight: 700;
+      color: $white;
+      letter-spacing: -0.5px;
+      line-height: 1;
+      margin-bottom: 6px;
+
+      @media (max-width: 768px) { font-size: 26px; }
+    }
+
+    .kfa-stat-label {
+      font-size: 11px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: rgba($white, 0.4);
+    }
+  }
+}
+
+// =============================================
+// STORY — Image + Text side by side
+// =============================================
+.kfa-story {
+  padding: 70px 0;
+  background: $white;
+
+  .kfa-story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+
+  .kfa-story-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .kfa-story-text {
+    h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: $text;
+      margin: 0 0 20px;
+      line-height: 1.25;
+
+      @media (max-width: 768px) { font-size: 22px; }
+    }
+
+    p {
+      font-size: 14px;
+      color: $warm;
+      line-height: 1.85;
+      margin: 0 0 14px;
+
+      &:last-of-type { margin-bottom: 0; }
+    }
+  }
+}
+
+// =============================================
+// PROMISES — Horizontal scroll cards
+// =============================================
+.kfa-promises {
+  padding: 60px 0;
+  background: #f5f3ef;
+
+  .kfa-promises-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: $text;
+    margin: 0 0 32px;
+  }
+
+  .kfa-promise-scroll {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar { height: 3px; }
+    &::-webkit-scrollbar-thumb { background: #ddd; }
+
+    @media (min-width: 769px) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      overflow: visible;
+    }
+  }
+
+  .kfa-promise-card {
+    min-width: 240px;
+    scroll-snap-align: start;
+    background: $white;
+    border: 1px solid #e5e0da;
+    padding: 28px 24px;
+    transition: border-color 0.2s;
+
+    &:hover {
+      border-color: $olive;
+    }
+
+    .kfa-promise-icon {
+      width: 44px;
+      height: 44px;
+      background: rgba($olive, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 18px;
+
+      i {
+        font-size: 22px;
+        color: $olive;
+      }
+    }
+
+    h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: $text;
+      margin: 0 0 8px;
+    }
+
+    p {
+      font-size: 13px;
+      color: $warm;
+      line-height: 1.7;
+      margin: 0;
+    }
+  }
+}
+
+// =============================================
+// COMPANY — Minimal table
+// =============================================
+.kfa-company {
+  padding: 60px 0;
+  background: $white;
+  border-top: 1px solid #eee;
+
+  .kfa-company-inner {
+    max-width: 700px;
+
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: $text;
+      margin: 0 0 28px;
+    }
+  }
+
+  .kfa-info-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    tr {
+      border-bottom: 1px solid #f0f0f0;
+
+      &:last-child { border-bottom: none; }
+    }
+
+    td {
+      padding: 16px 0;
+      font-size: 14px;
+      color: $text;
+      vertical-align: top;
+      line-height: 1.6;
+    }
+
+    .kfa-td-label {
+      width: 120px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #bbb;
+      padding-right: 20px;
+
+      @media (max-width: 480px) {
+        width: 90px;
+        font-size: 10px;
+      }
+    }
+
+    a {
+      color: $olive;
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+    }
+  }
+}

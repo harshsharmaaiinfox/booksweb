@@ -1,0 +1,533 @@
+// ============================================================
+// Kahua Fashion — Product Contain · Redesigned
+// Theme: Earthy Luxury  |  Palette: Warm Ivory + Deep Sienna
+// ============================================================
+
+// ── Tokens ──────────────────────────────────────────────────
+$primary : #526D1B; // olive green – brand colour
+$primary-lt : #7A9E2A; // lighter olive green
+$accent : #C8A96E; // warm gold
+$ink : #1C1C1C; // near-black text
+$ink-muted : #7A7065; // muted body text
+$surface : #FDFCFA; // warm white bg
+$border : #E8E0D5; // warm border
+$success : #4CAF50;
+$white : #ffffff;
+
+// ── Mixins ──────────────────────────────────────────────────
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin uppercase-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// BRAND TAG
+// ══════════════════════════════════════════════════════════════
+.kf-brand-tag {
+  @include flex-center;
+  gap: 6px;
+  margin-bottom: 14px;
+
+  .kf-brand-icon {
+    color: $accent;
+    font-size: 10px;
+    line-height: 1;
+  }
+
+  .kf-brand-name {
+    @include uppercase-label;
+    color: $primary-lt;
+    letter-spacing: 3px;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// PRODUCT TITLE
+// ══════════════════════════════════════════════════════════════
+.kf-product-title {
+  font-size: 26px !important;
+  font-weight: 700 !important;
+  color: $ink !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.4px;
+  margin: 0 0 20px !important;
+
+  @media (max-width: 768px) {
+    font-size: 21px !important;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// PRICE BLOCK
+// ══════════════════════════════════════════════════════════════
+.kf-price-block {
+  background: linear-gradient(135deg, #FDF6EC 0%, #FAF4EE 100%);
+  border-left: 3px solid $accent;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border-radius: 0 4px 4px 0;
+
+  .kf-price-row {
+    @include flex-center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .kf-price-current {
+    font-size: 28px !important;
+    font-weight: 800 !important;
+    color: $ink !important;
+    letter-spacing: -0.5px;
+
+    @media (max-width: 768px) {
+      font-size: 23px !important;
+    }
+  }
+
+  .kf-price-original {
+    font-size: 16px;
+    color: #b0a89c;
+    text-decoration: line-through;
+    font-weight: 500;
+  }
+
+  .kf-discount-pill {
+    @include uppercase-label;
+    background: $primary;
+    color: $white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+  }
+
+  .kf-tax-note {
+    font-size: 11px;
+    color: $ink-muted;
+    margin: 6px 0 0;
+    letter-spacing: 0.2px;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// DIVIDER
+// ══════════════════════════════════════════════════════════════
+.kf-divider {
+  height: 1px;
+  background: linear-gradient(90deg, $border 0%, transparent 100%);
+  margin: 4px 0 20px;
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// DESCRIPTION
+// ══════════════════════════════════════════════════════════════
+.kf-description {
+  margin-bottom: 20px;
+
+  p {
+    font-size: 13.5px !important;
+    color: $ink-muted !important;
+    line-height: 1.75 !important;
+    margin: 0;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// VARIANT / SIZE SELECTOR  (ng-deep override)
+// ══════════════════════════════════════════════════════════════
+.kf-variant-block {
+  margin-bottom: 20px;
+
+  ::ng-deep {
+
+    // Label row (e.g. "Size : L")
+    .product-package,
+    .size-label {
+      margin-bottom: 10px;
+    }
+
+    .select-package {
+      display: flex !important;
+      flex-wrap: wrap;
+      gap: 8px !important;
+      padding: 0 !important;
+      list-style: none !important;
+
+      li {
+        border: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+
+        a,
+        button {
+          min-width: 50px;
+          height: 42px;
+          padding: 0 16px !important;
+          border: 1.5px solid $border !important;
+          border-radius: 2px !important;
+          color: $ink-muted !important;
+          font-size: 12.5px !important;
+          font-weight: 600 !important;
+          text-transform: uppercase !important;
+          letter-spacing: 0.8px !important;
+          background: $white !important;
+          display: flex !important;
+          align-items: center;
+          justify-content: center;
+          transition: border-color 0.2s, color 0.2s, background 0.2s !important;
+
+          &:hover {
+            border-color: $primary !important;
+            color: $primary !important;
+          }
+        }
+
+        &.active {
+
+          a,
+          button {
+            background: $ink !important;
+            color: $white !important;
+            border-color: $ink !important;
+          }
+        }
+
+        &.disabled {
+          opacity: 0.35 !important;
+          pointer-events: none;
+        }
+      }
+
+      // Colour circles
+      .circle {
+        border-radius: 50% !important;
+        width: 34px !important;
+        height: 34px !important;
+        min-width: 34px !important;
+        padding: 0 !important;
+
+        &.active {
+          box-shadow: 0 0 0 2px $white, 0 0 0 3.5px $primary !important;
+        }
+      }
+    }
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// TOTAL PRICE (wholesale)
+// ══════════════════════════════════════════════════════════════
+.kf-total-price {
+  @include flex-center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: $ink-muted;
+
+  strong {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// ACTION ROW  (Qty + Wishlist)
+// ══════════════════════════════════════════════════════════════
+.kf-action-row {
+  @include flex-center;
+  gap: 14px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+
+  .kf-qty-label {
+    @include uppercase-label;
+    color: $ink-muted;
+    margin-right: 2px;
+    white-space: nowrap;
+  }
+
+  // Qty stepper
+  .kf-qty-group {
+    @include flex-center;
+    border: 1.5px solid $border !important;
+    border-radius: 2px;
+    overflow: hidden;
+
+    ::ng-deep {
+      .qty-btn {
+        background: transparent !important;
+        border: none !important;
+        padding: 0 14px !important;
+        height: 44px;
+        color: $ink !important;
+        transition: background 0.15s !important;
+
+        &:hover {
+          background: #F5EFE6 !important;
+        }
+
+        i {
+          font-size: 15px !important;
+          color: $ink !important;
+        }
+      }
+    }
+
+    .qty-input {
+      border: none !important;
+      border-left: 1px solid $border !important;
+      border-right: 1px solid $border !important;
+      width: 48px !important;
+      text-align: center !important;
+      font-weight: 700 !important;
+      font-size: 14px !important;
+      color: $ink !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+
+  // Wishlist button
+  .kf-wishlist-wrap {
+    margin-left: auto;
+
+    ::ng-deep {
+      .kf-wishlist-btn {
+        @include flex-center;
+        gap: 6px;
+        height: 44px;
+        padding: 0 16px !important;
+        border: 1.5px solid $border !important;
+        border-radius: 2px !important;
+        background: transparent !important;
+        color: $ink-muted !important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        transition: all 0.2s !important;
+        white-space: nowrap;
+
+        i {
+          font-size: 18px !important;
+          color: $ink-muted !important;
+          transition: color 0.2s !important;
+        }
+
+        &:hover {
+          border-color: $primary !important;
+          color: $primary !important;
+
+          i {
+            color: $primary !important;
+          }
+        }
+
+        &.active,
+        &:active {
+          i {
+            color: $primary !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// CTA BUTTONS
+// ══════════════════════════════════════════════════════════════
+.kf-cta-buttons {
+  display: flex !important;
+  gap: 12px !important;
+  margin-bottom: 24px !important;
+
+  @media (max-width: 575px) {
+    flex-direction: column !important;
+  }
+
+  .kf-btn-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+
+    i {
+      font-size: 17px;
+    }
+
+    span {
+      letter-spacing: 1px;
+      font-size: 12.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+
+  ::ng-deep {
+
+    // Add to Cart / Bag
+    .kf-btn-cart {
+      flex: 1;
+      height: 52px;
+      border: 2px solid $ink !important;
+      background: transparent !important;
+      color: $ink !important;
+      border-radius: 2px !important;
+      transition: background 0.25s, color 0.25s !important;
+
+      i,
+      span {
+        color: $ink !important;
+        transition: color 0.25s !important;
+      }
+
+      &:hover {
+        background: $ink !important;
+
+        i,
+        span {
+          color: $white !important;
+        }
+      }
+
+      &.disabled {
+        opacity: 0.38 !important;
+        cursor: not-allowed !important;
+        pointer-events: none;
+      }
+    }
+
+    // Buy Now
+    .kf-btn-buy {
+      flex: 1;
+      height: 52px;
+      border: 2px solid $primary !important;
+      background: $primary !important;
+      color: $white !important;
+      border-radius: 2px !important;
+      transition: background 0.25s, border-color 0.25s !important;
+      position: relative;
+      overflow: hidden;
+
+      // Shimmer sweep
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 60%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+        transition: left 0.5s;
+      }
+
+      &:hover::after {
+        left: 150%;
+      }
+
+      i,
+      span {
+        color: $white !important;
+      }
+
+      &:hover:not(:disabled) {
+        background: darken($primary, 8%) !important;
+        border-color: darken($primary, 8%) !important;
+      }
+
+      &:disabled {
+        opacity: 0.38 !important;
+        cursor: not-allowed !important;
+      }
+    }
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// TRUST BADGES STRIP
+// ══════════════════════════════════════════════════════════════
+.kf-trust-strip {
+  @include flex-center;
+  gap: 0;
+  padding: 14px 0;
+  border-top: 1px solid $border;
+  border-bottom: 1px solid $border;
+  margin-bottom: 10px;
+
+  .kf-trust-item {
+    @include flex-center;
+    flex: 1;
+    gap: 6px;
+    justify-content: center;
+
+    i {
+      font-size: 17px;
+      color: $primary-lt;
+    }
+
+    span {
+      font-size: 11.5px;
+      font-weight: 600;
+      color: $ink-muted;
+      letter-spacing: 0.3px;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 400px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 3px;
+    }
+  }
+
+  .kf-trust-sep {
+    width: 1px;
+    height: 28px;
+    background: $border;
+    flex-shrink: 0;
+  }
+}
+
+
+// ══════════════════════════════════════════════════════════════
+// UNAVAILABLE STATE
+// ══════════════════════════════════════════════════════════════
+.kf-unavailable {
+  @include flex-center;
+  gap: 8px;
+  padding: 16px 20px;
+  background: #FFF5F5;
+  border: 1px solid #FFD0D0;
+  border-radius: 4px;
+  margin-top: 12px;
+
+  i {
+    font-size: 20px;
+    color: #E05050;
+  }
+
+  span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #C04040;
+  }
+}

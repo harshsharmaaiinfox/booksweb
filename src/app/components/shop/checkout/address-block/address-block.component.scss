@@ -1,0 +1,112 @@
+// Kahua Fashion — Address Block
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$white: #fff;
+$border: #e8e4df;
+$bg: #FAF9F6;
+
+.empty-box {
+  padding: 16px 0;
+  h2 {
+    font-size: 13px;
+    color: $warm;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+
+.delivery-address-box {
+  border: 1.5px solid $border;
+  background: $white;
+  padding: 16px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+
+  &:hover {
+    border-color: $warm;
+    background: $bg;
+  }
+
+  > div {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .form-check {
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;
+    padding-top: 2px;
+
+    .form-check-input {
+      width: 15px;
+      height: 15px;
+      accent-color: $olive;
+      cursor: pointer;
+      margin: 0;
+    }
+  }
+
+  .delivery-address-detail {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    li {
+      h4 {
+        font-size: 13px;
+        font-weight: 700;
+        color: $text;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+      }
+
+      .text-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+
+        .text-title {
+          font-size: 10px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          color: #bbb;
+        }
+
+        .address-details {
+          font-size: 13px;
+          color: $warm;
+          line-height: 1.6;
+        }
+      }
+
+      h6 {
+        font-size: 12px;
+        color: $warm;
+        margin: 0;
+
+        .text-title {
+          font-size: 10px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          color: #bbb;
+        }
+      }
+    }
+  }
+}
+
+// Selected state via parent label
+label:has(input[type="radio"]:checked) .delivery-address-box {
+  border-color: $text;
+  background: $bg;
+}

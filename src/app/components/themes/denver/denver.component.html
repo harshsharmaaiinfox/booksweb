@@ -1,0 +1,282 @@
+<!-- Home Section Start -->
+
+<!-- Hero Grid Start -->
+<section class="dv-hero">
+
+  <!-- Left: Static main image -->
+  <a href="/collections" class="dv-hero__main">
+    <img src="assets/images/hero-book.png" alt="New Season Arrivals"
+         class="dv-hero__main-img" loading="eager">
+  </a>
+
+  <!-- Right: two stacked panels -->
+  <div class="dv-hero__side">
+
+    <!-- Top right panel -->
+    <a href="/collections" class="dv-hero__panel dv-hero__panel--top">
+      <img src="assets/images/book2.jpg" alt="New Collection" class="dv-hero__panel-img">
+      <div class="dv-hero__panel-body">
+        <h3 class="dv-hero__panel-title">New Book<br>Arrivals</h3>
+        <span class="dv-hero__panel-btn">SHOP BOOKS</span>
+      </div>
+    </a>
+
+    <!-- Bottom right panel -->
+    <a href="/collections" class="dv-hero__panel dv-hero__panel--bottom">
+      <img src="assets/images/book3.jpg" alt="Collections" class="dv-hero__panel-img">
+      <div class="dv-hero__panel-body">
+        <p class="dv-hero__panel-tag">Fiction &nbsp;|&nbsp; Non‑fiction &nbsp;|&nbsp; Children’s</p>
+        <h3 class="dv-hero__panel-title">Book<br>Collections</h3>
+        <span class="dv-hero__panel-btn">EXPLORE</span>
+      </div>
+    </a>
+
+  </div>
+
+</section>
+<!-- Hero Grid End -->
+
+<!-- Featured Products Section Start (Top) -->
+<section class="product-section featured-products-section" *ngIf="featuredProductIds?.length">
+    <div class="container-fluid-lg">
+        <div class="product-section-content">
+            <div class="product-list-wrapper">
+                <app-theme-product [productIds]="featuredProductIds" [style]="'horizontal'" [slider]="true"
+                    [sliderOption]="productSlider4Item" [productStyle]="'product-solid'" [boxClass]="'product-box-bg'">
+                </app-theme-product>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Featured Products Section End (Top) -->
+
+<!-- Collections Showcase Section Start -->
+<section class="kfd-collections">
+  <div class="kfd-collections-grid">
+
+    <a href="/collections" class="kfd-col-card">
+      <div class="kfd-col-img">
+        <img src="assets/images/modal-1.png" alt="Lehengas" loading="lazy">
+      </div>
+      <div class="kfd-col-info">
+        <span class="kfd-col-num">01</span>
+        <div class="kfd-col-text">
+          <p class="kfd-col-eyebrow">New Collection</p>
+          <h3 class="kfd-col-title">Weightless<br>Lehengas</h3>
+        </div>
+        <span class="kfd-col-arrow"><i class="ri-arrow-right-line"></i></span>
+      </div>
+    </a>
+
+    <a href="/collections" class="kfd-col-card kfd-col-card--tall">
+      <div class="kfd-col-img">
+        <img src="assets/images/modal-2.png" alt="Sarees" loading="lazy">
+      </div>
+      <div class="kfd-col-info">
+        <span class="kfd-col-num">02</span>
+        <div class="kfd-col-text">
+          <p class="kfd-col-eyebrow">Bestseller</p>
+          <h3 class="kfd-col-title">Stellar<br>Sarees</h3>
+        </div>
+        <span class="kfd-col-arrow"><i class="ri-arrow-right-line"></i></span>
+      </div>
+    </a>
+
+    <a href="/collections" class="kfd-col-card">
+      <div class="kfd-col-img">
+        <img src="assets/images/modal-3.png" alt="Suits" loading="lazy">
+      </div>
+      <div class="kfd-col-info">
+        <span class="kfd-col-num">03</span>
+        <div class="kfd-col-text">
+          <p class="kfd-col-eyebrow">Timeless Style</p>
+          <h3 class="kfd-col-title">Classic<br>Suits</h3>
+        </div>
+        <span class="kfd-col-arrow"><i class="ri-arrow-right-line"></i></span>
+      </div>
+    </a>
+
+  </div>
+</section>
+<!-- Collections Showcase Section End -->
+
+<!-- Featured Products Section Start -->
+<section class="product-section featured-products-section mb-3" *ngIf="featuredProductIds2?.length">
+    <div class="container-fluid-lg">
+        <div class="product-section-content">
+            <div class="product-list-wrapper">
+                <app-theme-product [productIds]="featuredProductIds2" [style]="'horizontal'" [slider]="true"
+                    [sliderOption]="productSlider4Item" [productStyle]="'product-solid'" [boxClass]="'product-box-bg'">
+                </app-theme-product>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Featured Products Section End -->
+
+<!-- Banner Section Start -->
+<section class="kfd-banner">
+  <div class="kfd-banner-inner">
+
+    <!-- Left: Text Panel -->
+    <div class="kfd-banner-text">
+      <p class="kfd-banner-eyebrow">New Season</p>
+      <h2 class="kfd-banner-heading">
+        Tradition,<br>
+        <em>Styled</em><br>
+        Beautifully
+      </h2>
+      <div class="kfd-banner-rule"></div>
+      <p class="kfd-banner-sub">Premium sarees &amp; ethnic wear crafted for the modern Indian woman.</p>
+      <a href="/collections/sarees" class="kfd-banner-cta">
+        Shop Collection <i class="ri-arrow-right-line"></i>
+      </a>
+      <div class="kfd-banner-meta">
+        <div class="kfd-banner-stat">
+          <span class="stat-num">500+</span>
+          <span class="stat-label">Styles</span>
+        </div>
+        <div class="kfd-banner-divider"></div>
+        <div class="kfd-banner-stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Handcrafted</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="kfd-banner-img">
+      <img src="assets/images/b1.png" alt="Tradition Styled Beautifully" loading="lazy">
+      <div class="kfd-banner-tag">
+        <i class="ri-award-line"></i>
+        <span>Premium Quality</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Banner Section End -->
+
+<!-- <section class="home-section-2 home-section-bg pt-md-0 pt-3 overflow-hidden" *ngIf="data?.content?.home_banner">
+  <app-theme-home-banner [theme]="'denver'" [data]="data?.content?.home_banner"></app-theme-home-banner>
+</section> -->
+<!-- Home Section End -->
+
+
+<!-- Kahuafashionclub Banner End -->
+<!-- Category Section Start -->
+<!-- <section *ngIf="data?.content?.categories_icon_list?.status">
+    <div class=" mt-4 container-fluid-lg">
+        <app-theme-categories [style]="'horizontal'" [theme]="'paris'" [sliderOption]="categorySlider"
+            [categoryIds]="data?.content?.categories_icon_list?.category_ids || []"
+            [image]="data?.content?.categories_icon_list?.image_url">
+        </app-theme-categories>
+    </div>
+</section> -->
+<!-- Category Section End -->
+
+<!-- Deal Section Start -->
+<section class="product-section product-section-3">
+    <div class=" mt-4 container-fluid-lg">
+        <div class="product-section-content">
+            <app-title [title]="data?.content?.products_list_1?.title" [style]="'simple'" [headingLevel]="'h1'"
+                class="h1-text">
+            </app-title>
+
+            <div class="product-list-wrapper">
+                <app-theme-product [productIds]="dealProductIds"
+                    [style]="'horizontal'" [slider]="true" [sliderOption]="productSlider6ItemMargin"
+                    [productStyle]="'product-solid'" [boxClass]="'product-box-bg'">
+                </app-theme-product>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Deal Section End -->
+
+<!-- Marquee Banner Section Start -->
+<section class="kfd-marquee-section">
+
+  <!-- Scrolling text strip -->
+  <div class="kfd-marquee-strip">
+    <div class="kfd-marquee-track">
+      <span>New Collection</span><i class="ri-record-circle-fill"></i>
+      <span>Ethnic Wear</span><i class="ri-record-circle-fill"></i>
+      <span>Handcrafted</span><i class="ri-record-circle-fill"></i>
+      <span>Free Delivery</span><i class="ri-record-circle-fill"></i>
+      <span>New Collection</span><i class="ri-record-circle-fill"></i>
+      <span>Ethnic Wear</span><i class="ri-record-circle-fill"></i>
+      <span>Handcrafted</span><i class="ri-record-circle-fill"></i>
+      <span>Free Delivery</span><i class="ri-record-circle-fill"></i>
+      <span>New Collection</span><i class="ri-record-circle-fill"></i>
+      <span>Ethnic Wear</span><i class="ri-record-circle-fill"></i>
+      <span>Handcrafted</span><i class="ri-record-circle-fill"></i>
+      <span>Free Delivery</span><i class="ri-record-circle-fill"></i>
+    </div>
+  </div>
+
+  <!-- Main full-bleed image block -->
+  <div class="kfd-marquee-body">
+
+    <div class="kfd-mb-img">
+      <img src="assets/images/b2.png" alt="New Collection" loading="lazy">
+    </div>
+
+    <!-- Overlapping text card -->
+    <div class="kfd-mb-card">
+      <p class="kfd-mb-eyebrow">Season 2025</p>
+      <h2 class="kfd-mb-title">Crafted<br><em>for Her</em></h2>
+      <p class="kfd-mb-desc">Bold silhouettes. Timeless fabrics.<br>Made for the modern Indian woman.</p>
+      <a href="/collections" class="kfd-mb-cta">
+        <span>Explore All</span>
+        <i class="ri-arrow-right-up-line"></i>
+      </a>
+      <div class="kfd-mb-badge">
+        <i class="ri-sparkling-2-line"></i>
+        <span>500+ Styles</span>
+      </div>
+    </div>
+
+    <!-- Corner label -->
+    <div class="kfd-mb-corner">
+      <span>Kahua</span>
+      <span>Fashion</span>
+      <span>Club</span>
+    </div>
+
+  </div>
+
+</section>
+<!-- Marquee Banner Section End -->
+
+
+
+
+<!-- Top Selling Section Start -->
+<section class=" mt-4 product-section product-section-3">
+    <div class="container-fluid-lg">
+        <div>
+            <app-title [title]="data?.content?.products_list_2?.title " [style]="'simple'" class="mb-5">
+            </app-title>
+            <app-theme-product [productIds]="topSellingIds" [style]="'horizontal'"
+                [slider]="true" [sliderOption]="productSlider6ItemMargin" [productStyle]="'product-solid'"
+                [boxClass]="'product-box-bg'">
+            </app-theme-product>
+        </div>
+    </div>
+</section>
+<!-- Top Selling Section End -->
+
+<!-- Top Selling Section Start -->
+<!-- <section class="product-section product-section-3 mt-5">
+    <div class="container-fluid-lg">
+        <div>
+
+            <app-theme-product [productIds]="topSellingIds2" [style]="'horizontal'"
+                [slider]="true" [sliderOption]="productSlider6ItemMargin" [productStyle]="'product-solid'"
+                [boxClass]="'product-box-bg'">
+            </app-theme-product>
+        </div>
+    </div>
+</section> -->
+<!-- Top Selling Section End -->

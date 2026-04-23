@@ -1,0 +1,718 @@
+// ============================================
+// Kahua Fashion — Account Order Details
+// ============================================
+
+$olive: #6B8E23;
+$warm: #6D645F;
+$text: #2F2F2F;
+$bg: #FAF9F6;
+$white: #fff;
+$border: #e8e4df;
+$error: #c0392b;
+
+// =============================================
+// PAGE CONTAINER
+// =============================================
+.order-details-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+// =============================================
+// LOADING
+// =============================================
+.loading-container {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .spinner-border {
+    color: $warm;
+    width: 24px;
+    height: 24px;
+    border-width: 2px;
+  }
+}
+
+// =============================================
+// PAGE HEADER
+// =============================================
+.order-details-header {
+  background: $text;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  border-radius: 6px;
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .header-icon-wrapper {
+    width: 44px;
+    height: 44px;
+    background: rgba($white, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    i { font-size: 20px; color: $white; }
+  }
+
+  .header-text-content {
+    .page-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: $white;
+      margin: 0 0 2px;
+      letter-spacing: -0.2px;
+    }
+
+    .page-subtitle {
+      font-size: 12px;
+      color: rgba($white, 0.65);
+      margin: 0;
+    }
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 576px) {
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .header-actions {
+      width: 100%;
+      flex-direction: column;
+      a { width: 100%; justify-content: center; }
+    }
+  }
+}
+
+// Shared button base
+%btn-base {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1.5px solid transparent;
+  border-radius: 4px;
+
+  i { font-size: 14px; }
+}
+
+.btn-back-orders {
+  @extend %btn-base;
+  border-color: rgba($white, 0.3);
+  color: rgba($white, 0.8);
+  background: transparent;
+
+  &:hover { border-color: $white; color: $white; }
+}
+
+.btn-pay-now {
+  @extend %btn-base;
+  background: $olive;
+  border-color: $olive;
+  color: $white;
+
+  &:hover { background: darken($olive, 8%); border-color: darken($olive, 8%); }
+}
+
+.btn-download-invoice {
+  @extend %btn-base;
+  border-color: rgba($white, 0.3);
+  color: rgba($white, 0.8);
+  background: transparent;
+
+  &:hover { border-color: $white; color: $white; }
+}
+
+// =============================================
+// ORDER TRACKING SECTION
+// =============================================
+.order-tracking-section {
+  .tracking-card {
+    background: $white;
+    border: 1px solid $border;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .tracking-header {
+    padding: 14px 20px;
+    border-bottom: 1px solid $border;
+    background: $bg;
+
+    .tracking-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: $text;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      i { color: $olive; font-size: 16px; }
+    }
+  }
+
+  .tracking-steps {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 24px 20px;
+    position: relative;
+    gap: 8px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 44px;
+      left: 40px;
+      right: 40px;
+      height: 1.5px;
+      background: $border;
+      z-index: 0;
+    }
+
+    @media (max-width: 575px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 14px;
+      &::before { display: none; }
+    }
+  }
+
+  .tracking-step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    z-index: 1;
+
+    .step-icon-wrapper {
+      width: 40px;
+      height: 40px;
+      border: 1.5px solid $border;
+      background: $white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+
+      .step-icon {
+        width: 18px;
+        height: 18px;
+        opacity: 0.25;
+        filter: grayscale(1);
+      }
+
+      &.cancelled {
+        background: $error;
+        border-color: $error;
+
+        .step-icon { opacity: 1; filter: brightness(0) invert(1); }
+      }
+    }
+
+    .step-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      color: #ccc;
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    &.active {
+      .step-icon-wrapper {
+        background: $olive;
+        border-color: $olive;
+
+        .step-icon { opacity: 1; filter: brightness(0) invert(1); }
+      }
+
+      .step-label { color: $text; font-weight: 700; }
+    }
+
+    &.completed {
+      .step-icon-wrapper {
+        background: $olive;
+        border-color: $olive;
+
+        .step-icon { opacity: 1; filter: brightness(0) invert(1); }
+      }
+
+      .step-label { color: $warm; }
+    }
+
+    &.cancelled-step .step-label { color: $error; }
+
+    @media (max-width: 575px) {
+      flex-direction: row;
+      flex: unset;
+      width: 100%;
+      align-items: center;
+      gap: 12px;
+
+      .step-label { text-align: left; }
+    }
+  }
+}
+
+// =============================================
+// PRODUCTS SECTION
+// =============================================
+.order-products-section {
+  .products-card {
+    background: $white;
+    border: 1px solid $border;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+}
+
+// Shared card header
+.card-header-modern {
+  padding: 14px 20px;
+  border-bottom: 1px solid $border;
+  background: $bg;
+
+  .section-title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: $text;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    i { color: $olive; font-size: 16px; }
+  }
+}
+
+.products-list {
+  .product-item-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    border-bottom: 1px solid $border;
+
+    &:last-child { border-bottom: none; }
+
+    @media (max-width: 640px) {
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+  }
+
+  .product-image-wrapper {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    border: 1px solid $border;
+    border-radius: 4px;
+    overflow: hidden;
+
+    .product-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .product-details {
+    flex: 1;
+    min-width: 0;
+
+    .product-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: $text;
+      margin: 0 0 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .product-info-grid {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .product-info-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+
+      .info-label {
+        font-size: 9px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #bbb;
+      }
+
+      .info-value {
+        font-size: 13px;
+        font-weight: 500;
+        color: $text;
+
+        &.amount { font-weight: 700; }
+      }
+    }
+  }
+
+  .product-refund-section {
+    flex-shrink: 0;
+    margin-left: auto;
+
+    @media (max-width: 640px) {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
+
+// Refund button
+.btn-refund {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border: 1.5px solid $text;
+  color: $text;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: transparent;
+  border-radius: 4px;
+
+  i { font-size: 13px; }
+
+  &:hover { background: $text; color: $white; }
+
+  &.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  @media (max-width: 640px) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+// Refund status badges
+.refund-status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1.5px solid $border;
+  color: $warm;
+  border-radius: 4px;
+
+  &.non-refundable { color: #999; border-color: #ddd; }
+  &.status-pending  { border-color: #e0a800; color: #b8860b; }
+  &.status-approved { border-color: $olive; color: $olive; }
+  &.status-rejected { border-color: $error; color: $error; }
+}
+
+// =============================================
+// ORDER INFO SECTION
+// =============================================
+.order-info-section {
+  .consumer-details-card,
+  .order-summary-card {
+    background: $white;
+    border: 1px solid $border;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .card-body-modern {
+    padding: 20px;
+  }
+
+  .details-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .detail-item {
+    display: flex;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid $border;
+
+    &:first-child { padding-top: 0; }
+    &:last-child  { border-bottom: none; padding-bottom: 0; }
+  }
+
+  .detail-icon-wrapper {
+    width: 32px;
+    height: 32px;
+    background: $bg;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+
+    i { font-size: 14px; color: $olive; }
+  }
+
+  .detail-content {
+    flex: 1;
+    min-width: 0;
+
+    .detail-label {
+      display: block;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #bbb;
+      margin-bottom: 4px;
+    }
+
+    .detail-value {
+      font-size: 13px;
+      color: $text;
+      font-weight: 500;
+      line-height: 1.7;
+      margin: 0;
+
+      .phone-text { font-size: 12px; color: $warm; }
+    }
+  }
+
+  // Summary card
+  .summary-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid $border;
+
+    .summary-label {
+      font-size: 13px;
+      color: $warm;
+    }
+
+    .summary-value {
+      font-size: 13px;
+      font-weight: 600;
+      color: $text;
+    }
+
+    &.discount {
+      .summary-label,
+      .summary-value { color: $olive; }
+    }
+
+    &.total {
+      border-bottom: none;
+      padding-top: 14px;
+
+      .summary-label {
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $text;
+      }
+
+      .summary-value {
+        font-size: 20px;
+        font-weight: 700;
+        color: $text;
+      }
+    }
+  }
+
+  // Payment status badge
+  .payment-status-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1.5px solid $border;
+    color: $warm;
+    border-radius: 4px;
+
+    &.status-completed, &.status-paid { border-color: $olive; color: $olive; }
+    &.status-pending                   { border-color: #e0a800; color: #b8860b; }
+    &.status-failed                    { border-color: $error; color: $error; }
+  }
+}
+
+// =============================================
+// SUB ORDERS SECTION
+// =============================================
+.sub-orders-section {
+  .sub-orders-card {
+    background: $white;
+    border: 1px solid $border;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .sub-orders-list {
+    .sub-order-card {
+      border-bottom: 1px solid $border;
+
+      &:last-child { border-bottom: none; }
+    }
+
+    .sub-order-content {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 20px;
+      flex-wrap: wrap;
+    }
+
+    .sub-order-info {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+
+      @media (max-width: 640px) {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .info-row {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+
+      .info-label {
+        font-size: 9px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #bbb;
+      }
+
+      .info-value {
+        font-size: 13px;
+        color: $text;
+        font-weight: 500;
+
+        &.amount { font-weight: 700; }
+      }
+    }
+  }
+}
+
+// Status badges
+.status-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  border: 1.5px solid $border;
+  color: $warm;
+  border-radius: 4px;
+  width: fit-content;
+
+  &.status-delivered  { border-color: $olive; color: $olive; }
+  &.status-cancelled  { border-color: $error; color: $error; }
+  &.status-pending    { border-color: #e0a800; color: #b8860b; }
+  &.status-processing { border-color: $warm; color: $warm; }
+  &.status-shipped    { border-color: $text; color: $text; }
+}
+
+.btn-view-sub-order {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 1.5px solid $text;
+  color: $text;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.2s;
+  flex-shrink: 0;
+  white-space: nowrap;
+  border-radius: 4px;
+
+  i { font-size: 14px; }
+  &:hover { background: $text; color: $white; }
+
+  @media (max-width: 640px) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+// Tooltip
+.black-tooltip {
+  .tooltip-inner {
+    background: $text;
+    color: $white;
+    font-size: 11px;
+  }
+}
