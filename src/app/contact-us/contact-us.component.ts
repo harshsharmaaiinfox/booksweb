@@ -17,6 +17,7 @@ export class ContactUsComponent {
       name: ['', [Validators.required, Validators.pattern('^[A-Za-z ]+$')]],
       email: ['', [Validators.required, Validators.email]],
       phone: ['', [Validators.required, Validators.pattern('^[0-9]{10}$')]],
+      subject: ['', Validators.required],
       message: ['', Validators.required]
     });
   }

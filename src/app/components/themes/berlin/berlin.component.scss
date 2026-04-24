@@ -1,4 +1,4 @@
-/* Homepage Title Section - H1 Styling */
+// ── Homepage Title ────────────────────────────────────
 .homepage-title-section {
   padding: 3rem 0;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -6,9 +6,7 @@
   border-bottom: 1px solid #dee2e6;
 }
 
-.page-title-section {
-  padding: 0;
-}
+.page-title-section { padding: 0; }
 
 .main-page-title {
   font-size: 3rem;
@@ -17,28 +15,48 @@
   margin-bottom: 1.5rem;
   line-height: 1.2;
   text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  
-  @media (max-width: 768px) {
-    font-size: 2.2rem;
-  }
-  
-  @media (max-width: 576px) {
-    font-size: 1.8rem;
-  }
+
+  @media (max-width: 768px) { font-size: 2.2rem; }
+  @media (max-width: 576px) { font-size: 1.8rem; }
 }
 
 .page-description {
   font-size: 1.2rem;
   color: #6c757d;
-  margin: 0;
   line-height: 1.6;
   max-width: 700px;
   margin: 0 auto;
   font-weight: 400;
-  
+
+  @media (max-width: 768px) { font-size: 1.1rem; }
+}
+
+// ── Page-level section wrapper (gray background like reference) ──
+.ind-page-section {
+  background: #f1f1f1;
+  padding: 40px 0 48px;
+
   @media (max-width: 768px) {
-    font-size: 1.1rem;
+    padding: 28px 0 36px;
   }
 }
 
-/* Existing theme styles can go here */
+// ── Product block: heading + grid ──────────────────────
+.ind-block {
+  // nothing extra — heading + grid stack naturally
+}
+
+.ind-block__title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center;
+  margin: 0 0 28px;
+  letter-spacing: -0.2px;
+  line-height: 1.25;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}

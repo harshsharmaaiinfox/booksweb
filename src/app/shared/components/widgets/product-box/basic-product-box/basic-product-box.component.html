@@ -1,34 +1,56 @@
-<div class="kf-product" [class]="class">
+<div class="ind-card" [class]="class">
 
-    <!-- Image -->
-    <div class="kf-product-media">
-        <a [routerLink]="['/product/', product.slug]" class="kf-img-link">
-            <img appLazyLoad [src]="product.product_thumbnail ?
-                product.product_thumbnail.original_url :
-                'assets/images/product.png'" class="kf-img lazy-loading" [alt]="product.name"
+    <!-- ── IMAGE ── -->
+    <div class="ind-card__image">
+        <a [routerLink]="['/product/', product.slug]" class="ind-card__img-link">
+            <img appLazyLoad
+                [src]="product.product_thumbnail?.original_url || 'assets/images/product.png'"
+                class="ind-card__img lazy-loading"
+                [alt]="product.name"
                 placeholder="assets/images/placeholder.png">
         </a>
 
-        <!-- Badge -->
-        <span class="kf-badge"
-            [ngClass]="product.is_sale_enable ? 'kf-badge--sale' : product.is_featured ? 'kf-badge--new' : product.is_trending ? 'kf-badge--hot' : ''"
-            *ngIf="product.is_trending || product.is_sale_enable || product.is_featured">
-            {{ (product.is_sale_enable ? 'sale' : product.is_featured ? 'new' : product.is_trending ? 'hot' : '') | translate }}
+        <!-- Sale % badge (top-left) -->
+        <span class="ind-card__sale-badge"
+            *ngIf="product.is_sale_enable && product.discount">
+            {{ product.discount }}% off
         </span>
 
-        <!-- Wishlist -->
-        <button class="kf-wish" (click)="addToWishlist(product)" [class.active]="product.is_wishlist">
-            <i class="ri-heart-line" *ngIf="!product.is_wishlist"></i>
-            <i class="ri-heart-fill" *ngIf="product.is_wishlist"></i>
-        </button>
+        <!-- Hover action icons (bottom of image) -->
+        <div class="ind-card__actions">
+            <!-- Wishlist -->
+            <button class="ind-card__action-btn"
+                (click)="addToWishlist(product)"
+                [class.active]="product.is_wishlist"
+                title="Wishlist">
+                <i class="ri-heart-line" *ngIf="!product.is_wishlist"></i>
+                <i class="ri-heart-fill" *ngIf="product.is_wishlist"></i>
+            </button>
 
-        <!-- Quick View -->
-        <button class="kf-quick" (click)="cartPopupModal.openModal(product)">
-            <i class="ri-eye-line"></i>
-        </button>
+            <!-- Quick View -->
+            <button class="ind-card__action-btn"
+                (click)="cartPopupModal.openModal(product)"
+                title="Quick View">
+                <i class="ri-eye-line"></i>
+            </button>
 
-        <!-- Close (Wishlist page) -->
-        <div class="product-close-btn" *ngIf="close">
+            <!-- Add to Cart -->
+            <button class="ind-card__action-btn ind-card__action-btn--cart"
+                (click)="addToCart(product, 1)"
+                title="Add to Cart">
+                <i class="ri-shopping-cart-line"></i>
+            </button>
+
+            <!-- Compare -->
+            <button class="ind-card__action-btn"
+                (click)="addToCompar(product.id)"
+                title="Compare">
+                <i class="ri-arrow-left-right-line"></i>
+            </button>
+        </div>
+
+        <!-- Close btn (wishlist page) -->
+        <div class="ind-card__close" *ngIf="close">
             <app-button [class]="'btn close-button'" [spinner]="false" [id]="'close_btn'"
                 (click)="removeWishlist(product.id)">
                 <i class="ri-close-line"></i>
@@ -36,24 +58,40 @@
         </div>
     </div>
 
-    <!-- Details -->
-    <div class="kf-product-body">
-        <div class="kf-product-top">
-            <a [routerLink]="['/product/', product.slug]" class="kf-name-link">
-                <h3 class="kf-name">{{ product.name }}</h3>
-            </a>
-            <span class="kf-desc" *ngIf="product.short_description">{{ product.short_description }}</span>
+    <!-- ── BODY ── -->
+    <div class="ind-card__body">
+
+        <!-- Category (plain text, above name) -->
+        <span class="ind-card__category" *ngIf="product?.category?.name">
+            {{ product.category.name }}
+        </span>
+
+        <!-- Product Name -->
+        <a [routerLink]="['/product/', product.slug]" class="ind-card__name-link">
+            <h3 class="ind-card__name">{{ product.name }}</h3>
+        </a>
+
+        <!-- Star Rating -->
+        <div class="ind-card__rating">
+            <span class="ind-card__stars">
+                <i *ngFor="let s of [1,2,3,4,5]"
+                    [class]="s <= (product.rating_count || 0) ? 'ri-star-fill' : 'ri-star-line'">
+                </i>
+            </span>
+            <span class="ind-card__review-count">({{ product.reviews_count || 0 }})</span>
         </div>
 
-        <div class="kf-product-bottom">
-            <div class="kf-price-row">
-                <span class="kf-price">{{ product.price | currencySymbol }}</span>
-                <span class="kf-stock" *ngIf="product.stock_status == 'in_stock'">In Stock</span>
-            </div>
-            <div class="kf-cart-row">
-                <app-product-cart-button [product]="product" [text]="'Add to Bag'"></app-product-cart-button>
-            </div>
+        <!-- Price Row -->
+        <div class="ind-card__price-row">
+            <ng-container *ngIf="product.is_sale_enable && product.sale_price; else noSale">
+                <span class="ind-card__price-orig">{{ product.price | currencySymbol }}</span>
+                <span class="ind-card__price-sale">{{ product.sale_price | currencySymbol }}</span>
+            </ng-container>
+            <ng-template #noSale>
+                <span class="ind-card__price-sale">{{ product.price | currencySymbol }}</span>
+            </ng-template>
         </div>
+
     </div>
 
 </div>

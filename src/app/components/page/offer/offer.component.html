@@ -1,60 +1,68 @@
-<app-breadcrumb [breadcrumb]="breadcrumb"></app-breadcrumb>
-<ng-container *ngIf="couponService?.skeletonLoader else offerContent">
-  <div class="section-b-space section-t-space offer-section skeleton-offer">
-    <div class="container-fluid-lg">
-      <div class="row g-md-4 g-3">
-        <div class="col-xxl-3 col-lg-4 col-sm-6" *ngFor="let item of skeletonItems">
-          <div class="coupon-box">
-            <div class="coupon-name">
-              <div class="card-name">
-                <div>
-                  <h5 class="fw-semibold dark-text "></h5>
-                </div>
-              </div>
-            </div>
-            <div class="coupon-content">
-              <p></p>
-              <p class="long"></p>
-              <p class="long long-s"></p>
+<!-- Breadcrumb -->
+<div class="pg-breadcrumb">
+  <div class="container-fluid-lg">
+    <a routerLink="/">Home</a>
+    <i class="ri-arrow-right-s-line"></i>
+    <span>Offers &amp; Coupons</span>
+  </div>
+</div>
+
+<!-- Hero -->
+<section class="pg-hero">
+  <div class="container-fluid-lg">
+    <div class="pg-hero-inner">
+      <span class="pg-eyebrow">Exclusive Deals</span>
+      <h1>Offers &amp; Coupons</h1>
+      <p>Save more on every order with our latest discount codes</p>
+    </div>
+  </div>
+</section>
+
+<!-- Coupons Grid -->
+<section class="pg-content">
+  <div class="container-fluid-lg">
+
+    <!-- Skeleton Loader -->
+    <ng-container *ngIf="couponService?.skeletonLoader else offerContent">
+      <div class="pg-coupon-grid">
+        <div class="pg-coupon-skeleton" *ngFor="let item of skeletonItems">
+          <div class="pg-skeleton-line pg-skeleton-line--title"></div>
+          <div class="pg-skeleton-line"></div>
+          <div class="pg-skeleton-line pg-skeleton-line--short"></div>
+          <div class="pg-skeleton-code"></div>
+        </div>
+      </div>
+    </ng-container>
+
+    <!-- Coupon Cards -->
+    <ng-template #offerContent>
+      <div class="pg-coupon-grid" *ngIf="(coupon$ | async)?.data?.length">
+        <div class="pg-coupon-card" *ngFor="let coupon of (coupon$ | async)?.data">
+          <div class="pg-coupon-top">
+            <div class="pg-coupon-tag"><i class="ri-price-tag-3-line"></i></div>
+            <h3 class="pg-coupon-title">{{ coupon?.title }}</h3>
+            <p class="pg-coupon-desc">{{ coupon?.description }}</p>
+          </div>
+          <div class="pg-coupon-bottom">
+            <div class="pg-coupon-code-wrap">
+              <span class="pg-coupon-code"># {{ coupon?.code }}</span>
+              <button class="pg-copy-btn" (click)="copyFunction(coupon.code)" *ngIf="coupon?.code">
+                <i class="ri-file-copy-line"></i>
+                {{ 'copy_code' | translate }}
+              </button>
             </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <app-no-data
+        [class]="'no-data-added collection-no-data'"
+        [image]="'assets/svg/no-product.svg'"
+        [text]="'no_Offers_found'"
+        [description]="'inform_you_that_the_currently_unavailable'"
+        *ngIf="!(coupon$ | async)?.data?.length && !couponService.skeletonLoader">
+      </app-no-data>
+    </ng-template>
+
   </div>
-</ng-container>
-<ng-template #offerContent>
-  <div class="section-b-space section-t-space offer-section">
-    <div class="container-fluid-lg">
-      <div class="row g-md-4 g-3">
-        <div class="col-xxl-3 col-lg-4 col-sm-6" *ngFor="let coupon of (coupon$ |async)?.data">
-          <div class="coupon-box">
-            <div class="coupon-name">
-              <div class="card-name">
-                <div>
-                  <h5 class="fw-semibold dark-text">{{ coupon?.title }}</h5>
-                </div>
-              </div>
-            </div>
-            <div class="coupon-content">
-              <p>{{ coupon.description }}</p>
-              <div class="coupon-apply">
-                <h6 class="coupon-code success-color">#{{ coupon?.code }}</h6>
-                <a href="javascript:void(0)" class="btn theme-btn border-btn copy-btn mt-0"
-                  (click)="copyFunction(coupon.code)" *ngIf="coupon?.code">
-                  {{ 'copy_code' | translate }}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <app-no-data 
-          [class]="'no-data-added collection-no-data'" [image]="'assets/svg/no-product.svg'"
-          [text]="'no_Offers_found'"
-          [description]="'inform_you_that_the_currently_unavailable'"
-          *ngIf="!(coupon$ |async)?.data?.length && !couponService.skeletonLoader">
-        </app-no-data>
-      </div>
-    </div>
-  </div>
-</ng-template>
+</section>

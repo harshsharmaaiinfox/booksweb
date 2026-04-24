@@ -1,470 +1,316 @@
-// ============================================
-// Kahua Fashion — Footer
-// ============================================
+// =====================================================
+// Footer — Indaccu Solutions Reference Match
+// =====================================================
 
-$primary: #6B8E23;
-$secondary: #D2B48C;
-$accent: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #ffffff;
+$footer-bg:      #1e1e1e;
+$support-bg:     #262626;
+$copyright-bg:   #181818;
+$white:          #ffffff;
+$heading-clr:    #ffffff;
+$text-clr:       rgba(#fff, 0.65);
+$link-clr:       rgba(#fff, 0.65);
+$link-hover:     #ffffff;
+$icon-clr:       #7c6fd4;   // purple accent for icons (matches reference)
+$border-clr:     rgba(#fff, 0.1);
+$phone-clr:      #ffffff;
+$support-link:   #ffffff;
 
-$footer-bg: #000000;
-$footer-text: rgba($white, 0.6);
-$footer-heading: $white;
-$footer-hover: $secondary;
-$footer-muted: rgba($white, 0.35);
-
-// =============================================
-// NEWSLETTER
-// =============================================
-.kf-newsletter {
-  background: $bg;
-  background-image: none !important;
-  padding: 64px 0;
-  text-align: center;
-
-  > .container-fluid-lg {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-
-  @media (max-width: 768px) {
-    padding: 48px 0;
-  }
-}
-
-.newsletter-inner {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.newsletter-heading {
-  font-size: 40px;
-  font-weight: 400;
-  color: $text;
-  margin: 0 0 10px;
-  line-height: 1.2;
-  font-family: Georgia, 'Times New Roman', serif;
-
-  em {
-    font-style: italic;
-    color: $accent;
-  }
-
-  @media (max-width: 768px) {
-    font-size: 30px;
-  }
-
-  @media (max-width: 480px) {
-    font-size: 24px;
-  }
-}
-
-.newsletter-sub {
+// ── FOOTER WRAPPER ────────────────────────────────────
+.idf-footer {
+  background: $footer-bg;
+  color: $text-clr;
   font-size: 14px;
-  color: lighten($text, 30%);
-  margin: 0 0 30px;
-
-  @media (max-width: 768px) {
-    font-size: 13px;
-    margin-bottom: 24px;
-  }
+  line-height: 1.6;
 }
 
-.newsletter-form {
-  display: block;
-  text-align: left;
+// ── CONTAINER ─────────────────────────────────────────
+.idf-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
 
-  .form-row {
-    display: flex;
-    align-items: flex-end;
-    gap: 12px;
-
-    @media (max-width: 480px) {
-      flex-direction: column;
-      align-items: stretch;
-    }
-  }
-
-  .input-col {
-    flex: 1;
-
-    label {
-      display: block;
-      font-size: 12px;
-      font-weight: 500;
-      color: $text;
-      margin-bottom: 6px;
-    }
-
-    input {
-      width: 100%;
-      padding: 11px 14px;
-      border: 1.5px solid $text;
-      border-radius: 0;
-      background: transparent;
-      font-size: 14px;
-      color: $text;
-      outline: none;
-      transition: border-color 0.2s;
-      box-sizing: border-box;
-
-      &:focus {
-        border-color: $primary;
-      }
-    }
-  }
-
-  .join-btn {
-    padding: 11px 38px;
-    background: $accent;
-    color: $white;
-    border: 1.5px solid $accent;
-    border-radius: 0;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.25s;
-    white-space: nowrap;
-
-    &:hover:not(:disabled) {
-      background: darken($accent, 10%);
-      border-color: darken($accent, 10%);
-    }
-
-    &:disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-    }
-
-    @media (max-width: 480px) {
-      width: 100%;
-      text-align: center;
-    }
-  }
-
-  .subscription-feedback {
-    margin-top: 16px;
-    padding: 12px 16px;
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
-    border-radius: 4px;
-    animation: fadeIn 0.4s ease-in-out;
-    line-height: 1.5;
-
-    &.feedback-loading {
-      background-color: #F8F5F2;
-      color: #8C8C8C;
-      border: 1px solid #EAE2D8;
-    }
-
-    &.feedback-success {
-      background-color: #F8F5F2;
-      color: #799761;
-      border: 1px solid #EAE2D8;
-    }
-
-    &.feedback-error {
-      background-color: #F8F5F2;
-      color: #B86B6B;
-      border: 1px solid #EAE2D8;
-    }
-  }
-
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-4px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
+  @media (max-width: 768px) { padding: 0 20px; }
 }
 
-// =============================================
-// MAIN FOOTER
-// =============================================
-:host {
-  display: block;
-
-  // Remove global footer background shapes
-  ::ng-deep {
-    &::before,
-    &::after,
-    .footer-section-2::before,
-    .footer-section-2::after {
-      display: none !important;
-      background-image: none !important;
-    }
-  }
-}
-
-// Override parent wrapper styles
-::ng-deep .footer-section-2,
-::ng-deep .footer-color-3 {
-  background-color: #000 !important;
-  background-image: none !important;
-
-  &::before,
-  &::after {
-    display: none !important;
-  }
-}
-
-.kf-footer {
-  background: #000 !important;
-  background-image: none !important;
-  padding: 48px 0 32px;
-
-  > .container-fluid-lg {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-
-  @media (max-width: 768px) {
-    padding: 36px 0 24px;
-  }
-}
-
-.footer-grid {
+// ── MAIN GRID (4 columns) ─────────────────────────────
+.idf-grid {
   display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr 1.2fr;
-  gap: 48px;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 56px 0 48px;
+  border-bottom: 1px solid $border-clr;
 
-  @media (max-width: 991px) {
+  @media (max-width: 1024px) {
     grid-template-columns: 1fr 1fr;
     gap: 36px;
+    padding: 44px 0 36px;
   }
 
-  @media (max-width: 575px) {
+  @media (max-width: 580px) {
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 28px;
+    padding: 36px 0 28px;
   }
 }
 
-// ---- Column Head ----
-.col-head {
-  margin-bottom: 20px;
+// ── BRAND COLUMN ──────────────────────────────────────
+.idf-col--brand {
+  padding-right: 20px;
+
+  @media (max-width: 1024px) { padding-right: 0; }
+}
+
+.idf-brand-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: $heading-clr;
+  margin: 0 0 20px;
+  letter-spacing: 0.2px;
+}
+
+.idf-contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  i {
+    font-size: 16px;
+    color: $icon-clr;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  span, a {
+    font-size: 13.5px;
+    color: $text-clr;
+    line-height: 1.6;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  a:hover { color: $link-hover; }
+}
+
+.idf-phone {
+  font-size: 17px;
+  font-weight: 700;
+  color: $phone-clr;
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+// ── LINK COLUMNS ──────────────────────────────────────
+.idf-col-heading {
+  font-size: 13px;
+  font-weight: 700;
+  color: $heading-clr;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  line-height: 1.3;
+}
+
+.idf-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  li a {
+    font-size: 13.5px;
+    color: $link-clr;
+    text-decoration: none;
+    transition: color 0.2s, padding-left 0.2s;
+    display: inline-block;
+
+    &:hover {
+      color: $link-hover;
+      padding-left: 4px;
+    }
+  }
+}
+
+// ── SUPPORT BAR ───────────────────────────────────────
+.idf-support-bar {
+  background: $support-bg;
+  padding: 28px 0;
+}
+
+.idf-support-grid {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 1px solid $border-clr;
+  border-radius: 6px;
+  padding: 20px 36px;
+  gap: 0;
 
-  @media (max-width: 575px) {
-    cursor: pointer;
-    padding: 16px 0;
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba($white, 0.06);
-  }
-
-  h5 {
-    font-size: 15px;
-    font-weight: 700;
-    color: $footer-heading;
-    margin: 0;
-  }
-
-  .mob-toggle {
-    font-size: 20px;
-    color: $footer-muted;
-    display: none;
-    transition: transform 0.3s;
-
-    @media (max-width: 575px) {
-      display: block;
-    }
-  }
-
-  &.open .mob-toggle {
-    transform: rotate(45deg);
-    color: $secondary;
-  }
-}
-
-// ---- Column Body ----
-.col-links {
-  @media (max-width: 575px) {
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: all 0.35s ease;
-  }
-
-  &.expanded,
-  &.always-open {
-    @media (max-width: 575px) {
-      max-height: 600px;
-      opacity: 1;
-      padding-bottom: 18px;
-    }
-  }
-
-  @media (min-width: 576px) and (max-width: 1024px) {
-    max-height: none !important;
-    opacity: 1 !important;
-    overflow: visible !important;
-  }
-
-  // All lists — direct and child component
-  ul,
-  ::ng-deep ul {
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    display: flex;
+  @media (max-width: 860px) {
     flex-direction: column;
-
-    li {
-      display: block !important;
-      margin-bottom: 10px !important;
-      color: $footer-text;
-      font-size: 14px;
-      line-height: 1.65;
-
-      &:last-child {
-        margin-bottom: 0 !important;
-      }
-
-      a {
-        color: $footer-text !important;
-        text-decoration: none !important;
-        transition: color 0.2s;
-        font-size: 14px;
-        display: inline-block;
-
-        &:hover {
-          color: $footer-hover !important;
-        }
-      }
-    }
+    padding: 20px 24px;
+    gap: 20px;
+    align-items: flex-start;
   }
 }
 
-// ---- Store Info ----
-.store-info {
-  li {
-    margin-bottom: 18px !important;
-    line-height: 1.7 !important;
-
-    &.store-hours {
-      padding-top: 4px;
-      border-top: 1px solid rgba($white, 0.06);
-    }
-
-    &.store-contact {
-      padding-top: 4px;
-      border-top: 1px solid rgba($white, 0.06);
-    }
-  }
-}
-
-// ---- Social Icons ----
-.footer-social {
+.idf-support-item {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-top: 22px;
+  gap: 14px;
+  flex: 1;
 
-  a {
-    color: $footer-text;
-    font-size: 20px;
-    text-decoration: none;
-    transition: all 0.2s;
-    line-height: 1;
+  i {
+    font-size: 26px;
+    color: $icon-clr;
+    flex-shrink: 0;
+  }
 
-    &:hover {
-      color: $white;
-      transform: translateY(-2px);
-    }
+  p { margin: 0; }
+}
+
+.idf-support-title {
+  font-size: 13.5px;
+  color: $text-clr;
+  margin: 0 0 4px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.idf-support-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: $support-link;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba($white, 0.35);
+  transition: text-decoration-color 0.2s, color 0.2s;
+
+  &:hover {
+    color: $white;
+    text-decoration-color: $white;
   }
 }
 
-// ---- Copyright ----
-.footer-copyright {
-  margin-top: 22px;
+.idf-support-divider {
+  width: 1px;
+  height: 48px;
+  background: $border-clr;
+  margin: 0 32px;
+  flex-shrink: 0;
 
-  p {
-    color: $footer-muted;
-    font-size: 12px;
-    line-height: 1.6;
-    margin: 0;
-  }
-
-  ::ng-deep h6 {
-    font-size: 12px;
-    color: $footer-muted;
-    margin: 0;
-    font-weight: 400;
-    line-height: 1.6;
+  @media (max-width: 860px) {
+    display: none;
   }
 }
 
-// =============================================
-// BACK TO TOP
-// =============================================
-.back-to-top-btn {
+// ── COPYRIGHT BAR ─────────────────────────────────────
+.idf-copyright-bar {
+  background: $copyright-bg;
+  padding: 18px 0;
+}
+
+.idf-copyright-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.idf-copyright-text {
+  font-size: 13px;
+  color: rgba($white, 0.45);
+  margin: 0;
+  letter-spacing: 0.2px;
+}
+
+// Payment badges
+.idf-payment-icons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.idf-pay-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  background: rgba($white, 0.08);
+  border: 1px solid rgba($white, 0.12);
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba($white, 0.55);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: rgba($white, 0.14);
+    color: rgba($white, 0.85);
+  }
+}
+
+// ── BACK TO TOP ───────────────────────────────────────
+.idf-back-top {
   position: fixed;
   bottom: 28px;
   right: 28px;
-  z-index: 1000;
-  width: 46px;
-  height: 46px;
-  background: $text;
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  background: $footer-bg;
   color: $white;
-  border: none;
-  border-radius: 50%;
+  border: 1px solid rgba($white, 0.2);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s;
   opacity: 0;
   visibility: hidden;
-  transform: scale(0.8);
+  transform: translateY(10px);
+  transition: opacity 0.3s, visibility 0.3s, transform 0.3s, background 0.2s;
 
   &.show {
     opacity: 1;
     visibility: visible;
-    transform: scale(1);
-  }
-
-  .btt-arrow {
-    font-size: 22px;
-    color: $white;
-    line-height: 1;
-    font-weight: 300;
+    transform: translateY(0);
   }
 
   &:hover {
-    background: $primary;
-    transform: translateY(-3px);
+    background: #333;
   }
 
-  @media (max-width: 575px) {
+  @media (max-width: 480px) {
     bottom: 16px;
     right: 16px;
-    width: 40px;
-    height: 40px;
-    i { font-size: 18px; }
+    width: 36px;
+    height: 36px;
   }
 }
 
-// =============================================
-// DARK MODE
-// =============================================
-html.dark {
-  .kf-newsletter {
-    background: #1a1a1a;
-
-    .newsletter-heading { color: #eee; }
-    .newsletter-sub { color: #777; }
-    .newsletter-form .input-col {
-      label { color: #ccc; }
-      input { border-color: #555; color: #eee; }
-    }
-  }
-
-  .kf-footer {
-    background: #111;
+// ── RESPONSIVE ────────────────────────────────────────
+@media (max-width: 480px) {
+  .idf-copyright-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
   }
 }

@@ -1,148 +1,304 @@
-// ============================================
-// Kahua Fashion — Policy Page
-// ============================================
+// =====================================================
+// Policy Pages — Premium Design (Reference Matched)
+// =====================================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
+$text:        #1a1a1a;
+$subtext:     #555;
+$muted:       #888;
+$border:      #e8e8e8;
+$accent:      #1a1a1a;
+$num-clr:     #e8e8e8;
+$link-clr:    #2563eb;
+$white:       #fff;
+$page-bg:     #f5f5f5;
+$card-bg:     #ffffff;
+$hero-bg:     #1a1a1a;
+$contact-bg:  #f8f8f8;
 
-.kfp-hero {
-  background: $text;
-  padding: 50px 0;
+// ── BREADCRUMB ────────────────────────────────────────
+.kfp-breadcrumb {
+  background: $white;
+  border-bottom: 1px solid $border;
+  padding: 13px 0;
 
-  .kfp-hero-inner {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-
-    .kfp-eyebrow {
-      font-size: 10px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      color: $olive;
-      margin: 0 0 10px;
-    }
-
-    h1 {
-      font-size: 32px;
-      font-weight: 700;
-      color: $white;
-      margin: 0 0 12px;
-      line-height: 1.2;
-
-      @media (max-width: 768px) { font-size: 24px; }
-    }
-
-    p {
-      font-size: 14px;
-      color: rgba($white, 0.5);
-      line-height: 1.6;
-      margin: 0;
-    }
+  .container-fluid-lg {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12.5px;
+    color: $muted;
   }
+
+  a {
+    color: $muted;
+    text-decoration: none;
+    transition: color 0.2s;
+    &:hover { color: $text; }
+  }
+
+  i { font-size: 13px; color: #ccc; }
+  span { color: $text; font-weight: 500; }
 }
 
+// ── HERO ──────────────────────────────────────────────
+.kfp-hero {
+  background: $hero-bg;
+  padding: 56px 0;
+
+  .container-fluid-lg { text-align: center; }
+}
+
+.kfp-hero-inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.kfp-eyebrow {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgba(#fff, 0.45);
+  margin-bottom: 14px;
+}
+
+.kfp-hero h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: $white;
+  margin: 0 0 14px;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+
+  @media (max-width: 768px) { font-size: 28px; }
+  @media (max-width: 480px) { font-size: 24px; }
+}
+
+.kfp-hero p {
+  font-size: 15px;
+  color: rgba(#fff, 0.5);
+  margin: 0;
+  line-height: 1.65;
+}
+
+// ── CONTENT SECTION ───────────────────────────────────
 .kfp-content {
-  padding: 50px 0;
-  background: $bg;
-  display: flex;
-  justify-content: center;
+  background: $page-bg;
+  padding: 52px 0 72px;
 
   .container-fluid-lg {
     display: flex;
     justify-content: center;
   }
+}
 
-  .kfp-card {
-    max-width: 860px;
-    width: 100%;
-    margin: 0 auto;
-    background: $white;
-    border: 1px solid #eee;
-    padding: 40px;
+// ── CARD ──────────────────────────────────────────────
+.kfp-card {
+  max-width: 860px;
+  width: 100%;
+  background: $card-bg;
+  border-radius: 12px;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.07), 0 1px 4px rgba(0, 0, 0, 0.04);
+  padding: 52px 56px 48px;
+  margin: 0 auto;
 
-    @media (max-width: 768px) { padding: 24px; }
-  }
+  @media (max-width: 900px) { padding: 36px 32px; }
+  @media (max-width: 600px) { padding: 28px 20px; border-radius: 8px; }
+}
 
-  .kfp-updated {
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #bbb;
-    margin-bottom: 28px;
-    display: block;
-  }
+// ── META (last updated) ───────────────────────────────
+.kfp-meta {
+  margin-bottom: 36px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid $border;
+}
 
-  .kfp-section {
-    margin-bottom: 32px;
+.kfp-updated {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: $muted;
+  letter-spacing: 0.3px;
+
+  i { font-size: 14px; }
+}
+
+// ── INTRO PARAGRAPH ───────────────────────────────────
+.kfp-intro {
+  margin-bottom: 40px;
+
+  p {
+    font-size: 15px;
+    color: $subtext;
+    line-height: 1.8;
+    margin: 0 0 14px;
 
     &:last-child { margin-bottom: 0; }
 
-    h3 {
-      font-size: 15px;
-      font-weight: 700;
-      color: $text;
-      margin: 0 0 12px;
-      padding-bottom: 10px;
-      border-bottom: 1px solid #f0f0f0;
-    }
+    strong { color: $text; font-weight: 600; }
+  }
+}
 
-    p, li {
+// ── SECTIONS (numbered) ───────────────────────────────
+.kfp-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 28px 0;
+  border-bottom: 1px solid $border;
+
+  &:last-of-type { border-bottom: none; }
+
+  @media (max-width: 600px) { gap: 16px; padding: 22px 0; }
+}
+
+.kfp-section-num {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  background: $num-clr;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 800;
+  color: $muted;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+
+  @media (max-width: 600px) {
+    width: 36px;
+    height: 36px;
+    font-size: 11px;
+  }
+}
+
+.kfp-section-body {
+  flex: 1;
+  min-width: 0;
+
+  h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: $text;
+    margin: 0 0 12px;
+    line-height: 1.3;
+    letter-spacing: -0.2px;
+  }
+
+  p {
+    font-size: 14.5px;
+    color: $subtext;
+    line-height: 1.8;
+    margin: 0 0 12px;
+
+    &:last-child { margin-bottom: 0; }
+
+    strong { color: $text; font-weight: 600; }
+  }
+
+  ul {
+    margin: 12px 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
       font-size: 14px;
-      color: $warm;
-      line-height: 1.85;
-      margin: 0 0 12px;
+      color: $subtext;
+      line-height: 1.7;
 
-      &:last-child { margin-bottom: 0; }
-    }
+      &::before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: $muted;
+        flex-shrink: 0;
+        margin-top: 8px;
+      }
 
-    ul {
-      padding-left: 18px;
-      margin: 8px 0;
-
-      li { margin-bottom: 6px; }
-    }
-
-    strong { color: $text; }
-
-    a {
-      color: $olive;
-      text-decoration: none;
-      &:hover { text-decoration: underline; }
+      strong { color: $text; font-weight: 600; }
     }
   }
 
-  .kfp-contact {
-    margin-top: 36px;
-    padding-top: 28px;
-    border-top: 1px solid #eee;
+  a {
+    color: $link-clr;
+    text-decoration: none;
+    font-weight: 500;
+    &:hover { text-decoration: underline; }
+  }
+}
 
-    h3 {
-      font-size: 13px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      color: $text;
-      margin: 0 0 16px;
-      border-bottom: none;
-      padding-bottom: 0;
-    }
+// ── CONTACT BOX ───────────────────────────────────────
+.kfp-contact {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: $contact-bg;
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 28px 32px;
+  margin-top: 40px;
 
-    p {
-      font-size: 13px;
-      color: $warm;
-      line-height: 1.7;
-      margin: 0 0 4px;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 14px;
+    padding: 22px 20px;
+  }
+}
 
-      a {
-        color: $olive;
-        text-decoration: none;
-        &:hover { text-decoration: underline; }
-      }
+.kfp-contact-icon {
+  width: 48px;
+  height: 48px;
+  background: $accent;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  i {
+    font-size: 22px;
+    color: $white;
+  }
+}
+
+.kfp-contact-body {
+  flex: 1;
+
+  h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: $text;
+    margin: 0 0 12px;
+    letter-spacing: -0.1px;
+  }
+
+  p {
+    font-size: 13.5px;
+    color: $subtext;
+    line-height: 1.65;
+    margin: 0 0 5px;
+
+    &:last-child { margin-bottom: 0; }
+
+    strong { color: $text; font-weight: 600; }
+
+    a {
+      color: $link-clr;
+      text-decoration: none;
+      font-weight: 500;
+      &:hover { text-decoration: underline; }
     }
   }
 }

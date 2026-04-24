@@ -1,118 +1,142 @@
-<!-- Hero -->
-<section class="kfc-hero">
-    <div class="container-fluid-lg">
-        <div class="kfc-hero-inner">
-            <p class="kfc-eyebrow">Get In Touch</p>
-            <h1>We'd love to<br>hear from you</h1>
-            <p class="kfc-hero-sub">Questions, feedback, or just want to say hello? Reach out and we'll get back to you within 24 hours.</p>
+<!-- ═══ MAIN CONTACT SECTION ═══ -->
+<section class="cu-page">
+  <div class="cu-container">
+
+    <!-- Page Heading -->
+    <h1 class="cu-heading">Contact us</h1>
+
+    <!-- Address -->
+    <p class="cu-address">
+      FF-202, Gaur City Center, Greater Noida,<br>
+      Gautam Buddh Nagar, Uttar Pradesh – 201301
+    </p>
+
+    <!-- 3-Column Info Row -->
+    <div class="cu-info-row">
+
+      <!-- Customer Service -->
+      <div class="cu-info-col">
+        <div class="cu-info-icon">
+          <i class="ri-phone-line"></i>
         </div>
+        <span class="cu-info-label">Customer service</span>
+        <a href="tel:+918368711465" class="cu-info-link">+91 83687 11465</a>
+      </div>
+
+      <!-- Write to us -->
+      <div class="cu-info-col">
+        <div class="cu-info-icon">
+          <i class="ri-mail-line"></i>
+        </div>
+        <span class="cu-info-label">Write to us</span>
+        <a href="mailto:info@kahuafashionclub.com" class="cu-info-link">info&#64;kahuafashionclub.com</a>
+      </div>
+
+      <!-- Follow us -->
+      <div class="cu-info-col">
+        <div class="cu-info-icon">
+          <i class="ri-user-follow-line"></i>
+        </div>
+        <span class="cu-info-label">Follow us</span>
+        <div class="cu-social-row">
+          <a href="https://www.facebook.com/" target="_blank" class="cu-social-icon" title="Facebook">
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="cu-social-icon" title="Instagram">
+            <i class="ri-instagram-line"></i>
+          </a>
+        </div>
+      </div>
+
     </div>
+
+    <!-- Questions Heading -->
+    <h2 class="cu-form-heading">Do you have some questions?</h2>
+
+    <!-- Contact Form -->
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="cu-form">
+
+      <!-- Row 1: Name | Email | Phone -->
+      <div class="cu-form-row-3">
+        <div class="cu-field">
+          <input type="text" formControlName="name"
+            placeholder="Name *"
+            (input)="filterSpecialCharacters($event, 'name')"
+            pattern="[a-zA-Z\s]+"
+            [class.cu-input-err]="contactForm.get('name')?.touched && contactForm.get('name')?.invalid">
+          <span class="cu-error" *ngIf="contactForm.get('name')?.touched && contactForm.get('name')?.errors?.['required']">
+            Name is required
+          </span>
+        </div>
+
+        <div class="cu-field">
+          <input type="email" formControlName="email"
+            placeholder="Email *"
+            (input)="filterEmailCharacters($event)"
+            pattern="[a-zA-Z0-9._\-+@]+"
+            [class.cu-input-err]="contactForm.get('email')?.touched && contactForm.get('email')?.invalid">
+          <span class="cu-error" *ngIf="contactForm.get('email')?.touched && contactForm.get('email')?.errors?.['required']">
+            Email is required
+          </span>
+          <span class="cu-error" *ngIf="contactForm.get('email')?.touched && contactForm.get('email')?.errors?.['email']">
+            Invalid email
+          </span>
+        </div>
+
+        <div class="cu-field">
+          <input type="tel" formControlName="phone"
+            placeholder="Phone *"
+            (input)="filterPhoneNumber($event)"
+            maxlength="10" pattern="[0-9]{10}"
+            [class.cu-input-err]="contactForm.get('phone')?.touched && contactForm.get('phone')?.invalid">
+          <span class="cu-error" *ngIf="contactForm.get('phone')?.touched && contactForm.get('phone')?.errors?.['required']">
+            Phone is required
+          </span>
+        </div>
+      </div>
+
+      <!-- Subject -->
+      <div class="cu-field">
+        <input type="text" formControlName="subject"
+          placeholder="Subject *"
+          [class.cu-input-err]="contactForm.get('subject')?.touched && contactForm.get('subject')?.invalid">
+        <span class="cu-error" *ngIf="contactForm.get('subject')?.touched && contactForm.get('subject')?.errors?.['required']">
+          Subject is required
+        </span>
+      </div>
+
+      <!-- Message -->
+      <div class="cu-field">
+        <textarea formControlName="message"
+          placeholder="Message"
+          rows="6"
+          [class.cu-input-err]="contactForm.get('message')?.touched && contactForm.get('message')?.invalid">
+        </textarea>
+        <span class="cu-error" *ngIf="contactForm.get('message')?.touched && contactForm.get('message')?.errors?.['required']">
+          Message is required
+        </span>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit" class="cu-submit-btn" [disabled]="contactForm.invalid">
+        GET IN TOUCH
+      </button>
+
+    </form>
+
+  </div>
 </section>
 
-<!-- Contact Cards -->
-<section class="kfc-cards">
-    <div class="container-fluid-lg">
-        <div class="kfc-cards-grid">
-            <div class="kfc-card">
-                <i class="ri-mail-line"></i>
-                <h4>Email Us</h4>
-                <a href="mailto: info&#64;kahuafashionclub.com"> info&#64;kahuafashionclub.com</a>
-            </div>
-            <div class="kfc-card">
-                <i class="ri-phone-line"></i>
-                <h4>Call Us</h4>
-                <a href="tel:+918368711465">+91 83687 11465</a>
-            </div>
-            <div class="kfc-card">
-                <i class="ri-map-pin-line"></i>
-                <h4>Visit Us</h4>
-                <span>FF-202, Gaur City Center
-Greater Noida, Gautam Buddh Nagar</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Form + Info -->
-<section class="kfc-main">
-    <div class="container-fluid-lg">
-        <div class="kfc-layout">
-
-            <!-- Form -->
-            <div class="kfc-form-side">
-                <p class="kfc-eyebrow">Send a Message</p>
-                <h2>Drop us a line</h2>
-                <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
-                    <div class="kfc-field">
-                        <label>Name</label>
-                        <input type="text" placeholder="Your full name" formControlName="name"
-                            (input)="filterSpecialCharacters($event, 'name')" pattern="[a-zA-Z\s]+">
-                        <span class="kfc-error" *ngIf="contactForm.get('name')?.invalid && contactForm.get('name')?.touched">
-                            Only letters and spaces allowed
-                        </span>
-                    </div>
-                    <div class="kfc-field-row">
-                        <div class="kfc-field">
-                            <label>Email</label>
-                            <input type="email" placeholder="you&#64;example.com" formControlName="email"
-                                (input)="filterEmailCharacters($event)" pattern="[a-zA-Z0-9._\-+@]+">
-                            <span class="kfc-error" *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched">
-                                Enter a valid email
-                            </span>
-                        </div>
-                        <div class="kfc-field">
-                            <label>Phone</label>
-                            <input type="tel" placeholder="10-digit number" formControlName="phone"
-                                (input)="filterPhoneNumber($event)" maxlength="10" pattern="[0-9]{10}">
-                            <span class="kfc-error" *ngIf="contactForm.get('phone')?.invalid && contactForm.get('phone')?.touched">
-                                Must be 10 digits
-                            </span>
-                        </div>
-                    </div>
-                    <div class="kfc-field">
-                        <label>Message</label>
-                        <textarea placeholder="How can we help?" rows="5" formControlName="message"></textarea>
-                        <span class="kfc-error" *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched">
-                            Please enter a message
-                        </span>
-                    </div>
-                    <button type="submit" class="kfc-submit" [disabled]="contactForm.invalid">
-                        Send Message
-                    </button>
-                </form>
-            </div>
-
-            <!-- Company Info -->
-            <div class="kfc-info-side">
-                <p class="kfc-eyebrow">Company</p>
-                <h2>Kahua Systems Pvt Ltd</h2>
-                <table class="kfc-table">
-                    <tr>
-                        <td class="kfc-td-label">Company</td>
-                        <td>KAHUA SYSTEMS PRIVATE LIMITED</td>
-                    </tr>
-                    <tr>
-                        <td class="kfc-td-label">Website</td>
-                        <td><a href="https://kahuafashionclub.com/" target="_blank">kahuafashionclub.com</a></td>
-                    </tr>
-                    <tr>
-                        <td class="kfc-td-label">Email</td>
-                        <td><a href="mailto: info&#64;kahuafashionclub.com"> info&#64;kahuafashionclub.com</a></td>
-                    </tr>
-                    <tr>
-                        <td class="kfc-td-label">Phone</td>
-                        <td><a href="tel:+918368711465">+91 83687 11465</a></td>
-                    </tr>
-                    <tr>
-                        <td class="kfc-td-label">Address</td>
-                        <td>KAHUA SYSTEMS PRIVATE LIMITED
-FF-202, Gaur City Center
-Greater Noida, Gautam Buddh Nagar
-Uttar Pradesh - 201301</td>
-                    </tr>
-                </table>
-            </div>
-
-        </div>
-    </div>
-</section>
+<!-- ═══ GOOGLE MAP ═══ -->
+<div class="cu-map">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.0!2d77.5!3d28.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626a3b22e7b%3A0x3e014ded27c7a80!2sGaur%20City%20Center%2C%20Greater%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000"
+    width="100%"
+    height="400"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Our Location">
+  </iframe>
+</div>

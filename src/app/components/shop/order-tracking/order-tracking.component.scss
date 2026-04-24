@@ -1,0 +1,237 @@
+// =====================================================
+// Track Order Page — Premium Design
+// =====================================================
+
+$text:      #1a1a1a;
+$subtext:   #555;
+$muted:     #888;
+$border:    #e8e8e8;
+$white:     #fff;
+$page-bg:   #f5f5f5;
+$hero-bg:   #1a1a1a;
+$accent:    #1a1a1a;
+$error-clr: #c0392b;
+
+// ── BREADCRUMB ────────────────────────────────────────
+.pg-breadcrumb {
+  background: $white;
+  border-bottom: 1px solid $border;
+  padding: 13px 0;
+
+  .container-fluid-lg {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12.5px;
+    color: $muted;
+  }
+
+  a { color: $muted; text-decoration: none; transition: color 0.2s; &:hover { color: $text; } }
+  i { font-size: 13px; color: #ccc; }
+  span { color: $text; font-weight: 500; }
+}
+
+// ── HERO ──────────────────────────────────────────────
+.pg-hero {
+  background: $hero-bg;
+  padding: 56px 0;
+  text-align: center;
+}
+
+.pg-hero-inner { max-width: 600px; margin: 0 auto; }
+
+.pg-eyebrow {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgba(#fff, 0.45);
+  margin-bottom: 14px;
+}
+
+.pg-hero h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 14px;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+
+  @media (max-width: 768px) { font-size: 28px; }
+}
+
+.pg-hero p {
+  font-size: 15px;
+  color: rgba(#fff, 0.5);
+  margin: 0;
+  line-height: 1.65;
+}
+
+// ── CONTENT ───────────────────────────────────────────
+.pg-content {
+  background: $page-bg;
+  padding: 60px 0 80px;
+}
+
+.pg-track-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+
+  @media (max-width: 860px) {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    max-width: 520px;
+  }
+}
+
+// Illustration
+.pg-track-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img { max-width: 100%; height: auto; }
+
+  @media (max-width: 860px) { display: none; }
+}
+
+// ── FORM CARD ─────────────────────────────────────────
+.pg-track-card {
+  background: $white;
+  border-radius: 12px;
+  box-shadow: 0 2px 24px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
+  padding: 44px 40px 40px;
+
+  @media (max-width: 600px) { padding: 30px 24px; border-radius: 8px; }
+}
+
+.pg-track-card-head {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.pg-track-icon {
+  width: 60px;
+  height: 60px;
+  background: #f0f0f0;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+
+  i { font-size: 28px; color: $text; }
+}
+
+.pg-track-card-head {
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: $text;
+    margin: 0 0 8px;
+    letter-spacing: -0.3px;
+  }
+
+  p {
+    font-size: 14px;
+    color: $subtext;
+    line-height: 1.65;
+    margin: 0;
+  }
+}
+
+// ── FORM ──────────────────────────────────────────────
+.pg-form { display: flex; flex-direction: column; }
+
+.pg-field {
+  margin-bottom: 20px;
+
+  label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: $text;
+    margin-bottom: 8px;
+    letter-spacing: 0.1px;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 13px 16px;
+    border: 1.5px solid #c8c8c8;
+    border-radius: 6px;
+    background: $white;
+    font-size: 14px;
+    color: $text;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.22s, box-shadow 0.22s;
+    box-sizing: border-box;
+
+    &:hover:not(:focus) { border-color: #888; }
+    &:focus {
+      border-color: $text;
+      box-shadow: 0 0 0 3px rgba(26,26,26,0.07);
+    }
+    &::placeholder { color: #bbb; font-size: 13.5px; }
+    &.pg-input-err { border-color: $error-clr; }
+  }
+}
+
+.pg-error {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: $error-clr;
+  font-weight: 500;
+  margin-top: 6px;
+  i { font-size: 14px; }
+}
+
+// ── TRACK BUTTON (app-button) ─────────────────────────
+::ng-deep app-button {
+  display: block;
+  margin-top: 4px;
+
+  .pg-btn,
+  button {
+    width: 100% !important;
+    padding: 13px 24px !important;
+    background: $accent !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 6px !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    cursor: pointer !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18) !important;
+    transition: background 0.22s, transform 0.15s, box-shadow 0.22s !important;
+
+    i { font-size: 17px !important; }
+
+    &:hover:not(:disabled):not(.disabled) {
+      background: #000 !important;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.22) !important;
+      transform: translateY(-1px) !important;
+    }
+
+    &:disabled, &.disabled {
+      opacity: 0.45 !important;
+      cursor: not-allowed !important;
+      box-shadow: none !important;
+    }
+  }
+}

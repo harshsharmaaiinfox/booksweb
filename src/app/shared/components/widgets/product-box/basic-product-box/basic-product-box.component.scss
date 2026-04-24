@@ -1,190 +1,200 @@
-// ============================================
-// Kahua Fashion — Product Card
-// ============================================
+// =====================================================
+// Product Card — Indaccu Solutions Reference Match
+// =====================================================
 
-$primary: #6B8E23;
-$secondary: #D2B48C;
-$accent: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #ffffff;
+$star-color:    #e8441a;   // orange-red stars (matches reference)
+$sale-price:    #1a1a1a;   // bold dark sale price
+$orig-price:    #999999;   // gray strikethrough original
+$category-clr:  #555555;   // muted category text
+$name-clr:      #222222;   // product name
+$border-clr:    #e0e0e0;   // card border
+$action-bg:     #1a3a5c;   // dark navy action bar
+$action-hover:  #e8441a;   // icon hover color
+$white:         #ffffff;
+$badge-bg:      #e8441a;   // sale badge
+
+// -------------------------------------------------------
 
 :host {
   display: block;
   height: 100%;
 }
 
-.kf-product {
+// ── CARD ──────────────────────────────────────────────
+.ind-card {
   position: relative;
   display: flex;
   flex-direction: column;
   height: 100%;
   background: $white;
-  border: 1px solid #eee;
-  transition: border-color 0.3s;
+  border: 1px solid $border-clr;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.28s ease, border-color 0.28s ease;
 
   &:hover {
-    border-color: $secondary;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.13);
+    border-color: #ccc;
 
-    .kf-img {
+    .ind-card__img {
       transform: scale(1.04);
     }
 
-    .kf-wish,
-    .kf-quick {
+    .ind-card__actions {
       opacity: 1;
-      transform: translateX(0);
+      transform: translateY(0);
     }
   }
 }
 
-// =============================================
-// IMAGE
-// =============================================
-.kf-product-media {
+// ── IMAGE ─────────────────────────────────────────────
+.ind-card__image {
   position: relative;
   overflow: hidden;
-  background: #f5f5f3;
-  aspect-ratio: 4 / 4;
+  background: #f7f7f7;
+  aspect-ratio: 4 / 3.8;   // close to reference card image ratio
 }
 
-.kf-img-link {
+.ind-card__img-link {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-.kf-img {
+.ind-card__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
-  transition: transform 0.5s ease;
+  object-position: center top;
+  transition: transform 0.4s ease;
 }
 
-// ---- Badge ----
-.kf-badge {
+// ── SALE BADGE (top-left) ─────────────────────────────
+.ind-card__sale-badge {
   position: absolute;
-  top: 12px;
-  left: 12px;
-  z-index: 2;
-  padding: 4px 12px;
+  top: 8px;
+  left: 8px;
+  z-index: 3;
+  background: $badge-bg;
+  color: $white;
   font-size: 10px;
   font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 3px;
+  letter-spacing: 0.3px;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: $white;
-  background: $text;
-
-  &--sale { background: $accent; }
-  &--new  { background: $primary; }
-  &--hot  { background: #C0392B; }
 }
 
-// ---- Wishlist & Quick View ----
-.kf-wish,
-.kf-quick {
+// ── HOVER ACTION ICONS BAR (bottom of image) ──────────
+.ind-card__actions {
   position: absolute;
-  right: 12px;
-  z-index: 3;
-  width: 36px;
-  height: 36px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  background: rgba($action-bg, 0.88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 10px 0;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.28s ease, transform 0.28s ease;
+}
+
+.ind-card__action-btn {
+  flex: 1;
+  max-width: 52px;
+  height: 38px;
   border: none;
-  background: $white;
+  background: transparent;
+  color: $white;
+  font-size: 17px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  opacity: 0;
-  transform: translateX(10px);
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: color 0.2s, background 0.2s;
+  position: relative;
 
-  i {
-    font-size: 18px;
-    color: $text;
-    transition: color 0.2s;
+  // vertical separator between icons
+  &:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 20%;
+    height: 60%;
+    width: 1px;
+    background: rgba($white, 0.2);
   }
 
-  &:hover i {
-    color: $accent;
+  &:hover {
+    color: $action-hover;
   }
 
-  &.active i {
+  &.active {
     color: #e74c3c;
   }
 }
 
-.kf-wish {
-  top: 12px;
-}
-
-.kf-quick {
-  top: 56px;
-  transition-delay: 0.05s;
-}
-
-// ---- Close button ----
-.product-close-btn {
+// ── CLOSE BTN (wishlist page) ─────────────────────────
+.ind-card__close {
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 8px;
+  right: 8px;
   z-index: 10;
 
   .close-button {
-    width: 30px;
-    height: 30px;
-    border-radius: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
     background: $white;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
 
-    i { font-size: 16px; color: $text; }
-
-    &:hover {
-      background: #f5f5f5;
-    }
+    i { font-size: 14px; color: #444; }
+    &:hover { background: #f0f0f0; }
   }
 }
 
-// =============================================
-// BODY
-// =============================================
-.kf-product-body {
-  padding: 16px;
+// ── BODY ──────────────────────────────────────────────
+.ind-card__body {
+  padding: 12px 14px 14px;
   display: flex;
   flex-direction: column;
-  flex: 1;
-  gap: 12px;
-
-  @media (max-width: 768px) {
-    padding: 12px;
-    gap: 10px;
-  }
-}
-
-.kf-product-top {
+  gap: 5px;
   flex: 1;
 }
 
-.kf-name-link {
+// ── CATEGORY TEXT ─────────────────────────────────────
+.ind-card__category {
+  font-size: 11.5px;
+  color: $category-clr;
+  font-weight: 400;
+  line-height: 1.3;
+  display: block;
+}
+
+// ── PRODUCT NAME ─────────────────────────────────────
+.ind-card__name-link {
   text-decoration: none;
   color: inherit;
 
-  &:hover .kf-name {
-    color: $accent;
+  &:hover .ind-card__name {
+    color: $action-hover;
   }
 }
 
-.kf-name {
-  font-size: 14px;
+.ind-card__name {
+  font-size: 13.5px;
   font-weight: 600;
-  color: $text;
-  margin: 0 0 4px;
+  color: $name-clr;
+  margin: 0;
   line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -192,185 +202,89 @@ $white: #ffffff;
   -webkit-box-orient: vertical;
   overflow: hidden;
   transition: color 0.2s;
-
-  @media (max-width: 768px) {
-    font-size: 13px;
-  }
 }
 
-.kf-desc {
-  font-size: 12px;
-  color: #999;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-// ---- Price + Stock ----
-.kf-price-row {
+// ── STAR RATING ───────────────────────────────────────
+.ind-card__rating {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 5px;
+}
+
+.ind-card__stars {
+  display: flex;
+  gap: 1px;
+
+  i {
+    font-size: 12px;
+    color: #ddd;
+
+    &.ri-star-fill {
+      color: $star-color;
+    }
+  }
+}
+
+.ind-card__review-count {
+  font-size: 11px;
+  color: #999;
+}
+
+// ── PRICE ROW ─────────────────────────────────────────
+.ind-card__price-row {
+  display: flex;
+  align-items: baseline;
   gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 2px;
 }
 
-.kf-price {
-  font-size: 18px;
+.ind-card__price-orig {
+  font-size: 12.5px;
+  font-weight: 400;
+  color: $orig-price;
+  text-decoration: line-through;
+}
+
+.ind-card__price-sale {
+  font-size: 15px;
   font-weight: 700;
-  color: $text;
-  letter-spacing: -0.3px;
-
-  @media (max-width: 768px) {
-    font-size: 16px;
-  }
+  color: $sale-price;
 }
 
-.kf-stock {
-  font-size: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: $primary;
-  border: 1px solid rgba($primary, 0.3);
-  padding: 3px 8px;
-}
-
-// ---- Add to Bag ----
-.kf-cart-row {
-  ::ng-deep app-product-cart-button {
-    width: 100%;
-    display: block;
-
-    button,
-    a {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      padding: 11px 16px;
-      background: $text;
-      color: $white;
-      border: 1px solid $text;
-      font-size: 12px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      cursor: pointer;
-      transition: all 0.25s;
-
-      &:hover {
-        background: transparent;
-        color: $text;
-      }
-    }
-
-    // Quantity box when item is in cart
-    .cart_qty.qty-box {
-      .input-group {
-        display: flex;
-
-        button {
-          background: $text !important;
-          border: 1px solid $text !important;
-          border-radius: 0 !important;
-          color: $white !important;
-          padding: 8px 14px !important;
-          min-width: 40px;
-
-          i { color: $white !important; }
-
-          &:hover {
-            background: transparent !important;
-            color: $text !important;
-            i { color: $text !important; }
-          }
-        }
-
-        input {
-          border: 1px solid #ddd !important;
-          border-radius: 0 !important;
-          text-align: center;
-          font-weight: 600;
-          font-size: 14px;
-          color: $text;
-        }
-      }
-    }
-  }
-}
-
-// =============================================
-// DARK MODE
-// =============================================
+// ── DARK MODE ─────────────────────────────────────────
 html.dark {
-  .kf-product {
-    background: #1a1a1a;
-    border-color: #333;
+  .ind-card {
+    background: #1c2433;
+    border-color: #2d3748;
 
     &:hover {
-      border-color: $secondary;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      border-color: #4a5568;
     }
   }
 
-  .kf-product-media {
-    background: #222;
-  }
+  .ind-card__image { background: #252d3d; }
 
-  .kf-wish,
-  .kf-quick {
-    background: #2a2a2a;
+  .ind-card__category { color: #a0aec0; }
+  .ind-card__name { color: #e2e8f0; }
+  .ind-card__price-sale { color: #f7fafc; }
+  .ind-card__price-orig { color: #718096; }
+  .ind-card__review-count { color: #718096; }
 
-    i { color: #ccc; }
-
-    &:hover i { color: $secondary; }
-  }
-
-  .kf-name { color: #eee; }
-  .kf-desc { color: #777; }
-  .kf-price { color: #eee; }
-
-  .kf-stock {
-    color: lighten($primary, 10%);
-    border-color: rgba($primary, 0.3);
-  }
-
-  .kf-cart-row ::ng-deep app-product-cart-button {
-    button, a {
-      background: #eee;
-      color: #1a1a1a;
-      border-color: #eee;
-
-      &:hover {
-        background: transparent;
-        color: #eee;
-      }
-    }
-  }
+  .ind-card__stars i { color: #4a5568; }
+  .ind-card__stars i.ri-star-fill { color: $star-color; }
 }
 
-// =============================================
-// RTL
-// =============================================
+// ── RTL ───────────────────────────────────────────────
 body.rtl {
-  .kf-badge {
+  .ind-card__sale-badge {
     left: auto;
-    right: 12px;
+    right: 8px;
   }
 
-  .kf-wish,
-  .kf-quick {
+  .ind-card__close {
     right: auto;
-    left: 12px;
-    transform: translateX(-10px);
-  }
-
-  .kf-product:hover {
-    .kf-wish,
-    .kf-quick {
-      transform: translateX(0);
-    }
+    left: 8px;
   }
 }

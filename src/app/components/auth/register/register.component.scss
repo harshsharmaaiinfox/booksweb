@@ -1,267 +1,197 @@
-// ============================================
-// Kahua Fashion — Auth Pages (Login / Register / Forgot)
-// ============================================
+// =====================================================
+// Register Page — Premium Refinement (same colors)
+// =====================================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
-$border: #e8e4df;
-$error: #c0392b;
+$text:         #1a1a1a;
+$subtext:      #555;
+$border:       #b0b0b0;
+$border-focus: #1a1a1a;
+$error-clr:    #c0392b;
+$req-clr:      #c0392b;
+$link-clr:     #6a0dad;
+$btn-bg:       #2c2c2c;
+$btn-hover:    #000;
+$white:        #fff;
+$page-bg:      #fff;
 
-// =============================================
-// PAGE WRAPPER
-// =============================================
-section.kfa-page {
-  padding-top: 0 !important;
-}
-
-.kfa-page {
+// ── PAGE ──────────────────────────────────────────────
+.ma-page {
+  background: $page-bg;
   min-height: 100vh;
-  background: $bg;
-  display: flex;
+  padding: 0 0 100px;
 }
 
-// =============================================
-// SPLIT LAYOUT
-// =============================================
-.kfa-split {
-  display: grid;
-  grid-template-columns: 420px 1fr;
-  min-height: 100vh;
-  width: 100%;
-
-  @media (max-width: 900px) {
-    grid-template-columns: 1fr;
-  }
-}
-
-// =============================================
-// LEFT PANEL
-// =============================================
-.kfa-left {
-  background: $text;
-  padding: 40px 48px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: sticky;
-  top: 0;
-  height: 100vh;
-
-  @media (max-width: 900px) {
-    position: relative;
-    height: auto;
-    padding: 32px 24px;
-  }
-
-  .kfa-back-home {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: rgba($white, 0.45);
-    text-decoration: none;
-    transition: color 0.2s;
-
-    i { font-size: 14px; }
-    &:hover { color: $white; }
-  }
-
-  .kfa-left-body {
-    .kfa-eyebrow {
-      font-size: 10px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      color: $olive;
-      margin: 0 0 14px;
-    }
-
-    h1 {
-      font-size: 42px;
-      font-weight: 700;
-      color: $white;
-      line-height: 1.1;
-      margin: 0 0 18px;
-      letter-spacing: -0.5px;
-
-      @media (max-width: 900px) { font-size: 30px; }
-    }
-
-    .kfa-left-sub {
-      font-size: 14px;
-      color: rgba($white, 0.45);
-      line-height: 1.7;
-      margin: 0;
-      max-width: 300px;
-    }
-  }
-
-  .kfa-left-footer {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-
-    span {
-      font-size: 13px;
-      color: rgba($white, 0.35);
-    }
-
-    a {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: $olive;
-      text-decoration: none;
-      transition: opacity 0.2s;
-
-      i { font-size: 14px; }
-      &:hover { opacity: 0.8; }
-    }
-  }
-}
-
-// =============================================
-// RIGHT PANEL
-// =============================================
-.kfa-right {
-  background: $bg;
+// ── BREADCRUMB ────────────────────────────────────────
+.ma-breadcrumb {
+  padding: 15px 48px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 60px 48px;
+  gap: 6px;
+  font-size: 12.5px;
+  color: #999;
+  border-bottom: 1px solid #ebebeb;
+  background: $white;
+  letter-spacing: 0.2px;
 
-  @media (max-width: 900px) {
-    padding: 40px 24px;
+  a {
+    color: #999;
+    text-decoration: none;
+    transition: color 0.2s;
+    &:hover { color: $text; }
   }
+  i { font-size: 13px; color: #ccc; }
+  span { color: $text; font-weight: 500; }
+
+  @media (max-width: 600px) { padding: 13px 20px; }
 }
 
-.kfa-form-wrap {
-  width: 100%;
-  max-width: 460px;
-}
-
-// =============================================
-// FORM HEADER
-// =============================================
-.kfa-form-head {
-  margin-bottom: 32px;
-
-  .kfa-eyebrow--dark {
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: $warm;
-    margin: 0 0 8px;
-  }
-
-  h2 {
-    font-size: 26px;
-    font-weight: 700;
-    color: $text;
-    margin: 0;
-    letter-spacing: -0.3px;
-  }
-}
-
-// =============================================
-// FORM FIELDS
-// =============================================
-.kfa-form {
+// ── TWO-COLUMN WRAPPER ────────────────────────────────
+.ma-wrapper {
   display: flex;
-  flex-direction: column;
-  gap: 0;
+  align-items: flex-start;
+  max-width: 1080px;
+  margin: 64px auto 0;
+  padding: 0 48px;
+
+  @media (max-width: 860px) {
+    flex-direction: column;
+    padding: 0 24px;
+    margin-top: 40px;
+  }
 }
 
-.kfa-field {
+// ── COLUMNS ───────────────────────────────────────────
+.ma-col {
+  flex: 1;
+  min-width: 0;
+  padding-right: 72px;
+
+  &:last-child {
+    padding-right: 0;
+    padding-left: 72px;
+  }
+
+  @media (max-width: 860px) {
+    padding: 0 !important;
+    width: 100%;
+
+    &:last-child {
+      margin-top: 48px;
+      padding-top: 40px !important;
+      border-top: 1px solid #ebebeb;
+    }
+  }
+}
+
+// ── VERTICAL DIVIDER ──────────────────────────────────
+.ma-divider {
+  width: 1px;
+  background: #e0e0e0;
+  align-self: stretch;
+  flex-shrink: 0;
+  min-height: 500px;
+
+  @media (max-width: 860px) { display: none; }
+}
+
+// ── SECTION HEADING ───────────────────────────────────
+.ma-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: $text;
+  margin: 0 0 32px;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+}
+
+// ── FORM ──────────────────────────────────────────────
+.ma-form { display: flex; flex-direction: column; }
+
+// ── FIELD ─────────────────────────────────────────────
+.ma-field {
   margin-bottom: 20px;
 
-  label {
+  label:not(.ma-check-label) {
     display: block;
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 500;
     color: $text;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
   }
 
-  input {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    display: block;
     width: 100%;
-    padding: 11px 14px;
+    padding: 13px 16px;
     border: 1.5px solid $border;
-    border-radius: 0;
-    font-size: 14px;
-    color: $text;
+    border-radius: 6px;
     background: $white;
+    font-size: 14.5px;
+    color: $text;
     font-family: inherit;
-    transition: border-color 0.2s;
     outline: none;
+    transition: border-color 0.22s ease, box-shadow 0.22s ease;
+    box-sizing: border-box;
+
+    &:hover:not(:focus) { border-color: #888; }
 
     &:focus {
-      border-color: $text;
+      border-color: $border-focus;
+      box-shadow: 0 0 0 3px rgba(26, 26, 26, 0.07);
     }
 
-    &::placeholder {
-      color: #c5c0bb;
-      font-size: 13px;
-    }
+    &::placeholder { color: transparent; }
 
-    &.kfa-input-error {
-      border-color: $error;
+    &.ma-input-err {
+      border-color: $error-clr;
+      &:focus { box-shadow: 0 0 0 3px rgba($error-clr, 0.1); }
     }
   }
 }
 
-.kfa-error {
-  display: block;
-  font-size: 11px;
-  color: $error;
+// Required asterisk
+.ma-req {
+  color: $req-clr;
+  margin-left: 2px;
   font-weight: 500;
-  margin-top: 5px;
 }
 
-// Two-column row (password fields)
-.kfa-two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-
-  @media (max-width: 560px) {
-    grid-template-columns: 1fr;
-  }
-}
-
-// Phone row
-.kfa-phone-row {
+// Validation error
+.ma-error {
   display: flex;
-  gap: 0;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: $error-clr;
+  font-weight: 500;
+  margin-top: 6px;
+  letter-spacing: 0.1px;
+}
 
-  .kfa-country-code {
+// ── PHONE ROW ─────────────────────────────────────────
+.ma-phone-row {
+  display: flex;
+
+  .ma-country-code {
     flex-shrink: 0;
-    width: 110px;
+    width: 108px;
 
     ::ng-deep .select2-container {
       .select2-selection {
         border: 1.5px solid $border;
         border-right: none;
-        border-radius: 0;
-        height: 44px;
+        border-radius: 6px 0 0 6px;
+        height: 50px;
         background: $white;
-        padding: 0 8px;
+        padding: 0 10px;
         display: flex;
         align-items: center;
+        transition: border-color 0.22s;
       }
     }
   }
@@ -269,168 +199,195 @@ section.kfa-page {
   input {
     flex: 1;
     border-left: none !important;
+    border-radius: 0 6px 6px 0 !important;
   }
 }
 
-// =============================================
-// OPTIONS ROW (remember me / forgot / terms)
-// =============================================
-.kfa-options-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 24px;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.kfa-check {
+// ── CHECKBOX ──────────────────────────────────────────
+.ma-check-label {
   display: flex;
   align-items: flex-start;
-  gap: 9px;
+  gap: 10px;
   cursor: pointer;
+  font-size: 13.5px;
+  color: $subtext;
   user-select: none;
-  font-size: 13px;
-  color: $warm;
-  flex: 1;
+  font-weight: 400;
+  line-height: 1.5;
 
   input[type="checkbox"] { display: none; }
+}
 
-  .kfa-check-box {
-    width: 16px;
-    height: 16px;
-    border: 1.5px solid $border;
-    background: $white;
-    flex-shrink: 0;
-    margin-top: 1px;
-    position: relative;
-    transition: all 0.15s;
+.ma-checkbox {
+  width: 17px;
+  height: 17px;
+  border: 1.5px solid #bbb;
+  background: $white;
+  flex-shrink: 0;
+  margin-top: 2px;
+  position: relative;
+  border-radius: 4px;
+  transition: all 0.18s;
+}
 
-    &--error { border-color: $error; }
-  }
+.ma-check-label:hover .ma-checkbox { border-color: #888; }
 
-  input[type="checkbox"]:checked + .kfa-check-box {
-    background: $olive;
-    border-color: $olive;
+.ma-check-label input[type="checkbox"]:checked + .ma-checkbox {
+  background: $btn-bg;
+  border-color: $btn-bg;
 
-    &::after {
-      content: '';
-      position: absolute;
-      left: 4px;
-      top: 1px;
-      width: 5px;
-      height: 9px;
-      border: solid $white;
-      border-width: 0 1.5px 1.5px 0;
-      transform: rotate(45deg);
-    }
+  &::after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    width: 6px;
+    height: 10px;
+    border: solid $white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
   }
 }
 
-.kfa-text-error { color: $error; }
+.ma-text-err { color: $error-clr; }
 
-.kfa-terms-link {
-  color: $olive;
+// ── NOTES ─────────────────────────────────────────────
+.ma-register-note {
+  font-size: 14px;
+  color: $text;
+  line-height: 1.65;
+  margin: 0 0 18px;
+}
+
+.ma-privacy-note {
+  font-size: 14px;
+  color: $subtext;
+  line-height: 1.7;
+  margin: 0 0 22px;
+}
+
+.ma-privacy-link {
+  color: $link-clr;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
+  transition: opacity 0.2s;
 
-  &:hover { text-decoration: underline; }
+  &:hover { opacity: 0.8; text-decoration: underline; }
 }
 
-.kfa-forgot {
+// ── REGISTER button (anchor — left col) ───────────────
+.ma-submit-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 32px;
+  background: $btn-bg;
+  color: $white;
+  border: none;
+  border-radius: 6px;
   font-size: 12px;
-  font-weight: 600;
-  color: $warm;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   text-decoration: none;
-  white-space: nowrap;
-  transition: color 0.2s;
+  cursor: pointer;
+  transition: background 0.22s, transform 0.15s, box-shadow 0.22s;
+  min-width: 130px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
 
-  &:hover { color: $text; }
+  &:hover {
+    background: $btn-hover;
+    color: $white;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.22);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  }
 }
 
-// =============================================
-// SUBMIT BUTTON
-// =============================================
+// ── REGISTER submit button (app-button) ───────────────
 ::ng-deep app-button {
-  width: 100%;
   display: block;
-  margin-bottom: 28px;
+  width: auto;
+  margin-top: 6px;
 
-  .kfa-submit-btn,
+  .ma-btn,
   button {
-    width: 100% !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 8px !important;
-    padding: 13px 24px !important;
-    background: $text !important;
+    padding: 13px 32px !important;
+    background: $btn-bg !important;
     color: $white !important;
-    border: 1.5px solid $text !important;
-    border-radius: 0 !important;
-    font-size: 11px !important;
+    border: none !important;
+    border-radius: 6px !important;
+    font-size: 12px !important;
     font-weight: 700 !important;
     text-transform: uppercase !important;
-    letter-spacing: 1.5px !important;
+    letter-spacing: 2px !important;
     cursor: pointer !important;
-    transition: all 0.25s !important;
-
-    i { font-size: 16px !important; }
+    transition: background 0.22s, transform 0.15s, box-shadow 0.22s !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 130px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18) !important;
 
     &:hover:not(:disabled):not(.disabled) {
-      background: $olive !important;
-      border-color: $olive !important;
+      background: $btn-hover !important;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.22) !important;
+      transform: translateY(-1px) !important;
+    }
+
+    &:active:not(:disabled) {
+      transform: translateY(0) !important;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.15) !important;
     }
 
     &:disabled, &.disabled {
-      opacity: 0.4 !important;
+      opacity: 0.42 !important;
       cursor: not-allowed !important;
+      box-shadow: none !important;
     }
   }
 }
 
-// =============================================
-// ALT LINK (sign up / login at bottom)
-// =============================================
-.kfa-alt-link {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
+// ── DARK MODE ─────────────────────────────────────────
+html.dark {
+  .ma-page { background: #111; }
 
-  span {
-    font-size: 13px;
-    color: $warm;
+  .ma-breadcrumb {
+    background: #1a1a1a;
+    border-color: #2a2a2a;
+    a { color: #888; }
+    span { color: #888; }
+    span:last-child { color: #ddd; }
   }
 
-  a {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: $text;
-    text-decoration: none;
-    border-bottom: 1.5px solid $text;
-    padding-bottom: 1px;
-    transition: color 0.2s, border-color 0.2s;
+  .ma-heading { color: #eee; }
+  .ma-divider { background: #2a2a2a; }
 
-    i { font-size: 13px; }
+  .ma-field {
+    label:not(.ma-check-label) { color: #ccc; }
 
-    &:hover { color: $olive; border-color: $olive; }
-  }
-}
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="tel"] {
+      background: #1e1e1e;
+      border-color: #3a3a3a;
+      color: #eee;
 
-// =============================================
-// RESPONSIVE — mobile stacked
-// =============================================
-@media (max-width: 900px) {
-  .kfa-left {
-    .kfa-left-body h1 { font-size: 28px; }
-    .kfa-left-sub { max-width: 100%; }
+      &:hover:not(:focus) { border-color: #555; }
+      &:focus {
+        border-color: #888;
+        box-shadow: 0 0 0 3px rgba(255,255,255,0.06);
+      }
+    }
   }
 
-  .kfa-form-wrap { max-width: 100%; }
+  .ma-check-label { color: #aaa; }
+  .ma-checkbox { border-color: #444; background: #1e1e1e; }
+  .ma-register-note { color: #ccc; }
+  .ma-privacy-note { color: #888; }
 }

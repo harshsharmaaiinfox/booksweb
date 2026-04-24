@@ -1,98 +1,131 @@
 <ng-template #cartPopupModal let-modal>
-  <div class="kf-modal">
+  <div class="qv-modal">
 
-    <!-- Close -->
-    <button type="button" class="kf-modal-close" (click)="modal.dismiss('Cross click')">
+    <!-- Close button -->
+    <button type="button" class="qv-close" (click)="modal.dismiss('Cross click')" aria-label="Close">
       <i class="ri-close-line"></i>
     </button>
 
-    <div class="kf-modal-inner" *ngIf="product">
+    <div class="qv-inner" *ngIf="product">
 
-      <!-- Left: Image -->
-      <div class="kf-modal-image">
-        <img [src]="product?.product_thumbnail ? product?.product_thumbnail?.original_url : 'assets/images/product.png'"
-          [alt]="product?.name">
+      <!-- LEFT: Product Image -->
+      <div class="qv-image-wrap">
+        <img
+          [src]="product?.product_thumbnail?.original_url || 'assets/images/product.png'"
+          [alt]="product?.name"
+          class="qv-image">
 
-        <!-- Badge on image -->
-        <span class="kf-modal-badge" *ngIf="product?.is_sale_enable">Sale</span>
+        <!-- Sale badge -->
+        <span class="qv-sale-badge" *ngIf="product?.is_sale_enable && product?.discount">
+          {{ product?.discount }}% OFF
+        </span>
       </div>
 
-      <!-- Right: Details -->
-      <div class="kf-modal-details">
+      <!-- RIGHT: Product Details -->
+      <div class="qv-details">
 
-        <div class="kf-detail-scroll">
+        <!-- Category -->
+        <span class="qv-category" *ngIf="product?.category?.name">
+          {{ product?.category?.name }}
+        </span>
 
-          <!-- Name & Price -->
-          <h2 class="kf-modal-name">{{ product?.name }}</h2>
-          <p class="kf-modal-desc" *ngIf="product?.short_description" [innerHTML]="product?.short_description"></p>
+        <!-- Product Name -->
+        <h2 class="qv-name">{{ product?.name }}</h2>
 
-          <div class="kf-modal-price-block">
-            <span class="kf-modal-price">{{ currentPrice | currencySymbol }}</span>
-            <div class="kf-modal-rating" *ngIf="(product?.rating_count ?? 0) > 0">
-              <ngb-rating [rate]="product?.rating_count || 0" [readonly]="true" [max]="5"></ngb-rating>
-              <span class="kf-rating-count" *ngIf="(product?.reviews_count ?? 0) > 0">({{ product?.reviews_count }})</span>
-            </div>
+        <!-- Star Rating -->
+        <div class="qv-rating-row">
+          <div class="qv-stars">
+            <i *ngFor="let s of [1,2,3,4,5]"
+              [class]="s <= (product?.rating_count || 0) ? 'ri-star-fill' : 'ri-star-line'">
+            </i>
           </div>
-
-          <!-- Specs -->
-          <div class="kf-modal-specs">
-            <div class="kf-spec" *ngIf="product?.sku">
-              <span class="kf-spec-label">SKU</span>
-              <span class="kf-spec-value">{{ product?.sku }}</span>
-            </div>
-            <div class="kf-spec">
-              <span class="kf-spec-label">Availability</span>
-              <span class="kf-spec-value" [class.kf-in-stock]="product?.stock_status === 'in_stock'"
-                [class.kf-out-stock]="product?.stock_status !== 'in_stock'">
-                {{ product?.stock_status === 'in_stock' ? 'In Stock' : 'Out of Stock' }}
-              </span>
-            </div>
-            <div class="kf-spec" *ngIf="product?.quantity">
-              <span class="kf-spec-label">Qty Left</span>
-              <span class="kf-spec-value">{{ product?.quantity }}</span>
-            </div>
-          </div>
-
-          <!-- Attributes (Size, Color, etc.) -->
-          <div class="kf-attr-group" *ngFor="let attribute of productAttributes">
-            <div *ngIf="availableAttributeValues[attribute.id]?.length">
-              <label class="kf-attr-label">{{ attribute.name }}: <strong>{{ selectedAttributeValues[attribute.id]?.value }}</strong></label>
-              <div class="kf-attr-options">
-                <button *ngFor="let attrValue of availableAttributeValues[attribute.id]"
-                  class="kf-attr-btn"
-                  [class.active]="selectedAttributeValues[attribute.id]?.id === attrValue.id"
-                  [attr.data-style]="attribute.style"
-                  (click)="selectAttributeValue(attribute.id, attrValue)">
-                  {{ attrValue.value }}
-                </button>
-              </div>
-            </div>
-          </div>
-
+          <span class="qv-review-count">({{ product?.reviews_count || 0 }})</span>
         </div>
 
-        <!-- Sticky Bottom Actions -->
-        <div class="kf-modal-actions">
-          <div class="kf-qty">
-            <button type="button" (click)="updateQuantity(-1)"><i class="ri-subtract-line"></i></button>
+        <!-- Price Block -->
+        <div class="qv-price-row">
+          <ng-container *ngIf="product?.is_sale_enable && product?.sale_price; else regularQvPrice">
+            <span class="qv-price-orig">{{ product?.price | currencySymbol }}</span>
+            <span class="qv-price-sale">{{ currentPrice | currencySymbol }}</span>
+          </ng-container>
+          <ng-template #regularQvPrice>
+            <span class="qv-price-sale">{{ currentPrice | currencySymbol }}</span>
+          </ng-template>
+
+          <!-- Stock badge -->
+          <span class="qv-stock-badge qv-stock-badge--in"
+            *ngIf="product?.stock_status === 'in_stock'">
+            IN STOCK
+          </span>
+          <span class="qv-stock-badge qv-stock-badge--out"
+            *ngIf="product?.stock_status !== 'in_stock'">
+            OUT OF STOCK
+          </span>
+        </div>
+
+        <!-- Divider -->
+        <hr class="qv-divider">
+
+        <!-- Short Description -->
+        <p class="qv-desc" *ngIf="product?.short_description"
+          [innerHTML]="product?.short_description"></p>
+
+        <!-- Attributes (Size, Color, etc.) -->
+        <div class="qv-attr-group" *ngFor="let attribute of productAttributes">
+          <div *ngIf="availableAttributeValues[attribute.id]?.length">
+            <label class="qv-attr-label">
+              {{ attribute.name }}:
+              <strong>{{ selectedAttributeValues[attribute.id]?.value }}</strong>
+            </label>
+            <div class="qv-attr-options">
+              <button *ngFor="let attrValue of availableAttributeValues[attribute.id]"
+                class="qv-attr-btn"
+                [class.active]="selectedAttributeValues[attribute.id]?.id === attrValue.id"
+                [attr.data-style]="attribute.style"
+                (click)="selectAttributeValue(attribute.id, attrValue)">
+                {{ attrValue.value }}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKU -->
+        <p class="qv-sku" *ngIf="product?.sku">
+          <span>SKU:</span> {{ product?.sku }}
+        </p>
+
+        <!-- Quantity + Add to Cart -->
+        <div class="qv-cart-row">
+          <!-- Quantity -->
+          <div class="qv-qty">
+            <button type="button" (click)="updateQuantity(-1)">
+              <i class="ri-subtract-line"></i>
+            </button>
             <input type="text" [value]="quantity" readonly>
-            <button type="button" (click)="updateQuantity(1)"><i class="ri-add-line"></i></button>
+            <button type="button" (click)="updateQuantity(1)">
+              <i class="ri-add-line"></i>
+            </button>
           </div>
 
-          <button type="button" class="kf-wishlist-btn" (click)="toggleWishlist(product)"
-            [class.active]="product.is_wishlist">
-            <i class="ri-heart-line" *ngIf="!product.is_wishlist"></i>
-            <i class="ri-heart-fill" *ngIf="product.is_wishlist"></i>
-          </button>
-
-          <button type="button" class="kf-add-btn" (click)="addToCart()" [disabled]="addToCartLoader">
+          <!-- Add to Cart -->
+          <button type="button" class="qv-add-btn" (click)="addToCart()" [disabled]="addToCartLoader">
             <span class="spinner-border spinner-border-sm" *ngIf="addToCartLoader"></span>
-            <span *ngIf="!addToCartLoader">Add to Bag</span>
-            <span *ngIf="addToCartLoader">Adding...</span>
+            <i class="ri-shopping-cart-line" *ngIf="!addToCartLoader"></i>
+            <span>{{ addToCartLoader ? 'Adding...' : 'ADD TO CART' }}</span>
           </button>
         </div>
+
+        <!-- Wishlist -->
+        <button type="button" class="qv-wishlist-btn"
+          (click)="toggleWishlist(product)"
+          [class.active]="product?.is_wishlist">
+          <i class="ri-heart-line" *ngIf="!product?.is_wishlist"></i>
+          <i class="ri-heart-fill" *ngIf="product?.is_wishlist"></i>
+          <span>{{ product?.is_wishlist ? 'Remove from Wishlist' : 'Add to Wishlist' }}</span>
+        </button>
 
       </div>
     </div>
+
   </div>
 </ng-template>

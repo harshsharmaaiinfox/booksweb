@@ -1,94 +1,100 @@
-<section class="kfa-page">
-  <div class="kfa-split">
+<div class="ma-page">
 
-    <!-- LEFT PANEL -->
-    <div class="kfa-left">
-      <a [routerLink]="['/']" class="kfa-back-home">
-        <i class="ri-arrow-left-line"></i> Home
-      </a>
-      <div class="kfa-left-body">
-        <p class="kfa-eyebrow">Welcome back</p>
-        <h1>Sign in to<br>your account</h1>
-        <p class="kfa-left-sub">Access your orders, wishlist and account details.</p>
-      </div>
-      <div class="kfa-left-footer">
-        <span>Don't have an account?</span>
-        <a [routerLink]="['/auth/register']">Create one <i class="ri-arrow-right-line"></i></a>
-      </div>
+  <!-- Breadcrumb -->
+  <div class="ma-breadcrumb">
+    <a routerLink="/">Home</a>
+    <i class="ri-arrow-right-s-line"></i>
+    <span>My Account</span>
+  </div>
+
+  <div class="ma-wrapper">
+
+    <!-- ══ LEFT: LOGIN ══ -->
+    <div class="ma-col">
+      <h2 class="ma-heading">Login</h2>
+
+      <app-alert></app-alert>
+
+      <form [formGroup]="form" (ngSubmit)="submit()" class="ma-form">
+
+        <!-- Email / Username -->
+        <div class="ma-field">
+          <label for="email">Username or email address <span class="ma-req">*</span></label>
+          <input type="email" id="email" formControlName="email"
+            (input)="filterEmailCharacters($event)"
+            pattern="[a-zA-Z0-9._\-+@]+"
+            [class.ma-input-err]="form.controls['email'].touched && form.controls['email'].invalid">
+          <span class="ma-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['required']">Email is required.</span>
+          <span class="ma-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['email']">Invalid email address.</span>
+        </div>
+
+        <!-- Password -->
+        <div class="ma-field">
+          <label for="password">Password <span class="ma-req">*</span></label>
+          <div class="ma-pass-wrap">
+            <input [type]="showPass ? 'text' : 'password'" id="password" formControlName="password"
+              [class.ma-input-err]="form.controls['password'].touched && form.controls['password'].invalid">
+            <button type="button" class="ma-eye-btn" (click)="showPass = !showPass" tabindex="-1">
+              <i [class]="showPass ? 'ri-eye-off-line' : 'ri-eye-line'"></i>
+            </button>
+          </div>
+          <span class="ma-error" *ngIf="form.controls['password'].touched && form.controls['password'].errors?.['required']">Password is required.</span>
+        </div>
+
+        <!-- ReCaptcha -->
+        <div class="ma-field" *ngIf="reCaptcha">
+          <re-captcha formControlName="recaptcha"></re-captcha>
+          <span class="ma-error" *ngIf="form.controls['recaptcha']?.touched && form.controls['recaptcha']?.errors?.['required']">ReCaptcha is required.</span>
+        </div>
+
+        <!-- Remember Me + Lost Password -->
+        <div class="ma-options">
+          <label class="ma-check-label">
+            <input type="checkbox" id="rememberme">
+            <span class="ma-checkbox"></span>
+            <span>Remember Me</span>
+          </label>
+          <a [routerLink]="['/auth/forgot-password']" class="ma-lost-pass">Lost your password?</a>
+        </div>
+
+        <!-- LOG IN button -->
+        <app-button [id]="'login_btn'" [class]="'ma-btn'">LOG IN</app-button>
+
+      </form>
     </div>
 
-    <!-- RIGHT PANEL -->
-    <div class="kfa-right">
-      <div class="kfa-form-wrap">
-        <app-alert></app-alert>
+    <!-- Vertical divider -->
+    <div class="ma-divider"></div>
 
-        <div class="kfa-form-head">
-          <p class="kfa-eyebrow kfa-eyebrow--dark">Login</p>
-          <h2>Enter your details</h2>
-        </div>
+    <!-- ══ RIGHT: REGISTER ══ -->
+    <div class="ma-col">
+      <h2 class="ma-heading">Register</h2>
 
-        <form [formGroup]="form" (ngSubmit)="submit()" class="kfa-form">
-
-          <!-- Email -->
-          <div class="kfa-field">
-            <label for="email">{{ 'Email Address' | translate }}</label>
-            <input type="email" id="email" formControlName="email"
-              placeholder="{{ 'enter_your_email' | translate }}"
-              (input)="filterEmailCharacters($event)"
-              pattern="[a-zA-Z0-9._\-+@]+"
-              [class.kfa-input-error]="form.controls['email'].touched && form.controls['email'].invalid">
-            <span class="kfa-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['required']">
-              {{ 'Email Is Required' | translate }}
-            </span>
-            <span class="kfa-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['email']">
-              {{ 'Invalid Email' | translate }}
-            </span>
-          </div>
-
-          <!-- Password -->
-          <div class="kfa-field">
-            <label for="password">{{ 'Password' | translate }}</label>
-            <input type="password" id="password" formControlName="password"
-              placeholder="••••••••"
-              [class.kfa-input-error]="form.controls['password'].touched && form.controls['password'].invalid">
-            <span class="kfa-error" *ngIf="form.controls['password'].touched && form.controls['password'].errors?.['required']">
-              {{ 'Password Is Required' | translate }}
-            </span>
-          </div>
-
-          <!-- ReCaptcha -->
-          <div class="kfa-field" *ngIf="reCaptcha">
-            <re-captcha formControlName="recaptcha"></re-captcha>
-            <span class="kfa-error" *ngIf="form.controls['recaptcha']?.touched && form.controls['recaptcha']?.errors?.['required']">
-              {{ 'ReCaptcha is Required' | translate }}
-            </span>
-          </div>
-
-          <!-- Options -->
-          <div class="kfa-options-row">
-            <label class="kfa-check">
-              <input type="checkbox" id="remeberme">
-              <span class="kfa-check-box"></span>
-              <span>{{ 'Remember Me' | translate }}</span>
-            </label>
-            <a [routerLink]="['/auth/forgot-password']" class="kfa-forgot">
-              {{ 'Forgot Password' | translate }}?
-            </a>
-          </div>
-
-          <!-- Submit -->
-          <app-button [id]="'login_btn'" [class]="'kfa-submit-btn'">
-            {{ 'Login' | translate }} <i class="ri-arrow-right-line"></i>
-          </app-button>
-
-        </form>
-
-        <div class="kfa-alt-link">
-          <span>{{ "Dont Have An Account" | translate }}?</span>
-          <a [routerLink]="['/auth/register']">{{ 'Sign up' | translate }} <i class="ri-arrow-right-line"></i></a>
-        </div>
+      <!-- Username field (visual — clicking REGISTER navigates to full register page) -->
+      <div class="ma-field">
+        <label>Username <span class="ma-req">*</span></label>
+        <input type="text" class="ma-reg-input" #regUsername placeholder="">
       </div>
+
+      <!-- Email field -->
+      <div class="ma-field">
+        <label>Email address <span class="ma-req">*</span></label>
+        <input type="email" class="ma-reg-input" #regEmail placeholder="">
+      </div>
+
+      <p class="ma-register-note">
+        A link to set a new password will be sent to your email address.
+      </p>
+
+      <p class="ma-privacy-note">
+        Your personal data will be used to support your experience throughout this website,
+        to manage access to your account, and for other purposes described in our
+        <a [routerLink]="['/privacy-policy']" class="ma-privacy-link">privacy policy</a>.
+      </p>
+
+      <!-- REGISTER button -->
+      <a [routerLink]="['/auth/register']" class="ma-submit-btn">REGISTER</a>
     </div>
 
   </div>
-</section>
+</div>

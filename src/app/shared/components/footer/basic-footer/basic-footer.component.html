@@ -1,132 +1,125 @@
-<!-- Newsletter Section -->
-<section class="kf-newsletter">
-    <div class="container-fluid-lg">
-        <div class="newsletter-inner">
-            <h2 class="newsletter-heading">Are you on <em>the list?</em></h2>
-            <p class="newsletter-sub">Join to get exclusive offers &amp; discounts</p>
-            <div class="newsletter-form">
-                <div class="form-row">
-                    <div class="input-col">
-                        <label>Email *</label>
-                        <input type="email" [formControl]="email" (keyup.enter)="submitNewsletter()">
-                    </div>
-                    <button type="button" class="join-btn" (click)="submitNewsletter()" [disabled]="isSubmitting">
-                        <span *ngIf="!isSubmitting">Join</span>
-                        <span *ngIf="isSubmitting">...</span>
-                    </button>
-                </div>
-                <div class="subscription-feedback feedback-loading" *ngIf="isSubmitting">
-                    Adding you to the list… please wait.
-                </div>
-                <div class="subscription-feedback feedback-success" *ngIf="showSuccess">
-                    You’re on the list ✨ Thank you for joining! Stay tuned for exclusive offers and style updates.
-                </div>
-                <div class="subscription-feedback feedback-error" *ngIf="showError">
-                    {{ errorMessage }}
-                </div>
-                <div class="subscription-feedback feedback-error" *ngIf="email.touched && email.invalid && !showError && !isSubmitting">
-                    <span *ngIf="email.errors?.['required']">Email address is required.</span>
-                    <span *ngIf="email.errors?.['email']">Please enter a valid email address.</span>
-                </div>
-            </div>
-        </div>
+<!-- ══════════════════════════════════════════
+   MAIN FOOTER
+══════════════════════════════════════════ -->
+<footer class="idf-footer">
+  <div class="idf-container">
+    <div class="idf-grid">
+
+      <!-- ── COL 1: Company Info ── -->
+      <div class="idf-col idf-col--brand">
+        <h3 class="idf-brand-name">Kahua Fashion Club</h3>
+        <ul class="idf-contact-list">
+          <li>
+            <i class="ri-map-pin-line"></i>
+            <span>
+              FF-202, Gaur City Center,<br>
+              Greater Noida, Gautam Buddh Nagar,<br>
+              Uttar Pradesh – 201301
+            </span>
+          </li>
+          <li>
+            <i class="ri-mail-line"></i>
+            <a href="mailto:info@kahuafashionclub.com">info&#64;kahuafashionclub.com</a>
+          </li>
+        </ul>
+        <p class="idf-phone">+91 83687 11465</p>
+      </div>
+
+      <!-- ── COL 2: Useful Links ── -->
+      <div class="idf-col">
+        <h5 class="idf-col-heading">USEFUL LINKS</h5>
+        <ul class="idf-links">
+          <li><a routerLink="/refund-and-cancellation">Refund &amp; Return</a></li>
+          <li><a routerLink="/privacy-policy">Privacy Policy</a></li>
+          <li><a routerLink="/shipping-policy">Delivery Policy</a></li>
+          <li><a routerLink="/term-condition">Terms and Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- ── COL 3: Information ── -->
+      <div class="idf-col">
+        <h5 class="idf-col-heading">INFORMATION</h5>
+        <ul class="idf-links">
+          <li><a routerLink="/page/offers">Offers</a></li>
+          <li><a routerLink="/page/about-us">About us</a></li>
+          <li><a routerLink="/Contact-Us">Contact Us</a></li>
+          <li><a routerLink="/order-tracking">Track Order</a></li>
+        </ul>
+      </div>
+
+      <!-- ── COL 4: Account ── -->
+      <div class="idf-col">
+        <h5 class="idf-col-heading">ACCOUNT</h5>
+        <ul class="idf-links">
+          <li><a routerLink="/shop/cart">Cart</a></li>
+          <li><a routerLink="/auth/login">My account</a></li>
+          <li><a routerLink="/account/orders">My orders</a></li>
+          <li><a routerLink="/account/wishlist">Wishlist</a></li>
+        </ul>
+      </div>
+
     </div>
-</section>
+  </div>
 
-<!-- Main Footer -->
-<footer class="kf-footer">
-    <div class="container-fluid-lg">
-        <div class="footer-grid">
+  <!-- ── SUPPORT BAR ── -->
+  <div class="idf-support-bar">
+    <div class="idf-container">
+      <div class="idf-support-grid">
 
-            <!-- Shop -->
-            <div class="footer-col" (click)="toggle('collections')">
-                <div class="col-head" [class.open]="active['collections']">
-                    <h5>Shop</h5>
-                    <i class="ri-add-line mob-toggle"></i>
-                </div>
-                <div class="col-links" [class.expanded]="active['collections']">
-                    <app-footer-categories [data]="data"></app-footer-categories>
-                    <ul *ngIf="!data?.footer?.footer_categories?.length">
-                        <li><a routerLink="/collections/activewear">Activewear</a></li>
-                        <li><a routerLink="/collections/men">Men</a></li>
-                        <li><a routerLink="/collections/women">Women</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Our Store -->
-            <div class="footer-col footer-col-store">
-                <div class="col-head">
-                    <h5>Our Store</h5>
-                </div>
-                <div class="col-links always-open">
-                    <ul class="store-info">
-                        <li>
-                            KAHUA SYSTEMS PRIVATE LIMITED<br>
-                            FF-202, Gaur City Center<br>
-                            Greater Noida, Gautam Buddh Nagar<br>
-                            Uttar Pradesh - 201301
-                        </li>
-                        <li class="store-contact">
-                            Tel: <a href="tel:+918368711465">+91 83687 11465</a><br>
-                            Email: <a href="mailto: info&#64;kahuafashionclub.com"> info&#64;kahuafashionclub.com</a><br>
-                            GST: 09AAFCK5079D1ZE
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Policy -->
-            <div class="footer-col" (click)="toggle('useful_link')">
-                <div class="col-head" [class.open]="active['useful_link']">
-                    <h5>Policy</h5>
-                    <i class="ri-add-line mob-toggle"></i>
-                </div>
-                <div class="col-links" [class.expanded]="active['useful_link']">
-                    <ul>
-                        <li><a routerLink="/shipping-policy">Shipping &amp; Returns</a></li>
-                        <li><a routerLink="/return-policy">Return Policy</a></li>
-                        <li><a routerLink="/privacy-policy">Privacy Policy</a></li>
-                        <li><a routerLink="/term-condition">Terms &amp; Conditions</a></li>
-                        <li><a routerLink="/refund-and-cancellation">Refund &amp; Cancellation</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Customer Service -->
-            <div class="footer-col footer-col-service">
-                <div class="col-head">
-                    <h5>Customer Service</h5>
-                </div>
-                <div class="col-links always-open">
-                    <ul>
-                        <li><a routerLink="/Contact-Us">Contact Us</a></li>
-                        <li><a routerLink="/page/about-us">About Us</a></li>
-                    </ul>
-
-                    <div class="footer-social">
-                        <a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="ri-instagram-line"></i></a>
-                        <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="ri-facebook-fill"></i></a>
-                        <a href="https://www.youtube.com/" target="_blank" title="Youtube"><i class="ri-youtube-fill"></i></a>
-                        <a href="https://x.com/" target="_blank" title="X"><i class="ri-twitter-x-fill"></i></a>
-                    </div>
-
-                    <div class="footer-copyright">
-                        <p *ngIf="data?.footer?.footer_copyright">
-                            <app-footer-copyright [data]="data"></app-footer-copyright>
-                        </p>
-                        <p *ngIf="!data?.footer?.footer_copyright">
-                            &copy; 2025 Kahua Fashion Club.<br>All rights reserved.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
+        <div class="idf-support-item">
+          <i class="ri-phone-line"></i>
+          <div>
+            <p class="idf-support-title">Didn't find what you were looking for?</p>
+            <a routerLink="/Contact-Us" class="idf-support-link">Contact Us</a>
+          </div>
         </div>
+
+        <div class="idf-support-divider"></div>
+
+        <div class="idf-support-item">
+          <i class="ri-customer-service-2-line"></i>
+          <div>
+            <p class="idf-support-title">How can we help you today?</p>
+            <a routerLink="/Contact-Us" class="idf-support-link">Help Center</a>
+          </div>
+        </div>
+
+        <div class="idf-support-divider"></div>
+
+        <div class="idf-support-item">
+          <i class="ri-feedback-line"></i>
+          <div>
+            <p class="idf-support-title">We'd love to hear what you think!</p>
+            <a routerLink="/Contact-Us" class="idf-support-link">Give Feedback</a>
+          </div>
+        </div>
+
+      </div>
     </div>
+  </div>
+
+  <!-- ── COPYRIGHT BAR ── -->
+  <div class="idf-copyright-bar">
+    <div class="idf-container">
+      <div class="idf-copyright-inner">
+        <p class="idf-copyright-text">
+          Copyright &copy; Kahua Fashion Club. All Rights Reserved
+        </p>
+        <div class="idf-payment-icons">
+          <span class="idf-pay-badge">PayPal</span>
+          <span class="idf-pay-badge">Visa</span>
+          <span class="idf-pay-badge">Mastercard</span>
+          <span class="idf-pay-badge">Stripe</span>
+          <span class="idf-pay-badge">UPI</span>
+          <span class="idf-pay-badge">Net Banking</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </footer>
 
 <!-- Back to Top -->
-<button class="back-to-top-btn" [class.show]="showBackToTop" (click)="scrollToTop()" type="button" aria-label="Back to top">
-    <span class="btt-arrow">&#8593;</span>
+<button class="idf-back-top" [class.show]="showBackToTop" (click)="scrollToTop()" type="button" aria-label="Back to top">
+  &#8593;
 </button>

@@ -1,219 +1,142 @@
-<app-breadcrumb [breadcrumb]="breadcrumb"></app-breadcrumb>
+<!-- ═══ MAIN CONTACT SECTION ═══ -->
+<section class="cu-page">
+  <div class="cu-container">
 
-<!-- Hero Section -->
-<section class="contact-hero-section">
-    <div class="container-fluid-lg">
-        <div class="row">
-            <div class="col-12">
-                <div class="contact-hero-content">
-                    <div class="hero-icon-wrapper">
-                        <i class="ri-customer-service-2-line"></i>
-                    </div>
-                    <h1 class="hero-title">Contact Us</h1>
-                    <p class="hero-subtitle">We'd love to hear from you!</p>
-                    <p class="hero-description">
-                        Get in touch with our customer support team for any questions, assistance, or feedback. We're
-                        here to help you 24/7.
-                    </p>
-                </div>
-            </div>
+    <!-- Page Heading -->
+    <h1 class="cu-heading">Contact us</h1>
+
+    <!-- Address -->
+    <p class="cu-address">
+      FF-202, Gaur City Center, Greater Noida,<br>
+      Gautam Buddh Nagar, Uttar Pradesh – 201301
+    </p>
+
+    <!-- 3-Column Info Row -->
+    <div class="cu-info-row">
+
+      <!-- Customer Service -->
+      <div class="cu-info-col">
+        <div class="cu-info-icon">
+          <i class="ri-phone-line"></i>
         </div>
+        <span class="cu-info-label">Customer service</span>
+        <a href="tel:+918368711465" class="cu-info-link">+91 83687 11465</a>
+      </div>
+
+      <!-- Write to us -->
+      <div class="cu-info-col">
+        <div class="cu-info-icon">
+          <i class="ri-mail-line"></i>
+        </div>
+        <span class="cu-info-label">Write to us</span>
+        <a href="mailto:info@kahuafashionclub.com" class="cu-info-link">info&#64;kahuafashionclub.com</a>
+      </div>
+
+      <!-- Follow us -->
+      <div class="cu-info-col">
+        <div class="cu-info-icon">
+          <i class="ri-user-follow-line"></i>
+        </div>
+        <span class="cu-info-label">Follow us</span>
+        <div class="cu-social-row">
+          <a href="https://www.facebook.com/" target="_blank" class="cu-social-icon" title="Facebook">
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="cu-social-icon" title="Instagram">
+            <i class="ri-instagram-line"></i>
+          </a>
+        </div>
+      </div>
+
     </div>
+
+    <!-- Questions Heading -->
+    <h2 class="cu-form-heading">Do you have some questions?</h2>
+
+    <!-- Contact Form -->
+    <form [formGroup]="form" (ngSubmit)="submit()" class="cu-form">
+
+      <!-- Row 1: Name | Email | Phone -->
+      <div class="cu-form-row-3">
+        <div class="cu-field">
+          <input type="text" formControlName="name"
+            placeholder="Name *"
+            (input)="filterSpecialCharacters($event, 'name')"
+            pattern="[a-zA-Z\s]+"
+            [class.cu-input-err]="form.controls['name'].touched && form.controls['name'].errors?.['required']">
+          <span class="cu-error" *ngIf="form.controls['name'].touched && form.controls['name'].errors?.['required']">
+            Name is required
+          </span>
+        </div>
+
+        <div class="cu-field">
+          <input type="email" formControlName="email"
+            placeholder="Email *"
+            (input)="filterEmailCharacters($event)"
+            pattern="[a-zA-Z0-9._\-+@]+"
+            [class.cu-input-err]="form.controls['email'].touched && form.controls['email'].invalid">
+          <span class="cu-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['required']">
+            Email is required
+          </span>
+          <span class="cu-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['email']">
+            Invalid email
+          </span>
+        </div>
+
+        <div class="cu-field">
+          <input type="tel" formControlName="phone"
+            placeholder="Phone *"
+            (input)="filterPhoneNumber($event)"
+            maxlength="10" pattern="[0-9]{10}"
+            [class.cu-input-err]="form.controls['phone'].touched && form.controls['phone'].errors?.['required']">
+          <span class="cu-error" *ngIf="form.controls['phone'].touched && form.controls['phone'].errors?.['required']">
+            Phone is required
+          </span>
+        </div>
+      </div>
+
+      <!-- Subject -->
+      <div class="cu-field">
+        <input type="text" formControlName="subject"
+          placeholder="Subject *"
+          [class.cu-input-err]="form.controls['subject'].touched && form.controls['subject'].errors?.['required']">
+        <span class="cu-error" *ngIf="form.controls['subject'].touched && form.controls['subject'].errors?.['required']">
+          Subject is required
+        </span>
+      </div>
+
+      <!-- Message -->
+      <div class="cu-field">
+        <textarea formControlName="message"
+          placeholder="Message"
+          rows="6"
+          [class.cu-input-err]="form.controls['message'].touched && form.controls['message'].errors?.['required']">
+        </textarea>
+        <span class="cu-error" *ngIf="form.controls['message'].touched && form.controls['message'].errors?.['required']">
+          Message is required
+        </span>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit" class="cu-submit-btn" [disabled]="form.invalid">
+        GET IN TOUCH
+      </button>
+
+    </form>
+
+  </div>
 </section>
 
-<!-- Contact Information & Form Section -->
-<section class="contact-main-section section-lg-space">
-    <div class="container-fluid-lg">
-        <div class="row g-4">
-            <!-- Company Information Section -->
-            <div class="col-lg-5">
-                <div class="contact-info-card">
-                    <div class="card-header-modern">
-                        <h3 class="section-title">
-                            <i class="ri-information-line"></i> Company Information
-                        </h3>
-                    </div>
-                    <div class="card-body-modern">
-                        <div class="info-item">
-                            <div class="info-icon-wrapper">
-                                <i class="ri-building-line"></i>
-                            </div>
-                            <div class="info-content">
-                                <label class="info-label">Company Name</label>
-                                <p class="info-value">KAHUA SYSTEMS PRIVATE LIMITED</p>
-                            </div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-icon-wrapper">
-                                <i class="ri-file-text-line"></i>
-                            </div>
-                            <div class="info-content">
-                                <label class="info-label">GST</label>
-                                <p class="info-value">09AAFCK5079D1ZE</p>
-                            </div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-icon-wrapper">
-                                <i class="ri-mail-line"></i>
-                            </div>
-                            <div class="info-content">
-                                <label class="info-label">Email Address</label>
-                                <p class="info-value">
-                                    <a href="mailto:info&#64;kahuafashionclub.com">info&#64;kahuafashionclub.com</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-icon-wrapper">
-                                <i class="ri-map-pin-line"></i>
-                            </div>
-                            <div class="info-content">
-                                <label class="info-label">Registered Address</label>
-                                <div class="info-value">
-                                    <div>KAHUA SYSTEMS PRIVATE LIMITED</div>
-                                    <div>FF-202, Gaur City Center</div>
-                                    <div>Greater Noida, Gautam Buddh Nagar
-Uttar Pradesh - 201301</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-icon-wrapper">
-                                <i class="ri-global-line"></i>
-                            </div>
-                            <div class="info-content">
-                                <label class="info-label">Website</label>
-                                <p class="info-value">
-                                    <a href="https://kahuafashionclub.com" target="_blank">kahuafashionclub.com</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Contact Form Section -->
-            <div class="col-lg-7">
-                <div class="contact-form-card">
-                    <div class="card-header-modern">
-                        <h3 class="section-title">
-                            <i class="ri-message-3-line"></i> Get In Touch
-                        </h3>
-                        <p class="section-subtitle">Fill out the form below and we'll get back to you as soon as
-                            possible.</p>
-                    </div>
-                    <div class="card-body-modern">
-                        <form [formGroup]="form" (ngSubmit)="submit()">
-                            <div class="contact-form-fields">
-                                <div class="form-field-wrapper">
-                                    <label class="form-label-modern" for="fullname">
-                                        <i class="ri-user-line"></i>
-                                        {{ 'full_name' | translate }}
-                                    </label>
-                                    <div class="input-wrapper">
-                                        <input type="text" class="form-input-modern" id="fullname"
-                                            placeholder="{{ 'enter_full_name' | translate }}" formControlName="name"
-                                            (input)="filterSpecialCharacters($event, 'name')" pattern="[a-zA-Z\s]+">
-                                        <i class="ri-user-3-fill input-icon"></i>
-                                    </div>
-                                    <div class="error-message"
-                                        *ngIf="form.controls['name'].touched && form.controls['name'].errors?.['required']">
-                                        <i class="ri-error-warning-line"></i>
-                                        <span>{{ 'name_is_required' | translate }}</span>
-                                    </div>
-                                </div>
-
-                                <div class="form-row">
-                                    <div class="form-field-wrapper">
-                                        <label class="form-label-modern" for="email">
-                                            <i class="ri-mail-line"></i>
-                                            {{ 'email_address' | translate }}
-                                        </label>
-                                        <div class="input-wrapper">
-                                            <input type="email" class="form-input-modern" id="email"
-                                                placeholder="{{ 'enter_email_address' | translate }}"
-                                                formControlName="email" (input)="filterEmailCharacters($event)"
-                                                pattern="[a-zA-Z0-9._\-+@]+">
-                                            <i class="ri-mail-fill input-icon"></i>
-                                        </div>
-                                        <div class="error-message"
-                                            *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['required']">
-                                            <i class="ri-error-warning-line"></i>
-                                            <span>{{ 'email_is_required' | translate }}</span>
-                                        </div>
-                                        <div class="error-message"
-                                            *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['email']">
-                                            <i class="ri-error-warning-line"></i>
-                                            <span>{{ 'invalid_email' | translate }}</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-field-wrapper">
-                                        <label class="form-label-modern" for="phonenumber">
-                                            <i class="ri-phone-line"></i>
-                                            {{ 'phone_number' | translate }}
-                                        </label>
-                                        <div class="input-wrapper">
-                                            <input type="tel" class="form-input-modern" id="phonenumber"
-                                                placeholder="{{ 'enter_your_phone_number' | translate }}"
-                                                formControlName="phone" (input)="filterPhoneNumber($event)"
-                                                maxlength="10" pattern="[0-9]{10}">
-                                            <i class="ri-smartphone-line input-icon"></i>
-                                        </div>
-                                        <div class="error-message"
-                                            *ngIf="form.controls['phone'].touched && form.controls['phone'].errors?.['required']">
-                                            <i class="ri-error-warning-line"></i>
-                                            <span>{{ 'phone_number_is_required' | translate }}</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-field-wrapper">
-                                    <label class="form-label-modern" for="subject">
-                                        <i class="ri-file-list-line"></i>
-                                        {{ 'subject' | translate }}
-                                    </label>
-                                    <div class="input-wrapper">
-                                        <input type="text" class="form-input-modern" id="subject"
-                                            placeholder="{{ 'enter_subject' | translate }}" formControlName="subject">
-                                        <i class="ri-file-text-line input-icon"></i>
-                                    </div>
-                                    <div class="error-message"
-                                        *ngIf="form.controls['subject'].touched && form.controls['subject'].errors?.['required']">
-                                        <i class="ri-error-warning-line"></i>
-                                        <span>{{ 'subject_is_required' | translate }}</span>
-                                    </div>
-                                </div>
-
-                                <div class="form-field-wrapper">
-                                    <label class="form-label-modern" for="message">
-                                        <i class="ri-message-2-line"></i>
-                                        {{ 'message' | translate }}
-                                    </label>
-                                    <div class="input-wrapper">
-                                        <textarea class="form-textarea-modern" id="message"
-                                            placeholder="{{ 'enter_your_message' | translate }}" rows="6"
-                                            formControlName="message"></textarea>
-                                        <i class="ri-chat-2-fill input-icon textarea-icon"></i>
-                                    </div>
-                                    <div class="error-message"
-                                        *ngIf="form.controls['message'].touched && form.controls['message'].errors?.['required']">
-                                        <i class="ri-error-warning-line"></i>
-                                        <span>{{ 'message_is_required' | translate }}</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-submit-wrapper">
-                                <button type="submit" class="btn-submit" [disabled]="form.invalid">
-                                    <i class="ri-send-plane-fill"></i>
-                                    <span>{{ 'send_message' | translate }}</span>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- ═══ GOOGLE MAP ═══ -->
+<div class="cu-map">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.0!2d77.5!3d28.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626a3b22e7b%3A0x3e014ded27c7a80!2sGaur%20City%20Center%2C%20Greater%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000"
+    width="100%"
+    height="400"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Kahua Fashion Club Location">
+  </iframe>
+</div>

@@ -28,6 +28,7 @@ export class LoginComponent {
     items: [{ label: 'Log in', active: true }]
   }
   public reCaptcha: boolean = true;
+  public showPass: boolean = false;
 
   constructor(
     private store: Store,

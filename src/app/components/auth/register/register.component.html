@@ -1,159 +1,140 @@
-<section class="kfa-page">
-  <div class="kfa-split">
+<div class="ma-page">
 
-    <!-- LEFT PANEL -->
-    <div class="kfa-left">
-      <a [routerLink]="['/']" class="kfa-back-home">
-        <i class="ri-arrow-left-line"></i> Home
-      </a>
-      <div class="kfa-left-body">
-        <p class="kfa-eyebrow">Join us</p>
-        <h1>Create your<br>account</h1>
-        <p class="kfa-left-sub">Start shopping with exclusive members-only deals and faster checkout.</p>
-      </div>
-      <div class="kfa-left-footer">
-        <span>Already have an account?</span>
-        <a [routerLink]="['/auth/login']">Sign in <i class="ri-arrow-right-line"></i></a>
-      </div>
+  <!-- Breadcrumb -->
+  <div class="ma-breadcrumb">
+    <a routerLink="/">Home</a>
+    <i class="ri-arrow-right-s-line"></i>
+    <a routerLink="/auth/login">My Account</a>
+    <i class="ri-arrow-right-s-line"></i>
+    <span>Register</span>
+  </div>
+
+  <!-- Two-column layout (matches reference) -->
+  <div class="ma-wrapper">
+
+    <!-- ══ LEFT: LOGIN PANEL ══ -->
+    <div class="ma-col">
+      <h2 class="ma-heading">Login</h2>
+
+      <p class="ma-register-note">
+        Already have an account? Sign in to access your orders, wishlist, and account details.
+      </p>
+
+      <a [routerLink]="['/auth/login']" class="ma-submit-btn">LOG IN</a>
     </div>
 
-    <!-- RIGHT PANEL -->
-    <div class="kfa-right">
-      <div class="kfa-form-wrap">
+    <!-- Vertical divider -->
+    <div class="ma-divider"></div>
 
-        <div class="kfa-form-head">
-          <p class="kfa-eyebrow kfa-eyebrow--dark">Register</p>
-          <h2>Fill in your details</h2>
+    <!-- ══ RIGHT: REGISTER FORM ══ -->
+    <div class="ma-col">
+      <h2 class="ma-heading">Register</h2>
+
+      <form [formGroup]="form" (ngSubmit)="submit()" class="ma-form">
+
+        <!-- Name -->
+        <div class="ma-field">
+          <label for="reg-name">Username <span class="ma-req">*</span></label>
+          <input type="text" id="reg-name" formControlName="name"
+            (keydown)="allowOnlyLetters($event)"
+            (input)="sanitizeNameInput($event)"
+            (paste)="sanitizeNamePaste($event)"
+            [class.ma-input-err]="form.controls['name'].touched && form.controls['name'].invalid">
+          <span class="ma-error" *ngIf="form.controls['name'].touched && form.controls['name'].errors?.['required']">Name is required.</span>
+          <span class="ma-error" *ngIf="form.controls['name'].touched && form.controls['name'].errors?.['pattern']">Only letters and spaces are allowed.</span>
         </div>
 
-        <form [formGroup]="form" (ngSubmit)="submit()" class="kfa-form">
+        <!-- Email -->
+        <div class="ma-field">
+          <label for="reg-email">Email address <span class="ma-req">*</span></label>
+          <input type="email" id="reg-email" formControlName="email"
+            (input)="filterEmailCharacters($event)"
+            pattern="[a-zA-Z0-9._\-+@]+"
+            [class.ma-input-err]="form.controls['email'].touched && form.controls['email'].invalid">
+          <span class="ma-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['required']">Email is required.</span>
+          <span class="ma-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['email']">Invalid email address.</span>
+        </div>
 
-          <!-- Name -->
-          <div class="kfa-field">
-            <label for="name">{{ 'Full Name' | translate }}</label>
-            <input type="text" id="name" formControlName="name"
-              placeholder="{{ 'Name' | translate }}"
-              (keydown)="allowOnlyLetters($event)"
-              (input)="sanitizeNameInput($event)"
-              (paste)="sanitizeNamePaste($event)"
-              [class.kfa-input-error]="form.controls['name'].touched && form.controls['name'].invalid">
-            <span class="kfa-error" *ngIf="form.controls['name'].touched && form.controls['name'].errors?.['required']">
-              {{ 'name_is_required' | translate }}
-            </span>
-            <span class="kfa-error" *ngIf="form.controls['name'].touched && form.controls['name'].errors?.['pattern']">
-              {{ 'Only letters and spaces are allowed' | translate }}
-            </span>
-          </div>
-
-          <!-- Email -->
-          <div class="kfa-field">
-            <label for="email">{{ 'Email Address' | translate }}</label>
-            <input type="email" id="email" formControlName="email"
-              placeholder="{{ 'enter_your_email' | translate }}"
-              (input)="filterEmailCharacters($event)"
-              pattern="[a-zA-Z0-9._\-+@]+"
-              [class.kfa-input-error]="form.controls['email'].touched && form.controls['email'].invalid">
-            <span class="kfa-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['required']">
-              {{ 'Email Is Required' | translate }}
-            </span>
-            <span class="kfa-error" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['email']">
-              {{ 'Invalid Email' | translate }}
-            </span>
-          </div>
-
-          <!-- Phone -->
-          <div class="kfa-field">
-            <label for="phone">{{ 'Phone Number' | translate }}</label>
-            <div class="kfa-phone-row">
-              <select2 class="kfa-country-code"
-                [data]="codes"
-                [templates]="template"
-                formControlName="country_code">
-                <ng-template #template let-data="data">
-                  <div class="country">
-                    <div class="flag-box">
-                      <div class="iti-flag {{data?.class}}"></div>
-                    </div>
-                    <span class="dial-code">{{data.code}}</span>
+        <!-- Phone -->
+        <div class="ma-field">
+          <label for="reg-phone">Phone Number <span class="ma-req">*</span></label>
+          <div class="ma-phone-row">
+            <select2 class="ma-country-code"
+              [data]="codes"
+              [templates]="template"
+              formControlName="country_code">
+              <ng-template #template let-data="data">
+                <div class="country">
+                  <div class="flag-box">
+                    <div class="iti-flag {{data?.class}}"></div>
                   </div>
-                </ng-template>
-              </select2>
-              <input type="tel" id="phone" formControlName="phone"
-                placeholder="{{ 'Phone' | translate }}"
-                maxlength="10"
-                (keydown)="allowOnlyDigits($event)"
-                (input)="sanitizePhoneInput($event)"
-                (paste)="sanitizePhonePaste($event)"
-                [class.kfa-input-error]="form.controls['phone'].touched && form.controls['phone'].invalid">
-            </div>
-            <span class="kfa-error" *ngIf="form.controls['phone'].touched && form.controls['phone'].errors?.['required']">
-              {{ 'Phone Number Is Required' | translate }}
-            </span>
-            <span class="kfa-error" *ngIf="form.controls['phone'].touched && form.controls['phone'].errors?.['invalid']">
-              Phone Number must be 10 digits.
-            </span>
+                  <span class="dial-code">{{data.code}}</span>
+                </div>
+              </ng-template>
+            </select2>
+            <input type="tel" id="reg-phone" formControlName="phone"
+              placeholder="Phone number"
+              maxlength="10"
+              (keydown)="allowOnlyDigits($event)"
+              (input)="sanitizePhoneInput($event)"
+              (paste)="sanitizePhonePaste($event)"
+              [class.ma-input-err]="form.controls['phone'].touched && form.controls['phone'].invalid">
           </div>
-
-          <!-- Password row -->
-          <div class="kfa-two-col">
-            <div class="kfa-field">
-              <label for="password">{{ 'Password' | translate }}</label>
-              <input type="password" id="password" formControlName="password"
-                placeholder="••••••••"
-                [class.kfa-input-error]="form.controls['password'].touched && form.controls['password'].invalid">
-              <span class="kfa-error" *ngIf="form.controls['password'].touched && form.controls['password'].errors?.['required']">
-                {{ 'password_is_required' | translate }}
-              </span>
-            </div>
-            <div class="kfa-field">
-              <label for="password_confirmation">{{ 'Confirm Password' | translate }}</label>
-              <input type="password" id="password_confirmation" formControlName="password_confirmation"
-                placeholder="••••••••"
-                [class.kfa-input-error]="form.controls['password_confirmation'].touched && (form.controls['password_confirmation'].errors?.['required'] || passwordMatchError)">
-              <span class="kfa-error" *ngIf="form.controls['password_confirmation'].touched && form.controls['password_confirmation'].errors?.['required']">
-                {{ 'confirm_password_is_required' | translate }}
-              </span>
-              <span class="kfa-error" *ngIf="passwordMatchError">
-                {{ 'confirm Password Does Not Matched' | translate }}
-              </span>
-            </div>
-          </div>
-
-          <!-- ReCaptcha -->
-          <div class="kfa-field" *ngIf="reCaptcha">
-            <re-captcha formControlName="recaptcha"></re-captcha>
-            <span class="kfa-error" *ngIf="form.controls['recaptcha']?.touched && form.controls['recaptcha']?.errors?.['required']">
-              {{ 'ReCaptcha is Required' | translate }}
-            </span>
-          </div>
-
-          <!-- Terms -->
-          <div class="kfa-options-row">
-            <label class="kfa-check">
-              <input type="checkbox" id="flexCheckDefault" [formControl]="tnc">
-              <span class="kfa-check-box" [class.kfa-check-box--error]="tnc.touched && tnc.invalid"></span>
-              <span [class.kfa-text-error]="tnc.touched && tnc.invalid">
-                {{ 'I Agree With' | translate }}
-                <a [routerLink]="['/term-condition']" class="kfa-terms-link">{{ 'Terms' | translate }}</a>
-                &amp;
-                <a [routerLink]="['/privacy-policy']" class="kfa-terms-link">{{ 'Privacy' | translate }}</a>
-              </span>
-            </label>
-          </div>
-
-          <!-- Submit -->
-          <app-button [id]="'sign_up_btn'" [disabled]="tnc.invalid || form.invalid" [class]="'kfa-submit-btn'">
-            {{ 'Sign Up' | translate }} <i class="ri-arrow-right-line"></i>
-          </app-button>
-
-        </form>
-
-        <div class="kfa-alt-link">
-          <span>{{ 'Already Have An Account' | translate }}?</span>
-          <a [routerLink]="['/auth/login']">{{ 'Login' | translate }} <i class="ri-arrow-right-line"></i></a>
+          <span class="ma-error" *ngIf="form.controls['phone'].touched && form.controls['phone'].errors?.['required']">Phone number is required.</span>
+          <span class="ma-error" *ngIf="form.controls['phone'].touched && form.controls['phone'].errors?.['invalid']">Phone number must be 10 digits.</span>
         </div>
-      </div>
+
+        <!-- Password -->
+        <div class="ma-field">
+          <label for="reg-password">Password <span class="ma-req">*</span></label>
+          <input type="password" id="reg-password" formControlName="password"
+            [class.ma-input-err]="form.controls['password'].touched && form.controls['password'].invalid">
+          <span class="ma-error" *ngIf="form.controls['password'].touched && form.controls['password'].errors?.['required']">Password is required.</span>
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="ma-field">
+          <label for="reg-confirm">Confirm Password <span class="ma-req">*</span></label>
+          <input type="password" id="reg-confirm" formControlName="password_confirmation"
+            [class.ma-input-err]="form.controls['password_confirmation'].touched && (form.controls['password_confirmation'].errors?.['required'] || passwordMatchError)">
+          <span class="ma-error" *ngIf="form.controls['password_confirmation'].touched && form.controls['password_confirmation'].errors?.['required']">Confirm password is required.</span>
+          <span class="ma-error" *ngIf="passwordMatchError">Passwords do not match.</span>
+        </div>
+
+        <!-- ReCaptcha -->
+        <div class="ma-field" *ngIf="reCaptcha">
+          <re-captcha formControlName="recaptcha"></re-captcha>
+          <span class="ma-error" *ngIf="form.controls['recaptcha']?.touched && form.controls['recaptcha']?.errors?.['required']">ReCaptcha is required.</span>
+        </div>
+
+        <!-- Privacy note -->
+        <p class="ma-privacy-note">
+          Your personal data will be used to support your experience throughout this website,
+          to manage access to your account, and for other purposes described in our
+          <a [routerLink]="['/privacy-policy']" class="ma-privacy-link">privacy policy</a>.
+        </p>
+
+        <!-- Terms -->
+        <div class="ma-field">
+          <label class="ma-check-label">
+            <input type="checkbox" [formControl]="tnc">
+            <span class="ma-checkbox" [class.ma-checkbox--err]="tnc.touched && tnc.invalid"></span>
+            <span [class.ma-text-err]="tnc.touched && tnc.invalid">
+              I agree with
+              <a [routerLink]="['/term-condition']" class="ma-privacy-link">Terms</a>
+              &amp;
+              <a [routerLink]="['/privacy-policy']" class="ma-privacy-link">Privacy Policy</a>
+            </span>
+          </label>
+        </div>
+
+        <!-- Submit -->
+        <app-button [id]="'sign_up_btn'" [disabled]="tnc.invalid || form.invalid" [class]="'ma-btn'">
+          REGISTER
+        </app-button>
+
+      </form>
     </div>
 
   </div>
-</section>
+</div>
