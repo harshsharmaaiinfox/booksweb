@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+﻿import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Store } from '@ngxs/store';
 import { ContactUs } from '../../../shared/action/page.action';
@@ -36,13 +36,13 @@ export class ContactUsComponent implements OnInit {
   ngOnInit() {
     // Set unique SEO data for Contact Us page
     this.seoService.setSEOData({
-      title: 'Contact Kahuafashionclub – We\'re Here to Help You 24/7',
-      description: 'Get in touch with Kahuafashionclub customer support. We\'re available 24/7 to help with orders, products, and any questions you may have.',
-      keywords: 'contact us, customer support, help, Kahuafashionclub contact, customer service',
-      canonicalUrl: 'https://kahuafashionclub.com/Contact-Us',
-      url: 'https://kahuafashionclub.com/Contact-Us',
+      title: 'Contact Indaccu Solutions – We\'re Here to Help You 24/7',
+      description: 'Get in touch with Indaccu Solutions customer support. We\'re available 24/7 to help with orders, products, and any questions you may have.',
+      keywords: 'contact us, customer support, help, Indaccu Solutions contact, customer service',
+      canonicalUrl: 'https://indaccusolutions.in/Contact-Us',
+      url: 'https://indaccusolutions.in/Contact-Us',
       type: 'website',
-      image: 'https://kahuafashionclub.com/assets/images/contact-us.jpg'
+      image: 'https://indaccusolutions.in/assets/images/contact-us.jpg'
     });
   }
 

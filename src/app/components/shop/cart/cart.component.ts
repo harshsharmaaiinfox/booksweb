@@ -11,6 +11,9 @@ import { OrderState } from '../../../shared/state/order.state';
 import { AccountUser } from '../../../shared/interface/account.interface';
 import { OrderCheckout } from '../../../shared/interface/order.interface';
 import { Checkout } from '../../../shared/action/order.action';
+import { ProductState } from '../../../shared/state/product.state';
+import { GetProducts } from '../../../shared/action/product.action';
+import { Product } from '../../../shared/interface/product.interface';
 
 @Component({
   selector: 'app-cart',
@@ -24,6 +27,7 @@ export class CartComponent {
   @Select(CartState.cartHasDigital) cartDigital$: Observable<boolean | number>;
   @Select(AccountState.user) user$: Observable<AccountUser>;
   @Select(OrderState.checkout) checkout$: Observable<OrderCheckout>;
+  @Select(ProductState.product) product$: Observable<{ data: Product[]; total: number }>;
 
   public breadcrumb: Breadcrumb = {
     title: "Cart",
@@ -35,11 +39,12 @@ export class CartComponent {
   ngOnInit() {
     this.store.dispatch(new GetCartItems());
 
+    // Fetch featured products for empty cart suggestions
+    this.store.dispatch(new GetProducts({ status: 1, paginate: 8 }));
+
     // Calculate Shipping & Tax if user is logged in
     this.user$.subscribe(user => {
       if (user && user.address && user.address.length) {
-        // Find default address or take first one
-        // Note: Logic to pick default can be improved if 'is_default' flag exists
         const shippingAddress = user.address.find(a => a.is_default) || user.address[0];
         const billingAddress = user.address.find(a => a.is_default) || user.address[0];
 
@@ -50,10 +55,9 @@ export class CartComponent {
             products: [],
             shipping_address_id: shippingAddress.id,
             billing_address_id: billingAddress.id,
-            // Add other necessary fields if required by API validation
-            payment_method: 'cod', // Default for calculation
-            delivery_description: 'Standard Delivery', // Default
-            delivery_interval: 'Standard' // Default
+            payment_method: 'cod',
+            delivery_description: 'Standard Delivery',
+            delivery_interval: 'Standard'
           };
 
           this.cartItem$.subscribe(items => {

@@ -1,4 +1,4 @@
-import { Component, Input, ViewChild, ElementRef, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
+﻿import { Component, Input, ViewChild, ElementRef, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
 import { Select, Store  } from '@ngxs/store';
 import { Observable, forkJoin } from 'rxjs';
 import { GetProductByIds } from '../../../shared/action/product.action';
@@ -48,14 +48,14 @@ export class DenverComponent implements OnInit, OnDestroy, AfterViewInit {
   public heroSlides = [
     {
       image: 'assets/images/banner-1.png',
-      alt: 'Kahua Fashion Collection',
+      alt: 'Indaccu Solutions Collection',
       link: '/collections',
       saleText: 'FASHION SALE',
       saleSubtext: 'Running Now!'
     },
     {
       image: 'assets/images/banner-2.png',
-      alt: 'Kahua Fashion New Arrivals',
+      alt: 'Indaccu Solutions New Arrivals',
       link: '/collections',
       saleText: 'FASHION SALE',
       saleSubtext: 'UPTO 70% OFF'

@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+﻿import { Component, HostListener } from '@angular/core';
 import { Store, Select } from '@ngxs/store';
 import { Observable, filter, forkJoin } from 'rxjs';
 import { ThemeOptionState } from '../shared/state/theme-option.state';
@@ -126,8 +126,8 @@ export class LayoutComponent {
   }
 
   setLogo() {
-    var headerLogo = 'assets/images/Kahuafashionclub-logo.png';
-    var footerLogo = 'assets/images/Kahuafashionclub-logo.png';
+    var headerLogo = 'assets/images/Indaccu Solutions-logo.png';
+    var footerLogo = 'assets/images/Indaccu Solutions-logo.png';
     var footerClass;
     if(this.theme) {
       
@@ -158,8 +158,8 @@ export class LayoutComponent {
         footerClass = 'footer-section-2 footer-color-3'
 
       } else if( this.theme == 'denver') {
-        headerLogo = 'assets/images/Kahuafashionclub-logo.png';
-        footerLogo = 'assets/images/Kahuafashionclub-logo.png'
+        headerLogo = 'assets/images/Indaccu Solutions-logo.png';
+        footerLogo = 'assets/images/Indaccu Solutions-logo.png'
         footerClass = 'footer-section-2 footer-color-3'
 
       } else if(this.theme == 'moscow') {
@@ -175,8 +175,8 @@ export class LayoutComponent {
     } else {
       this.themeOption$.subscribe(theme => {
         // Force local logo instead of API logo
-        headerLogo = 'assets/images/Kahuafashionclub-logo.png';
-        footerLogo = 'assets/images/Kahuafashionclub-logo.png';
+        headerLogo = 'assets/images/Indaccu Solutions-logo.png';
+        footerLogo = 'assets/images/Indaccu Solutions-logo.png';
         footerClass = theme?.footer.footer_style === 'dark_mode' ? 'footer-section-2 footer-color-3' : '';
       });
     }

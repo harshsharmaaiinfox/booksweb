@@ -1,4 +1,4 @@
-
+﻿
 import { DOCUMENT } from '@angular/common';
 import { Component, ElementRef, HostListener, Inject, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
@@ -80,7 +80,7 @@ export class AppComponent implements OnInit {
 
       // Set Favicon
       this.favIcon = document.querySelector('#appIcon');
-      this.favIcon!.href = 'assets/images/Kahuafashionclub-logo.png';
+      this.favIcon!.href = 'assets/images/Indaccu Solutions-logo.png';
             
     });
 

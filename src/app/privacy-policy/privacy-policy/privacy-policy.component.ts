@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+﻿import { Component, OnInit } from '@angular/core';
 import { SeoService } from '../../shared/services/seo.service';
 
 @Component({
@@ -15,11 +15,11 @@ export class PrivacyPolicyComponent implements OnInit {
   ngOnInit() {
     // Set unique SEO data for Privacy Policy page
     this.seoService.setSEOData({
-      title: 'Privacy Policy – How We Use Your Data | Kahuafashionclub',
-      description: 'Learn how Kahuafashionclub protects and uses your personal information. Read our comprehensive privacy policy to understand your rights and our data practices.',
-      keywords: 'privacy policy, data protection, personal information, kahuafashionclub privacy, data usage',
-      canonicalUrl: 'https://kahuafashionclub.com/privacy-policy', // ✅ Canonical URL for SEO
-      url: 'https://kahuafashionclub.com/privacy-policy',
+      title: 'Privacy Policy – How We Use Your Data | Indaccu Solutions',
+      description: 'Learn how Indaccu Solutions protects and uses your personal information. Read our comprehensive privacy policy to understand your rights and our data practices.',
+      keywords: 'privacy policy, data protection, personal information, Indaccu Solutions privacy, data usage',
+      canonicalUrl: 'https://indaccusolutions.in/privacy-policy', // ✅ Canonical URL for SEO
+      url: 'https://indaccusolutions.in/privacy-policy',
       type: 'website'
     });
   }

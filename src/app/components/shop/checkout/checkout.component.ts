@@ -1,4 +1,4 @@
-import { Component, ElementRef, TemplateRef, ViewChild } from '@angular/core';
+﻿import { Component, ElementRef, TemplateRef, ViewChild } from '@angular/core';
 import { Store, Select } from '@ngxs/store';
 import { FormBuilder, FormControl, FormGroup, Validators, FormArray } from '@angular/forms';
 import { Select2Data, Select2UpdateEvent } from 'ng-select2-component';
@@ -783,7 +783,7 @@ export class CheckoutComponent {
     });
   }
 
-  // Transaction Status Check for Kahuafashionclub Nabu (and other payment gateways)
+  // Transaction Status Check for Indaccu Solutions Nabu (and other payment gateways)
   checkTransactionStatusSleekSynergy(uuid: any, paymentWindow: Window | null, payment_method: string) {
     this.pollingSubscription = interval(this.pollingInterval).pipe(
       switchMap(() => this.cartService.checkTransectionStatusNeoKred(uuid, payment_method)),

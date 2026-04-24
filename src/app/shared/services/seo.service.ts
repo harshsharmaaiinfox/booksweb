@@ -1,4 +1,4 @@
-
+﻿
 import { Injectable, Inject, PLATFORM_ID } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { DOCUMENT } from '@angular/common';
@@ -226,7 +226,7 @@ export class SeoService {
       "image": images.length > 0 ? images : undefined,
       "brand": {
         "@type": "Brand",
-        "name": product.brand?.name || "Kahuafashionclub"
+        "name": product.brand?.name || "Indaccu Solutions"
       },
       "offers": {
         "@type": "Offer",
@@ -237,7 +237,7 @@ export class SeoService {
         "itemCondition": "https://schema.org/NewCondition",
         "seller": {
           "@type": "Organization",
-          "name": "Kahuafashionclub"
+          "name": "Indaccu Solutions"
         }
       }
     };
@@ -260,11 +260,11 @@ export class SeoService {
     const structuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "KAHUA SYSTEMS PRIVATE LIMITED",
-      "legalName": "KAHUA SYSTEMS PRIVATE LIMITED",
-      "url": "https://kahuafashionclub.com",
-      "logo": "https://kahuafashionclub.com/assets/images/logo.png",
-      "email": "info@kahuafashionclub.com",
+      "name": "Indaccu Services Pvt. Ltd.",
+      "legalName": "Indaccu Services Pvt. Ltd.",
+      "url": "https://indaccusolutions.in",
+      "logo": "https://indaccusolutions.in/assets/images/logo.png",
+      "email": "info.indaccus@gmail.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "FF-202, Gaur City Center",
@@ -280,7 +280,7 @@ export class SeoService {
       ],
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "info@kahuafashionclub.com",
+        "email": "info.indaccus@gmail.com",
         "contactType": "customer service"
       }
     };
@@ -322,10 +322,10 @@ export class SeoService {
       },
       "publisher": {
         "@type": "Organization",
-        "name": "KAHUA SYSTEMS PRIVATE LIMITED",
+        "name": "Indaccu Services Pvt. Ltd.",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kahuafashionclub.com/assets/images/logo.png"
+          "url": "https://indaccusolutions.in/assets/images/logo.png"
         }
       },
       "datePublished": article.publishedDate,
@@ -443,11 +443,11 @@ export class SeoService {
 
     console.log('✅ Setting default SEO for non-product page:', currentUrl);
     this.setSEOData({
-      title: 'Kahua Fashion Club | Premium Ethnic & Designer Wear Online in India',
-      description: 'Shop premium ethnic and designer wear at Kahua Fashion Club. Explore sarees, lehengas, suits, and more with fast delivery across India, COD options, and easy returns.',
-      keywords: 'activewear, gym wear, joggers, men\'s clothes, women\'s clothes, stylish outfits, comfort fit, performance clothing, kahuafashionclub',
+      title: 'Indaccu Solutions | Premium Ethnic & Designer Wear Online in India',
+      description: 'Shop premium ethnic and designer wear at Indaccu Solutions. Explore sarees, lehengas, suits, and more with fast delivery across India, COD options, and easy returns.',
+      keywords: 'activewear, gym wear, joggers, men\'s clothes, women\'s clothes, stylish outfits, comfort fit, performance clothing, Indaccu Solutions',
       type: 'website',
-      url: 'https://kahuafashionclub.com/'
+      url: 'https://indaccusolutions.in/'
     });
   }
 
@@ -465,7 +465,7 @@ export class SeoService {
    * Set SEO data specifically for product pages
    * This method provides a convenient way to set all product-related SEO data
    */
-  setProductPageSEO(product: any, productSlug: string | null, baseUrl: string = 'https://kahuafashionclub.com'): void {
+  setProductPageSEO(product: any, productSlug: string | null, baseUrl: string = 'https://indaccusolutions.in'): void {
     // Handle null/undefined slug
     const slug = productSlug || product.slug || `product-${product.id}`;
     const productUrl = `${baseUrl}/product/${slug}`;
@@ -484,7 +484,7 @@ export class SeoService {
       url: productUrl,
       canonicalUrl: product.canonical_url || productUrl,
       type: 'product',
-      author: 'Kahuafashionclub'
+      author: 'Indaccu Solutions'
     });
 
     // Set product structured data for rich snippets
@@ -524,8 +524,8 @@ export class SeoService {
     const category = product.categories?.[0]?.name ? ` ${product.categories[0].name}` : '';
     const price = product.sale_price ? `₹${product.sale_price}` : `₹${product.price}`;
 
-    // Example: "Nike Air Max 270 Men's Running Shoes - ₹8,999 | Kahuafashionclub"
-    return `${brand}${product.name}${category} - ${price} | Kahuafashionclub`;
+    // Example: "Nike Air Max 270 Men's Running Shoes - ₹8,999 | Indaccu Solutions"
+    return `${brand}${product.name}${category} - ${price} | Indaccu Solutions`;
   }
 
   /**
@@ -541,7 +541,7 @@ export class SeoService {
     let rawDescription: string = product.meta_description
       || product.short_description
       || product.description
-      || `Shop ${brand}${product.name}${category} online at Kahuafashionclub. Premium quality, great prices, fast delivery.${discount}`;
+      || `Shop ${brand}${product.name}${category} online at Indaccu Solutions. Premium quality, great prices, fast delivery.${discount}`;
 
     // Sanitize sizing/measurement notes and HTML, normalize whitespace
     rawDescription = this.stripHtmlTags(this.sanitizeProductDescription(rawDescription));
@@ -576,7 +576,7 @@ export class SeoService {
 
     // If description becomes empty after sanitization, fallback to a generic line
     if (!sanitized) {
-      sanitized = 'Premium quality, great prices, fast delivery from Kahuafashionclub.';
+      sanitized = 'Premium quality, great prices, fast delivery from Indaccu Solutions.';
     }
 
     return sanitized;
@@ -611,7 +611,7 @@ export class SeoService {
     }
 
     // Add generic keywords
-    keywords.push('buy online', 'Kahuafashionclub', 'fashion', 'clothing');
+    keywords.push('buy online', 'Indaccu Solutions', 'fashion', 'clothing');
 
     return keywords.join(', ');
   }

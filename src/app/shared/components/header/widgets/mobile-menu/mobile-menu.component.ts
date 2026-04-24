@@ -48,13 +48,6 @@ export class MobileMenuComponent {
       path: '/page/faq'
     },
     {
-      id: 6,
-      active: false,
-      title: 'Offers',
-      icon: 'ri-gift-line',
-      path: '/page/offers'
-    },
-    {
       id: 7,
       active: false,
       title: 'My Wish',

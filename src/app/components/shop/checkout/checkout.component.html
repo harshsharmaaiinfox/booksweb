@@ -1,313 +1,263 @@
-<!-- Hero -->
-<section class="kfc-checkout-hero">
-  <div class="container-fluid-lg">
-    <p class="kfc-eyebrow">Secure Checkout</p>
-    <h1>Complete your order</h1>
-  </div>
-</section>
+<app-breadcrumb [breadcrumb]="breadcrumb"></app-breadcrumb>
 
-<!-- Checkout Body -->
-<section class="kfc-checkout-body" id="mySubPaisa">
-  <div class="container-fluid-lg">
-    <div class="kfc-checkout-grid">
+<section class="co-section">
+  <div class="co-container">
 
-      <!-- ===== LEFT: Steps ===== -->
-      <div class="kfc-steps">
+    <h1 class="co-page-title">Checkout</h1>
+
+    <!-- Coupon Banner -->
+    <div class="co-coupon-bar">
+      <span>Have a coupon?</span>
+      <a href="javascript:void(0)" class="co-coupon-link" (click)="coupon = !coupon">Click here to enter your code</a>
+    </div>
+    <div class="co-coupon-input-wrap" *ngIf="coupon">
+      <input #cpn type="text" class="co-coupon-input" placeholder="Coupon code">
+      <button class="co-coupon-apply-btn" type="button">Apply coupon</button>
+    </div>
+
+    <div class="co-layout">
+
+      <!-- ═══════════════════════════════════════
+           LEFT — Billing Details
+      ═══════════════════════════════════════ -->
+      <div class="co-left">
+
+        <h2 class="co-section-title">Billing details</h2>
 
         <!-- GUEST: Account Details -->
         <ng-container *ngIf="(setting$ | async)?.activation?.guest_checkout && !(accessToken$ | async)">
-          <div class="kfc-step">
-            <div class="kfc-step-head">
-              <span class="kfc-step-num">01</span>
-              <h3>{{ 'Account Details' | translate }}</h3>
-            </div>
-            <div class="kfc-step-body">
-              <form [formGroup]="form" class="kfc-form">
-                <div class="kfc-form-row">
-                  <div class="kfc-field">
-                    <label>{{ 'Name' | translate }}</label>
-                    <input type="text" formControlName="name"
-                      placeholder="{{ 'Enter Name' | translate }}"
-                      (input)="filterSpecialCharacters($event, 'name')"
-                      pattern="[a-zA-Z0-9\s\.\-\']+">
-                    <span class="kfc-error"
-                      *ngIf="form?.controls?.['name']?.touched && form.controls['name']?.errors?.['required']">
-                      {{ 'Name Is Required' | translate }}
-                    </span>
-                  </div>
-                  <div class="kfc-field">
-                    <label>{{ 'Email' | translate }}</label>
-                    <input type="email" formControlName="email"
-                      placeholder="{{ 'Enter Email Address' | translate }}"
-                      (input)="filterEmailCharacters($event)"
-                      pattern="[a-zA-Z0-9._\-+@]+">
-                    <span class="kfc-error"
-                      *ngIf="form?.controls?.['email']?.touched && form.controls['email']?.errors?.['required']">
-                      {{ 'Email is Required' | translate }}
-                    </span>
-                    <span class="kfc-error"
-                      *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['email']">
-                      {{ 'Invalid Email' | translate }}
-                    </span>
-                  </div>
-                  <div class="kfc-field">
-                    <label>{{ 'Phone Number' | translate }}</label>
-                    <input type="number" formControlName="phone"
-                      placeholder="{{ 'enter_phone' | translate }}">
-                    <span class="kfc-error"
-                      *ngIf="form?.controls?.['phone']?.touched && form.controls['phone']?.errors?.['required']">
-                      {{ 'Phone is Required' | translate }}
-                    </span>
-                  </div>
-                </div>
-                <div class="kfc-form-row">
-                  <div class="kfc-field">
-                    <label>{{ 'Password' | translate }}</label>
-                    <input type="password" formControlName="password"
-                      placeholder="{{ 'Enter Password' | translate }}">
-                    <span class="kfc-error"
-                      *ngIf="form?.controls?.['password']?.touched && form.controls['password']?.errors?.['required']">
-                      {{ 'Password is Required' | translate }}
-                    </span>
-                  </div>
-                </div>
-                <div class="kfc-account-actions" style="display:flex;align-items:center;gap:16px;margin-top:12px;flex-wrap:wrap;">
-                  <button type="button" class="btn btn-animation btn-md fw-bold"
-                          (click)="registerAndContinue()" [disabled]="registering">
-                    <span *ngIf="!registering">{{ 'Register & Continue' | translate }}</span>
-                    <span *ngIf="registering">
-                      <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
-                      {{ 'Registering...' | translate }}
-                    </span>
-                  </button>
-                  <span>
-                    {{ 'Already have an account?' | translate }}
-                    <a [routerLink]="['/auth/login']" class="text-primary">{{ 'Login' | translate }}</a>
-                  </span>
-                </div>
-                <div class="kfc-error mt-2" *ngIf="registerError" style="color:#dc3545;font-size:14px;">
-                  {{ registerError }}
-                </div>
-              </form>
-            </div>
-          </div>
+          <form [formGroup]="form" class="co-billing-form">
 
-          <!-- GUEST: Shipping Address -->
-          <div class="kfc-step" *ngIf="!(cartDigital$ | async)">
-            <div class="kfc-step-head">
-              <span class="kfc-step-num">02</span>
-              <h3>{{ 'Shipping Address' | translate }}</h3>
-              <a href="javascript:void(0)" class="kfc-btn-add" (click)="AddressModal.openModal()">
-                <i class="ri-add-line"></i> {{ 'Add Address' | translate }}
+            <div class="co-row-2">
+              <div class="co-field">
+                <label>First name <span class="co-req">*</span></label>
+                <input type="text" formControlName="name"
+                  placeholder=""
+                  (input)="filterSpecialCharacters($event, 'name')"
+                  [class.co-input-err]="form.controls['name'].touched && form.controls['name'].errors?.['required']">
+                <span class="co-err" *ngIf="form.controls['name'].touched && form.controls['name'].errors?.['required']">
+                  Name is required
+                </span>
+              </div>
+              <div class="co-field">
+                <label>Last name <span class="co-req">*</span></label>
+                <input type="text" placeholder="">
+              </div>
+            </div>
+
+            <div class="co-field">
+              <label>Email address <span class="co-req">*</span></label>
+              <input type="email" formControlName="email"
+                (input)="filterEmailCharacters($event)"
+                [class.co-input-err]="form.controls['email'].touched && form.controls['email'].invalid">
+              <span class="co-err" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['required']">Email is required</span>
+              <span class="co-err" *ngIf="form.controls['email'].touched && form.controls['email'].errors?.['email']">Invalid email</span>
+            </div>
+
+            <div class="co-field">
+              <label>Phone (optional)</label>
+              <input type="number" formControlName="phone" placeholder="">
+            </div>
+
+            <div class="co-field">
+              <label>Password <span class="co-req">*</span></label>
+              <input type="password" formControlName="password" placeholder="">
+              <span class="co-err" *ngIf="form.controls['password'].touched && form.controls['password'].errors?.['required']">Password is required</span>
+            </div>
+
+            <div class="co-action-row">
+              <button type="button" class="co-register-btn" (click)="registerAndContinue()" [disabled]="registering">
+                <span *ngIf="!registering">Register &amp; Continue</span>
+                <span *ngIf="registering">
+                  <span class="spinner-border spinner-border-sm me-1" role="status"></span>Registering...
+                </span>
+              </button>
+              <span class="co-login-hint">Already have an account? <a [routerLink]="['/auth/login']" class="co-link">Login</a></span>
+            </div>
+            <div class="co-err" *ngIf="registerError" style="margin-top:6px;">{{ registerError }}</div>
+          </form>
+
+          <!-- Shipping -->
+          <div class="co-addr-section" *ngIf="!(cartDigital$ | async)">
+            <div class="co-addr-head">
+              <h3>Shipping Address</h3>
+              <a href="javascript:void(0)" class="co-add-link" (click)="AddressModal.openModal()">
+                <i class="ri-add-line"></i> Add Address
               </a>
             </div>
-            <div class="kfc-step-body">
-              <app-address-block [addresses]="(user$ | async)?.address || []"
-                [type]="'shipping'" (selectAddress)="selectShippingAddress($event)">
-              </app-address-block>
-            </div>
+            <app-address-block [addresses]="(user$ | async)?.address || []"
+              [type]="'shipping'" (selectAddress)="selectShippingAddress($event)">
+            </app-address-block>
           </div>
 
-          <!-- GUEST: Billing Address -->
-          <div class="kfc-step">
-            <div class="kfc-step-head">
-              <span class="kfc-step-num">03</span>
-              <h3>{{ 'Billing_address' | translate }}</h3>
-              <a href="javascript:void(0)" class="kfc-btn-add" (click)="AddressModal.openModal()">
-                <i class="ri-add-line"></i> {{ 'Add Address' | translate }}
+          <!-- Billing -->
+          <div class="co-addr-section">
+            <div class="co-addr-head">
+              <h3>Billing Address</h3>
+              <a href="javascript:void(0)" class="co-add-link" (click)="AddressModal.openModal()">
+                <i class="ri-add-line"></i> Add Address
               </a>
             </div>
-            <div class="kfc-step-body">
-              <app-address-block [addresses]="(user$ | async)?.address || []"
-                [type]="'billing'" (selectAddress)="selectBillingAddress($event)">
-              </app-address-block>
-            </div>
+            <app-address-block [addresses]="(user$ | async)?.address || []"
+              [type]="'billing'" (selectAddress)="selectBillingAddress($event)">
+            </app-address-block>
           </div>
 
-          <!-- GUEST: Delivery Options -->
-          <div class="kfc-step" *ngIf="!(cartDigital$ | async)">
-            <div class="kfc-step-head">
-              <span class="kfc-step-num">04</span>
-              <h3>{{ 'Delivery Options' | translate }}</h3>
-            </div>
-            <div class="kfc-step-body">
-              <app-delivery-block [setting]="(setting$ | async)!"
-                (selectDelivery)="selectDelivery($event)">
-              </app-delivery-block>
-            </div>
+          <!-- Delivery -->
+          <div class="co-addr-section" *ngIf="!(cartDigital$ | async)">
+            <h3>Delivery Options</h3>
+            <app-delivery-block [setting]="(setting$ | async)!" (selectDelivery)="selectDelivery($event)">
+            </app-delivery-block>
           </div>
         </ng-container>
 
         <!-- LOGGED IN -->
         <ng-container *ngIf="(accessToken$ | async)">
 
-          <!-- Shipping Address -->
-          <div class="kfc-step" *ngIf="!(cartDigital$ | async)">
-            <div class="kfc-step-head">
-              <span class="kfc-step-num">01</span>
-              <h3>{{ 'Shipping Address' | translate }}</h3>
-              <a href="javascript:void(0)" class="kfc-btn-add" (click)="AddressModal.openModal()">
-                <i class="ri-add-line"></i> {{ 'Add New' | translate }}
+          <!-- Shipping -->
+          <div class="co-addr-section" *ngIf="!(cartDigital$ | async)">
+            <div class="co-addr-head">
+              <h3>Shipping Address</h3>
+              <a href="javascript:void(0)" class="co-add-link" (click)="AddressModal.openModal()">
+                <i class="ri-add-line"></i> Add New
               </a>
             </div>
-            <div class="kfc-step-body">
-              <app-address-block [addresses]="(user$ | async)?.address"
-                [type]="'shipping'" (selectAddress)="selectShippingAddress($event)">
-              </app-address-block>
-            </div>
+            <app-address-block [addresses]="(user$ | async)?.address"
+              [type]="'shipping'" (selectAddress)="selectShippingAddress($event)">
+            </app-address-block>
           </div>
 
-          <!-- Billing Address -->
-          <div class="kfc-step">
-            <div class="kfc-step-head">
-              <span class="kfc-step-num">02</span>
-              <h3>{{ 'Billing_address' | translate }}</h3>
-              <a href="javascript:void(0)" class="kfc-btn-add" (click)="AddressModal.openModal()">
-                <i class="ri-add-line"></i> {{ 'Add New' | translate }}
+          <!-- Billing -->
+          <div class="co-addr-section">
+            <div class="co-addr-head">
+              <h3>Billing Address</h3>
+              <a href="javascript:void(0)" class="co-add-link" (click)="AddressModal.openModal()">
+                <i class="ri-add-line"></i> Add New
               </a>
             </div>
-            <div class="kfc-step-body">
-              <app-address-block [addresses]="(user$ | async)?.address"
-                [type]="'billing'" (selectAddress)="selectBillingAddress($event)">
-              </app-address-block>
-            </div>
+            <app-address-block [addresses]="(user$ | async)?.address"
+              [type]="'billing'" (selectAddress)="selectBillingAddress($event)">
+            </app-address-block>
           </div>
 
-          <!-- Delivery Options -->
-          <div class="kfc-step" *ngIf="!(cartDigital$ | async)">
-            <div class="kfc-step-head">
-              <span class="kfc-step-num">03</span>
-              <h3>{{ 'Delivery Options' | translate }}</h3>
-            </div>
-            <div class="kfc-step-body">
-              <div class="kfc-empty-msg" *ngIf="!(user$ | async)">
-                {{ 'No Delivery Options Found' | translate }}
-              </div>
-              <app-delivery-block [setting]="(setting$ | async)!"
-                (selectDelivery)="selectDelivery($event)">
-              </app-delivery-block>
-            </div>
+          <!-- Delivery -->
+          <div class="co-addr-section" *ngIf="!(cartDigital$ | async)">
+            <h3>Delivery Options</h3>
+            <app-delivery-block [setting]="(setting$ | async)!" (selectDelivery)="selectDelivery($event)">
+            </app-delivery-block>
           </div>
 
         </ng-container>
-      </div>
 
-      <!-- ===== RIGHT: Summary + Payment ===== -->
-      <div class="kfc-sidebar">
-
-        <!-- Payment Options -->
-        <div class="kfc-panel" *ngIf="(accessToken$ | async)">
-          <div class="kfc-panel-head">
-            <p class="kfc-eyebrow">How to pay</p>
-            <h3>{{ 'Payment Options' | translate }}</h3>
-          </div>
-          <div class="kfc-panel-body">
-            <div class="kfc-empty-msg" *ngIf="!(setting$ | async)?.payment_methods?.length">
-              {{ 'No Payment Options Found' | translate }}
-            </div>
-            <app-payment-block *ngIf="(setting$ | async)?.payment_methods?.length"
-              [setting]="(setting$ | async)!"
-              (selectPaymentMethod)="selectPaymentMethod($event)">
-            </app-payment-block>
-          </div>
+        <!-- Order notes -->
+        <div class="co-field co-notes-field">
+          <label>Order notes (optional)</label>
+          <textarea rows="4" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
         </div>
 
-        <!-- Order Summary -->
-        <div class="kfc-panel kfc-order-summary custom-box-loader">
-          <div class="kfc-panel-head">
-            <p class="kfc-eyebrow">Review</p>
-            <h3>{{ 'Order Summary' | translate }}</h3>
-          </div>
+      </div>
 
-          <div class="box-loader" *ngIf="loading">
-            <app-loader [loaderClass]="'custom-loader-wrapper'"></app-loader>
+      <!-- ═══════════════════════════════════════
+           RIGHT — Your Order
+      ═══════════════════════════════════════ -->
+      <div class="co-right">
+        <h2 class="co-section-title">Your order</h2>
+
+        <div class="co-order-box">
+
+          <!-- Product table header -->
+          <div class="co-order-header">
+            <span>Product</span>
+            <span>Subtotal</span>
           </div>
 
           <!-- Items -->
-          <div class="kfc-panel-body">
-            <app-no-data [class]="'empty-cart'" [image]="'assets/svg/empty-items.svg'"
-              [text]="'No Items Cart'" *ngIf="!(cartItem$ | async)?.length">
-            </app-no-data>
+          <ng-container *ngIf="(cartItem$ | async)?.length">
+            <div class="co-order-row" *ngFor="let item of cartItem$ | async">
+              <span class="co-order-product">
+                {{ item?.variation ? item?.variation?.name : item?.product?.name }}
+                <strong> &times; {{ item.quantity }}</strong>
+              </span>
+              <span class="co-order-price co-purple">
+                {{ ((item?.variation ? item?.variation?.sale_price : item?.wholesale_price || item?.product?.sale_price) || 0) * item.quantity | currencySymbol }}
+              </span>
+            </div>
+          </ng-container>
 
-            <ul class="kfc-item-list" *ngIf="(cartItem$ | async)?.length">
-              <li *ngFor="let item of cartItem$ | async" class="kfc-item">
-                <div class="kfc-item-img">
-                  <img [src]="item?.variation && item?.variation?.variation_image
-                      ? item?.variation?.variation_image?.original_url
-                      : item?.product?.product_thumbnail
-                      ? item?.product?.product_thumbnail?.original_url
-                      : 'assets/images/product.png'" alt="product">
-                </div>
-                <div class="kfc-item-info">
-                  <p class="kfc-item-name">
-                    {{ item?.variation ? item?.variation?.name : item?.product?.name }}
-                  </p>
-                  <p class="kfc-item-variant" *ngIf="item?.variation">
-                    {{ item?.variation?.selected_variation || item?.variation?.name || 'N/A' }}
-                  </p>
-                  <div class="kfc-item-price-row">
-                    <span class="kfc-item-price">
-                      {{ (item?.variation ? item.variation.sale_price : item?.product && item?.wholesale_price
-                          ? item?.wholesale_price : item?.product?.sale_price)! | currencySymbol }}
-                    </span>
-                    <span class="kfc-item-qty">× {{ item.quantity }}</span>
-                  </div>
-                </div>
-              </li>
-            </ul>
+          <div class="co-order-divider"></div>
 
-            <!-- Totals -->
-            <ng-container *ngIf="(cartItem$ | async)?.length">
-              <form [formGroup]="form" (ngSubmit)="placeorder()">
-                <div class="kfc-totals">
-                  <div class="kfc-total-row">
-                    <span>{{ 'Subtotal' | translate }}</span>
-                    <span>{{ (checkoutTotal ? (checkoutTotal.total.sub_total | currencySymbol) : (((cartTotal$ | async) ?? 0) | currencySymbol)) }}</span>
-                  </div>
-                  <div class="kfc-total-row" *ngIf="!(cartDigital$ | async)">
-                    <span>{{ 'Shipping' | translate }}</span>
-                    <span>{{ (checkoutTotal ? (checkoutTotal.total.shipping_total | currencySymbol) : (0 | currencySymbol)) }}</span>
-                  </div>
-                  <div class="kfc-total-row">
-                    <span>{{ 'Tax' | translate }}</span>
-                    <span>{{ (checkoutTotal ? (checkoutTotal.total.tax_total | currencySymbol) : (0 | currencySymbol)) }}</span>
-                  </div>
-                  <div class="kfc-total-row kfc-points-row"
-                    *ngIf="(user$ | async) && checkoutTotal && (user$ | async)?.point?.balance">
-                    <span [class.kfc-active]="form.controls['points_amount'].value">{{ 'Points' | translate }}</span>
-                    <span [class.kfc-active]="form.controls['points_amount'].value">
-                      {{ (checkoutTotal ? (checkoutTotal.total.convert_point_amount! | currencySymbol) : ('Not Calculated Yet' | translate)) }}
-                    </span>
-                  </div>
-                  <div class="kfc-total-divider"></div>
-                  <div class="kfc-total-row kfc-grand-total">
-                    <span>{{ 'Total' | translate }}</span>
-                    <span>{{ (checkoutTotal ? (checkoutTotal.total.total | currencySymbol) : (((cartTotal$ | async) ?? 0) | currencySymbol)) }}</span>
-                  </div>
-                </div>
-
-                <!-- Min order error -->
-                <div class="kfc-min-order-error" *ngIf="minOrderError">
-                  <i class="ri-alert-line"></i> {{ minOrderError }}
-                </div>
-
-                <app-button [class]="'kfc-place-order-btn'" [id]="'place_order'"
-                  [disabled]="loading || !(form.valid && checkoutTotal) || !!minOrderError"
-                  [loading]="loading">
-                  <i class="ri-lock-line"></i> {{ 'Place Order' | translate }}
-                </app-button>
-              </form>
-            </ng-container>
+          <!-- Subtotal -->
+          <div class="co-order-row">
+            <span>Subtotal</span>
+            <span class="co-purple co-fw">
+              {{ checkoutTotal ? (checkoutTotal.total.sub_total | currencySymbol) : ((cartTotal$ | async) || 0 | currencySymbol) }}
+            </span>
           </div>
-        </div>
 
+          <!-- Shipping -->
+          <div class="co-order-divider"></div>
+          <div class="co-order-row" *ngIf="!(cartDigital$ | async)">
+            <span>Shipping</span>
+            <span>Free shipping</span>
+          </div>
+
+          <div class="co-order-divider"></div>
+
+          <!-- Total -->
+          <div class="co-order-row co-order-total">
+            <span>Total</span>
+            <span class="co-purple co-fw">
+              {{ checkoutTotal ? (checkoutTotal.total.total | currencySymbol) : ((cartTotal$ | async) || 0 | currencySymbol) }}
+            </span>
+          </div>
+
+          <div class="co-order-divider"></div>
+
+          <!-- Payment Options -->
+          <div class="co-payment-section">
+            <div *ngIf="(accessToken$ | async)">
+              <app-payment-block *ngIf="(setting$ | async)?.payment_methods?.length"
+                [setting]="(setting$ | async)!"
+                (selectPaymentMethod)="selectPaymentMethod($event)">
+              </app-payment-block>
+              <p class="co-no-payment" *ngIf="!(setting$ | async)?.payment_methods?.length">
+                No payment options found.
+              </p>
+            </div>
+          </div>
+
+          <!-- Privacy notice -->
+          <p class="co-privacy-notice">
+            Your personal data will be used to process your order, support your experience throughout this website,
+            and for other purposes described in our <a routerLink="/privacy-policy" class="co-purple-link">privacy policy</a>.
+          </p>
+
+          <!-- Min order error -->
+          <div class="co-min-err" *ngIf="minOrderError">
+            <i class="ri-alert-line"></i> {{ minOrderError }}
+          </div>
+
+          <!-- Place Order -->
+          <form [formGroup]="form" (ngSubmit)="placeorder()">
+            <div class="box-loader" *ngIf="loading">
+              <app-loader [loaderClass]="'custom-loader-wrapper'"></app-loader>
+            </div>
+            <app-button [class]="'co-place-order-btn'" [id]="'place_order'"
+              [disabled]="loading || !(form.valid && checkoutTotal) || !!minOrderError"
+              [loading]="loading">
+              PLACE ORDER
+            </app-button>
+          </form>
+
+        </div>
       </div>
+
     </div>
   </div>
 </section>
 
 <address-modal #addressModal></address-modal>
-<div id="paymentContainer" style="visibility: hidden;"></div>
+<div id="paymentContainer" style="visibility:hidden;"></div>
 
 <ng-template #payByQRModal let-data="data">
   <div class="kfc-qr-modal">
@@ -321,9 +271,7 @@
           <img src="/assets/images/QR_Code.png" alt="QR Code">
         </div>
         <p class="kfc-upi-id">9643790758&amp;YESBANK</p>
-        <p class="kfc-qr-note">
-          Scan the QR code with any UPI app. After payment, enter the UPI Reference ID on the next screen — we'll verify it manually.
-        </p>
+        <p class="kfc-qr-note">Scan the QR code with any UPI app. After payment, enter the UPI Reference ID on the next screen.</p>
         <div class="kfc-payment-icons">
           <img src="/assets/images/payments.png" alt="UPI">
         </div>

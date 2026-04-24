@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+﻿import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Store, Select  } from '@ngxs/store';
 import { Observable } from 'rxjs';
@@ -44,9 +44,9 @@ export class ThemesComponent implements OnInit {
     
     // Set additional homepage-specific SEO data
     this.seoService.setSEOData({
-      canonicalUrl: 'https://Kahuafashionclub.in/',
-      url: 'https://Kahuafashionclub.in/',
-      image: 'https://Kahuafashionclub.in/assets/images/hero-banner.jpg'
+      canonicalUrl: 'https://Indaccu Solutions.in/',
+      url: 'https://Indaccu Solutions.in/',
+      image: 'https://Indaccu Solutions.in/assets/images/hero-banner.jpg'
     });
   }
   

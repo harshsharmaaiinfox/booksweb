@@ -1,211 +1,159 @@
 // =====================================================
-// Offers Page — Premium Design
+// Offers Page — Matches reference image
 // =====================================================
 
-$text:      #1a1a1a;
-$subtext:   #555;
-$muted:     #888;
-$border:    #e8e8e8;
-$white:     #fff;
-$page-bg:   #f5f5f5;
-$hero-bg:   #1a1a1a;
-$accent:    #1a1a1a;
-$green:     #16a34a;
+$purple:   #6a0dad;
+$text:     #1a1a1a;
+$subtext:  #444;
+$muted:    #888;
+$border:   #d8d8d8;
+$white:    #ffffff;
+$bg:       #f4f4f4;
 
 // ── BREADCRUMB ────────────────────────────────────────
-.pg-breadcrumb {
+.of-breadcrumb {
   background: $white;
-  border-bottom: 1px solid $border;
-  padding: 13px 0;
+  border-bottom: 1px solid #ebebeb;
+  padding: 12px 0;
+  font-size: 13px;
+  color: $muted;
 
-  .container-fluid-lg {
+  .of-container {
     display: flex;
     align-items: center;
     gap: 6px;
-    font-size: 12.5px;
-    color: $muted;
   }
 
-  a { color: $muted; text-decoration: none; transition: color 0.2s; &:hover { color: $text; } }
-  i { font-size: 13px; color: #ccc; }
-  span { color: $text; font-weight: 500; }
+  a {
+    color: $muted;
+    text-decoration: none;
+    &:hover { color: $text; }
+  }
+
+  i { font-size: 14px; color: #ccc; }
+
+  span {
+    color: $text;
+    font-weight: 500;
+  }
 }
 
-// ── HERO ──────────────────────────────────────────────
-.pg-hero {
-  background: $hero-bg;
-  padding: 56px 0;
+// ── SHARED CONTAINER ──────────────────────────────────
+.of-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// ── HERO BANNER ───────────────────────────────────────
+.of-banner {
+  width: 100%;
+  line-height: 0;
+  background: #1a0533;
+
+  .of-banner-img {
+    display: block;
+    width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+    object-position: center;
+
+    @media (max-width: 768px) { max-height: 220px; }
+    @media (max-width: 480px) { max-height: 160px; }
+  }
+}
+
+// ── SECTION ───────────────────────────────────────────
+.of-section {
+  background: $bg;
+  padding: 36px 0 60px;
+}
+
+// ── CONTENT BOX ───────────────────────────────────────
+.of-box {
+  background: $white;
+  border: 1px solid $border;
+  border-radius: 6px;
+  padding: 36px 40px 40px;
+
+  @media (max-width: 600px) { padding: 24px 18px 28px; }
+}
+
+// ── MAIN HEADING (purple) ─────────────────────────────
+.of-main-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: $purple;
+  margin: 0 0 16px;
+  line-height: 1.4;
+
+  @media (max-width: 600px) { font-size: 17px; }
+}
+
+// ── INTRO PARAGRAPH ───────────────────────────────────
+.of-intro {
+  font-size: 13.5px;
+  color: $subtext;
+  line-height: 1.85;
+  margin: 0 0 22px;
+}
+
+// ── CONDITIONS HEADING ────────────────────────────────
+.of-conditions-heading {
+  font-size: 15px;
+  font-weight: 700;
+  color: $text;
+  margin: 0 0 16px;
+}
+
+// ── CONDITION ITEM ────────────────────────────────────
+.of-condition {
+  font-size: 13.5px;
+  color: $subtext;
+  line-height: 1.85;
+  margin: 0 0 10px;
+
+  strong {
+    color: $text;
+    font-weight: 700;
+  }
+}
+
+// ── HIGHLIGHTED TEXT (purple) ─────────────────────────
+.of-highlight {
+  color: $purple;
+}
+
+// ── CLOSING PARAGRAPH ─────────────────────────────────
+.of-closing {
+  font-size: 13.5px;
+  color: $subtext;
+  line-height: 1.85;
+  margin: 14px 0 28px;
+}
+
+// ── SHOP NOW BUTTON ───────────────────────────────────
+.of-btn-wrap {
   text-align: center;
 }
 
-.pg-hero-inner { max-width: 600px; margin: 0 auto; }
-
-.pg-eyebrow {
+.of-shop-btn {
   display: inline-block;
-  font-size: 10.5px;
+  padding: 13px 48px;
+  background: $purple;
+  color: $white;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  color: rgba(#fff, 0.45);
-  margin-bottom: 14px;
-}
-
-.pg-hero h1 {
-  font-size: 38px;
-  font-weight: 700;
-  color: #fff;
-  margin: 0 0 14px;
-  letter-spacing: -0.5px;
-  line-height: 1.15;
-
-  @media (max-width: 768px) { font-size: 28px; }
-}
-
-.pg-hero p {
-  font-size: 15px;
-  color: rgba(#fff, 0.5);
-  margin: 0;
-  line-height: 1.65;
-}
-
-// ── CONTENT ───────────────────────────────────────────
-.pg-content {
-  background: $page-bg;
-  padding: 52px 0 72px;
-}
-
-// ── COUPON GRID ───────────────────────────────────────
-.pg-coupon-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-
-  @media (max-width: 1200px) { grid-template-columns: repeat(3, 1fr); }
-  @media (max-width: 860px)  { grid-template-columns: repeat(2, 1fr); gap: 16px; }
-  @media (max-width: 520px)  { grid-template-columns: 1fr; }
-}
-
-.pg-coupon-card {
-  background: $white;
-  border-radius: 12px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  transition: box-shadow 0.25s, transform 0.25s;
+  letter-spacing: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.22s;
 
   &:hover {
-    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
-    transform: translateY(-3px);
+    background: darken(#6a0dad, 10%);
+    color: $white;
   }
-}
-
-.pg-coupon-top {
-  padding: 28px 24px 20px;
-  flex: 1;
-  border-bottom: 2px dashed $border;
-}
-
-.pg-coupon-tag {
-  width: 44px;
-  height: 44px;
-  background: #f0f0f0;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 16px;
-
-  i { font-size: 22px; color: $text; }
-}
-
-.pg-coupon-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: $text;
-  margin: 0 0 8px;
-  line-height: 1.3;
-}
-
-.pg-coupon-desc {
-  font-size: 13.5px;
-  color: $subtext;
-  line-height: 1.65;
-  margin: 0;
-}
-
-.pg-coupon-bottom {
-  padding: 18px 24px;
-  background: #fafafa;
-}
-
-.pg-coupon-code-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.pg-coupon-code {
-  font-size: 14px;
-  font-weight: 700;
-  color: $green;
-  letter-spacing: 1px;
-  font-family: monospace;
-  background: rgba($green, 0.08);
-  border: 1.5px dashed rgba($green, 0.3);
-  padding: 6px 12px;
-  border-radius: 6px;
-}
-
-.pg-copy-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 16px;
-  background: $accent;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 12px;
-  font-weight: 600;
-  cursor: pointer;
-  letter-spacing: 0.5px;
-  transition: background 0.2s, transform 0.15s;
-  i { font-size: 14px; }
-  &:hover { background: #000; transform: translateY(-1px); }
-}
-
-// ── SKELETON ──────────────────────────────────────────
-.pg-coupon-skeleton {
-  background: $white;
-  border-radius: 12px;
-  padding: 28px 24px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.05);
-}
-
-.pg-skeleton-line {
-  height: 14px;
-  background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
-  background-size: 200% 100%;
-  animation: pgshimmer 1.4s infinite;
-  border-radius: 4px;
-  margin-bottom: 12px;
-  &--title { height: 18px; width: 70%; margin-bottom: 16px; }
-  &--short { width: 50%; }
-}
-
-.pg-skeleton-code {
-  height: 36px;
-  background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
-  background-size: 200% 100%;
-  animation: pgshimmer 1.4s infinite;
-  border-radius: 6px;
-  margin-top: 16px;
-}
-
-@keyframes pgshimmer {
-  0%   { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
 }

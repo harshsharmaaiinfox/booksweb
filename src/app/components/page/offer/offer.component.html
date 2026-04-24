@@ -1,68 +1,80 @@
-<!-- Breadcrumb -->
-<div class="pg-breadcrumb">
-  <div class="container-fluid-lg">
+<!-- ── BREADCRUMB ── -->
+<div class="of-breadcrumb">
+  <div class="of-container">
     <a routerLink="/">Home</a>
     <i class="ri-arrow-right-s-line"></i>
-    <span>Offers &amp; Coupons</span>
+    <span>Offers</span>
   </div>
 </div>
 
-<!-- Hero -->
-<section class="pg-hero">
-  <div class="container-fluid-lg">
-    <div class="pg-hero-inner">
-      <span class="pg-eyebrow">Exclusive Deals</span>
-      <h1>Offers &amp; Coupons</h1>
-      <p>Save more on every order with our latest discount codes</p>
+<!-- ── HERO BANNER ── -->
+<div class="of-banner">
+  <img src="assets/images/offer.gif" alt="Surprise Mega Deals" class="of-banner-img" />
+</div>
+
+<!-- ── CONTENT BOX ── -->
+<section class="of-section">
+  <div class="of-container">
+    <div class="of-box">
+
+      <h1 class="of-main-heading">
+        Shop Smart, Win Big: Get up to 100% Cashback on Every Purchase!
+      </h1>
+
+      <p class="of-intro">
+        Discover an exciting opportunity to transform your shopping experience into a rewarding adventure! At Indaccu Solutions, your one-stop destination for
+        digital products, we're thrilled to introduce our latest promotion that gives you a chance to win up to 100% cashback on all your purchases. Whether you're
+        shopping for software, digital downloads, or online services, every transaction could lead to incredible savings.
+      </p>
+
+      <h2 class="of-conditions-heading">Conditions for Getting up to 100% Cashback:</h2>
+
+      <p class="of-condition">
+        <strong>Shop at Indaccu Solutions</strong>: To participate, you must make your purchases exclusively from our website.
+      </p>
+      <p class="of-condition">
+        <strong>Create an Account</strong>: Ensure you have an active account on our platform. If you don't have one already, sign up to get started.
+      </p>
+      <p class="of-condition">
+        <strong>Eligible Products</strong>: <span class="of-highlight">All products at Indaccu Solutions are eligible for this promotion.</span>
+      </p>
+      <p class="of-condition">
+        <strong>Minimum Purchase Requirement</strong>: There is no minimum purchase requirement to <span class="of-highlight">participate in this promotion.</span> However, remember that the more you shop,
+        the higher your chances of winning <span class="of-highlight">higher cashback rewards.</span> Shop high to get high rewards!
+      </p>
+      <p class="of-condition">
+        <strong>Cashback Range</strong>: The cashback you receive is based on a randomized system. It can range from 10% to 100% of your <span class="of-highlight">eligible</span> purchase amount.
+        Each transaction has a unique chance to win within this range.
+      </p>
+      <p class="of-condition">
+        <strong>Cashback Redemption</strong>: Cashback is credited to your account as reward points within 7-10 business days after your purchase. You can then choose to
+        redeem these reward points as a direct payment to your preferred payment method, such as PayPal or other <span class="of-highlight">eligible</span> payment methods. Enjoy the flexibility of
+        receiving your cashback where you want it.
+      </p>
+      <p class="of-condition">
+        <strong>Multiple Entries</strong>: Feel free to participate as many times as you like. Each <span class="of-highlight">eligible</span> purchase gives you another chance to win up to 100% cashback.
+      </p>
+      <p class="of-condition">
+        <strong>Promotion Period</strong>: Be mindful of the promotion's start and end dates. Only purchases made <span class="of-highlight">during this period will be eligible.</span>
+      </p>
+      <p class="of-condition">
+        <strong>Stay Informed</strong>: Keep an eye on our website and email updates for any changes to the promotion, such as special events or flash sales offering increased
+        chances of winning.
+      </p>
+      <p class="of-condition">
+        <strong>Enjoy the Savings</strong>: Once you receive your cashback, you can choose to receive it directly to your preferred payment method or maximize your rewards by
+        continuing to shop with us!
+      </p>
+
+      <p class="of-closing">
+        Remember, at Indaccu Solutions, we believe in making your <span class="of-highlight">digital</span> shopping experience not just enjoyable but also rewarding. Don't miss this golden
+        opportunity to win big – shop now and <span class="of-highlight">see how much you can save!</span>
+      </p>
+
+      <div class="of-btn-wrap">
+        <a routerLink="/shop/all-products" class="of-shop-btn">SHOP NOW</a>
+      </div>
+
     </div>
-  </div>
-</section>
-
-<!-- Coupons Grid -->
-<section class="pg-content">
-  <div class="container-fluid-lg">
-
-    <!-- Skeleton Loader -->
-    <ng-container *ngIf="couponService?.skeletonLoader else offerContent">
-      <div class="pg-coupon-grid">
-        <div class="pg-coupon-skeleton" *ngFor="let item of skeletonItems">
-          <div class="pg-skeleton-line pg-skeleton-line--title"></div>
-          <div class="pg-skeleton-line"></div>
-          <div class="pg-skeleton-line pg-skeleton-line--short"></div>
-          <div class="pg-skeleton-code"></div>
-        </div>
-      </div>
-    </ng-container>
-
-    <!-- Coupon Cards -->
-    <ng-template #offerContent>
-      <div class="pg-coupon-grid" *ngIf="(coupon$ | async)?.data?.length">
-        <div class="pg-coupon-card" *ngFor="let coupon of (coupon$ | async)?.data">
-          <div class="pg-coupon-top">
-            <div class="pg-coupon-tag"><i class="ri-price-tag-3-line"></i></div>
-            <h3 class="pg-coupon-title">{{ coupon?.title }}</h3>
-            <p class="pg-coupon-desc">{{ coupon?.description }}</p>
-          </div>
-          <div class="pg-coupon-bottom">
-            <div class="pg-coupon-code-wrap">
-              <span class="pg-coupon-code"># {{ coupon?.code }}</span>
-              <button class="pg-copy-btn" (click)="copyFunction(coupon.code)" *ngIf="coupon?.code">
-                <i class="ri-file-copy-line"></i>
-                {{ 'copy_code' | translate }}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <app-no-data
-        [class]="'no-data-added collection-no-data'"
-        [image]="'assets/svg/no-product.svg'"
-        [text]="'no_Offers_found'"
-        [description]="'inform_you_that_the_currently_unavailable'"
-        *ngIf="!(coupon$ | async)?.data?.length && !couponService.skeletonLoader">
-      </app-no-data>
-    </ng-template>
-
   </div>
 </section>

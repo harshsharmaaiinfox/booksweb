@@ -92,10 +92,7 @@ const routes: Routes = [
     component: CheckoutComponent,
     canActivate: [CheckoutGuard]
   },
-  {
-    path: 'order/tracking',
-    component: OrderTrackingComponent
-  },
+  // order tracking page removed
   {
     path: 'order/details',
     component: OrderDetailsComponent

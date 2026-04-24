@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+﻿import { Component, OnInit } from '@angular/core';
 import { SeoService } from '../services/seo.service';
 
 @Component({
@@ -7,8 +7,8 @@ import { SeoService } from '../services/seo.service';
     <div class="seo-example-container">
       <!-- Main page title with H1 -->
       <app-seo-heading 
-        title="Kahuafashionclub Premium Mens and Womens Fashion Online" 
-        description="Discover new season shirts jackets suits denim and more at Kahuafashionclub. Premium quality fast shipping across India COD and easy returns."
+        title="Indaccu Solutions Premium Mens and Womens Fashion Online" 
+        description="Discover new season shirts jackets suits denim and more at Indaccu Solutions. Premium quality fast shipping across India COD and easy returns."
         level="1"
         headingClass="main-title">
       </app-seo-heading>
@@ -177,11 +177,11 @@ export class SeoExampleComponent implements OnInit {
   ngOnInit() {
     // Set comprehensive SEO data for this page
     this.seoService.setSEOData({
-      title: 'Kahuafashionclub Premium Mens and Womens Fashion Online',
-      description: 'Discover new season shirts jackets suits denim and more at Kahuafashionclub. Premium quality fast shipping across India COD and easy returns.',
-      keywords: 'activewear, gym wear, joggers, men\'s clothes, women\'s clothes, stylish outfits, comfort fit, performance clothing, kahuafashionclub',
-      image: 'https://Kahuafashionclub.in/assets/images/hero-banner.jpg',
-      url: 'https://Kahuafashionclub.in',
+      title: 'Indaccu Solutions Premium Mens and Womens Fashion Online',
+      description: 'Discover new season shirts jackets suits denim and more at Indaccu Solutions. Premium quality fast shipping across India COD and easy returns.',
+      keywords: 'activewear, gym wear, joggers, men\'s clothes, women\'s clothes, stylish outfits, comfort fit, performance clothing, Indaccu Solutions',
+      image: 'https://Indaccu Solutions.in/assets/images/hero-banner.jpg',
+      url: 'https://Indaccu Solutions.in',
       type: 'website',
       author: 'Ecomus Team'
     });
@@ -191,8 +191,8 @@ export class SeoExampleComponent implements OnInit {
 
     // Set breadcrumb structured data
     this.seoService.setBreadcrumbStructuredData([
-      { name: 'Home', url: 'https://Kahuafashionclub.in' },
-      { name: 'Featured Products', url: 'https://Kahuafashionclub.in/featured' }
+      { name: 'Home', url: 'https://Indaccu Solutions.in' },
+      { name: 'Featured Products', url: 'https://Indaccu Solutions.in/featured' }
     ]);
   }
 } 

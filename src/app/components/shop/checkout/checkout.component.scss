@@ -1,578 +1,432 @@
-// ============================================
-// Kahua Fashion — Checkout Page
-// ============================================
+// =====================================================
+// Checkout Page — Matches reference image
+// =====================================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
-$border: #e8e4df;
-$error: #c0392b;
+$purple:  #6a0dad;
+$text:    #1a1a1a;
+$sub:     #555;
+$muted:   #888;
+$border:  #e5e5e5;
+$white:   #ffffff;
+$bg:      #f7f7f7;
+$error:   #c0392b;
 
-// =============================================
-// EYEBROW
-// =============================================
-.kfc-eyebrow {
-  font-size: 10px;
+// ── SECTION ───────────────────────────────────────────
+.co-section {
+  background: $white;
+  padding: 20px 0 64px;
+}
+
+.co-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+// ── PAGE TITLE ────────────────────────────────────────
+.co-page-title {
+  font-size: 26px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: $warm;
-  margin: 0 0 8px;
+  color: $text;
+  margin: 0 0 20px;
 }
 
-// =============================================
-// HERO
-// =============================================
-.kfc-checkout-hero {
+// ── COUPON BANNER ─────────────────────────────────────
+.co-coupon-bar {
+  background: #f0eff5;
+  border: 1px solid #ddd;
+  padding: 12px 18px;
+  font-size: 13.5px;
+  color: $sub;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.co-coupon-link {
+  color: $purple;
+  text-decoration: none;
+  font-weight: 500;
+  &:hover { text-decoration: underline; }
+}
+
+.co-coupon-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f0eff5;
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 14px 18px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.co-coupon-input {
+  padding: 10px 12px;
+  border: 1px solid $border;
+  font-size: 14px;
+  color: $text;
+  width: 220px;
+  outline: none;
+  &:focus { border-color: $purple; }
+}
+
+.co-coupon-apply-btn {
+  padding: 10px 20px;
   background: $text;
-  padding: 48px 0 40px;
-
-  .kfc-eyebrow { color: $olive; }
-
-  h1 {
-    font-size: 36px;
-    font-weight: 700;
-    color: $white;
-    margin: 0;
-    letter-spacing: -0.5px;
-    line-height: 1.1;
-
-    @media (max-width: 768px) { font-size: 26px; }
-  }
+  color: $white;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  &:hover { background: $purple; }
 }
 
-// =============================================
-// CHECKOUT BODY
-// =============================================
-.kfc-checkout-body {
-  background: $bg;
-  padding: 40px 0 60px;
-}
-
-.kfc-checkout-grid {
+// ── TWO-COLUMN LAYOUT ─────────────────────────────────
+.co-layout {
   display: grid;
   grid-template-columns: 1fr 380px;
-  gap: 32px;
+  gap: 48px;
   align-items: flex-start;
+  margin-top: 28px;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 991px) {
     grid-template-columns: 1fr;
+    gap: 32px;
   }
 }
 
-// =============================================
-// STEPS (left column)
-// =============================================
-.kfc-steps {
+// ── SECTION TITLE ─────────────────────────────────────
+.co-section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: $text;
+  margin: 0 0 20px;
+}
+
+// ── LEFT COLUMN ───────────────────────────────────────
+.co-left {}
+
+// Billing form
+.co-billing-form {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 14px;
 }
 
-.kfc-step {
-  background: $white;
-  border: 1px solid $border;
+.co-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
 
-  & + .kfc-step {
-    border-top: none;
-  }
-
-  .kfc-step-head {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 20px 24px;
-    border-bottom: 1px solid $border;
-
-    .kfc-step-num {
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      color: $olive;
-      min-width: 26px;
-    }
-
-    h3 {
-      font-size: 15px;
-      font-weight: 700;
-      color: $text;
-      margin: 0;
-      flex: 1;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .kfc-btn-add {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 11px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: $olive;
-      text-decoration: none;
-      border: 1.5px solid $olive;
-      padding: 6px 12px;
-      transition: all 0.2s;
-      white-space: nowrap;
-
-      i { font-size: 14px; }
-
-      &:hover {
-        background: $olive;
-        color: $white;
-      }
-    }
-  }
-
-  .kfc-step-body {
-    padding: 24px;
-  }
+  @media (max-width: 580px) { grid-template-columns: 1fr; }
 }
 
-// =============================================
-// FORM
-// =============================================
-.kfc-form {
-  .kfc-form-row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-
-    @media (max-width: 768px) {
-      grid-template-columns: 1fr;
-    }
-  }
-}
-
-.kfc-field {
+.co-field {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 5px;
 
   label {
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-size: 13.5px;
     color: $text;
+    font-weight: 400;
   }
 
-  input, textarea {
+  input, textarea, select {
     padding: 10px 12px;
-    border: 1.5px solid #d5d0cb;
-    border-radius: 0;
+    border: 1px solid $border;
+    border-radius: 3px;
     font-size: 14px;
     color: $text;
     background: $white;
     font-family: inherit;
-    transition: border-color 0.2s;
+    outline: none;
     width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
 
-    &:focus {
-      outline: none;
-      border-color: $text;
-    }
+    &:focus { border-color: #aaa; }
 
-    &::placeholder {
-      color: #bbb;
-      font-size: 13px;
-    }
+    &::placeholder { color: #ccc; }
   }
 
-  .kfc-error {
-    font-size: 11px;
-    color: $error;
-    font-weight: 500;
-  }
+  textarea { resize: vertical; min-height: 90px; }
 }
 
-.kfc-check-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 14px;
+.co-req { color: $error; font-size: 13px; }
 
-  input[type="checkbox"] {
-    width: 16px;
-    height: 16px;
-    accent-color: $olive;
-    cursor: pointer;
-  }
-
-  label {
-    font-size: 13px;
-    color: $text;
-    cursor: pointer;
-  }
-}
-
-// =============================================
-// SIDEBAR (right column)
-// =============================================
-.kfc-sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  position: sticky;
-  top: 24px;
-
-  @media (max-width: 1100px) {
-    position: relative;
-    top: 0;
-  }
-}
-
-// =============================================
-// PANELS
-// =============================================
-.kfc-panel {
-  background: $white;
-  border: 1px solid $border;
-
-  & + .kfc-panel {
-    border-top: none;
-  }
-
-  .kfc-panel-head {
-    padding: 20px 24px;
-    border-bottom: 1px solid $border;
-    background: $text;
-
-    .kfc-eyebrow { color: $olive; }
-
-    h3 {
-      font-size: 15px;
-      font-weight: 700;
-      color: $white;
-      margin: 0;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-  }
-
-  .kfc-panel-body {
-    padding: 20px 24px;
-  }
-}
-
-// =============================================
-// ORDER ITEMS
-// =============================================
-.kfc-item-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.kfc-item {
-  display: flex;
-  gap: 14px;
-  align-items: flex-start;
-  padding: 14px 0;
-  border-bottom: 1px solid $border;
-
-  &:first-child { padding-top: 0; }
-  &:last-child { border-bottom: none; }
-
-  .kfc-item-img {
-    width: 56px;
-    height: 56px;
-    flex-shrink: 0;
-    border: 1px solid $border;
-    overflow: hidden;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
-  }
-
-  .kfc-item-info {
-    flex: 1;
-    min-width: 0;
-
-    .kfc-item-name {
-      font-size: 13px;
-      font-weight: 600;
-      color: $text;
-      margin: 0 0 3px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .kfc-item-variant {
-      font-size: 11px;
-      color: $warm;
-      margin: 0 0 6px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    .kfc-item-price-row {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-
-      .kfc-item-price {
-        font-size: 13px;
-        font-weight: 700;
-        color: $text;
-      }
-
-      .kfc-item-qty {
-        font-size: 12px;
-        color: $warm;
-      }
-    }
-  }
-}
-
-// =============================================
-// TOTALS
-// =============================================
-.kfc-totals {
-  margin-bottom: 16px;
-}
-
-.kfc-total-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
-  font-size: 13px;
-  color: $warm;
-  border-bottom: 1px solid $border;
-
-  &:last-child { border-bottom: none; }
-
-  .kfc-active {
-    color: $olive;
-    font-weight: 700;
-  }
-}
-
-.kfc-total-divider {
-  height: 1.5px;
-  background: $text;
-  margin: 4px 0;
-}
-
-.kfc-grand-total {
-  padding: 14px 0 4px;
-  border-bottom: none !important;
-
-  span:first-child {
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: $text;
-  }
-
-  span:last-child {
-    font-size: 20px;
-    font-weight: 700;
-    color: $text;
-  }
-}
-
-// =============================================
-// MIN ORDER ERROR
-// =============================================
-.kfc-min-order-error {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.co-err {
   font-size: 12px;
-  font-weight: 600;
   color: $error;
-  border: 1.5px solid rgba($error, 0.3);
-  background: rgba($error, 0.04);
-  padding: 10px 14px;
+  font-weight: 500;
+}
+
+.co-input-err { border-color: $error !important; }
+
+// Action row (register + login link)
+.co-action-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.co-register-btn {
+  padding: 11px 24px;
+  background: $text;
+  color: $white;
+  border: none;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  &:hover:not(:disabled) { background: $purple; }
+  &:disabled { opacity: 0.45; cursor: not-allowed; }
+}
+
+.co-login-hint {
+  font-size: 13.5px;
+  color: $sub;
+}
+
+.co-link {
+  color: $purple;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+// Address sections
+.co-addr-section {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid $border;
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: $text;
+    margin: 0 0 14px;
+  }
+}
+
+.co-addr-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 14px;
 
-  i { font-size: 16px; }
+  h3 { margin: 0; }
 }
 
-// =============================================
-// PLACE ORDER BUTTON
-// =============================================
-.kfc-place-order-btn {
-  width: 100% !important;
+.co-add-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: $purple;
+  text-decoration: none;
+  border: 1px solid $purple;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: all 0.2s;
+  white-space: nowrap;
+
+  i { font-size: 13px; }
+  &:hover { background: $purple; color: $white; }
+}
+
+.co-notes-field {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid $border;
+}
+
+// ── RIGHT COLUMN ──────────────────────────────────────
+.co-right {
+  position: sticky;
+  top: 80px;
+
+  @media (max-width: 991px) { position: static; }
+}
+
+// Order box with purple border
+.co-order-box {
+  border: 2px solid $purple;
+  border-radius: 6px;
+  background: $white;
+  overflow: hidden;
+}
+
+// Product table header
+.co-order-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  color: $text;
+  background: $white;
+  border-bottom: 1px solid $border;
+}
+
+// Product rows
+.co-order-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 12px 20px;
+  font-size: 13.5px;
+  color: $sub;
+  gap: 12px;
+}
+
+.co-order-product {
+  flex: 1;
+  line-height: 1.5;
+
+  strong { color: $text; }
+}
+
+.co-order-price { flex-shrink: 0; }
+
+.co-order-divider {
+  height: 1px;
+  background: $border;
+  margin: 0;
+}
+
+.co-order-total {
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  color: $text;
+}
+
+// Color helpers
+.co-purple { color: $purple; }
+.co-fw     { font-weight: 700; }
+
+// Payment section
+.co-payment-section {
+  padding: 16px 20px;
+  border-top: 1px solid $border;
+
+  // Style app-payment-block radio options
+  ::ng-deep .form-check-label {
+    font-size: 14px;
+    color: $text;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  ::ng-deep .form-check-input:checked {
+    accent-color: $purple;
+  }
+
+  ::ng-deep .payment-option {
+    margin-bottom: 10px;
+  }
+}
+
+.co-no-payment {
+  font-size: 13px;
+  color: $muted;
+}
+
+// Privacy notice
+.co-privacy-notice {
+  font-size: 12.5px;
+  color: $sub;
+  line-height: 1.7;
+  padding: 0 20px 16px;
+  margin: 0;
+}
+
+.co-purple-link {
+  color: $purple;
+  font-weight: 600;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+// Min order error
+.co-min-err {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: $error;
+  background: rgba($error, 0.05);
+  border: 1px solid rgba($error, 0.25);
+  padding: 10px 20px;
+  margin: 0 0 4px;
+}
+
+// Place Order button
+::ng-deep .co-place-order-btn {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  gap: 8px !important;
-  padding: 18px 32px !important;
-  background: $text !important;
-  color: $white !important;
-  border: 1.5px solid $text !important;
+  width: 100% !important;
+  padding: 16px !important;
+  background: #1a1a1a !important;
+  color: #fff !important;
+  border: none !important;
   border-radius: 0 !important;
-  font-size: 13px !important;
+  font-size: 14px !important;
   font-weight: 700 !important;
-  text-transform: uppercase !important;
   letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
   cursor: pointer !important;
-  transition: all 0.25s !important;
-  margin-top: 4px !important;
+  transition: background 0.2s !important;
 
   > div {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    gap: 8px !important;
     width: 100% !important;
   }
 
-  i { font-size: 16px !important; }
-
   &:hover:not(:disabled):not(.disabled) {
-    background: $olive !important;
-    border-color: $olive !important;
-    color: $white !important;
+    background: $purple !important;
   }
 
   &:disabled, &.disabled {
-    opacity: 0.4 !important;
+    opacity: 0.45 !important;
     cursor: not-allowed !important;
-    background: #ccc !important;
-    border-color: #ccc !important;
   }
 }
 
-// =============================================
-// EMPTY / MISC
-// =============================================
-.kfc-empty-msg {
-  font-size: 13px;
-  color: $warm;
-  padding: 12px 0;
-  text-align: center;
-}
-
-// =============================================
-// QR MODAL
-// =============================================
+// ── QR MODAL (kept from original) ────────────────────
 .kfc-qr-modal {
   .kfc-qr-modal-header {
-    padding: 20px 24px;
-    border-bottom: 1px solid $border;
-    background: $text;
-
-    h5 {
-      font-size: 15px;
-      font-weight: 600;
-      color: $white;
-      margin: 0;
-
-      strong { color: $olive; }
-    }
+    padding: 18px 24px;
+    background: #1a1a1a;
+    h5 { font-size: 15px; font-weight: 600; color: #fff; margin: 0; strong { color: $purple; } }
   }
-
   .kfc-qr-modal-body {
-    padding: 24px;
-    text-align: center;
-
-    .kfc-qr-box {
-      border: 1px solid $border;
-      display: inline-block;
-      padding: 10px;
-      margin-bottom: 14px;
-
-      img { display: block; max-width: 200px; }
-    }
-
-    .kfc-upi-id {
-      font-size: 14px;
-      font-weight: 700;
-      color: $text;
-      margin: 0 0 10px;
-    }
-
-    .kfc-qr-note {
-      font-size: 13px;
-      color: $warm;
-      line-height: 1.7;
-      max-width: 340px;
-      margin: 0 auto 14px;
-    }
-
-    .kfc-payment-icons img {
-      max-width: 200px;
-      border: 1px solid $border;
-    }
+    padding: 24px; text-align: center;
+    .kfc-qr-box { border: 1px solid $border; display: inline-block; padding: 10px; margin-bottom: 14px; img { display: block; max-width: 200px; } }
+    .kfc-upi-id { font-size: 14px; font-weight: 700; color: $text; margin: 0 0 10px; }
+    .kfc-qr-note { font-size: 13px; color: $sub; line-height: 1.7; max-width: 340px; margin: 0 auto 14px; }
   }
-
   .kfc-qr-modal-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 24px;
-    border-top: 1px solid $border;
-
+    display: flex; align-items: center; justify-content: space-between; padding: 16px 24px; border-top: 1px solid $border;
     strong { font-size: 16px; color: $text; }
   }
 }
 
 .kfc-btn-primary {
-  padding: 10px 24px;
-  background: $text;
-  color: $white;
-  border: 1.5px solid $text;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transition: all 0.2s;
-
-  &:hover {
-    background: $olive;
-    border-color: $olive;
-  }
-}
-
-// =============================================
-// PAYMENT / LOADER
-// =============================================
-.payByNeoKred {
-  app-loader {
-    width: 500px;
-    height: 500px;
-    display: inline-block;
-  }
-
-  .loader-wrapper,
-  .custom-loader-wrapper {
-    position: absolute;
-    height: 500px;
-  }
-}
-
-// =============================================
-// RESPONSIVE
-// =============================================
-@media (max-width: 768px) {
-  .kfc-step .kfc-step-body {
-    padding: 16px;
-  }
-
-  .kfc-panel .kfc-panel-body {
-    padding: 16px;
-  }
-
-  .kfc-panel .kfc-panel-head,
-  .kfc-step .kfc-step-head {
-    padding: 16px;
-  }
+  padding: 10px 24px; background: #1a1a1a; color: #fff; border: none;
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; cursor: pointer;
+  &:hover { background: $purple; }
 }

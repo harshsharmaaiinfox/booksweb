@@ -34,10 +34,7 @@ const routes: Routes = [
     path: 'contact-us',
     component: ContactUsComponent
   },
-  {
-    path: 'offers',
-    component: OfferComponent
-  },
+  // offers page removed
   {
     path: 'about-us',
     component: AboutUsComponent
