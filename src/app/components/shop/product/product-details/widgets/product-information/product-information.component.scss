@@ -1,24 +1,25 @@
-﻿// ============================================
-// Mangalbookstore — Product Information
+// ============================================
+// Product Information — Purple Design System
 // ============================================
 
-$primary: #6B8E23;
-$secondary: #D2B48C;
-$accent: #6D645F;
-$text: #2F2F2F;
+$purple:  #8B10FF;
+$text:    #1a1a2e;
+$muted:   #6b7280;
+$border:  #e5e7eb;
+$bg:      rgba(139, 16, 255, 0.06);
 
 .pickup-box {
   margin-top: 24px;
   padding-top: 24px;
-  border-top: 1px solid rgba($secondary, 0.25);
+  border-top: 1px solid $border;
 
   .product-title h4 {
-    font-size: 13px !important;
+    font-size: 12px !important;
     font-weight: 700 !important;
     text-transform: uppercase !important;
-    letter-spacing: 1.5px !important;
-    color: $text !important;
-    margin-bottom: 16px !important;
+    letter-spacing: 2px !important;
+    color: $purple !important;
+    margin-bottom: 14px !important;
   }
 
   .product-info-list {
@@ -27,25 +28,23 @@ $text: #2F2F2F;
     margin: 0 !important;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0;
 
     li {
       font-size: 13px !important;
-      color: #777 !important;
+      color: $muted !important;
       line-height: 1.5;
-      padding-left: 0 !important;
+      padding: 9px 0 !important;
+      border-bottom: 1px solid $border;
       list-style: none !important;
       list-style-type: none !important;
 
-      &::before {
-        display: none !important;
-        content: none !important;
-      }
+      &:last-child { border-bottom: none; }
 
-      &::marker {
-        display: none !important;
-        content: "" !important;
-      }
+      &::before { display: none !important; content: none !important; }
+      &::marker  { display: none !important; content: "" !important; }
+
+      strong, b { color: $text; font-weight: 600; }
     }
   }
 }

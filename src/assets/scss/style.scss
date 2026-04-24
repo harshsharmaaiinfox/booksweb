@@ -339,7 +339,7 @@ button#place_order {
 }
 
 .qty-box {
-    width: 100% !important;
+    width: auto !important;
 }
 
 ul.navbar-nav {
@@ -405,7 +405,9 @@ ul.navbar-nav {
 }
 
 .quantity-wishlist-section .modern-qty-selector .qty-input {
-    width: 40px !important;
+    width: 52px !important;
+    text-align: center !important;
+    padding: 0 !important;
 }
 
 ul.product-info-list {

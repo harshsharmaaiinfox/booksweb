@@ -1,47 +1,42 @@
-﻿// ============================================
-// Mangalbookstore — Product Action (Stock bar + Links)
+// ============================================
+// Product Action — Purple Design System
 // ============================================
 
-$primary: #6B8E23;
-$secondary: #D2B48C;
-$accent: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #ffffff;
+$purple:  #8B10FF;
+$text:    #1a1a2e;
+$muted:   #6b7280;
+$border:  #e5e7eb;
+$danger:  #dc2626;
+$warning: #d97706;
 
 // ---- Stock Progress Bar ----
 .progress-sec {
   margin-top: 24px;
   padding-top: 20px;
-  border-top: 1px solid rgba($secondary, 0.25);
+  border-top: 1px solid $border;
 
   .left-progressbar {
     h6 {
       font-size: 13px !important;
       font-weight: 500 !important;
-      color: $accent !important;
+      color: $muted !important;
       margin-bottom: 10px !important;
     }
 
     .progress {
-      height: 4px !important;
-      border-radius: 0 !important;
+      height: 5px !important;
+      border-radius: 20px !important;
       background: #eee !important;
       overflow: hidden;
 
       .progress-bar {
-        background: $accent !important;
-        border-radius: 0 !important;
+        background: $purple !important;
+        border-radius: 20px !important;
       }
     }
 
-    .danger-progress .progress-bar {
-      background: #c0392b !important;
-    }
-
-    .warning-progress .progress-bar {
-      background: $secondary !important;
-    }
+    .danger-progress .progress-bar  { background: $danger !important; }
+    .warning-progress .progress-bar { background: $warning !important; }
   }
 }
 
@@ -52,7 +47,7 @@ $white: #ffffff;
   gap: 20px;
   margin-top: 20px;
   padding-top: 20px;
-  border-top: 1px solid rgba($secondary, 0.25);
+  border-top: 1px solid $border;
   flex-wrap: wrap;
 
   a {
@@ -61,19 +56,14 @@ $white: #ffffff;
     gap: 6px;
     font-size: 13px !important;
     font-weight: 600 !important;
-    color: $text !important;
+    color: $muted !important;
     text-decoration: none !important;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     transition: color 0.2s;
 
-    i {
-      font-size: 16px;
-      color: $accent;
-    }
+    i { font-size: 16px; color: $purple; }
 
-    &:hover {
-      color: $accent !important;
-    }
+    &:hover { color: $purple !important; }
   }
 }
