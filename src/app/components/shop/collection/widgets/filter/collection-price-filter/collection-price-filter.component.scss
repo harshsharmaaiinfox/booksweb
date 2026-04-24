@@ -1,65 +1,56 @@
-﻿// ============================================
-// Indaccu Solutions — Price Filter
+// ============================================
+// Price Filter — #8B10FF theme
 // ============================================
 
-$primary: #6B8E23;
-$secondary: #D2B48C;
-$accent: #6D645F;
-$text: #2F2F2F;
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.15);
+$text:         #1a1a1a;
+$muted:        #888;
+$border:       #e5e7eb;
 
 .price-range-filter {
-  padding: 0;
+  padding: 4px 0;
 
   .price-inputs {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 18px;
 
     .price-input {
       flex: 1;
-      padding: 10px 12px;
-      border: 1.5px solid #ddd;
-      border-radius: 0;
-      font-size: 14px;
-      text-align: right;
+      padding: 9px 10px;
+      border: 1.5px solid $border;
+      border-radius: 8px;
+      font-size: 13px;
+      text-align: center;
       background: #fff;
       color: $text;
       transition: border-color 0.2s;
 
-      &:focus {
-        outline: none;
-        border-color: $text;
-        box-shadow: none;
-      }
-
-      &::-webkit-inner-spin-button,
-      &::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+      &:focus { outline: none; border-color: $purple; box-shadow: 0 0 0 3px rgba($purple, 0.08); }
+      &::-webkit-inner-spin-button, &::-webkit-outer-spin-button { -webkit-appearance: none; }
       &[type=number] { -moz-appearance: textfield; }
     }
 
-    .price-separator {
-      color: #999;
-      font-weight: 500;
-      font-size: 14px;
-      flex-shrink: 0;
-    }
+    .price-separator { color: $muted; font-size: 14px; flex-shrink: 0; }
   }
 
   .price-slider-container {
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 
     .price-slider-track {
       position: relative;
-      height: 2px;
-      background: #e5e5e5;
-      border-radius: 0;
+      height: 3px;
+      background: $border;
+      border-radius: 10px;
       margin: 24px 0 16px;
 
       .price-slider-fill {
         position: absolute;
         height: 100%;
-        background: $accent;
+        background: $purple;
+        border-radius: 10px;
         pointer-events: none;
         transition: all 0.1s;
       }
@@ -67,7 +58,7 @@ $text: #2F2F2F;
       .price-slider {
         position: absolute;
         width: 100%;
-        height: 2px;
+        height: 3px;
         top: 50%;
         transform: translateY(-50%);
         margin: 0;
@@ -76,49 +67,35 @@ $text: #2F2F2F;
         outline: none;
         pointer-events: none;
         -webkit-appearance: none;
-        appearance: none;
 
         &::-webkit-slider-thumb {
           -webkit-appearance: none;
-          width: 14px;
-          height: 14px;
-          background: $accent;
+          width: 16px;
+          height: 16px;
+          background: $purple;
           border: 2px solid #fff;
           border-radius: 50%;
           cursor: pointer;
           pointer-events: all;
-          position: relative;
           z-index: 2;
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-          transition: background 0.2s;
+          box-shadow: 0 1px 6px rgba($purple, 0.4);
+          transition: transform 0.15s;
 
-          &:hover {
-            background: darken($accent, 10%);
-          }
+          &:hover { transform: scale(1.2); }
         }
 
         &::-moz-range-thumb {
-          width: 14px;
-          height: 14px;
-          background: $accent;
+          width: 16px;
+          height: 16px;
+          background: $purple;
           border: 2px solid #fff;
           border-radius: 50%;
           cursor: pointer;
           pointer-events: all;
-          z-index: 2;
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-          transition: background 0.2s;
-
-          &:hover {
-            background: darken($accent, 10%);
-          }
+          box-shadow: 0 1px 6px rgba($purple, 0.4);
         }
 
-        &::-moz-range-track {
-          background: transparent;
-          height: 2px;
-        }
-
+        &::-moz-range-track { background: transparent; height: 3px; }
         &.min-slider { z-index: 3; }
         &.max-slider { z-index: 4; }
       }
@@ -128,30 +105,10 @@ $text: #2F2F2F;
   .price-display {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-size: 13px;
-    color: #999;
-    margin-top: 8px;
+    font-size: 12.5px;
+    color: $muted;
+    margin-top: 6px;
 
-    .price-min, .price-max { font-weight: 600; color: $text; }
-  }
-}
-
-// Dark mode
-html.dark {
-  .price-range-filter {
-    .price-inputs {
-      .price-input { background: #222; border-color: #444; color: #ccc; &:focus { border-color: #888; } }
-      .price-separator { color: #666; }
-    }
-    .price-slider-container .price-slider-track {
-      background: #444;
-      .price-slider-fill { background: $secondary; }
-      .price-slider {
-        &::-webkit-slider-thumb { background: $secondary; &:hover { background: $accent; } }
-        &::-moz-range-thumb { background: $secondary; &:hover { background: $accent; } }
-      }
-    }
-    .price-display { color: #666; .price-min, .price-max { color: #ccc; } }
+    .price-min, .price-max { font-weight: 700; color: $purple; }
   }
 }

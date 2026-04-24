@@ -15,11 +15,11 @@ export class PrivacyPolicyComponent implements OnInit {
   ngOnInit() {
     // Set unique SEO data for Privacy Policy page
     this.seoService.setSEOData({
-      title: 'Privacy Policy – How We Use Your Data | Indaccu Solutions',
-      description: 'Learn how Indaccu Solutions protects and uses your personal information. Read our comprehensive privacy policy to understand your rights and our data practices.',
-      keywords: 'privacy policy, data protection, personal information, Indaccu Solutions privacy, data usage',
-      canonicalUrl: 'https://indaccusolutions.in/privacy-policy', // ✅ Canonical URL for SEO
-      url: 'https://indaccusolutions.in/privacy-policy',
+      title: 'Privacy Policy – How We Use Your Data | Mangalbookstore',
+      description: 'Learn how Mangalbookstore protects and uses your personal information. Read our comprehensive privacy policy to understand your rights and our data practices.',
+      keywords: 'privacy policy, data protection, personal information, Mangalbookstore privacy, data usage',
+      canonicalUrl: 'https://mangalbookstore.in/privacy-policy', // ✅ Canonical URL for SEO
+      url: 'https://mangalbookstore.in/privacy-policy',
       type: 'website'
     });
   }

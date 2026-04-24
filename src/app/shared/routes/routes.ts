@@ -6,73 +6,73 @@ export const content: Routes = [
   {
     path: "",
     loadChildren: () => import("../../components/themes/themes.module").then((m) => m.ThemesModule),
-    title: 'Indaccu Solutions Premium Mens and Womens Fashion Online'
+    title: 'Mangalbookstore Premium Mens and Womens Fashion Online'
   },
   {
     path: 'privacy-policy',
     loadChildren: () =>
       import('../../privacy-policy/privacy-policy.module').then((m) => m.PrivacyPolicyModule),
-    title: 'Privacy Policy – How We Use Your Data | Indaccu Solutions'
+    title: 'Privacy Policy – How We Use Your Data | Mangalbookstore'
   },
   {
     path: 'return-policy',
     loadChildren: () =>
       import('../../return-exchange/return-exchange.module').then((m) => m.ReturnExchangeModule),
-    title: 'Easy 7-Day Return Policy – Shop Risk-Free | Indaccu Solutions'
+    title: 'Easy 7-Day Return Policy – Shop Risk-Free | Mangalbookstore'
   },
   {
     path: 'refund-and-cancellation',
     loadChildren: () =>
       import('../../refund-and-cancellation/refund-and-cancellation.module').then((m) => m.RefundAndCancellationModule),
-    title: 'Refund & Cancellation Policy – Smooth Shopping | Indaccu Solutions'
+    title: 'Refund & Cancellation Policy – Smooth Shopping | Mangalbookstore'
   },
   {
     path: "Contact-Us",
     loadChildren: () => import("../../contact-us/contact-us.module").then((m) => m.ContactUsModule),
-    title: 'Contact Indaccu Solutions – We’re Here to Help You 24/7'
+    title: 'Contact Mangalbookstore – We’re Here to Help You 24/7'
   },
   {
     path: 'term-condition',
     loadChildren: () =>
       import('../../term-condition/term-condition.module').then((m) => m.TermConditionModule),
-    title: 'Terms & Conditions – Rules of Using Indaccu Solutions'
+    title: 'Terms & Conditions – Rules of Using Mangalbookstore'
   },
   {
     path: "shipping-policy",
     loadChildren: () => import("../../shipping-delevary/shipping-delevary.module").then((m) => m.ShippingDelevaryModule),
-    title: 'Shipping & Delivery Information – Fast & Safe | Indaccu Solutions'
+    title: 'Shipping & Delivery Information – Fast & Safe | Mangalbookstore'
   },
   {
     path: "auth",
     loadChildren: () => import("../../components/auth/auth.module").then((m) => m.AuthModule),
     canActivateChild: [AuthGuard],
-    title: 'Login or Register Your Indaccu Solutions Account Securely'
+    title: 'Login or Register Your Mangalbookstore Account Securely'
   },
   {
     path: "account",
     loadChildren: () => import("../../components/account/account.module").then((m) => m.AccountModule),
     canActivate: [AuthGuard],
-    title: 'Manage Your Orders & Profile | Indaccu Solutions Account'
+    title: 'Manage Your Orders & Profile | Mangalbookstore Account'
   },
   {
     path: "",
     loadChildren: () => import("../../components/shop/shop.module").then((m) => m.ShopModule),
-    title: 'Browse Fashion Clothing Categories – Shop Online | Indaccu Solutions'
+    title: 'Browse Fashion Clothing Categories – Shop Online | Mangalbookstore'
   },
   {
     path: "",
     loadChildren: () => import("../../components/blog/blog.module").then((m) => m.BlogModule),
-    title: 'Indaccu Solutions Blog – Latest Fashion News, Tips & Trends'
+    title: 'Mangalbookstore Blog – Latest Fashion News, Tips & Trends'
   },
   {
     path: "",
     loadChildren: () => import("../../components/page/page.module").then((m) => m.PagesModule),
-    title: 'Explore Indaccu Solutions Info Pages – Learn More About Us'
+    title: 'Explore Mangalbookstore Info Pages – Learn More About Us'
   },
   {
     path: '**',
     pathMatch: 'full',
     component: Error404Component,
-    title: '404 Error – Page Not Found | Indaccu Solutions Fashion Store'
+    title: '404 Error – Page Not Found | Mangalbookstore Fashion Store'
   }
 ];

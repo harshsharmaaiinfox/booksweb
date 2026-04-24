@@ -1,5 +1,5 @@
 ﻿// ============================================
-// Indaccu Solutions — Account Button (No dropdown)
+// Mangalbookstore — Account Button (No dropdown)
 // ============================================
 
 $text: #2F2F2F;
@@ -29,7 +29,7 @@ $white: #fff;
 
   // Logged in state
   &.logged-in {
-    background: $olive;
+    background: transparent;
     padding: 0;
 
     .user-avatar {
@@ -46,14 +46,19 @@ $white: #fff;
     }
 
     .avatar-initial {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #8B10FF;
       color: $white;
       font-weight: 700;
       font-size: 14px;
     }
 
-    &:hover {
-      background: darken($olive, 10%);
-    }
+    &:hover { opacity: 0.85; }
   }
 }
 

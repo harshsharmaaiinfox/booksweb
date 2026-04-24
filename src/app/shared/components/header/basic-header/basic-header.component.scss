@@ -1,5 +1,5 @@
 ﻿// ============================================
-// Indaccu Solutions — Reference-matched Header
+// Mangalbookstore — Reference-matched Header
 // Purple accent / light theme
 // ============================================
 
@@ -17,7 +17,7 @@ $searchbg: #f3f4f6;
 // =============================================
 // HEADER WRAPPER
 // =============================================
-.Indaccu Solutions-header {
+.Mangalbookstore-header {
   position: relative;
   width: 100%;
   z-index: 100;
@@ -348,13 +348,15 @@ $searchbg: #f3f4f6;
           border-radius: 50%; overflow: hidden;
 
           img { width: 100%; height: 100%; object-fit: cover; }
+        }
 
-          .avatar-initial {
-            width: 100%; height: 100%;
-            display: flex; align-items: center; justify-content: center;
-            background: $purple;
-            color: $white; font-weight: 700; font-size: 13px;
-          }
+        .avatar-initial {
+          width: 32px; height: 32px;
+          border-radius: 50%;
+          display: flex; align-items: center; justify-content: center;
+          background: $purple;
+          color: $white; font-weight: 700; font-size: 13px;
+          flex-shrink: 0;
         }
 
         &:hover {
@@ -707,7 +709,7 @@ html.dark {
   $dk-text:    #e0e0e0;
   $dk-border:  #2c2c2c;
 
-  .Indaccu Solutions-header { background: $dk-bg; }
+  .Mangalbookstore-header { background: $dk-bg; }
 
   .kh-main {
     background: $dk-bg;

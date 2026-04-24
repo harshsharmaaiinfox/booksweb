@@ -39,13 +39,13 @@ export class AuthInterceptor implements HttpInterceptor {
       req = req.clone({
         setHeaders: {
           Authorization: `Bearer ${token}`,
-          'store-id': '28',
+          'store-id': '30',
         },
       });
     } else {
       req = req.clone({
         setHeaders: {
-          'store-id': '28',
+          'store-id': '30',
         },
       });
     }

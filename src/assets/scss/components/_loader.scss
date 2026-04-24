@@ -52,26 +52,26 @@
 
   .loader-logo {
     .brand-logo {
-      height: 56px;
+      height: 70px;
       width: auto;
-      max-width: 200px;
+      max-width: 220px;
       object-fit: contain;
       display: block;
     }
   }
 
   .loader-bar-track {
-    width: 160px;
-    height: 2px;
+    width: 180px;
+    height: 3px;
     background: #ebebeb;
-    border-radius: 2px;
+    border-radius: 10px;
     overflow: hidden;
 
     .loader-bar-fill {
       height: 100%;
       width: 40%;
-      background: #6B8E23;
-      border-radius: 2px;
+      background: #8B10FF;
+      border-radius: 10px;
       animation: loaderSlide 1.4s ease-in-out infinite;
     }
   }

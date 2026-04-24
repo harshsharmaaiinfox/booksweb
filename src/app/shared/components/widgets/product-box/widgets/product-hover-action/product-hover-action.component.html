@@ -4,11 +4,6 @@
             <i class="ri-eye-line"></i>
         </a>
     </li>
-    <li *ngIf="!hideAction?.includes('compare')" (click)="addToCompare(product.id)">
-        <a href="javascript:void(0)">
-            <i class="ri-refresh-line"></i>
-        </a>
-    </li>
     <li *ngIf="!hideAction?.includes('wishlist')">
         <a href="javascript:void(0)" class="notifi-wishlist" [class.theme-color]="product.is_wishlist" (click)="addToWishlist(product)">
             <i class="ri-heart-{{ product.is_wishlist ? 'fill' : 'line' }}"></i>

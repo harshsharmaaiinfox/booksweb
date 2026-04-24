@@ -5,15 +5,6 @@
 
     <h1 class="co-page-title">Checkout</h1>
 
-    <!-- Coupon Banner -->
-    <div class="co-coupon-bar">
-      <span>Have a coupon?</span>
-      <a href="javascript:void(0)" class="co-coupon-link" (click)="coupon = !coupon">Click here to enter your code</a>
-    </div>
-    <div class="co-coupon-input-wrap" *ngIf="coupon">
-      <input #cpn type="text" class="co-coupon-input" placeholder="Coupon code">
-      <button class="co-coupon-apply-btn" type="button">Apply coupon</button>
-    </div>
 
     <div class="co-layout">
 
@@ -149,11 +140,6 @@
 
         </ng-container>
 
-        <!-- Order notes -->
-        <div class="co-field co-notes-field">
-          <label>Order notes (optional)</label>
-          <textarea rows="4" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
-        </div>
 
       </div>
 

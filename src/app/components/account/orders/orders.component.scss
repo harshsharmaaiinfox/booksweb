@@ -1,50 +1,60 @@
-﻿// ============================================
-// Indaccu Solutions — Orders Page
+// ============================================
+// Orders Page — #8B10FF theme
 // ============================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.08);
+$text:         #1a1a1a;
+$muted:        #888;
+$border:       #ebebeb;
+$bg:           #fafafa;
+$white:        #fff;
 
 .orders-page-container {
 
   // ---- Header ----
   .orders-page-header {
-    background: $white;
-    padding: 20px 24px;
-    border: 1px solid #eee;
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 16px;
-    border-radius: 0;
-    box-shadow: none;
+    gap: 12px;
+    padding: 18px 24px;
+    background: $white;
+    border: 1px solid $border;
+    border-radius: 10px;
+    margin-bottom: 20px;
 
     .header-content {
       display: flex;
       align-items: center;
-      gap: 14px;
+      gap: 12px;
 
       .header-icon-wrapper {
-        display: none;
+        width: 38px;
+        height: 38px;
+        border-radius: 8px;
+        background: $purple-light;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $purple;
+        font-size: 18px;
       }
 
       .header-text-content {
         .page-title {
           color: $text;
           font-weight: 700;
-          font-size: 13px;
-          text-transform: uppercase;
-          letter-spacing: 1.5px;
-          margin: 0;
+          font-size: 15px;
+          margin: 0 0 2px;
         }
 
         .page-subtitle {
-          display: none;
+          color: $muted;
+          font-size: 12px;
+          margin: 0;
+          display: block;
         }
       }
     }
@@ -54,25 +64,20 @@ $white: #fff;
       align-items: center;
       gap: 6px;
       padding: 8px 16px;
-      background: transparent;
-      color: $warm;
-      border: 1.5px solid #ddd;
-      border-radius: 0;
+      background: $white;
+      color: $muted;
+      border: 1.5px solid $border;
+      border-radius: 8px;
       text-decoration: none;
       font-weight: 600;
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      transition: all 0.2s;
-      box-shadow: none;
+      font-size: 12px;
+      transition: border-color 0.2s, color 0.2s;
 
       i { font-size: 14px; }
 
       &:hover {
-        background: $text;
-        color: $white;
-        border-color: $text;
-        transform: none;
+        border-color: $purple;
+        color: $purple;
       }
     }
   }
@@ -88,92 +93,96 @@ $white: #fff;
 
     .order-card {
       background: $white;
-      border: 1px solid #eee;
-      border-radius: 0;
-      box-shadow: none;
-      transition: border-color 0.2s;
+      border: 1px solid $border;
+      border-radius: 10px;
       overflow: hidden;
+      transition: border-color 0.2s, box-shadow 0.2s;
 
       &:hover {
-        border-color: rgba($olive, 0.3);
-        transform: none;
-        box-shadow: none;
+        border-color: rgba($purple, 0.3);
+        box-shadow: 0 2px 12px rgba($purple, 0.06);
       }
 
       // Card Header
       .order-card-header {
         background: $bg;
-        padding: 16px 20px;
+        padding: 14px 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid $border;
 
         .order-number-section {
           display: flex;
           align-items: center;
-          gap: 12px;
+          gap: 10px;
 
           .order-icon-wrapper {
-            display: none;
+            width: 34px;
+            height: 34px;
+            border-radius: 8px;
+            background: $purple-light;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $purple;
+            font-size: 16px;
           }
 
           .order-label {
             font-size: 10px;
             font-weight: 600;
-            color: #bbb;
+            color: $muted;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 2px;
+            letter-spacing: 0.8px;
+            margin-bottom: 1px;
             display: block;
           }
 
           .order-number {
             color: $text;
             font-weight: 700;
-            font-size: 15px;
+            font-size: 14px;
             margin: 0;
           }
         }
 
         .order-status-badge {
           padding: 4px 12px;
-          border-radius: 0;
-          font-size: 10px;
-          font-weight: 700;
-          text-transform: uppercase;
-          letter-spacing: 1px;
+          border-radius: 20px;
+          font-size: 11px;
+          font-weight: 600;
 
           &.status-completed, &.status-paid {
-            background: rgba($olive, 0.1);
-            color: $olive;
+            background: rgba(#22c55e, 0.1);
+            color: #16a34a;
           }
 
           &.status-pending {
-            background: rgba(#e67e22, 0.1);
-            color: #e67e22;
+            background: rgba(#f59e0b, 0.1);
+            color: #d97706;
           }
 
           &.status-failed {
-            background: rgba(#c0392b, 0.08);
-            color: #c0392b;
+            background: rgba(#ef4444, 0.1);
+            color: #dc2626;
           }
 
           &.status-processing {
-            background: rgba($warm, 0.1);
-            color: $warm;
+            background: $purple-light;
+            color: $purple;
           }
         }
       }
 
       // Card Body
       .order-card-body {
-        padding: 18px 20px;
+        padding: 16px 20px;
 
         .order-info-row {
           display: flex;
           gap: 32px;
-          margin-bottom: 12px;
+          margin-bottom: 10px;
           flex-wrap: wrap;
 
           &:last-child { margin-bottom: 0; }
@@ -181,17 +190,19 @@ $white: #fff;
           .info-item {
             display: flex;
             align-items: flex-start;
-            gap: 0;
+            gap: 8px;
 
-            > i { display: none; }
+            > i {
+              font-size: 16px;
+              color: $muted;
+              margin-top: 2px;
+            }
 
             .info-label {
               display: block;
-              color: #bbb;
-              font-size: 10px;
-              font-weight: 600;
-              text-transform: uppercase;
-              letter-spacing: 1px;
+              color: $muted;
+              font-size: 11px;
+              font-weight: 500;
               margin-bottom: 2px;
             }
 
@@ -202,9 +213,9 @@ $white: #fff;
               font-weight: 600;
 
               &.amount {
-                color: $text;
                 font-size: 15px;
                 font-weight: 700;
+                color: $purple;
               }
             }
           }
@@ -213,34 +224,27 @@ $white: #fff;
 
       // Card Footer
       .order-card-footer {
-        padding: 14px 20px;
-        background: transparent;
-        border-top: 1px solid #eee;
+        padding: 12px 20px;
+        border-top: 1px solid $border;
+        background: $bg;
 
         .btn-view-order {
           display: inline-flex;
           align-items: center;
           gap: 6px;
           padding: 8px 18px;
-          background: transparent;
-          color: $text;
-          border: 1.5px solid $text;
-          border-radius: 0;
+          background: $purple;
+          color: $white;
+          border: none;
+          border-radius: 8px;
           text-decoration: none;
-          font-weight: 700;
-          font-size: 11px;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          transition: all 0.2s;
-          box-shadow: none;
+          font-weight: 600;
+          font-size: 12px;
+          transition: background 0.2s;
 
           i { font-size: 14px; }
 
-          &:hover {
-            background: $text;
-            color: $white;
-            transform: none;
-          }
+          &:hover { background: #7a0de0; }
         }
       }
     }
@@ -258,24 +262,24 @@ $white: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 350px;
-  padding: 40px;
+  min-height: 320px;
   background: $white;
-  border: 1px solid #eee;
+  border: 1px solid $border;
+  border-radius: 10px;
 
   .empty-state-content {
     text-align: center;
 
     i {
-      font-size: 48px;
-      color: #ddd;
+      font-size: 52px;
+      color: rgba($purple, 0.2);
       margin-bottom: 16px;
       display: block;
     }
 
     h4 {
-      color: #999;
-      font-size: 14px;
+      color: $muted;
+      font-size: 15px;
       font-weight: 500;
       margin: 0;
     }
@@ -290,10 +294,7 @@ $white: #fff;
       flex-direction: column;
       align-items: flex-start;
 
-      .btn-back-dashboard {
-        width: 100%;
-        justify-content: center;
-      }
+      .btn-back-dashboard { width: 100%; justify-content: center; }
     }
 
     .orders-list-container .order-card {
@@ -306,15 +307,12 @@ $white: #fff;
 
       .order-card-body {
         padding: 14px 16px;
-        .order-info-row { gap: 20px; }
+        .order-info-row { gap: 16px; }
       }
 
       .order-card-footer {
         padding: 12px 16px;
-        .btn-view-order {
-          width: 100%;
-          justify-content: center;
-        }
+        .btn-view-order { width: 100%; justify-content: center; }
       }
     }
   }

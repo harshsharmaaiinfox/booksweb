@@ -17,8 +17,8 @@ $page-bg:   #fff;
 // ── PAGE ──────────────────────────────────────────────
 .ma-page {
   background: $page-bg;
-  min-height: 100vh;
-  padding: 0 0 100px;
+  min-height: unset;
+  padding: 0 0 48px;
 }
 
 // ── BREADCRUMB ────────────────────────────────────────
@@ -58,6 +58,16 @@ $page-bg:   #fff;
     flex-direction: column;
     padding: 0 24px;
     margin-top: 40px;
+  }
+}
+
+// ── SINGLE-COLUMN MODIFIER ────────────────────────────
+.ma-wrapper--single {
+  max-width: 520px;
+
+  .ma-col {
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
@@ -371,6 +381,13 @@ $page-bg:   #fff;
   transition: opacity 0.2s;
 
   &:hover { opacity: 0.8; text-decoration: underline; }
+}
+
+// ── SWITCH NOTE (login ↔ register) ───────────────────
+.ma-switch-note {
+  margin-top: 24px;
+  font-size: 13.5px;
+  color: $subtext;
 }
 
 // ── DARK MODE ─────────────────────────────────────────

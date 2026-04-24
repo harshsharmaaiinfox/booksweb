@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
   baseURL: 'http://localhost:4200',
- URL: 'https://api.fashioncarft.com/public/api',
-  storageURL: 'https://api.fashioncarft.com/public'// Change only the laravel primary domain
+ URL: 'https://api.nixopay.com/public/api',
+  storageURL: 'https://api.nixopay.com/public'// Change only the laravel primary domain
 };
 
 /*

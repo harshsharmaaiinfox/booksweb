@@ -1,42 +1,36 @@
-﻿// ============================================
-// Indaccu Solutions — Collection List Layout
+// ============================================
+// Collection List — #8B10FF theme
 // ============================================
 
-$primary: #6B8E23;
-$secondary: #D2B48C;
-$accent: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.08);
+$text:         #1a1a1a;
+$muted:        #888;
+$border:       #e5e7eb;
+$bg:           #f9fafb;
+$white:        #fff;
 
-:host {
-  display: block;
-}
+:host { display: block; }
 
-// Hide the banner section (not needed)
-section:first-child {
-  display: none;
-}
+section:first-child { display: none; }
 
-// Main shop section
 .shop-section {
-  padding: 30px 0 60px;
+  padding: 28px 0 60px;
   background: $bg;
 
   > .container-fluid-lg > .row {
     display: flex;
     gap: 0;
 
-    @media (max-width: 991px) {
-      flex-direction: column;
-    }
+    @media (max-width: 991px) { flex-direction: column; }
   }
 }
 
 // ---- Left sidebar ----
 .col-custome-3 {
   @media (min-width: 992px) {
-    flex: 0 0 320px;
-    max-width: 320px;
+    flex: 0 0 280px;
+    max-width: 280px;
     align-self: flex-start;
   }
 }
@@ -46,27 +40,14 @@ section:first-child {
   top: 80px !important;
   max-height: calc(100vh - 100px);
   overflow-y: auto;
-  padding-right: 24px;
+  padding-right: 20px;
   padding-bottom: 20px;
-  border-right: 1px solid rgba($secondary, 0.2) !important;
+  border-right: 1px solid $border !important;
 
-  // Thin scrollbar
-  &::-webkit-scrollbar {
-    width: 3px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: rgba($secondary, 0.4);
-    border-radius: 2px;
-  }
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
+  &::-webkit-scrollbar { width: 3px; }
+  &::-webkit-scrollbar-thumb { background: rgba($purple, 0.2); border-radius: 4px; }
+  &::-webkit-scrollbar-track { background: transparent; }
 
-  @media (min-width: 992px) {
-    padding-top: 0;
-  }
-
-  // Sidebar section titles
   .accordion-item {
     border: none !important;
     background: transparent !important;
@@ -76,57 +57,44 @@ section:first-child {
   .filter-title,
   .shop-section-title,
   h5 {
-    font-size: 13px !important;
+    font-size: 11px !important;
     font-weight: 700 !important;
     text-transform: uppercase !important;
-    letter-spacing: 1px !important;
+    letter-spacing: 1.2px !important;
     color: $text !important;
-    padding: 14px 0 !important;
-    border-bottom: 1px solid rgba($secondary, 0.2) !important;
+    padding: 16px 0 12px !important;
+    border-bottom: 1px solid $border !important;
     background: transparent !important;
     box-shadow: none !important;
 
-    &::after {
-      filter: brightness(0) saturate(100%) !important;
-    }
+    &::after { filter: brightness(0) saturate(100%) !important; }
   }
 
-  // Active filter tags
-  .filter-tag,
-  .category-tag {
+  .filter-tag, .category-tag {
     display: inline-flex;
     align-items: center;
     gap: 4px;
     padding: 4px 10px;
-    background: rgba($primary, 0.08);
-    border: 1px solid rgba($primary, 0.15);
-    color: $primary;
+    background: $purple-light;
+    border: 1px solid rgba($purple, 0.2);
+    color: $purple;
     font-size: 12px;
     font-weight: 500;
     margin: 4px 4px 4px 0;
-    border-radius: 0;
+    border-radius: 20px;
 
-    .close-btn,
-    button,
-    i {
-      font-size: 14px;
-      cursor: pointer;
-    }
+    i { font-size: 14px; cursor: pointer; }
   }
 
-  // Clear all link
-  .clear-all,
-  a[class*="clear"] {
-    font-size: 12px;
-    color: $accent;
+  .clear-all, a[class*="clear"] {
+    font-size: 11px;
+    color: $purple;
     text-decoration: none;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 
-    &:hover {
-      color: darken($accent, 10%);
-    }
+    &:hover { opacity: 0.75; }
   }
 }
 
@@ -134,24 +102,15 @@ section:first-child {
 .col-custome-9 {
   flex: 1;
   min-width: 0;
-  padding-left: 24px;
+  padding-left: 28px;
 
-  @media (max-width: 991px) {
-    padding-left: 0;
-    padding-top: 20px;
-  }
+  @media (max-width: 991px) { padding-left: 0; padding-top: 24px; }
 }
 
-// ---- Sort bar spacing ----
 ::ng-deep .collection-sort-wrapper {
   padding: 0 0 20px 0 !important;
   margin-bottom: 24px;
-  border-bottom: 1px solid rgba($secondary, 0.2) !important;
+  border-bottom: 1px solid $border !important;
 }
 
-// ---- Product grid spacing ----
-::ng-deep .collection-products-wrapper {
-  .row {
-    row-gap: 24px;
-  }
-}
+::ng-deep .collection-products-wrapper .row { row-gap: 24px; }

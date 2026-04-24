@@ -1,225 +1,229 @@
-﻿// ============================================
-// Indaccu Solutions — Bank Details Page
+// ============================================
+// Bank Details Page — #8B10FF theme
 // ============================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.08);
+$text:         #1a1a1a;
+$muted:        #888;
+$border:       #ebebeb;
+$bg:           #fafafa;
+$white:        #fff;
+$error:        #dc2626;
 
-.bank-details-page-container {
+// ---- Page Header ----
+.bank-details-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 18px 24px;
+  background: $white;
+  border: 1px solid $border;
+  border-radius: 10px;
+  margin-bottom: 20px;
 
-  // ---- Header ----
-  .bank-details-page-header {
-    background: $white;
-    padding: 20px 24px;
-    border: 1px solid #eee;
-    margin-bottom: 20px;
+  .header-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 14px;
-    border-radius: 0;
-    box-shadow: none;
+    gap: 12px;
 
-    .header-content {
+    .header-icon-wrapper {
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      background: $purple-light;
       display: flex;
       align-items: center;
-      gap: 12px;
-
-      .header-icon-wrapper { display: none; }
-
-      .header-text-content {
-        .page-title {
-          color: $text;
-          font-weight: 700;
-          font-size: 13px;
-          text-transform: uppercase;
-          letter-spacing: 1.5px;
-          margin: 0;
-        }
-        .page-subtitle { display: none; }
-      }
+      justify-content: center;
+      color: $purple;
+      font-size: 18px;
     }
 
-    .btn-back-dashboard {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 8px 16px;
-      background: transparent;
-      color: $warm;
-      border: 1.5px solid #ddd;
-      border-radius: 0;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      transition: all 0.2s;
-      box-shadow: none;
-
-      i { font-size: 14px; }
-
-      &:hover {
-        background: $text;
-        color: $white;
-        border-color: $text;
-      }
-    }
-  }
-
-  // ---- Sections ----
-  .bank-details-section,
-  .paypal-details-section {
-    background: $white;
-    border: 1px solid #eee;
-    margin-bottom: 16px;
-
-    .section-header {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 18px 24px;
-      border-bottom: 1px solid #eee;
-      background: $bg;
-
-      .section-icon-wrapper { display: none; }
-
-      .section-title {
-        font-size: 13px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
+    .header-text-content {
+      .page-title {
         color: $text;
+        font-weight: 700;
+        font-size: 15px;
+        margin: 0 0 2px;
+      }
+      .page-subtitle {
+        color: $muted;
+        font-size: 12px;
         margin: 0;
       }
-
-      .section-subtitle { display: none; }
-    }
-
-    .form-fields-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0;
-      padding: 0;
-
-      @media (max-width: 575px) {
-        grid-template-columns: 1fr;
-      }
-
-      .form-field-wrapper {
-        padding: 18px 24px;
-        border-bottom: 1px solid #f5f5f5;
-        border-right: 1px solid #f5f5f5;
-
-        &:nth-child(2n) { border-right: none; }
-        &:last-child { border-bottom: none; }
-
-        @media (max-width: 575px) {
-          border-right: none;
-        }
-
-        .form-label-modern {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-          color: $text;
-          font-weight: 600;
-          font-size: 11px;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          margin-bottom: 8px;
-
-          i { display: none; }
-        }
-
-        .form-input-modern {
-          width: 100%;
-          padding: 11px 14px;
-          border: 1.5px solid #ddd;
-          border-radius: 0;
-          font-size: 14px;
-          color: $text;
-          background: $white;
-          transition: border-color 0.2s;
-          font-family: inherit;
-
-          &:focus {
-            outline: none;
-            border-color: $text;
-            box-shadow: none;
-          }
-
-          &::placeholder {
-            color: #ccc;
-            font-size: 13px;
-          }
-
-          &.is-invalid {
-            border-color: #c0392b;
-          }
-        }
-
-        .error-message {
-          display: flex;
-          align-items: center;
-          gap: 4px;
-          color: #c0392b;
-          font-size: 12px;
-          margin-top: 6px;
-          font-weight: 500;
-
-          i { font-size: 14px; }
-        }
-      }
     }
   }
 
-  // ---- Save Button ----
-  .form-actions {
-    margin-top: 20px;
+  .btn-back-dashboard {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: $white;
+    color: $muted;
+    border: 1.5px solid $border;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    transition: border-color 0.2s, color 0.2s;
 
-    .btn-save {
-      display: inline-flex;
+    i { font-size: 14px; }
+    &:hover { border-color: $purple; color: $purple; }
+  }
+}
+
+// ---- Sections ----
+.bank-details-section,
+.paypal-details-section {
+  background: $white;
+  border: 1px solid $border;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 16px;
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 22px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid $border;
+
+    .section-icon-wrapper {
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      background: $purple-light;
+      display: flex;
       align-items: center;
-      gap: 6px;
-      padding: 12px 28px;
-      background: $text;
-      color: $white;
-      border: 1.5px solid $text;
-      border-radius: 0;
-      font-weight: 700;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      cursor: pointer;
-      transition: all 0.2s;
+      justify-content: center;
+      color: $purple;
+      font-size: 18px;
+      flex-shrink: 0;
 
-      i { font-size: 16px; }
-
-      &:hover {
-        background: $olive;
-        border-color: $olive;
+      &.paypal-icon {
+        background: rgba(0, 112, 186, 0.08);
+        color: #0070ba;
       }
     }
+
+    .section-title {
+      color: $text;
+      font-weight: 700;
+      font-size: 14px;
+      margin: 0 0 2px;
+    }
+
+    .section-subtitle {
+      color: $muted;
+      font-size: 12px;
+      margin: 0;
+    }
+  }
+}
+
+// ---- Form Grid ----
+.form-fields-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+
+  @media (max-width: 768px) { grid-template-columns: 1fr; }
+}
+
+.form-field-wrapper {
+  .form-label-modern {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: $text;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 7px;
+
+    i { display: none; }
+  }
+
+  .form-input-modern {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1.5px solid $border;
+    border-radius: 8px;
+    font-size: 14px;
+    color: $text;
+    background: $white;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    font-family: inherit;
+    box-sizing: border-box;
+
+    &:focus {
+      outline: none;
+      border-color: $purple;
+      box-shadow: 0 0 0 3px $purple-light;
+    }
+
+    &::placeholder { color: #bbb; font-size: 13px; }
+
+    &.is-invalid {
+      border-color: $error;
+      &:focus { box-shadow: 0 0 0 3px rgba($error, 0.1); }
+    }
+  }
+
+  .error-message {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: $error;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 500;
+
+    i { font-size: 13px; }
+  }
+}
+
+// ---- Actions ----
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+
+  .btn-save {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 11px 28px;
+    background: $purple;
+    color: $white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s;
+
+    i { font-size: 16px; }
+    &:hover { background: #7a0de0; }
   }
 }
 
 // ---- Responsive ----
 @media (max-width: 768px) {
-  .bank-details-page-container {
-    .bank-details-page-header {
-      padding: 16px 18px;
-      flex-direction: column;
-      align-items: flex-start;
+  .bank-details-page-header {
+    padding: 16px 18px;
+    flex-direction: column;
+    align-items: flex-start;
 
-      .btn-back-dashboard {
-        width: 100%;
-        justify-content: center;
-      }
-    }
+    .btn-back-dashboard { width: 100%; justify-content: center; }
   }
+
+  .bank-details-section,
+  .paypal-details-section { padding: 18px 16px; }
+
+  .form-actions .btn-save { width: 100%; justify-content: center; }
 }

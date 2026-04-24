@@ -1,46 +1,61 @@
-﻿// ============================================
-// Indaccu Solutions — Addresses Page
+// ============================================
+// Addresses Page — #8B10FF theme
 // ============================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.08);
+$text:         #1a1a1a;
+$muted:        #888;
+$border:       #ebebeb;
+$bg:           #fafafa;
+$white:        #fff;
+$error:        #dc2626;
 
 .addresses-page-container {
 
   // ---- Header ----
   .addresses-page-header {
-    background: $white;
-    padding: 20px 24px;
-    border: 1px solid #eee;
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 14px;
-    border-radius: 0;
-    box-shadow: none;
+    gap: 12px;
+    padding: 18px 24px;
+    background: $white;
+    border: 1px solid $border;
+    border-radius: 10px;
+    margin-bottom: 20px;
 
     .header-content {
       display: flex;
       align-items: center;
       gap: 12px;
 
-      .header-icon-wrapper { display: none; }
+      .header-icon-wrapper {
+        width: 38px;
+        height: 38px;
+        border-radius: 8px;
+        background: $purple-light;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $purple;
+        font-size: 18px;
+      }
 
       .header-text-content {
         .page-title {
           color: $text;
           font-weight: 700;
-          font-size: 13px;
-          text-transform: uppercase;
-          letter-spacing: 1.5px;
-          margin: 0;
+          font-size: 15px;
+          margin: 0 0 2px;
         }
-        .page-subtitle { display: none; }
+        .page-subtitle {
+          color: $muted;
+          font-size: 12px;
+          margin: 0;
+          display: block;
+        }
       }
     }
 
@@ -54,50 +69,35 @@ $white: #fff;
         align-items: center;
         gap: 6px;
         padding: 8px 16px;
-        background: transparent;
-        color: $warm;
-        border: 1.5px solid #ddd;
-        border-radius: 0;
+        background: $white;
+        color: $muted;
+        border: 1.5px solid $border;
+        border-radius: 8px;
         text-decoration: none;
         font-weight: 600;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        transition: all 0.2s;
-        box-shadow: none;
+        font-size: 12px;
+        transition: border-color 0.2s, color 0.2s;
 
         i { font-size: 14px; }
-
-        &:hover {
-          background: $text;
-          color: $white;
-          border-color: $text;
-        }
+        &:hover { border-color: $purple; color: $purple; }
       }
 
       .btn-add-address {
         display: inline-flex;
         align-items: center;
         gap: 6px;
-        padding: 8px 16px;
-        background: $text;
+        padding: 8px 18px;
+        background: $purple;
         color: $white;
-        border: 1.5px solid $text;
-        border-radius: 0;
+        border: none;
+        border-radius: 8px;
         font-weight: 600;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
+        font-size: 12px;
         cursor: pointer;
-        transition: all 0.2s;
-        box-shadow: none;
+        transition: background 0.2s;
 
         i { font-size: 14px; }
-
-        &:hover {
-          background: $olive;
-          border-color: $olive;
-        }
+        &:hover { background: #7a0de0; }
       }
     }
   }
@@ -106,45 +106,53 @@ $white: #fff;
   .addresses-list-container {
     .addresses-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 16px;
     }
 
     .address-card {
       background: $white;
-      border: 1px solid #eee;
-      border-radius: 0;
-      box-shadow: none;
+      border: 1px solid $border;
+      border-radius: 10px;
       display: flex;
       flex-direction: column;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
 
       &:hover {
-        border-color: rgba($olive, 0.3);
-        transform: none;
-        box-shadow: none;
+        border-color: rgba($purple, 0.3);
+        box-shadow: 0 2px 12px rgba($purple, 0.06);
       }
 
-      // Header
       .address-card-header {
         background: $bg;
-        padding: 14px 20px;
-        border-bottom: 1px solid #eee;
+        padding: 14px 18px;
+        border-bottom: 1px solid $border;
+        border-radius: 10px 10px 0 0;
 
         .address-title-section {
           display: flex;
           align-items: center;
           gap: 10px;
 
-          .address-icon-wrapper { display: none; }
+          .address-icon-wrapper {
+            width: 32px;
+            height: 32px;
+            border-radius: 7px;
+            background: $purple-light;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $purple;
+            font-size: 15px;
+          }
 
           .address-label {
             font-size: 10px;
             font-weight: 600;
-            color: #bbb;
+            color: $muted;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 2px;
+            letter-spacing: 0.8px;
+            margin-bottom: 1px;
             display: block;
           }
 
@@ -157,29 +165,31 @@ $white: #fff;
         }
       }
 
-      // Body
       .address-card-body {
-        padding: 18px 20px;
+        padding: 16px 18px;
         flex: 1;
 
         .address-info-item {
           display: flex;
           align-items: flex-start;
-          gap: 0;
-          margin-bottom: 14px;
+          gap: 8px;
+          margin-bottom: 12px;
 
           &:last-child { margin-bottom: 0; }
 
-          > i { display: none; }
+          > i {
+            font-size: 15px;
+            color: $muted;
+            margin-top: 2px;
+            flex-shrink: 0;
+          }
 
           .info-label {
             display: block;
-            color: #bbb;
-            font-size: 10px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 3px;
+            color: $muted;
+            font-size: 11px;
+            font-weight: 500;
+            margin-bottom: 2px;
           }
 
           .info-value {
@@ -194,20 +204,20 @@ $white: #fff;
         .address-info-row {
           display: grid;
           grid-template-columns: 1fr 1fr;
-          gap: 14px;
-          margin-top: 14px;
-          padding-top: 14px;
-          border-top: 1px solid #f5f5f5;
+          gap: 12px;
+          margin-top: 12px;
+          padding-top: 12px;
+          border-top: 1px solid $border;
 
           .address-info-item { margin-bottom: 0; }
         }
       }
 
-      // Footer
       .address-card-footer {
-        padding: 14px 20px;
-        background: transparent;
-        border-top: 1px solid #eee;
+        padding: 12px 18px;
+        border-top: 1px solid $border;
+        border-radius: 0 0 10px 10px;
+        background: $bg;
         display: flex;
         gap: 8px;
 
@@ -219,11 +229,9 @@ $white: #fff;
           justify-content: center;
           gap: 5px;
           padding: 8px 14px;
-          border-radius: 0;
+          border-radius: 8px;
           font-weight: 600;
-          font-size: 11px;
-          text-transform: uppercase;
-          letter-spacing: 0.8px;
+          font-size: 12px;
           cursor: pointer;
           transition: all 0.2s;
 
@@ -231,30 +239,19 @@ $white: #fff;
         }
 
         .btn-edit-address {
-          background: transparent;
-          color: $text;
-          border: 1.5px solid $text;
-          box-shadow: none;
+          background: $purple;
+          color: $white;
+          border: none;
 
-          &:hover {
-            background: $text;
-            color: $white;
-            transform: none;
-          }
+          &:hover { background: #7a0de0; }
         }
 
         .btn-delete-address {
-          background: transparent;
-          color: #999;
-          border: 1.5px solid #ddd;
-          box-shadow: none;
+          background: $white;
+          color: $muted;
+          border: 1.5px solid $border;
 
-          &:hover {
-            background: #c0392b;
-            color: $white;
-            border-color: #c0392b;
-            transform: none;
-          }
+          &:hover { background: $error; color: $white; border-color: $error; }
         }
       }
     }
@@ -266,23 +263,23 @@ $white: #fff;
     align-items: center;
     justify-content: center;
     min-height: 300px;
-    padding: 40px;
     background: $white;
-    border: 1px solid #eee;
+    border: 1px solid $border;
+    border-radius: 10px;
 
     .empty-state-content {
       text-align: center;
 
       i {
-        font-size: 48px;
-        color: #ddd;
+        font-size: 52px;
+        color: rgba($purple, 0.2);
         margin-bottom: 14px;
         display: block;
       }
 
       h4 {
-        color: #999;
-        font-size: 14px;
+        color: $muted;
+        font-size: 15px;
         font-weight: 500;
         margin: 0;
       }
@@ -300,10 +297,7 @@ $white: #fff;
 
       .header-actions {
         width: 100%;
-        .btn-back-dashboard, .btn-add-address {
-          flex: 1;
-          justify-content: center;
-        }
+        .btn-back-dashboard, .btn-add-address { flex: 1; justify-content: center; }
       }
     }
 
@@ -315,10 +309,7 @@ $white: #fff;
           padding: 14px 16px;
           .address-info-row { grid-template-columns: 1fr; }
         }
-        .address-card-footer {
-          padding: 12px 16px;
-          flex-direction: column;
-        }
+        .address-card-footer { padding: 12px 16px; }
       }
     }
   }

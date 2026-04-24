@@ -16,11 +16,11 @@ export class ReturnExchangeComponent implements OnInit {
   ngOnInit() {
     // Set unique SEO data for Return Policy page
     this.seoService.setSEOData({
-      title: 'Easy 7-Day Return Policy – Shop Risk-Free | Indaccu Solutions',
-      description: 'Shop with confidence at Indaccu Solutions. Our easy 7-day return policy ensures you can shop risk-free. Learn about our simple return and exchange process.',
-      keywords: 'return policy, exchange policy, 7-day return, shop risk-free, Indaccu Solutions returns',
-      canonicalUrl: 'https://indaccusolutions.in/return-policy',
-      url: 'https://indaccusolutions.in/return-policy',
+      title: 'Easy 7-Day Return Policy – Shop Risk-Free | Mangalbookstore',
+      description: 'Shop with confidence at Mangalbookstore. Our easy 7-day return policy ensures you can shop risk-free. Learn about our simple return and exchange process.',
+      keywords: 'return policy, exchange policy, 7-day return, shop risk-free, Mangalbookstore returns',
+      canonicalUrl: 'https://mangalbookstore.in/return-policy',
+      url: 'https://mangalbookstore.in/return-policy',
       type: 'website'
     });
   }

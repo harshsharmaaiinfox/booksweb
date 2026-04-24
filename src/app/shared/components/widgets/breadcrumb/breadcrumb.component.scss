@@ -1,35 +1,32 @@
-﻿// ============================================
-// Indaccu Solutions — Breadcrumb
+// ============================================
+// Breadcrumb — #8B10FF theme
 // ============================================
 
-$primary: #6B8E23;
-$secondary: #D2B48C;
-$accent: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
+$purple:  #8B10FF;
+$text:    #1a1a1a;
+$muted:   #888;
+$border:  #e5e7eb;
+$bg:      #fff;
 
 .breadcrumb-modern-section {
   background: $bg;
-  border-bottom: 1px solid rgba($secondary, 0.25);
-  padding: 20px 0;
-  position: relative;
+  border-bottom: 1px solid $border;
+  padding: 18px 0;
 
-  @media (max-width: 575px) {
-    padding: 16px 0;
-  }
+  @media (max-width: 575px) { padding: 14px 0; }
 }
 
 .breadcrumb-modern-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 20px;
   flex-wrap: wrap;
 
   @media (max-width: 991px) {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 8px;
   }
 }
 
@@ -38,31 +35,24 @@ $bg: #FAF9F6;
   min-width: 0;
 
   .breadcrumb-modern-title {
-    font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-size: 20px;
     font-weight: 700;
     color: $text;
     margin: 0;
     line-height: 1.3;
+    letter-spacing: -0.3px;
 
-    @media (max-width: 575px) {
-      font-size: 20px;
-    }
+    @media (max-width: 575px) { font-size: 18px; }
   }
 }
 
-.breadcrumb-modern-nav {
-  flex-shrink: 0;
-
-  @media (max-width: 991px) {
-    width: 100%;
-  }
-}
+.breadcrumb-modern-nav { flex-shrink: 0; }
 
 .breadcrumb-modern-list {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 2px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -71,13 +61,13 @@ $bg: #FAF9F6;
 .breadcrumb-modern-item {
   display: flex;
   align-items: center;
-  font-size: 13px;
+  font-size: 12.5px;
 
   .breadcrumb-separator {
     display: flex;
     align-items: center;
-    margin: 0 6px;
-    color: #bbb;
+    margin: 0 4px;
+    color: #ccc;
     font-size: 14px;
 
     i { display: block; }
@@ -86,61 +76,45 @@ $bg: #FAF9F6;
   .breadcrumb-modern-link {
     display: flex;
     align-items: center;
-    gap: 5px;
-    color: lighten($text, 25%);
+    gap: 4px;
+    color: $muted;
     text-decoration: none;
-    padding: 0;
     font-weight: 500;
     transition: color 0.2s;
 
-    &:hover {
-      color: $accent;
-    }
+    &:hover { color: $purple; }
 
-    i {
-      font-size: 16px;
-      color: $accent;
-    }
+    i { font-size: 15px; color: $muted; }
 
-    .breadcrumb-text {
-      white-space: nowrap;
-    }
+    .breadcrumb-text { white-space: nowrap; }
   }
 
-  // Active / last item
   .breadcrumb-text {
     color: $text;
     font-weight: 600;
-    padding: 0;
     background: none;
 
-    &::after {
-      display: none;
-    }
+    &::after { display: none; }
   }
 
-  &.active .breadcrumb-text {
-    color: $accent;
-  }
+  &.active .breadcrumb-text { color: $purple; }
 
-  &:first-child .breadcrumb-modern-link i {
-    color: $accent;
-  }
+  &:first-child .breadcrumb-modern-link i { color: $muted; }
 }
 
 // Dark mode
 html.dark {
   .breadcrumb-modern-section {
-    background: #1a1a1a;
-    border-bottom-color: #333;
+    background: #111;
+    border-bottom-color: #222;
 
     .breadcrumb-modern-title { color: #eee; }
 
     .breadcrumb-modern-item {
-      .breadcrumb-separator { color: #555; }
-      .breadcrumb-modern-link { color: #999; &:hover { color: $secondary; } }
+      .breadcrumb-separator { color: #444; }
+      .breadcrumb-modern-link { color: #666; &:hover { color: $purple; } }
       .breadcrumb-text { color: #eee; }
-      &.active .breadcrumb-text { color: $secondary; }
+      &.active .breadcrumb-text { color: $purple; }
     }
   }
 }

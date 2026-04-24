@@ -153,11 +153,6 @@
                             <h4>{{ 'Total Price:' | translate }} <span class="theme-color">{{ totalPrice |
                                     currencySymbol }}</span></h4>
                         </ng-container>
-                        <div class="selection-section mt-3" *ngIf="product.attributes?.length">
-                            <app-variant-attributes [product]="product" [attributes]="product.attributes || []"
-                                [owlCar]="owlCar" (selectVariation)="selectVariation($event!)">
-                            </app-variant-attributes>
-                        </div>
                         <div class="modal-button">
                             <div class="modal-qty" *ngIf="!product?.is_external">
                                 <div class="input-group">

@@ -9,24 +9,8 @@
     <span>Register</span>
   </div>
 
-  <!-- Two-column layout (matches reference) -->
-  <div class="ma-wrapper">
+  <div class="ma-wrapper ma-wrapper--single">
 
-    <!-- ══ LEFT: LOGIN PANEL ══ -->
-    <div class="ma-col">
-      <h2 class="ma-heading">Login</h2>
-
-      <p class="ma-register-note">
-        Already have an account? Sign in to access your orders, wishlist, and account details.
-      </p>
-
-      <a [routerLink]="['/auth/login']" class="ma-submit-btn">LOG IN</a>
-    </div>
-
-    <!-- Vertical divider -->
-    <div class="ma-divider"></div>
-
-    <!-- ══ RIGHT: REGISTER FORM ══ -->
     <div class="ma-col">
       <h2 class="ma-heading">Register</h2>
 
@@ -134,6 +118,10 @@
         </app-button>
 
       </form>
+
+      <p class="ma-switch-note">
+        Already have an account? <a [routerLink]="['/auth/login']" class="ma-privacy-link">Log in here</a>
+      </p>
     </div>
 
   </div>

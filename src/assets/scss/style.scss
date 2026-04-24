@@ -460,6 +460,41 @@ footer::after {
     content: "";
     display: none !important;
 }
+// ============================================
+// View Modal — #6D28D9 overrides (global)
+// ============================================
+.view-modal {
+  // Hide size/variant selector
+  .selection-section,
+  app-variant-attributes,
+  .select-package { display: none !important; }
+
+  // Price color
+  .right-sidebar-modal .price,
+  .right-sidebar-modal h4.price {
+    color: #6D28D9 !important;
+  }
+
+  // IN STOCK badge — keep green, no change needed
+
+  // ADD TO CART button
+  .modal-button {
+    .btn,
+    .view-button,
+    button.btn,
+    app-button button {
+      background-color: #6D28D9 !important;
+      border-color: #6D28D9 !important;
+      color: #fff !important;
+
+      &:hover:not(:disabled) {
+        background-color: #5b21b6 !important;
+        border-color: #5b21b6 !important;
+      }
+    }
+  }
+}
+
 button#place_order {
     padding: 7px 25px !important;
     width: 100% !important;

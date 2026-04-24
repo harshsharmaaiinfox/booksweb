@@ -80,7 +80,7 @@ export class AppComponent implements OnInit {
 
       // Set Favicon
       this.favIcon = document.querySelector('#appIcon');
-      this.favIcon!.href = 'assets/images/Indaccu Solutions-logo.png';
+      this.favIcon!.href = 'assets/images/book-fav-m.png';
             
     });
 

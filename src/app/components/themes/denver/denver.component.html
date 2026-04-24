@@ -36,9 +36,54 @@
 </section>
 <!-- Hero Grid End -->
 
+<!-- Trust Bar Section Start -->
+<section class="dv-trust-bar">
+  <div class="dv-trust-bar__item">
+    <div class="dv-trust-bar__icon">
+      <i class="ri-secure-payment-line"></i>
+    </div>
+    <div class="dv-trust-bar__text">
+      <h6>Safe Payment</h6>
+      <p>100% secure payment</p>
+    </div>
+  </div>
+  <div class="dv-trust-bar__divider"></div>
+  <div class="dv-trust-bar__item">
+    <div class="dv-trust-bar__icon">
+      <i class="ri-customer-service-2-line"></i>
+    </div>
+    <div class="dv-trust-bar__text">
+      <h6>24/7 Help Center</h6>
+      <p>Dedicated 24/7 support</p>
+    </div>
+  </div>
+  <div class="dv-trust-bar__divider"></div>
+  <div class="dv-trust-bar__item">
+    <div class="dv-trust-bar__icon">
+      <i class="ri-price-tag-3-line"></i>
+    </div>
+    <div class="dv-trust-bar__text">
+      <h6>Low Price Guarantee</h6>
+      <p>We offer competitive prices</p>
+    </div>
+  </div>
+  <div class="dv-trust-bar__divider"></div>
+  <div class="dv-trust-bar__item">
+    <div class="dv-trust-bar__icon">
+      <i class="ri-thumb-up-line"></i>
+    </div>
+    <div class="dv-trust-bar__text">
+      <h6>Quality Guarantee</h6>
+      <p>We Guarantee Our Products</p>
+    </div>
+  </div>
+</section>
+<!-- Trust Bar Section End -->
+
 <!-- Featured Products Section Start (Top) -->
 <section class="product-section featured-products-section" *ngIf="featuredProductIds?.length">
     <div class="container-fluid-lg">
+        <h2 class="dv-section-heading">Best Selling Products</h2>
         <div class="product-section-content">
             <div class="product-list-wrapper">
                 <app-theme-product [productIds]="featuredProductIds" [style]="'horizontal'" [slider]="true"
@@ -50,59 +95,11 @@
 </section>
 <!-- Featured Products Section End (Top) -->
 
-<!-- Collections Showcase Section Start -->
-<section class="kfd-collections">
-  <div class="kfd-collections-grid">
-
-    <a href="/collections" class="kfd-col-card">
-      <div class="kfd-col-img">
-        <img src="assets/images/modal-1.png" alt="Lehengas" loading="lazy">
-      </div>
-      <div class="kfd-col-info">
-        <span class="kfd-col-num">01</span>
-        <div class="kfd-col-text">
-          <p class="kfd-col-eyebrow">New Collection</p>
-          <h3 class="kfd-col-title">Weightless<br>Lehengas</h3>
-        </div>
-        <span class="kfd-col-arrow"><i class="ri-arrow-right-line"></i></span>
-      </div>
-    </a>
-
-    <a href="/collections" class="kfd-col-card kfd-col-card--tall">
-      <div class="kfd-col-img">
-        <img src="assets/images/modal-2.png" alt="Sarees" loading="lazy">
-      </div>
-      <div class="kfd-col-info">
-        <span class="kfd-col-num">02</span>
-        <div class="kfd-col-text">
-          <p class="kfd-col-eyebrow">Bestseller</p>
-          <h3 class="kfd-col-title">Stellar<br>Sarees</h3>
-        </div>
-        <span class="kfd-col-arrow"><i class="ri-arrow-right-line"></i></span>
-      </div>
-    </a>
-
-    <a href="/collections" class="kfd-col-card">
-      <div class="kfd-col-img">
-        <img src="assets/images/modal-3.png" alt="Suits" loading="lazy">
-      </div>
-      <div class="kfd-col-info">
-        <span class="kfd-col-num">03</span>
-        <div class="kfd-col-text">
-          <p class="kfd-col-eyebrow">Timeless Style</p>
-          <h3 class="kfd-col-title">Classic<br>Suits</h3>
-        </div>
-        <span class="kfd-col-arrow"><i class="ri-arrow-right-line"></i></span>
-      </div>
-    </a>
-
-  </div>
-</section>
-<!-- Collections Showcase Section End -->
 
 <!-- Featured Products Section Start -->
 <section class="product-section featured-products-section mb-3" *ngIf="featuredProductIds2?.length">
     <div class="container-fluid-lg">
+        <h2 class="dv-section-heading">eBook Premium Pack</h2>
         <div class="product-section-content">
             <div class="product-list-wrapper">
                 <app-theme-product [productIds]="featuredProductIds2" [style]="'horizontal'" [slider]="true"
@@ -114,66 +111,7 @@
 </section>
 <!-- Featured Products Section End -->
 
-<!-- Banner Section Start -->
-<section class="kfd-banner">
-  <div class="kfd-banner-inner">
 
-    <!-- Left: Text Panel -->
-    <div class="kfd-banner-text">
-      <p class="kfd-banner-eyebrow">New Season</p>
-      <h2 class="kfd-banner-heading">
-        Tradition,<br>
-        <em>Styled</em><br>
-        Beautifully
-      </h2>
-      <div class="kfd-banner-rule"></div>
-      <p class="kfd-banner-sub">Premium sarees &amp; ethnic wear crafted for the modern Indian woman.</p>
-      <a href="/collections/sarees" class="kfd-banner-cta">
-        Shop Collection <i class="ri-arrow-right-line"></i>
-      </a>
-      <div class="kfd-banner-meta">
-        <div class="kfd-banner-stat">
-          <span class="stat-num">500+</span>
-          <span class="stat-label">Styles</span>
-        </div>
-        <div class="kfd-banner-divider"></div>
-        <div class="kfd-banner-stat">
-          <span class="stat-num">100%</span>
-          <span class="stat-label">Handcrafted</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Right: Image -->
-    <div class="kfd-banner-img">
-      <img src="assets/images/b1.png" alt="Tradition Styled Beautifully" loading="lazy">
-      <div class="kfd-banner-tag">
-        <i class="ri-award-line"></i>
-        <span>Premium Quality</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-<!-- Banner Section End -->
-
-<!-- <section class="home-section-2 home-section-bg pt-md-0 pt-3 overflow-hidden" *ngIf="data?.content?.home_banner">
-  <app-theme-home-banner [theme]="'denver'" [data]="data?.content?.home_banner"></app-theme-home-banner>
-</section> -->
-<!-- Home Section End -->
-
-
-<!-- Indaccu Solutions Banner End -->
-<!-- Category Section Start -->
-<!-- <section *ngIf="data?.content?.categories_icon_list?.status">
-    <div class=" mt-4 container-fluid-lg">
-        <app-theme-categories [style]="'horizontal'" [theme]="'paris'" [sliderOption]="categorySlider"
-            [categoryIds]="data?.content?.categories_icon_list?.category_ids || []"
-            [image]="data?.content?.categories_icon_list?.image_url">
-        </app-theme-categories>
-    </div>
-</section> -->
-<!-- Category Section End -->
 
 <!-- Deal Section Start -->
 <section class="product-section product-section-3">
@@ -194,66 +132,12 @@
 </section>
 <!-- Deal Section End -->
 
-<!-- Marquee Banner Section Start -->
-<section class="kfd-marquee-section">
-
-  <!-- Scrolling text strip -->
-  <div class="kfd-marquee-strip">
-    <div class="kfd-marquee-track">
-      <span>New Collection</span><i class="ri-record-circle-fill"></i>
-      <span>Ethnic Wear</span><i class="ri-record-circle-fill"></i>
-      <span>Handcrafted</span><i class="ri-record-circle-fill"></i>
-      <span>Free Delivery</span><i class="ri-record-circle-fill"></i>
-      <span>New Collection</span><i class="ri-record-circle-fill"></i>
-      <span>Ethnic Wear</span><i class="ri-record-circle-fill"></i>
-      <span>Handcrafted</span><i class="ri-record-circle-fill"></i>
-      <span>Free Delivery</span><i class="ri-record-circle-fill"></i>
-      <span>New Collection</span><i class="ri-record-circle-fill"></i>
-      <span>Ethnic Wear</span><i class="ri-record-circle-fill"></i>
-      <span>Handcrafted</span><i class="ri-record-circle-fill"></i>
-      <span>Free Delivery</span><i class="ri-record-circle-fill"></i>
-    </div>
-  </div>
-
-  <!-- Main full-bleed image block -->
-  <div class="kfd-marquee-body">
-
-    <div class="kfd-mb-img">
-      <img src="assets/images/b2.png" alt="New Collection" loading="lazy">
-    </div>
-
-    <!-- Overlapping text card -->
-    <div class="kfd-mb-card">
-      <p class="kfd-mb-eyebrow">Season 2025</p>
-      <h2 class="kfd-mb-title">Crafted<br><em>for Her</em></h2>
-      <p class="kfd-mb-desc">Bold silhouettes. Timeless fabrics.<br>Made for the modern Indian woman.</p>
-      <a href="/collections" class="kfd-mb-cta">
-        <span>Explore All</span>
-        <i class="ri-arrow-right-up-line"></i>
-      </a>
-      <div class="kfd-mb-badge">
-        <i class="ri-sparkling-2-line"></i>
-        <span>500+ Styles</span>
-      </div>
-    </div>
-
-    <!-- Corner label -->
-    <div class="kfd-mb-corner">
-      <span>Indaccu Solutions</span>
-      <span>Fashion</span>
-      <span>Club</span>
-    </div>
-
-  </div>
-
-</section>
-<!-- Marquee Banner Section End -->
 
 
 
 
 <!-- Top Selling Section Start -->
-<section class=" mt-4 product-section product-section-3">
+<section class=" mt-4 product-section product-section-3 mb-5">
     <div class="container-fluid-lg">
         <div>
             <app-title [title]="data?.content?.products_list_2?.title " [style]="'simple'" class="mb-5">

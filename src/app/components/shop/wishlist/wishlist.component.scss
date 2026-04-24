@@ -1,200 +1,142 @@
-﻿// ============================================
-// Indaccu Solutions — Wishlist Page
+// ============================================
+// Wishlist Page — #8B10FF theme
 // ============================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.08);
+$text:         #1a1a1a;
+$muted:        #888;
+$border:       #ebebeb;
+$bg:           #fff;
+$white:        #fff;
 
-.kfw-eyebrow {
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: $warm;
-  margin: 0 0 10px;
-}
-
-// =============================================
-// HERO
-// =============================================
-.kfw-hero {
-  background: $text;
-  padding: 60px 0 50px;
-
-  .container-fluid-lg {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 30px;
-    flex-wrap: wrap;
-  }
-
-  .kfw-hero-inner {
-    .kfw-eyebrow { color: $olive; }
-
-    h1 {
-      font-size: 42px;
-      font-weight: 700;
-      color: $white;
-      line-height: 1.1;
-      margin: 0 0 14px;
-      letter-spacing: -0.5px;
-
-      @media (max-width: 768px) { font-size: 30px; }
-    }
-
-    .kfw-hero-sub {
-      font-size: 14px;
-      color: rgba($white, 0.45);
-      line-height: 1.7;
-      margin: 0;
-      max-width: 420px;
-    }
-  }
-
-  .kfw-hero-badge {
-    text-align: right;
-
-    .kfw-badge-count {
-      display: block;
-      font-size: 52px;
-      font-weight: 700;
-      color: $olive;
-      line-height: 1;
-
-      @media (max-width: 768px) { font-size: 36px; }
-    }
-
-    .kfw-badge-label {
-      font-size: 10px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: rgba($white, 0.35);
-    }
-  }
-}
-
-// =============================================
-// CONTENT SECTION
-// =============================================
-.kfw-content {
+.kfw-page {
   background: $bg;
-  padding: 50px 0;
+  padding: 32px 0 60px;
 }
 
-// =============================================
-// EMPTY STATE
-// =============================================
-.kfw-empty {
-  padding: 90px 20px;
-  text-align: center;
+// ---- Header ----
+.kfw-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 18px 24px;
   background: $white;
-  border: 1px solid #eee;
+  border: 1px solid $border;
+  border-radius: 10px;
+  margin-bottom: 24px;
 
-  .kfw-empty-icon {
-    width: 80px;
-    height: 80px;
-    border: 1.5px solid #ddd;
+  .kfw-header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .kfw-header-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    background: $purple-light;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 28px;
-
-    i {
-      font-size: 36px;
-      color: $olive;
-    }
+    color: $purple;
+    font-size: 18px;
+    flex-shrink: 0;
   }
 
-  .kfw-eyebrow {
-    color: $olive;
+  .kfw-title {
+    color: $text;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0 0 2px;
   }
 
-  h2 {
-    font-size: 26px;
+  .kfw-subtitle {
+    color: $muted;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .kfw-count-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    background: $purple-light;
+    color: $purple;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+// ---- Empty State ----
+.kfw-empty {
+  padding: 80px 20px;
+  text-align: center;
+  background: $white;
+  border: 1px solid $border;
+  border-radius: 10px;
+
+  .kfw-empty-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: $purple-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+
+    i { font-size: 32px; color: $purple; }
+  }
+
+  h4 {
+    font-size: 20px;
     font-weight: 700;
     color: $text;
-    margin: 0 0 14px;
-    letter-spacing: -0.3px;
+    margin: 0 0 10px;
   }
 
-  .kfw-empty-desc {
-    font-size: 14px;
-    color: rgba($warm, 0.8);
-    line-height: 1.8;
-    max-width: 400px;
-    margin: 0 auto 32px;
+  p {
+    font-size: 13.5px;
+    color: $muted;
+    line-height: 1.7;
+    max-width: 380px;
+    margin: 0 auto 28px;
   }
 
   .kfw-btn {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
-    padding: 13px 30px;
-    background: $text;
+    gap: 8px;
+    padding: 11px 26px;
+    background: $purple;
     color: $white;
-    border: 1.5px solid $text;
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
     text-decoration: none;
-    transition: all 0.25s;
+    transition: background 0.2s;
 
-    i { font-size: 16px; }
-
-    &:hover {
-      background: $olive;
-      border-color: $olive;
-      color: $white;
-    }
+    i { font-size: 15px; }
+    &:hover { background: #7a0de0; color: $white; }
   }
 }
 
-// =============================================
-// RESPONSIVE
-// =============================================
+// ---- Responsive ----
 @media (max-width: 768px) {
-  .kfw-hero {
-    padding: 40px 0;
-
-    .container-fluid-lg {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .kfw-hero-badge {
-      text-align: left;
-    }
+  .kfw-header {
+    padding: 16px 18px;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .kfw-empty {
-    padding: 60px 20px;
-
-    h2 { font-size: 22px; }
-
-    .kfw-btn {
-      width: 100%;
-      justify-content: center;
-    }
-  }
-}
-
-@media (max-width: 576px) {
   .kfw-empty {
     padding: 50px 16px;
-
-    .kfw-empty-icon {
-      width: 64px;
-      height: 64px;
-
-      i { font-size: 28px; }
-    }
-
-    h2 { font-size: 20px; }
+    h4 { font-size: 18px; }
+    .kfw-btn { width: 100%; justify-content: center; }
   }
 }

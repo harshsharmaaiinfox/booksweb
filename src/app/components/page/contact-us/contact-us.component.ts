@@ -36,13 +36,13 @@ export class ContactUsComponent implements OnInit {
   ngOnInit() {
     // Set unique SEO data for Contact Us page
     this.seoService.setSEOData({
-      title: 'Contact Indaccu Solutions – We\'re Here to Help You 24/7',
-      description: 'Get in touch with Indaccu Solutions customer support. We\'re available 24/7 to help with orders, products, and any questions you may have.',
-      keywords: 'contact us, customer support, help, Indaccu Solutions contact, customer service',
-      canonicalUrl: 'https://indaccusolutions.in/Contact-Us',
-      url: 'https://indaccusolutions.in/Contact-Us',
+      title: 'Contact Mangalbookstore – We\'re Here to Help You 24/7',
+      description: 'Get in touch with Mangalbookstore customer support. We\'re available 24/7 to help with orders, products, and any questions you may have.',
+      keywords: 'contact us, customer support, help, Mangalbookstore contact, customer service',
+      canonicalUrl: 'https://mangalbookstore.in/Contact-Us',
+      url: 'https://mangalbookstore.in/Contact-Us',
       type: 'website',
-      image: 'https://indaccusolutions.in/assets/images/contact-us.jpg'
+      image: 'https://mangalbookstore.in/assets/images/contact-us.jpg'
     });
   }
 

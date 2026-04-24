@@ -1,13 +1,5 @@
 <div class="kf-dash-page">
 
-    <!-- Welcome -->
-    <div class="kf-welcome">
-        <div>
-            <h2>{{ 'Hello' | translate }}, {{ (user$ | async)?.name! | titleCase }}</h2>
-            <p>{{ 'Welcome to your dashboard' | translate }}</p>
-        </div>
-    </div>
-
     <!-- Profile Info -->
     <div class="kf-section">
         <div class="kf-section-head">
@@ -37,26 +29,6 @@
         </div>
     </div>
 
-    <!-- Quick Links -->
-    <div class="kf-section">
-        <div class="kf-section-head">
-            <h3>Quick Links</h3>
-        </div>
-        <div class="kf-quick-grid">
-            <a class="kf-quick-item" (click)="navigateTo('order')">
-                <i class="ri-file-list-3-line"></i>
-                <span>My Orders</span>
-            </a>
-            <a class="kf-quick-item" (click)="navigateTo('addresses')">
-                <i class="ri-map-pin-line"></i>
-                <span>Addresses</span>
-            </a>
-            <a class="kf-quick-item" (click)="navigateTo('bank-details')">
-                <i class="ri-bank-line"></i>
-                <span>Bank Details</span>
-            </a>
-        </div>
-    </div>
 
 </div>
 <app-edit-profile-modal #profileModal></app-edit-profile-modal>

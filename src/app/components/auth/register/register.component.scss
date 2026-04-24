@@ -17,8 +17,8 @@ $page-bg:      #fff;
 // ── PAGE ──────────────────────────────────────────────
 .ma-page {
   background: $page-bg;
-  min-height: 100vh;
-  padding: 0 0 100px;
+  min-height: unset;
+  padding: 0 0 48px;
 }
 
 // ── BREADCRUMB ────────────────────────────────────────
@@ -58,6 +58,15 @@ $page-bg:      #fff;
     padding: 0 24px;
     margin-top: 40px;
   }
+
+  &--single {
+    max-width: 520px;
+
+    .ma-col {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
 }
 
 // ── COLUMNS ───────────────────────────────────────────
@@ -81,6 +90,13 @@ $page-bg:      #fff;
       border-top: 1px solid #ebebeb;
     }
   }
+}
+
+// ── SWITCH NOTE ───────────────────────────────────────
+.ma-switch-note {
+  margin-top: 24px;
+  font-size: 13.5px;
+  color: $subtext;
 }
 
 // ── VERTICAL DIVIDER ──────────────────────────────────

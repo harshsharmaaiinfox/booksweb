@@ -31,11 +31,11 @@ export class DenverComponent implements OnInit, OnDestroy, AfterViewInit {
   public productSlider4Item = data.productSlider;
   
   // Featured Products by ID (4-5 products in a row)
-  public featuredProductIds: number[] = [12544, 12545, 12546, 12548];
-  public featuredProductIds2: number[] = [12549, 12550, 12551, 12544];
-  public dealProductIds: number[] = [12587, 12588, 12589, 12590,];
-  public topSellingIds: number[] = [12546, 12548, 12587, 12588];
-  public topSellingIds2: number[] = [12591, 12592, 12549, 12550];
+  public featuredProductIds: number[] = [7274, 7275, 7276, 7284];
+  public featuredProductIds2: number[] = [7285, 7286, 7287, 7288];
+  public dealProductIds: number[] = [7289, 7290, 7274, 7275];
+  public topSellingIds: number[] = [7276, 7284, 7285, 7286];
+  public topSellingIds2: number[] = [7287, 7288, 7289, 7290];
   
   // Hero Slider Properties
   public currentSlide = 0;
@@ -48,14 +48,14 @@ export class DenverComponent implements OnInit, OnDestroy, AfterViewInit {
   public heroSlides = [
     {
       image: 'assets/images/banner-1.png',
-      alt: 'Indaccu Solutions Collection',
+      alt: 'Mangalbookstore Collection',
       link: '/collections',
       saleText: 'FASHION SALE',
       saleSubtext: 'Running Now!'
     },
     {
       image: 'assets/images/banner-2.png',
-      alt: 'Indaccu Solutions New Arrivals',
+      alt: 'Mangalbookstore New Arrivals',
       link: '/collections',
       saleText: 'FASHION SALE',
       saleSubtext: 'UPTO 70% OFF'

@@ -1,0 +1,43 @@
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.1);
+$white:        #fff;
+$text:         #1a1a1a;
+
+::ng-deep .product-option {
+  background: $white !important;
+  border-radius: 30px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12) !important;
+  padding: 8px 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+
+  li {
+    width: 34px !important;
+
+    a {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      width: 34px !important;
+      height: 34px !important;
+      border-radius: 50% !important;
+      transition: background 0.2s, color 0.2s !important;
+      color: $text !important;
+
+      i {
+        font-size: 17px !important;
+        transition: color 0.2s !important;
+      }
+
+      &:hover {
+        background: $purple-light !important;
+        i { color: $purple !important; }
+      }
+
+      &.theme-color i { color: $purple !important; }
+    }
+
+    + li::after { background-color: #e5e7eb !important; opacity: 1 !important; }
+  }
+}

@@ -40,7 +40,7 @@ export class CollectionComponent {
     'sortBy': 'asc',
     'rating': '',
     'attribute': '',
-    store_id: 28,
+    store_id: 30,
   };
 
   public totalItems: number = 0;
@@ -67,7 +67,7 @@ export class CollectionComponent {
         'sortBy': queryParams['sortBy'] ? queryParams['sortBy'] : this.filter['sortBy'],
         'rating': queryParams['rating'] ? queryParams['rating'] : '',
         'attribute': queryParams['attribute'] ? queryParams['attribute'] : '',
-        store_id: 28,
+        store_id: 30,
       }
 
       this.store.dispatch(new GetProducts(this.filter));
@@ -98,27 +98,27 @@ export class CollectionComponent {
     
     switch (categoryLower) {
       case 'activewear':
-        title = 'Activewear Collection | Gym Wear, Sportswear & Fitness Clothes | Indaccu Solutions';
-        description = 'Shop premium activewear and sportswear at Indaccu Solutions. Find high-quality gym wear, fitness clothes, yoga pants, sports bras, and athletic wear for men & women. Perfect for workouts, running, and active lifestyle.';
-        keywords = 'activewear, gym wear, sportswear, fitness clothes, workout clothes, yoga pants, sports bras, athletic wear, running clothes, exercise wear, gym clothes, fitness apparel, Indaccu Solutions';
+        title = 'Activewear Collection | Gym Wear, Sportswear & Fitness Clothes | Mangalbookstore';
+        description = 'Shop premium activewear and sportswear at Mangalbookstore. Find high-quality gym wear, fitness clothes, yoga pants, sports bras, and athletic wear for men & women. Perfect for workouts, running, and active lifestyle.';
+        keywords = 'activewear, gym wear, sportswear, fitness clothes, workout clothes, yoga pants, sports bras, athletic wear, running clothes, exercise wear, gym clothes, fitness apparel, Mangalbookstore';
         break;
 
       case 'men':
-        title = 'Mens Clothing Collection Indaccu Solutions';
-        description = 'Explore mens shirts jackets suits jeans and more at Indaccu Solutions. New arrivals fast PAN India delivery COD and easy 7 day returns.';
-        keywords = 'men\'s clothes, men\'s fashion, men\'s clothing, men\'s apparel, men\'s shirts, men\'s pants, men\'s jeans, men\'s jackets, men\'s casual wear, men\'s formal clothes, stylish men\'s fashion, Indaccu Solutions';
+        title = 'Mens Clothing Collection Mangalbookstore';
+        description = 'Explore mens shirts jackets suits jeans and more at Mangalbookstore. New arrivals fast PAN India delivery COD and easy 7 day returns.';
+        keywords = 'men\'s clothes, men\'s fashion, men\'s clothing, men\'s apparel, men\'s shirts, men\'s pants, men\'s jeans, men\'s jackets, men\'s casual wear, men\'s formal clothes, stylish men\'s fashion, Mangalbookstore';
         break;
 
       case 'women':
-        title = 'Women\'s Clothing Collection | Fashionable Women\'s Apparel & Style | Indaccu Solutions';
-        description = 'Explore stunning women\'s clothing and fashion at Indaccu Solutions. Shop trendy women\'s fashion including dresses, tops, jeans, skirts, women\'s casual wear, formal clothes, and stylish women\'s apparel. Fashion that makes you feel confident.';
-        keywords = 'women\'s clothes, women\'s fashion, women\'s clothing, women\'s apparel, women\'s dresses, women\'s tops, women\'s jeans, women\'s skirts, women\'s casual wear, women\'s formal clothes, stylish women\'s fashion, Indaccu Solutions';
+        title = 'Women\'s Clothing Collection | Fashionable Women\'s Apparel & Style | Mangalbookstore';
+        description = 'Explore stunning women\'s clothing and fashion at Mangalbookstore. Shop trendy women\'s fashion including dresses, tops, jeans, skirts, women\'s casual wear, formal clothes, and stylish women\'s apparel. Fashion that makes you feel confident.';
+        keywords = 'women\'s clothes, women\'s fashion, women\'s clothing, women\'s apparel, women\'s dresses, women\'s tops, women\'s jeans, women\'s skirts, women\'s casual wear, women\'s formal clothes, stylish women\'s fashion, Mangalbookstore';
         break;
 
       default:
-        title = `${category.charAt(0).toUpperCase() + category.slice(1)} Collection | Indaccu Solutions Fashion Store`;
-        description = `Shop ${category} collection at Indaccu Solutions. Discover trendy fashion, quality clothing, and stylish apparel for every occasion.`;
-        keywords = `${category}, fashion, clothing, apparel, Indaccu Solutions, trendy style`;
+        title = `${category.charAt(0).toUpperCase() + category.slice(1)} Collection | Mangalbookstore Fashion Store`;
+        description = `Shop ${category} collection at Mangalbookstore. Discover trendy fashion, quality clothing, and stylish apparel for every occasion.`;
+        keywords = `${category}, fashion, clothing, apparel, Mangalbookstore, trendy style`;
         break;
     }
 
@@ -130,12 +130,12 @@ export class CollectionComponent {
     this.meta.updateTag({ name: 'keywords', content: keywords });
     this.meta.updateTag({ property: 'og:title', content: title });
     this.meta.updateTag({ property: 'og:description', content: description });
-    this.meta.updateTag({ property: 'og:url', content: `https://Indaccu Solutions.in/collections/${category}` });
+    this.meta.updateTag({ property: 'og:url', content: `https://Mangalbookstore.in/collections/${category}` });
     this.meta.updateTag({ name: 'twitter:title', content: title });
     this.meta.updateTag({ name: 'twitter:description', content: description });
 
     // Update canonical URL
-    this.meta.updateTag({ rel: 'canonical', href: `https://Indaccu Solutions.in/collections/${category}` });
+    this.meta.updateTag({ rel: 'canonical', href: `https://Mangalbookstore.in/collections/${category}` });
     
     // Update breadcrumb
     this.breadcrumb.title = `${category.charAt(0).toUpperCase() + category.slice(1)} Collection`;
@@ -150,9 +150,9 @@ export class CollectionComponent {
    * Set default SEO meta tags for collections page
    */
   private setDefaultSEO(): void {
-    const title = 'Shop Collections | Activewear, Men\'s & Women\'s Fashion | Indaccu Solutions';
-    const description = 'Explore our curated collections at Indaccu Solutions. Shop activewear, men\'s clothing, women\'s fashion, and more. Find the perfect style for every occasion with our quality fashion collections.';
-    const keywords = 'collections, activewear, men\'s clothes, women\'s clothes, fashion collections, stylish clothing, Indaccu Solutions collections';
+    const title = 'Shop Collections | Activewear, Men\'s & Women\'s Fashion | Mangalbookstore';
+    const description = 'Explore our curated collections at Mangalbookstore. Shop activewear, men\'s clothing, women\'s fashion, and more. Find the perfect style for every occasion with our quality fashion collections.';
+    const keywords = 'collections, activewear, men\'s clothes, women\'s clothes, fashion collections, stylish clothing, Mangalbookstore collections';
 
     // Force title update
     this.forceUpdateTitle(title);
@@ -162,10 +162,10 @@ export class CollectionComponent {
     this.meta.updateTag({ name: 'keywords', content: keywords });
     this.meta.updateTag({ property: 'og:title', content: title });
     this.meta.updateTag({ property: 'og:description', content: description });
-    this.meta.updateTag({ property: 'og:url', content: 'https://Indaccu Solutions.in/collections' });
+    this.meta.updateTag({ property: 'og:url', content: 'https://Mangalbookstore.in/collections' });
     this.meta.updateTag({ name: 'twitter:title', content: title });
     this.meta.updateTag({ name: 'twitter:description', content: description });
-    this.meta.updateTag({ rel: 'canonical', href: 'https://Indaccu Solutions.in/collections' });
+    this.meta.updateTag({ rel: 'canonical', href: 'https://Mangalbookstore.in/collections' });
     
     // Reset breadcrumb to default
     this.breadcrumb.title = 'Collections';

@@ -1,22 +1,24 @@
-﻿// ============================================
-// Indaccu Solutions — Address Modal
+// ============================================
+// Address Modal — #8B10FF theme
 // ============================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.08);
+$text:         #1a1a1a;
+$muted:        #777;
+$border:       #e2e2e2;
+$bg:           #fafafa;
+$white:        #fff;
+$error:        #dc2626;
 
 // ---- Header ----
 .modern-modal-header {
-  background: $bg;
-  padding: 24px 28px;
-  border-bottom: 1px solid #eee;
+  background: $white;
+  padding: 24px 28px 20px;
+  border-bottom: 1px solid $border;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-radius: 0;
 
   .modal-header-content {
     display: flex;
@@ -24,28 +26,29 @@ $white: #fff;
     gap: 14px;
 
     .modal-icon-wrapper {
-      width: 44px;
-      height: 44px;
-      border-radius: 0;
-      background: $text;
+      width: 46px;
+      height: 46px;
+      border-radius: 10px;
+      background: $purple-light;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: $white;
+      color: $purple;
       font-size: 20px;
-      box-shadow: none;
+      flex-shrink: 0;
     }
 
     .modal-title-content {
       .modal-title {
         color: $text;
         font-weight: 700;
-        font-size: 18px;
-        margin: 0 0 2px;
+        font-size: 17px;
+        margin: 0 0 3px;
+        letter-spacing: -0.3px;
       }
 
       .modal-subtitle {
-        color: #999;
+        color: $muted;
         font-size: 12px;
         margin: 0;
       }
@@ -53,45 +56,42 @@ $white: #fff;
   }
 
   .btn-close-modal {
-    width: 36px;
-    height: 36px;
-    border-radius: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
     border: none;
-    background: transparent;
-    color: #999;
+    background: #f5f5f5;
+    color: $muted;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    font-size: 20px;
-    transition: color 0.2s;
+    font-size: 17px;
+    transition: background 0.2s, color 0.2s;
+    flex-shrink: 0;
 
-    &:hover {
-      color: $text;
-      transform: none;
-      background: transparent;
-    }
+    &:hover { background: $purple-light; color: $purple; }
   }
 }
 
 // ---- Body ----
 .modern-modal-body {
-  padding: 28px;
-  max-height: 80vh;
+  padding: 24px 28px;
+  max-height: 75vh;
   overflow-y: auto;
 
-  &::-webkit-scrollbar { width: 3px; }
-  &::-webkit-scrollbar-thumb { background: #ddd; }
+  &::-webkit-scrollbar { width: 4px; }
+  &::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
 
   .address-form-fields {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
 
     .form-row {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 16px;
+      gap: 14px;
     }
 
     .form-field-wrapper {
@@ -103,8 +103,8 @@ $white: #fff;
         font-weight: 600;
         font-size: 11px;
         text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: 8px;
+        letter-spacing: 0.8px;
+        margin-bottom: 7px;
 
         i { display: none; }
       }
@@ -112,39 +112,36 @@ $white: #fff;
       .form-input-modern,
       .form-textarea-modern {
         width: 100%;
-        padding: 12px 14px;
-        border: 1.5px solid #ddd;
-        border-radius: 0;
+        padding: 11px 14px;
+        border: 1.5px solid $border;
+        border-radius: 8px;
         font-size: 14px;
         color: $text;
         background: $white;
-        transition: border-color 0.2s;
+        transition: border-color 0.2s, box-shadow 0.2s;
         font-family: inherit;
+        box-sizing: border-box;
 
         &:focus {
           outline: none;
-          border-color: $text;
-          background: $white;
-          box-shadow: none;
+          border-color: $purple;
+          box-shadow: 0 0 0 3px $purple-light;
         }
 
-        &::placeholder {
-          color: #ccc;
-          font-size: 13px;
-        }
+        &::placeholder { color: #bbb; font-size: 13px; }
 
         &.is-invalid {
-          border-color: #c0392b;
-          &:focus { border-color: #c0392b; }
+          border-color: $error;
+          &:focus { box-shadow: 0 0 0 3px rgba($error, 0.1); }
         }
       }
 
       .form-textarea-modern {
         resize: vertical;
-        min-height: 60px;
+        min-height: 70px;
       }
 
-      // Select2 overrides
+      // Select2
       .custom-select-modern {
         width: 100%;
 
@@ -153,25 +150,23 @@ $white: #fff;
             width: 100% !important;
 
             .select2-selection {
-              padding: 12px 14px;
+              padding: 11px 14px;
               padding-right: 36px;
-              border: 1.5px solid #ddd;
-              border-radius: 0;
+              border: 1.5px solid $border;
+              border-radius: 8px;
               background: $white;
-              min-height: 46px;
+              min-height: 44px;
               display: flex;
               align-items: center;
-              transition: border-color 0.2s;
+              transition: border-color 0.2s, box-shadow 0.2s;
 
               .select2-selection__rendered {
                 padding: 0 !important;
-                line-height: 1.5;
-                overflow: visible !important;
-                text-overflow: unset !important;
-                white-space: normal !important;
-                width: 100%;
                 color: $text;
                 font-size: 14px;
+                overflow: visible !important;
+                white-space: normal !important;
+                width: 100%;
               }
 
               .select2-selection__arrow {
@@ -182,50 +177,89 @@ $white: #fff;
               }
 
               &:focus, &:focus-within {
-                border-color: $text;
-                box-shadow: none;
+                border-color: $purple;
+                box-shadow: 0 0 0 3px $purple-light;
               }
             }
 
             &.select2-container--open .select2-selection {
-              border-color: $text;
-              box-shadow: none;
+              border-color: $purple;
+              box-shadow: 0 0 0 3px $purple-light;
             }
           }
 
           .select2-dropdown {
-            border: 1.5px solid #ddd;
-            border-radius: 0;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            border: 1.5px solid $border;
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
             margin-top: 4px;
 
             .select2-search .select2-search__field {
-              padding: 10px 12px;
-              border: 1.5px solid #ddd;
-              border-radius: 0;
+              padding: 9px 12px;
+              border: 1.5px solid $border;
+              border-radius: 6px;
               font-size: 13px;
 
-              &:focus {
-                border-color: $text;
-                outline: none;
-              }
+              &:focus { border-color: $purple; outline: none; }
             }
 
             .select2-results .select2-results__options .select2-results__option {
-              padding: 10px 14px;
+              padding: 9px 14px;
               font-size: 13px;
-              transition: all 0.15s;
 
               &[aria-selected="true"], &--highlighted {
-                background: $bg;
-                color: $text;
+                background: $purple-light;
+                color: $purple;
               }
             }
           }
         }
       }
 
-      // Phone input
+      // Phone
+      .phone-field-modern .phone-input-wrapper {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+
+        .phone-code-select {
+          flex: 0 0 130px;
+
+          ::ng-deep .select2-container .select2-selection {
+            padding: 11px 14px;
+            padding-right: 36px;
+            border: 1.5px solid $border;
+            border-radius: 8px;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+
+            &:focus, &:focus-within { border-color: $purple; box-shadow: 0 0 0 3px $purple-light; }
+          }
+
+          ::ng-deep .select2-container.select2-container--open .select2-selection {
+            border-color: $purple;
+          }
+        }
+
+        .phone-input {
+          flex: 1;
+          padding: 11px 14px;
+          border: 1.5px solid $border;
+          border-radius: 8px;
+          font-size: 14px;
+          color: $text;
+          background: $white;
+          transition: border-color 0.2s, box-shadow 0.2s;
+          font-family: inherit;
+          min-height: 44px;
+
+          &:focus { outline: none; border-color: $purple; box-shadow: 0 0 0 3px $purple-light; }
+          &::placeholder { color: #bbb; font-size: 13px; }
+          &.is-invalid { border-color: $error; }
+        }
+      }
+
       .phone-input-wrapper {
         position: relative;
         display: flex;
@@ -237,8 +271,8 @@ $white: #fff;
           top: 50%;
           transform: translateY(-50%);
           background: $bg;
-          border-right: 1px solid #eee;
-          padding: 12px;
+          border-right: 1px solid $border;
+          padding: 11px 12px;
           color: $text;
           font-weight: 600;
           font-size: 14px;
@@ -249,86 +283,22 @@ $white: #fff;
           align-items: center;
           min-width: 50px;
           justify-content: center;
+          border-radius: 7px 0 0 7px;
         }
 
-        .phone-input {
-          padding-left: 75px !important;
-          width: 100%;
-
-          &.is-invalid {
-            padding-left: 75px !important;
-          }
-        }
-      }
-
-      .phone-field-modern .phone-input-wrapper {
-        display: flex;
-        gap: 10px;
-        align-items: flex-start;
-
-        .phone-code-select {
-          flex: 0 0 130px;
-          min-width: 130px;
-
-          ::ng-deep .select2-container .select2-selection {
-            padding: 12px 14px;
-            padding-right: 36px;
-            border: 1.5px solid #ddd;
-            border-radius: 0;
-            background: $white;
-            min-height: 46px;
-            display: flex;
-            align-items: center;
-
-            &:focus, &:focus-within {
-              border-color: $text;
-              box-shadow: none;
-            }
-          }
-
-          ::ng-deep .select2-container.select2-container--open .select2-selection {
-            border-color: $text;
-            box-shadow: none;
-          }
-        }
-
-        .phone-input {
-          flex: 1;
-          min-height: 46px;
-          padding: 12px 14px;
-          border: 1.5px solid #ddd;
-          border-radius: 0;
-          font-size: 14px;
-          color: $text;
-          background: $white;
-          transition: border-color 0.2s;
-          font-family: inherit;
-
-          &:focus {
-            outline: none;
-            border-color: $text;
-            box-shadow: none;
-          }
-
-          &::placeholder { color: #ccc; font-size: 13px; }
-
-          &.is-invalid {
-            border-color: #c0392b;
-            &:focus { border-color: #c0392b; }
-          }
-        }
+        .phone-input { padding-left: 70px !important; width: 100%; }
       }
 
       .error-message {
         display: flex;
         align-items: center;
         gap: 4px;
-        color: #c0392b;
+        color: $error;
         font-size: 12px;
-        margin-top: 6px;
+        margin-top: 5px;
         font-weight: 500;
 
-        i { font-size: 14px; }
+        i { font-size: 13px; }
       }
     }
   }
@@ -339,54 +309,41 @@ $white: #fff;
     align-items: center;
     justify-content: flex-end;
     gap: 10px;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
+    padding-top: 18px;
+    border-top: 1px solid $border;
     margin-top: 20px;
 
     .btn-cancel {
-      padding: 11px 24px;
-      border: 1.5px solid #ddd;
+      padding: 10px 22px;
+      border: 1.5px solid $border;
       background: $white;
-      color: $warm;
-      border-radius: 0;
+      color: $muted;
+      border-radius: 8px;
       font-weight: 600;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+      font-size: 12.5px;
       cursor: pointer;
-      transition: all 0.2s;
+      transition: border-color 0.2s, color 0.2s;
 
-      &:hover {
-        border-color: $text;
-        color: $text;
-      }
+      &:hover { border-color: #aaa; color: $text; }
     }
 
     ::ng-deep .btn-submit {
-      padding: 11px 24px;
-      border: 1.5px solid $text;
-      background: $text;
+      padding: 10px 24px;
+      border: none;
+      background: $purple;
       color: $white;
-      border-radius: 0;
+      border-radius: 8px;
       font-weight: 600;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+      font-size: 12.5px;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      transition: all 0.2s;
+      transition: background 0.2s;
       box-shadow: none;
 
       i { font-size: 15px; }
-
-      &:hover {
-        background: $olive;
-        border-color: $olive;
-        transform: none;
-        box-shadow: none;
-      }
+      &:hover { background: #7a0de0; }
     }
   }
 }
@@ -394,37 +351,26 @@ $white: #fff;
 // ---- Responsive ----
 @media (max-width: 576px) {
   .modern-modal-header {
-    padding: 18px 20px;
+    padding: 18px 18px 16px;
 
     .modal-header-content {
-      .modal-icon-wrapper { width: 38px; height: 38px; font-size: 18px; }
-      .modal-title-content .modal-title { font-size: 16px; }
+      .modal-icon-wrapper { width: 38px; height: 38px; font-size: 17px; }
+      .modal-title-content .modal-title { font-size: 15px; }
     }
-
-    .btn-close-modal { position: absolute; top: 18px; right: 18px; }
   }
 
   .modern-modal-body {
-    padding: 20px;
+    padding: 18px;
 
     .address-form-fields {
-      gap: 16px;
-
       .form-row {
         grid-template-columns: 1fr;
-        gap: 12px;
-
-        &.state-city-row, &.area-pincode-row {
-          grid-template-columns: repeat(2, 1fr);
-        }
+        &.state-city-row, &.area-pincode-row { grid-template-columns: repeat(2, 1fr); }
       }
 
-      .form-field-wrapper {
-        .phone-field-modern .phone-input-wrapper {
-          flex-direction: column;
-          gap: 10px;
-          .phone-code-select { flex: 1; min-width: 100%; }
-        }
+      .form-field-wrapper .phone-field-modern .phone-input-wrapper {
+        flex-direction: column;
+        .phone-code-select { flex: 1; min-width: 100%; }
       }
     }
 
@@ -432,10 +378,7 @@ $white: #fff;
       flex-direction: column-reverse;
       gap: 8px;
 
-      .btn-cancel, ::ng-deep .btn-submit {
-        width: 100%;
-        justify-content: center;
-      }
+      .btn-cancel, ::ng-deep .btn-submit { width: 100%; justify-content: center; }
     }
   }
 }

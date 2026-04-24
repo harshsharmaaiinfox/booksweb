@@ -7,9 +7,8 @@
     <span>My Account</span>
   </div>
 
-  <div class="ma-wrapper">
+  <div class="ma-wrapper ma-wrapper--single">
 
-    <!-- ══ LEFT: LOGIN ══ -->
     <div class="ma-col">
       <h2 class="ma-heading">Login</h2>
 
@@ -61,39 +60,10 @@
         <app-button [id]="'login_btn'" [class]="'ma-btn'">LOG IN</app-button>
 
       </form>
-    </div>
 
-    <!-- Vertical divider -->
-    <div class="ma-divider"></div>
-
-    <!-- ══ RIGHT: REGISTER ══ -->
-    <div class="ma-col">
-      <h2 class="ma-heading">Register</h2>
-
-      <!-- Username field (visual — clicking REGISTER navigates to full register page) -->
-      <div class="ma-field">
-        <label>Username <span class="ma-req">*</span></label>
-        <input type="text" class="ma-reg-input" #regUsername placeholder="">
-      </div>
-
-      <!-- Email field -->
-      <div class="ma-field">
-        <label>Email address <span class="ma-req">*</span></label>
-        <input type="email" class="ma-reg-input" #regEmail placeholder="">
-      </div>
-
-      <p class="ma-register-note">
-        A link to set a new password will be sent to your email address.
+      <p class="ma-switch-note">
+        Don't have an account? <a [routerLink]="['/auth/register']" class="ma-privacy-link">Register here</a>
       </p>
-
-      <p class="ma-privacy-note">
-        Your personal data will be used to support your experience throughout this website,
-        to manage access to your account, and for other purposes described in our
-        <a [routerLink]="['/privacy-policy']" class="ma-privacy-link">privacy policy</a>.
-      </p>
-
-      <!-- REGISTER button -->
-      <a [routerLink]="['/auth/register']" class="ma-submit-btn">REGISTER</a>
     </div>
 
   </div>

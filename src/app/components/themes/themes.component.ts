@@ -44,9 +44,9 @@ export class ThemesComponent implements OnInit {
     
     // Set additional homepage-specific SEO data
     this.seoService.setSEOData({
-      canonicalUrl: 'https://Indaccu Solutions.in/',
-      url: 'https://Indaccu Solutions.in/',
-      image: 'https://Indaccu Solutions.in/assets/images/hero-banner.jpg'
+      canonicalUrl: 'https://Mangalbookstore.in/',
+      url: 'https://Mangalbookstore.in/',
+      image: 'https://Mangalbookstore.in/assets/images/hero-banner.jpg'
     });
   }
   

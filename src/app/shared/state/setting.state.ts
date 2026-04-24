@@ -46,40 +46,18 @@ export class SettingState {
             state.selectedCurrency = result?.values?.general.default_currency;
           }
 
-          if(result.values?.payment_methods?.length) {
-            customValue = JSON.parse(JSON.stringify(result.values));
-            const customPayments = [
-              
-              {
-                name: 'cashfree',
-                status: false,
-                title: 'Cashfree',
-                icon: './assets/images/cash_free.jpg',
-              },
-              {
-                name: 'cash_free',
-                status: false,
-                title: 'Cash Free',
-                icon: './assets/images/cash_free.jpg',
-              },
-              {
-                name: 'zyaada_pay',
-                status: false,
-                title: 'Zyaada Pay',
-                icon: './assets/images/zyaada_pay_logo.jpg',
-              },
-              {
-                name: 'sub_paisa',
-                status: false,
-                title: 'Sab Paisa',
-                icon: './assets/images/sub_paisa.png'
-              },
-            ];
-            customValue.payment_methods = customPayments //[result.values.payment_methods[0]];
-          }
+          customValue = JSON.parse(JSON.stringify(result.values));
+          customValue.payment_methods = [
+            {
+              name: 'cash_free',
+              status: true,
+              title: 'Cash Free',
+              icon: './assets/images/cash_free.jpg',
+            },
+          ];
           ctx.patchState({
-          ...state,
-          setting: customValue,
+            ...state,
+            setting: customValue,
           });
         },
         error: (err) => {

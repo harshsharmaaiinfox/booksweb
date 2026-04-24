@@ -1,40 +1,16 @@
-﻿// ============================================
-// Indaccu Solutions — Dashboard Layout
-// ============================================
-
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
+$purple: #673ab7;
 
 .kf-dashboard {
-  background: #f5f3ef;
-  padding: 30px 0 60px;
+  background: #fff;
+  padding: 0 0 60px;
   min-height: 70vh;
 }
 
-.kf-dash-layout {
-  display: flex;
-  gap: 28px;
-
-  @media (max-width: 991px) {
-    flex-direction: column;
-    gap: 20px;
-  }
-}
-
-.kf-dash-sidebar {
-  width: 260px;
-  flex-shrink: 0;
-
-  @media (max-width: 991px) {
-    width: 100%;
-  }
+.kf-dash-topnav {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 32px;
 }
 
 .kf-dash-content {
-  flex: 1;
-  min-width: 0;
   position: relative;
 }

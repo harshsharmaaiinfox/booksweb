@@ -39,24 +39,6 @@
           </div>
         </div>
       </div> -->
-      <ng-container *ngIf="!hideFilter?.includes('attribute')">
-        <ng-container *ngFor="let attribute of (attribute$ | async)?.data">
-          <div class="accordion-item" ngbAccordionItem [collapsed]="false"
-            *ngIf="attribute.name?.toLowerCase() === 'size'">
-            <h2 class="accordion-header" ngbAccordionHeader>
-              <button class="accordion-button" ngbAccordionButton>
-                <span>SIZE</span>
-              </button>
-            </h2>
-            <div ngbAccordionCollapse>
-              <div class="accordion-body" ngbAccordionBody>
-                <app-collection-attributes-filter [filter]="filter"
-                  [attribute]="attribute"></app-collection-attributes-filter>
-              </div>
-            </div>
-          </div>
-        </ng-container>
-      </ng-container>
       <div class="accordion-item" ngbAccordionItem [collapsed]="false" *ngIf="!hideFilter?.includes('price')">
         <h2 class="accordion-header" ngbAccordionHeader>
           <button class="accordion-button" ngbAccordionButton>

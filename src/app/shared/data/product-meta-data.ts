@@ -7,2992 +7,2992 @@
 
 export const PRODUCT_META_DATA: { [key: number]: ProductMetaData } = {
     "438": {
-      "meta_title": "Mens Classic Fit Blazer Indaccu Solutions",
-      "meta_description": "Shop Mens Classic Fit Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Classic Fit Blazer Mangalbookstore",
+      "meta_description": "Shop Mens Classic Fit Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Classic Fit Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-classic-fit-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-classic-fit-blazer"
     },
     "439": {
-      "meta_title": "Mens Elegant Coat And Pant Set Indaccu Solutions",
-      "meta_description": "Shop Mens Elegant Coat And Pant Set at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Elegant Coat And Pant Set Mangalbookstore",
+      "meta_description": "Shop Mens Elegant Coat And Pant Set at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Elegant Coat And Pant Set",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-elegant-coat-and-pant-set"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-elegant-coat-and-pant-set"
     },
     "440": {
-      "meta_title": "Classic Winter Ensemble Shirt Pants And Sweater Set Indaccu Solutions",
-      "meta_description": "Shop Classic Winter Ensemble Shirt Pants And Sweater Set at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
+      "meta_title": "Classic Winter Ensemble Shirt Pants And Sweater Set Mangalbookstore",
+      "meta_description": "Shop Classic Winter Ensemble Shirt Pants And Sweater Set at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
       "meta_keywords": "Classic Winter Ensemble Shirt Pants And Sweater Set",
-      "canonical_url": "https://Indaccu Solutions.in/product/classic-winter-ensemble-shirt-pants-and-sweater-set"
+      "canonical_url": "https://Mangalbookstore.in/product/classic-winter-ensemble-shirt-pants-and-sweater-set"
     },
     "616": {
-      "meta_title": "Prestige Mens Premium Formal Shirt Indaccu Solutions",
-      "meta_description": "Shop Prestige Mens Premium Formal Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Prestige Mens Premium Formal Shirt Mangalbookstore",
+      "meta_description": "Shop Prestige Mens Premium Formal Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Prestige Mens Premium Formal Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/prestige-men-s-premium-formal-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/prestige-men-s-premium-formal-shirt"
     },
     "617": {
-      "meta_title": "Executive Mens Officewear Shirt Indaccu Solutions",
-      "meta_description": "Shop Executive Mens Officewear Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Executive Mens Officewear Shirt Mangalbookstore",
+      "meta_description": "Shop Executive Mens Officewear Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Executive Mens Officewear Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/executive-men-s-officewear-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/executive-men-s-officewear-shirt"
     },
     "618": {
-      "meta_title": "Frostshield Mens Winter Shirt Indaccu Solutions",
-      "meta_description": "Shop Frostshield Mens Winter Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Frostshield Mens Winter Shirt Mangalbookstore",
+      "meta_description": "Shop Frostshield Mens Winter Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Frostshield Mens Winter Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/frostshield-men-s-winter-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/frostshield-men-s-winter-shirt"
     },
     "619": {
-      "meta_title": "Urban Cozy Mens Sweater Indaccu Solutions",
-      "meta_description": "Shop Urban Cozy Mens Sweater at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Urban Cozy Mens Sweater Mangalbookstore",
+      "meta_description": "Shop Urban Cozy Mens Sweater at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Urban Cozy Mens Sweater",
-      "canonical_url": "https://Indaccu Solutions.in/product/urban-cozy-men-s-sweater"
+      "canonical_url": "https://Mangalbookstore.in/product/urban-cozy-men-s-sweater"
     },
     "620": {
-      "meta_title": "Classic White Mens Premium Shirt Indaccu Solutions",
-      "meta_description": "Shop Classic White Mens Premium Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Classic White Mens Premium Shirt Mangalbookstore",
+      "meta_description": "Shop Classic White Mens Premium Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Classic White Mens Premium Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/classic-white-men-s-premium-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/classic-white-men-s-premium-shirt"
     },
     "621": {
-      "meta_title": "Pure White Mens T Shirt Indaccu Solutions",
-      "meta_description": "Shop Pure White Mens T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Pure White Mens T Shirt Mangalbookstore",
+      "meta_description": "Shop Pure White Mens T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Pure White Mens T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/pure-white-men-s-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/pure-white-men-s-t-shirt"
     },
     "622": {
-      "meta_title": "Graphic Vibe White Mens Printed T Shirt Indaccu Solutions",
-      "meta_description": "Shop Graphic Vibe White Mens Printed T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Graphic Vibe White Mens Printed T Shirt Mangalbookstore",
+      "meta_description": "Shop Graphic Vibe White Mens Printed T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Graphic Vibe White Mens Printed T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/graphic-vibe-white-men-s-printed-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/graphic-vibe-white-men-s-printed-t-shirt"
     },
     "623": {
-      "meta_title": "Midnight Luxe Mens Leather Jacket Indaccu Solutions",
-      "meta_description": "Shop Midnight Luxe Mens Leather Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Midnight Luxe Mens Leather Jacket Mangalbookstore",
+      "meta_description": "Shop Midnight Luxe Mens Leather Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Midnight Luxe Mens Leather Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/midnight-luxe-men-s-leather-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/midnight-luxe-men-s-leather-jacket"
     },
     "624": {
-      "meta_title": "Versatile Mens Jacket Indaccu Solutions",
-      "meta_description": "Shop Versatile Mens Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Versatile Mens Jacket Mangalbookstore",
+      "meta_description": "Shop Versatile Mens Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Versatile Mens Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/versatile-men-s-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/versatile-men-s-jacket"
     },
     "625": {
-      "meta_title": "Essential Mens Plain T Shirt Indaccu Solutions",
-      "meta_description": "Shop Essential Mens Plain T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Essential Mens Plain T Shirt Mangalbookstore",
+      "meta_description": "Shop Essential Mens Plain T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Essential Mens Plain T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/essential-men-s-plain-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/essential-men-s-plain-t-shirt"
     },
     "626": {
-      "meta_title": "Swift Mens Zipper Jacket Indaccu Solutions",
-      "meta_description": "Shop Swift Mens Zipper Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Swift Mens Zipper Jacket Mangalbookstore",
+      "meta_description": "Shop Swift Mens Zipper Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Swift Mens Zipper Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/swift-men-s-zipper-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/swift-men-s-zipper-jacket"
     },
     "627": {
-      "meta_title": "Classic Mens Coat Pants Indaccu Solutions",
-      "meta_description": "Shop Classic Mens Coat Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Classic Mens Coat Pants Mangalbookstore",
+      "meta_description": "Shop Classic Mens Coat Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Classic Mens Coat Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/classic-men-s-coat-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/classic-men-s-coat-pants"
     },
     "628": {
-      "meta_title": "Arctic Mens Winter Outfit Indaccu Solutions",
-      "meta_description": "Shop Arctic Mens Winter Outfit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Arctic Mens Winter Outfit Mangalbookstore",
+      "meta_description": "Shop Arctic Mens Winter Outfit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Arctic Mens Winter Outfit",
-      "canonical_url": "https://Indaccu Solutions.in/product/arctic-men-s-winter-outfit"
+      "canonical_url": "https://Mangalbookstore.in/product/arctic-men-s-winter-outfit"
     },
     "629": {
-      "meta_title": "Frostguard Mens Winter Socks Indaccu Solutions",
-      "meta_description": "Shop Frostguard Mens Winter Socks at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Frostguard Mens Winter Socks Mangalbookstore",
+      "meta_description": "Shop Frostguard Mens Winter Socks at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Frostguard Mens Winter Socks",
-      "canonical_url": "https://Indaccu Solutions.in/product/frostguard-men-s-winter-socks"
+      "canonical_url": "https://Mangalbookstore.in/product/frostguard-men-s-winter-socks"
     },
     "1282": {
-      "meta_title": "The Bear House 4 Indaccu Solutions",
-      "meta_description": "Shop The Bear House 4 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "The Bear House 4 Mangalbookstore",
+      "meta_description": "Shop The Bear House 4 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "The Bear House 4",
-      "canonical_url": "https://Indaccu Solutions.in/product/the-bear-house-4"
+      "canonical_url": "https://Mangalbookstore.in/product/the-bear-house-4"
     },
     "1283": {
       "meta_title": "Style Quotient Men Black Relaxed Fit Mid Rise Cargos Stylexi",
-      "meta_description": "Shop Style Quotient Men Black Relaxed Fit Mid Rise Cargos at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Style Quotient Men Black Relaxed Fit Mid Rise Cargos at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Style Quotient Men Black Relaxed Fit Mid Rise Cargos Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/style-quotient-men-black-relaxed-fit-mid-rise-cargos"
+      "canonical_url": "https://Mangalbookstore.in/product/style-quotient-men-black-relaxed-fit-mid-rise-cargos"
     },
     "1287": {
-      "meta_title": "The Souled Store 2 Indaccu Solutions",
-      "meta_description": "Shop The Souled Store 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "The Souled Store 2 Mangalbookstore",
+      "meta_description": "Shop The Souled Store 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "The Souled Store 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/the-souled-store-2"
+      "canonical_url": "https://Mangalbookstore.in/product/the-souled-store-2"
     },
     "1289": {
-      "meta_title": "Yellow Mystic Kurta Indaccu Solutions",
-      "meta_description": "Shop Yellow Mystic Kurta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Yellow Mystic Kurta Mangalbookstore",
+      "meta_description": "Shop Yellow Mystic Kurta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Yellow Mystic Kurta",
-      "canonical_url": "https://Indaccu Solutions.in/product/yellow-mystic-kurta"
+      "canonical_url": "https://Mangalbookstore.in/product/yellow-mystic-kurta"
     },
     "1291": {
-      "meta_title": "The Souled Store 3 Indaccu Solutions",
-      "meta_description": "Shop The Souled Store 3 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "The Souled Store 3 Mangalbookstore",
+      "meta_description": "Shop The Souled Store 3 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "The Souled Store 3",
-      "canonical_url": "https://Indaccu Solutions.in/product/the-souled-store-3"
+      "canonical_url": "https://Mangalbookstore.in/product/the-souled-store-3"
     },
     "1294": {
-      "meta_title": "The Bear House 5 Indaccu Solutions",
-      "meta_description": "Shop The Bear House 5 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "The Bear House 5 Mangalbookstore",
+      "meta_description": "Shop The Bear House 5 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "The Bear House 5",
-      "canonical_url": "https://Indaccu Solutions.in/product/the-bear-house-5"
+      "canonical_url": "https://Mangalbookstore.in/product/the-bear-house-5"
     },
     "1296": {
-      "meta_title": "The Souled Store 4 Indaccu Solutions",
-      "meta_description": "Shop The Souled Store 4 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "The Souled Store 4 Mangalbookstore",
+      "meta_description": "Shop The Souled Store 4 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "The Souled Store 4",
-      "canonical_url": "https://Indaccu Solutions.in/product/the-souled-store-4"
+      "canonical_url": "https://Mangalbookstore.in/product/the-souled-store-4"
     },
     "1298": {
-      "meta_title": "Pronk Indaccu Solutions",
-      "meta_description": "Shop Pronk at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Pronk Mangalbookstore",
+      "meta_description": "Shop Pronk at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Pronk",
-      "canonical_url": "https://Indaccu Solutions.in/product/pronk"
+      "canonical_url": "https://Mangalbookstore.in/product/pronk"
     },
     "1299": {
-      "meta_title": "Styli 2 Indaccu Solutions",
-      "meta_description": "Shop Styli 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Styli 2 Mangalbookstore",
+      "meta_description": "Shop Styli 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Styli 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/styli-2"
+      "canonical_url": "https://Mangalbookstore.in/product/styli-2"
     },
     "1301": {
-      "meta_title": "High Star Indaccu Solutions",
-      "meta_description": "Shop High Star at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "High Star Mangalbookstore",
+      "meta_description": "Shop High Star at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "High Star",
-      "canonical_url": "https://Indaccu Solutions.in/product/high-star"
+      "canonical_url": "https://Mangalbookstore.in/product/high-star"
     },
     "1303": {
-      "meta_title": "Urbano Fashion Indaccu Solutions",
-      "meta_description": "Shop Urbano Fashion at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Urbano Fashion Mangalbookstore",
+      "meta_description": "Shop Urbano Fashion at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Urbano Fashion",
-      "canonical_url": "https://Indaccu Solutions.in/product/urbano-fashion"
+      "canonical_url": "https://Mangalbookstore.in/product/urbano-fashion"
     },
     "1305": {
-      "meta_title": "Tboj 2 Indaccu Solutions",
-      "meta_description": "Shop Tboj 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Tboj 2 Mangalbookstore",
+      "meta_description": "Shop Tboj 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Tboj 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/tboj-2"
+      "canonical_url": "https://Mangalbookstore.in/product/tboj-2"
     },
     "1307": {
-      "meta_title": "Kisah Indaccu Solutions",
-      "meta_description": "Shop Kisah at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Kisah Mangalbookstore",
+      "meta_description": "Shop Kisah at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Kisah",
-      "canonical_url": "https://Indaccu Solutions.in/product/kisah"
+      "canonical_url": "https://Mangalbookstore.in/product/kisah"
     },
     "1310": {
-      "meta_title": "See Designs Indaccu Solutions",
-      "meta_description": "Shop See Designs at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "See Designs Mangalbookstore",
+      "meta_description": "Shop See Designs at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "See Designs",
-      "canonical_url": "https://Indaccu Solutions.in/product/see-designs"
+      "canonical_url": "https://Mangalbookstore.in/product/see-designs"
     },
     "1312": {
-      "meta_title": "The Souled Store 5 Indaccu Solutions",
-      "meta_description": "Shop The Souled Store 5 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "The Souled Store 5 Mangalbookstore",
+      "meta_description": "Shop The Souled Store 5 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "The Souled Store 5",
-      "canonical_url": "https://Indaccu Solutions.in/product/the-souled-store-5"
+      "canonical_url": "https://Mangalbookstore.in/product/the-souled-store-5"
     },
     "1314": {
-      "meta_title": "Vastramay Indaccu Solutions",
-      "meta_description": "Shop Vastramay at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Vastramay Mangalbookstore",
+      "meta_description": "Shop Vastramay at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Vastramay",
-      "canonical_url": "https://Indaccu Solutions.in/product/vastramay"
+      "canonical_url": "https://Mangalbookstore.in/product/vastramay"
     },
     "1318": {
-      "meta_title": "The Bear House 6 Indaccu Solutions",
-      "meta_description": "Shop The Bear House 6 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "The Bear House 6 Mangalbookstore",
+      "meta_description": "Shop The Bear House 6 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "The Bear House 6",
-      "canonical_url": "https://Indaccu Solutions.in/product/the-bear-house-6"
+      "canonical_url": "https://Mangalbookstore.in/product/the-bear-house-6"
     },
     "1320": {
-      "meta_title": "Free Authority Indaccu Solutions",
-      "meta_description": "Shop Free Authority at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Free Authority Mangalbookstore",
+      "meta_description": "Shop Free Authority at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Free Authority",
-      "canonical_url": "https://Indaccu Solutions.in/product/free-authority"
+      "canonical_url": "https://Mangalbookstore.in/product/free-authority"
     },
     "1321": {
-      "meta_title": "The Souled Store 6 Indaccu Solutions",
-      "meta_description": "Shop The Souled Store 6 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "The Souled Store 6 Mangalbookstore",
+      "meta_description": "Shop The Souled Store 6 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "The Souled Store 6",
-      "canonical_url": "https://Indaccu Solutions.in/product/the-souled-store-6"
+      "canonical_url": "https://Mangalbookstore.in/product/the-souled-store-6"
     },
     "1323": {
-      "meta_title": "Izf Indaccu Solutions",
-      "meta_description": "Shop Izf at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Izf Mangalbookstore",
+      "meta_description": "Shop Izf at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Izf",
-      "canonical_url": "https://Indaccu Solutions.in/product/izf"
+      "canonical_url": "https://Mangalbookstore.in/product/izf"
     },
     "1324": {
-      "meta_title": "Vastramay 2 Indaccu Solutions",
-      "meta_description": "Shop Vastramay 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Vastramay 2 Mangalbookstore",
+      "meta_description": "Shop Vastramay 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Vastramay 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/vastramay-2"
+      "canonical_url": "https://Mangalbookstore.in/product/vastramay-2"
     },
     "1326": {
-      "meta_title": "Showoff Indaccu Solutions",
-      "meta_description": "Shop Showoff at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Showoff Mangalbookstore",
+      "meta_description": "Shop Showoff at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Showoff",
-      "canonical_url": "https://Indaccu Solutions.in/product/showoff"
+      "canonical_url": "https://Mangalbookstore.in/product/showoff"
     },
     "1622": {
-      "meta_title": "Instafab Plus Men Ombre Stripe Button Up Shirt Indaccu Solutions",
-      "meta_description": "Shop Instafab Plus Men Ombre Stripe Button Up Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Instafab Plus Men Ombre Stripe Button Up Shirt Mangalbookstore",
+      "meta_description": "Shop Instafab Plus Men Ombre Stripe Button Up Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Instafab Plus Men Ombre Stripe Button Up Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/instafab-plus-men-ombre-stripe-button-up-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/instafab-plus-men-ombre-stripe-button-up-shirt"
     },
     "1624": {
-      "meta_title": "Snitch Indaccu Solutions",
-      "meta_description": "Shop Snitch at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Snitch Mangalbookstore",
+      "meta_description": "Shop Snitch at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Snitch",
-      "canonical_url": "https://Indaccu Solutions.in/product/snitch"
+      "canonical_url": "https://Mangalbookstore.in/product/snitch"
     },
     "1626": {
-      "meta_title": "Necesera Indaccu Solutions",
-      "meta_description": "Shop Necesera at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Necesera Mangalbookstore",
+      "meta_description": "Shop Necesera at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Necesera",
-      "canonical_url": "https://Indaccu Solutions.in/product/necesera"
+      "canonical_url": "https://Mangalbookstore.in/product/necesera"
     },
     "1627": {
-      "meta_title": "Kuons Avenue Indaccu Solutions",
-      "meta_description": "Shop Kuons Avenue at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Kuons Avenue Mangalbookstore",
+      "meta_description": "Shop Kuons Avenue at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Kuons Avenue",
-      "canonical_url": "https://Indaccu Solutions.in/product/kuons-avenue"
+      "canonical_url": "https://Mangalbookstore.in/product/kuons-avenue"
     },
     "1629": {
-      "meta_title": "Wrangler Indaccu Solutions",
-      "meta_description": "Shop Wrangler at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Wrangler Mangalbookstore",
+      "meta_description": "Shop Wrangler at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Wrangler",
-      "canonical_url": "https://Indaccu Solutions.in/product/wrangler"
+      "canonical_url": "https://Mangalbookstore.in/product/wrangler"
     },
     "1630": {
-      "meta_title": "Necesera 2 Indaccu Solutions",
-      "meta_description": "Shop Necesera 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Necesera 2 Mangalbookstore",
+      "meta_description": "Shop Necesera 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Necesera 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/necesera-2"
+      "canonical_url": "https://Mangalbookstore.in/product/necesera-2"
     },
     "1631": {
-      "meta_title": "Bummer Indaccu Solutions",
-      "meta_description": "Shop Bummer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Bummer Mangalbookstore",
+      "meta_description": "Shop Bummer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Bummer",
-      "canonical_url": "https://Indaccu Solutions.in/product/bummer"
+      "canonical_url": "https://Mangalbookstore.in/product/bummer"
     },
     "1632": {
-      "meta_title": "Twamev Indaccu Solutions",
-      "meta_description": "Shop Twamev at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Twamev Mangalbookstore",
+      "meta_description": "Shop Twamev at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Twamev",
-      "canonical_url": "https://Indaccu Solutions.in/product/twamev"
+      "canonical_url": "https://Mangalbookstore.in/product/twamev"
     },
     "1633": {
-      "meta_title": "Barbour Indaccu Solutions",
-      "meta_description": "Shop Barbour at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Barbour Mangalbookstore",
+      "meta_description": "Shop Barbour at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Barbour",
-      "canonical_url": "https://Indaccu Solutions.in/product/barbour"
+      "canonical_url": "https://Mangalbookstore.in/product/barbour"
     },
     "1634": {
-      "meta_title": "Selected Homme Indaccu Solutions",
-      "meta_description": "Shop Selected Homme at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Selected Homme Mangalbookstore",
+      "meta_description": "Shop Selected Homme at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Selected Homme",
-      "canonical_url": "https://Indaccu Solutions.in/product/selected-homme"
+      "canonical_url": "https://Mangalbookstore.in/product/selected-homme"
     },
     "1635": {
-      "meta_title": "Twamev 2 Indaccu Solutions",
-      "meta_description": "Shop Twamev 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Twamev 2 Mangalbookstore",
+      "meta_description": "Shop Twamev 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Twamev 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/twamev-2"
+      "canonical_url": "https://Mangalbookstore.in/product/twamev-2"
     },
     "1637": {
-      "meta_title": "Selected Homme 2 Indaccu Solutions",
-      "meta_description": "Shop Selected Homme 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Selected Homme 2 Mangalbookstore",
+      "meta_description": "Shop Selected Homme 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Selected Homme 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/selected-homme-2"
+      "canonical_url": "https://Mangalbookstore.in/product/selected-homme-2"
     },
     "1679": {
-      "meta_title": "Finivo Fashion Indaccu Solutions",
-      "meta_description": "Shop Finivo Fashion at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Finivo Fashion Mangalbookstore",
+      "meta_description": "Shop Finivo Fashion at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Finivo Fashion",
-      "canonical_url": "https://Indaccu Solutions.in/product/finivo-fashion"
+      "canonical_url": "https://Mangalbookstore.in/product/finivo-fashion"
     },
     "1680": {
-      "meta_title": "Chaps Indaccu Solutions",
-      "meta_description": "Shop Chaps at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Chaps Mangalbookstore",
+      "meta_description": "Shop Chaps at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Chaps",
-      "canonical_url": "https://Indaccu Solutions.in/product/chaps"
+      "canonical_url": "https://Mangalbookstore.in/product/chaps"
     },
     "1684": {
-      "meta_title": "Gbh Mens Belted Cotton Cargo Shorts 3 Pack Indaccu Solutions",
-      "meta_description": "Shop Gbh Mens Belted Cotton Cargo Shorts 3 Pack at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Gbh Mens Belted Cotton Cargo Shorts 3 Pack Mangalbookstore",
+      "meta_description": "Shop Gbh Mens Belted Cotton Cargo Shorts 3 Pack at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Gbh Mens Belted Cotton Cargo Shorts 3 Pack",
-      "canonical_url": "https://Indaccu Solutions.in/product/gbh-men-s-belted-cotton-cargo-shorts-3-pack"
+      "canonical_url": "https://Mangalbookstore.in/product/gbh-men-s-belted-cotton-cargo-shorts-3-pack"
     },
     "1685": {
-      "meta_title": "Alimens Gentle Indaccu Solutions",
-      "meta_description": "Shop Alimens Gentle at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Alimens Gentle Mangalbookstore",
+      "meta_description": "Shop Alimens Gentle at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Alimens Gentle",
-      "canonical_url": "https://Indaccu Solutions.in/product/alimens-gentle"
+      "canonical_url": "https://Mangalbookstore.in/product/alimens-gentle"
     },
     "1686": {
       "meta_title": "Athletic Works Mens Big Mens Fleece Elastic Bottom Sweatpant",
-      "meta_description": "Shop Athletic Works Mens Big Mens Fleece Elastic Bottom Sweatpants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock",
+      "meta_description": "Shop Athletic Works Mens Big Mens Fleece Elastic Bottom Sweatpants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock",
       "meta_keywords": "Athletic Works Mens Big Mens Fleece Elastic Bottom Sweatpant",
-      "canonical_url": "https://Indaccu Solutions.in/product/athletic-works-men-s-big-men-s-fleece-elastic-bottom-sweatpants"
+      "canonical_url": "https://Mangalbookstore.in/product/athletic-works-men-s-big-men-s-fleece-elastic-bottom-sweatpants"
     },
     "1687": {
-      "meta_title": "Alberto Nardoni Dark Navy Blue Suit For Men Indaccu Solutions",
-      "meta_description": "Shop Alberto Nardoni Dark Navy Blue Suit For Men at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Alberto Nardoni Dark Navy Blue Suit For Men Mangalbookstore",
+      "meta_description": "Shop Alberto Nardoni Dark Navy Blue Suit For Men at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Alberto Nardoni Dark Navy Blue Suit For Men",
-      "canonical_url": "https://Indaccu Solutions.in/product/alberto-nardoni-dark-navy-blue-suit-for-men"
+      "canonical_url": "https://Mangalbookstore.in/product/alberto-nardoni-dark-navy-blue-suit-for-men"
     },
     "1688": {
-      "meta_title": "Ski Doo Mens Legacy Snowmobile Jacket Indaccu Solutions",
-      "meta_description": "Shop Ski Doo Mens Legacy Snowmobile Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Ski Doo Mens Legacy Snowmobile Jacket Mangalbookstore",
+      "meta_description": "Shop Ski Doo Mens Legacy Snowmobile Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Ski Doo Mens Legacy Snowmobile Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/ski-doo-mens-legacy-snowmobile-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/ski-doo-mens-legacy-snowmobile-jacket"
     },
     "1689": {
-      "meta_title": "Mackage Mens Collin Z Down Jacket Indaccu Solutions",
-      "meta_description": "Shop Mackage Mens Collin Z Down Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mackage Mens Collin Z Down Jacket Mangalbookstore",
+      "meta_description": "Shop Mackage Mens Collin Z Down Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mackage Mens Collin Z Down Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/mackage-mens-collin-z-down-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/mackage-mens-collin-z-down-jacket"
     },
     "1690": {
-      "meta_title": "George Mens Big Mens Crewneck Tee Indaccu Solutions",
-      "meta_description": "Shop George Mens Big Mens Crewneck Tee at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "George Mens Big Mens Crewneck Tee Mangalbookstore",
+      "meta_description": "Shop George Mens Big Mens Crewneck Tee at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "George Mens Big Mens Crewneck Tee",
-      "canonical_url": "https://Indaccu Solutions.in/product/george-men-s-big-men-s-crewneck-tee"
+      "canonical_url": "https://Mangalbookstore.in/product/george-men-s-big-men-s-crewneck-tee"
     },
     "1691": {
       "meta_title": "Ben Hogan Mens Flex 4 Way Stretch Golf Pants With Active Wai",
-      "meta_description": "Shop Ben Hogan Mens Flex 4 Way Stretch Golf Pants With Active Waistband at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited",
+      "meta_description": "Shop Ben Hogan Mens Flex 4 Way Stretch Golf Pants With Active Waistband at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited",
       "meta_keywords": "Ben Hogan Mens Flex 4 Way Stretch Golf Pants With Active Wai",
-      "canonical_url": "https://Indaccu Solutions.in/product/ben-hogan-men-s-flex-4-way-stretch-golf-pants-with-active-waistband"
+      "canonical_url": "https://Mangalbookstore.in/product/ben-hogan-men-s-flex-4-way-stretch-golf-pants-with-active-waistband"
     },
     "1692": {
-      "meta_title": "Athletic Works Mens Fleece Crewneck Sweatshirt Indaccu Solutions",
-      "meta_description": "Shop Athletic Works Mens Fleece Crewneck Sweatshirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Athletic Works Mens Fleece Crewneck Sweatshirt Mangalbookstore",
+      "meta_description": "Shop Athletic Works Mens Fleece Crewneck Sweatshirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Athletic Works Mens Fleece Crewneck Sweatshirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/athletic-works-men-s-fleece-crewneck-sweatshirt"
+      "canonical_url": "https://Mangalbookstore.in/product/athletic-works-men-s-fleece-crewneck-sweatshirt"
     },
     "2113": {
-      "meta_title": "Men Ankle Length Socks Indaccu Solutions",
-      "meta_description": "Shop Men Ankle Length Socks at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Ankle Length Socks Mangalbookstore",
+      "meta_description": "Shop Men Ankle Length Socks at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Ankle Length Socks",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-ankle-length-socks"
+      "canonical_url": "https://Mangalbookstore.in/product/men-ankle-length-socks"
     },
     "2127": {
       "meta_title": "Mens Short Sleeve Everyday Performance Chambray Shirt Stylex",
-      "meta_description": "Shop Mens Short Sleeve Everyday Performance Chambray Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order t",
+      "meta_description": "Shop Mens Short Sleeve Everyday Performance Chambray Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order t",
       "meta_keywords": "Mens Short Sleeve Everyday Performance Chambray Shirt Stylex",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-everyday-performance-chambray-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-everyday-performance-chambray-shirt"
     },
     "2128": {
-      "meta_title": "Mens Utility Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Utility Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Utility Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Utility Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Utility Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-utility-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-utility-jacket"
     },
     "2168": {
-      "meta_title": "Mens Short Sleeve Button Up Poplin Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Short Sleeve Button Up Poplin Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Short Sleeve Button Up Poplin Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Short Sleeve Button Up Poplin Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Short Sleeve Button Up Poplin Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-button-up-poplin-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-button-up-poplin-shirt"
     },
     "2170": {
-      "meta_title": "Mens Cotton Relaxed Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Mens Cotton Relaxed Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Cotton Relaxed Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Mens Cotton Relaxed Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Cotton Relaxed Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-cotton-relaxed-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-cotton-relaxed-fit-jeans"
     },
     "2172": {
-      "meta_title": "Mens Zip Front Coaches Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Zip Front Coaches Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Zip Front Coaches Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Zip Front Coaches Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Zip Front Coaches Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-zip-front-coaches-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-zip-front-coaches-jacket"
     },
     "2174": {
-      "meta_title": "Mens Cozy Yarn Textured Sweater With Long Sleeves Indaccu Solutions",
-      "meta_description": "Shop Mens Cozy Yarn Textured Sweater With Long Sleeves at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Mens Cozy Yarn Textured Sweater With Long Sleeves Mangalbookstore",
+      "meta_description": "Shop Mens Cozy Yarn Textured Sweater With Long Sleeves at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Mens Cozy Yarn Textured Sweater With Long Sleeves",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-cozy-yarn-textured-sweater-with-long-sleeves"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-cozy-yarn-textured-sweater-with-long-sleeves"
     },
     "2177": {
-      "meta_title": "Mens Chino Pants Indaccu Solutions",
-      "meta_description": "Shop Mens Chino Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Chino Pants Mangalbookstore",
+      "meta_description": "Shop Mens Chino Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Chino Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-chino-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-chino-pants"
     },
     "2180": {
-      "meta_title": "Polo Long Sleeve Shirt For Men Indaccu Solutions",
-      "meta_description": "Shop Polo Long Sleeve Shirt For Men at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Polo Long Sleeve Shirt For Men Mangalbookstore",
+      "meta_description": "Shop Polo Long Sleeve Shirt For Men at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Polo Long Sleeve Shirt For Men",
-      "canonical_url": "https://Indaccu Solutions.in/product/polo-long-sleeve-shirt-for-men"
+      "canonical_url": "https://Mangalbookstore.in/product/polo-long-sleeve-shirt-for-men"
     },
     "2182": {
-      "meta_title": "Long Sleeve Mens Dress Shirts Indaccu Solutions",
-      "meta_description": "Shop Long Sleeve Mens Dress Shirts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Long Sleeve Mens Dress Shirts Mangalbookstore",
+      "meta_description": "Shop Long Sleeve Mens Dress Shirts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Long Sleeve Mens Dress Shirts",
-      "canonical_url": "https://Indaccu Solutions.in/product/long-sleeve-men-s-dress-shirts"
+      "canonical_url": "https://Mangalbookstore.in/product/long-sleeve-men-s-dress-shirts"
     },
     "2183": {
-      "meta_title": "Mens Everyday Crewneck Sweater Indaccu Solutions",
-      "meta_description": "Shop Mens Everyday Crewneck Sweater at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Everyday Crewneck Sweater Mangalbookstore",
+      "meta_description": "Shop Mens Everyday Crewneck Sweater at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Everyday Crewneck Sweater",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-everyday-crewneck-sweater"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-everyday-crewneck-sweater"
     },
     "2187": {
-      "meta_title": "Winter Thermal Duck Jacket Coat For Men Indaccu Solutions",
-      "meta_description": "Shop Winter Thermal Duck Jacket Coat For Men at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Winter Thermal Duck Jacket Coat For Men Mangalbookstore",
+      "meta_description": "Shop Winter Thermal Duck Jacket Coat For Men at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Winter Thermal Duck Jacket Coat For Men",
-      "canonical_url": "https://Indaccu Solutions.in/product/winter-thermal-duck-jacket-coat-for-men"
+      "canonical_url": "https://Mangalbookstore.in/product/winter-thermal-duck-jacket-coat-for-men"
     },
     "2188": {
-      "meta_title": "Mens Core Active Short Sleeve T Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Core Active Short Sleeve T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Core Active Short Sleeve T Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Core Active Short Sleeve T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Core Active Short Sleeve T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-core-active-short-sleeve-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-core-active-short-sleeve-t-shirt"
     },
     "2189": {
-      "meta_title": "Mens Crewneck Pullover Sweater Indaccu Solutions",
-      "meta_description": "Shop Mens Crewneck Pullover Sweater at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Crewneck Pullover Sweater Mangalbookstore",
+      "meta_description": "Shop Mens Crewneck Pullover Sweater at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Crewneck Pullover Sweater",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-crewneck-pullover-sweater"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-crewneck-pullover-sweater"
     },
     "2191": {
-      "meta_title": "Mens Luxe Everyday Polo Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Luxe Everyday Polo Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Luxe Everyday Polo Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Luxe Everyday Polo Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Luxe Everyday Polo Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-luxe-everyday-polo-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-luxe-everyday-polo-shirt"
     },
     "2192": {
-      "meta_title": "Mens Loose Fit Straight Leg Work Cargo Pants Indaccu Solutions",
-      "meta_description": "Shop Mens Loose Fit Straight Leg Work Cargo Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Loose Fit Straight Leg Work Cargo Pants Mangalbookstore",
+      "meta_description": "Shop Mens Loose Fit Straight Leg Work Cargo Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Loose Fit Straight Leg Work Cargo Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-loose-fit-straight-leg-work-cargo-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-loose-fit-straight-leg-work-cargo-pants"
     },
     "2194": {
-      "meta_title": "Unisex Ultra Cotton Long Sleeve T Shirt Indaccu Solutions",
-      "meta_description": "Shop Unisex Ultra Cotton Long Sleeve T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Unisex Ultra Cotton Long Sleeve T Shirt Mangalbookstore",
+      "meta_description": "Shop Unisex Ultra Cotton Long Sleeve T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Unisex Ultra Cotton Long Sleeve T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/unisex-ultra-cotton-long-sleeve-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/unisex-ultra-cotton-long-sleeve-t-shirt"
     },
     "2197": {
-      "meta_title": "Hot Wheel Mens Graphic T Shirt Indaccu Solutions",
-      "meta_description": "Shop Hot Wheel Mens Graphic T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Hot Wheel Mens Graphic T Shirt Mangalbookstore",
+      "meta_description": "Shop Hot Wheel Mens Graphic T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Hot Wheel Mens Graphic T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/hot-wheel-men-s-graphic-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/hot-wheel-men-s-graphic-t-shirt"
     },
     "2199": {
-      "meta_title": "3 Pack Mens Long Sleeve Thermal Shirts Indaccu Solutions",
-      "meta_description": "Shop 3 Pack Mens Long Sleeve Thermal Shirts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "3 Pack Mens Long Sleeve Thermal Shirts Mangalbookstore",
+      "meta_description": "Shop 3 Pack Mens Long Sleeve Thermal Shirts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "3 Pack Mens Long Sleeve Thermal Shirts",
-      "canonical_url": "https://Indaccu Solutions.in/product/3-pack-men-s-long-sleeve-thermal-shirts"
+      "canonical_url": "https://Mangalbookstore.in/product/3-pack-men-s-long-sleeve-thermal-shirts"
     },
     "2203": {
-      "meta_title": "Mens 3 Pack Flex Stretch Slim Straight Jeans Indaccu Solutions",
-      "meta_description": "Shop Mens 3 Pack Flex Stretch Slim Straight Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens 3 Pack Flex Stretch Slim Straight Jeans Mangalbookstore",
+      "meta_description": "Shop Mens 3 Pack Flex Stretch Slim Straight Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens 3 Pack Flex Stretch Slim Straight Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-3-pack-flex-stretch-slim-straight-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-3-pack-flex-stretch-slim-straight-jeans"
     },
     "2206": {
-      "meta_title": "Bomber Jacket With Style Polyester For Men Indaccu Solutions",
-      "meta_description": "Shop Bomber Jacket With Style Polyester For Men at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Bomber Jacket With Style Polyester For Men Mangalbookstore",
+      "meta_description": "Shop Bomber Jacket With Style Polyester For Men at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Bomber Jacket With Style Polyester For Men",
-      "canonical_url": "https://Indaccu Solutions.in/product/bomber-jacket-with-style-polyester-for-men"
+      "canonical_url": "https://Mangalbookstore.in/product/bomber-jacket-with-style-polyester-for-men"
     },
     "2208": {
-      "meta_title": "Mens Buck Camp Flannel Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Buck Camp Flannel Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Buck Camp Flannel Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Buck Camp Flannel Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Buck Camp Flannel Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-buck-camp-flannel-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-buck-camp-flannel-shirt"
     },
     "2210": {
-      "meta_title": "Mens Fleece Elastic Bottom Sweatpants Indaccu Solutions",
-      "meta_description": "Shop Mens Fleece Elastic Bottom Sweatpants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Fleece Elastic Bottom Sweatpants Mangalbookstore",
+      "meta_description": "Shop Mens Fleece Elastic Bottom Sweatpants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Fleece Elastic Bottom Sweatpants",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-fleece-elastic-bottom-sweatpants"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-fleece-elastic-bottom-sweatpants"
     },
     "2213": {
-      "meta_title": "Mens Polyester Multi Pocket Varsity Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Polyester Multi Pocket Varsity Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Polyester Multi Pocket Varsity Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Polyester Multi Pocket Varsity Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Polyester Multi Pocket Varsity Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-polyester-multi-pocket-varsity-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-polyester-multi-pocket-varsity-jacket"
     },
     "2214": {
-      "meta_title": "Mens Long Sleeve Slim Fit Design Dress Shirts Indaccu Solutions",
-      "meta_description": "Shop Mens Long Sleeve Slim Fit Design Dress Shirts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Long Sleeve Slim Fit Design Dress Shirts Mangalbookstore",
+      "meta_description": "Shop Mens Long Sleeve Slim Fit Design Dress Shirts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Long Sleeve Slim Fit Design Dress Shirts",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-long-sleeve-slim-fit-design-dress-shirts"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-long-sleeve-slim-fit-design-dress-shirts"
     },
     "2218": {
-      "meta_title": "Mens Wrangler Workwear Painter Pant Indaccu Solutions",
-      "meta_description": "Shop Mens Wrangler Workwear Painter Pant at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Wrangler Workwear Painter Pant Mangalbookstore",
+      "meta_description": "Shop Mens Wrangler Workwear Painter Pant at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Wrangler Workwear Painter Pant",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-wrangler-workwear-painter-pant"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-wrangler-workwear-painter-pant"
     },
     "2223": {
-      "meta_title": "Heavy Blend Fleece Hooded Sweatshirt Indaccu Solutions",
-      "meta_description": "Shop Heavy Blend Fleece Hooded Sweatshirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Heavy Blend Fleece Hooded Sweatshirt Mangalbookstore",
+      "meta_description": "Shop Heavy Blend Fleece Hooded Sweatshirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Heavy Blend Fleece Hooded Sweatshirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/heavy-blend-fleece-hooded-sweatshirt"
+      "canonical_url": "https://Mangalbookstore.in/product/heavy-blend-fleece-hooded-sweatshirt"
     },
     "2226": {
-      "meta_title": "Mens Pleated Front Wrinkle Resistant Pants Indaccu Solutions",
-      "meta_description": "Shop Mens Pleated Front Wrinkle Resistant Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Pleated Front Wrinkle Resistant Pants Mangalbookstore",
+      "meta_description": "Shop Mens Pleated Front Wrinkle Resistant Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Pleated Front Wrinkle Resistant Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-pleated-front-wrinkle-resistant-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-pleated-front-wrinkle-resistant-pants"
     },
     "2228": {
-      "meta_title": "Mens Long Sleeve Heavyweight Pocket T Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Long Sleeve Heavyweight Pocket T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Long Sleeve Heavyweight Pocket T Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Long Sleeve Heavyweight Pocket T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Long Sleeve Heavyweight Pocket T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-long-sleeve-heavyweight-pocket-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-long-sleeve-heavyweight-pocket-t-shirt"
     },
     "2230": {
-      "meta_title": "Mens Sweatshirt With Pouch Pocket Indaccu Solutions",
-      "meta_description": "Shop Mens Sweatshirt With Pouch Pocket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Sweatshirt With Pouch Pocket Mangalbookstore",
+      "meta_description": "Shop Mens Sweatshirt With Pouch Pocket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Sweatshirt With Pouch Pocket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-sweatshirt-with-pouch-pocket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-sweatshirt-with-pouch-pocket"
     },
     "2231": {
-      "meta_title": "Mens Cotton Pocket T Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Cotton Pocket T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Cotton Pocket T Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Cotton Pocket T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Cotton Pocket T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-cotton-pocket-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-cotton-pocket-t-shirt"
     },
     "2234": {
-      "meta_title": "Mens Mixed Media Fleece Vest Indaccu Solutions",
-      "meta_description": "Shop Mens Mixed Media Fleece Vest at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Mixed Media Fleece Vest Mangalbookstore",
+      "meta_description": "Shop Mens Mixed Media Fleece Vest at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Mixed Media Fleece Vest",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-mixed-media-fleece-vest"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-mixed-media-fleece-vest"
     },
     "2237": {
-      "meta_title": "Mens Camden Quarter Zip Knit Sweater Indaccu Solutions",
-      "meta_description": "Shop Mens Camden Quarter Zip Knit Sweater at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Camden Quarter Zip Knit Sweater Mangalbookstore",
+      "meta_description": "Shop Mens Camden Quarter Zip Knit Sweater at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Camden Quarter Zip Knit Sweater",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-camden-quarter-zip-knit-sweater"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-camden-quarter-zip-knit-sweater"
     },
     "2240": {
-      "meta_title": "Mens Hooded Rain Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Hooded Rain Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Hooded Rain Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Hooded Rain Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Hooded Rain Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-hooded-rain-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-hooded-rain-jacket"
     },
     "2249": {
-      "meta_title": "Mens Performance Dress Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Performance Dress Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Performance Dress Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Performance Dress Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Performance Dress Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-performance-dress-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-performance-dress-shirt"
     },
     "2252": {
       "meta_title": "Mens Relaxed Fit Heavyweight Carpenter Workwear Jeans Stylex",
-      "meta_description": "Shop Mens Relaxed Fit Heavyweight Carpenter Workwear Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order t",
+      "meta_description": "Shop Mens Relaxed Fit Heavyweight Carpenter Workwear Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order t",
       "meta_keywords": "Mens Relaxed Fit Heavyweight Carpenter Workwear Jeans Stylex",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-relaxed-fit-heavyweight-carpenter-workwear-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-relaxed-fit-heavyweight-carpenter-workwear-jeans"
     },
     "2255": {
       "meta_title": "Mens Water Repellent Duck Hooded Workwear Shirt Jacket Style",
-      "meta_description": "Shop Mens Water Repellent Duck Hooded Workwear Shirt Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
+      "meta_description": "Shop Mens Water Repellent Duck Hooded Workwear Shirt Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
       "meta_keywords": "Mens Water Repellent Duck Hooded Workwear Shirt Jacket Style",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-water-repellent-duck-hooded-workwear-shirt-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-water-repellent-duck-hooded-workwear-shirt-jacket"
     },
     "2260": {
-      "meta_title": "Mens Puffer Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Puffer Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Puffer Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Puffer Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Puffer Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-puffer-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-puffer-jacket"
     },
     "2560": {
-      "meta_title": "Mens Breakaway Half Zip Hoodie Indaccu Solutions",
-      "meta_description": "Shop Mens Breakaway Half Zip Hoodie at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Breakaway Half Zip Hoodie Mangalbookstore",
+      "meta_description": "Shop Mens Breakaway Half Zip Hoodie at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Breakaway Half Zip Hoodie",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-breakaway-half-zip-hoodie"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-breakaway-half-zip-hoodie"
     },
     "2564": {
-      "meta_title": "Mens Short Sleeve Poplin Button Up Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Short Sleeve Poplin Button Up Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Short Sleeve Poplin Button Up Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Short Sleeve Poplin Button Up Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Short Sleeve Poplin Button Up Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-poplin-button-up-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-poplin-button-up-shirt"
     },
     "2565": {
-      "meta_title": "Mens Softshell Jacket With Hood Indaccu Solutions",
-      "meta_description": "Shop Mens Softshell Jacket With Hood at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Softshell Jacket With Hood Mangalbookstore",
+      "meta_description": "Shop Mens Softshell Jacket With Hood at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Softshell Jacket With Hood",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-softshell-jacket-with-hood"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-softshell-jacket-with-hood"
     },
     "2566": {
-      "meta_title": "Mens Hooded Flannel Shirt With Long Sleeves Indaccu Solutions",
-      "meta_description": "Shop Mens Hooded Flannel Shirt With Long Sleeves at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Hooded Flannel Shirt With Long Sleeves Mangalbookstore",
+      "meta_description": "Shop Mens Hooded Flannel Shirt With Long Sleeves at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Hooded Flannel Shirt With Long Sleeves",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-hooded-flannel-shirt-with-long-sleeves"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-hooded-flannel-shirt-with-long-sleeves"
     },
     "2567": {
-      "meta_title": "Mens Pullover Embossed Hoodie Sweatshirt Indaccu Solutions",
-      "meta_description": "Shop Mens Pullover Embossed Hoodie Sweatshirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Pullover Embossed Hoodie Sweatshirt Mangalbookstore",
+      "meta_description": "Shop Mens Pullover Embossed Hoodie Sweatshirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Pullover Embossed Hoodie Sweatshirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-pullover-embossed-hoodie-sweatshirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-pullover-embossed-hoodie-sweatshirt"
     },
     "2568": {
-      "meta_title": "Mens Color Blocked Tech Hooded Jacket Blue Large Indaccu Solutions",
-      "meta_description": "Shop Mens Color Blocked Tech Hooded Jacket Blue Large at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Color Blocked Tech Hooded Jacket Blue Large Mangalbookstore",
+      "meta_description": "Shop Mens Color Blocked Tech Hooded Jacket Blue Large at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Color Blocked Tech Hooded Jacket Blue Large",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-color-blocked-tech-hooded-jacket-blue-large"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-color-blocked-tech-hooded-jacket-blue-large"
     },
     "2569": {
-      "meta_title": "Mens Bomber Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Bomber Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Bomber Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Bomber Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Bomber Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-bomber-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-bomber-jacket"
     },
     "2571": {
-      "meta_title": "Mens Jacquard Zipper Hooded Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Jacquard Zipper Hooded Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Jacquard Zipper Hooded Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Jacquard Zipper Hooded Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Jacquard Zipper Hooded Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-jacquard-zipper-hooded-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-jacquard-zipper-hooded-jacket"
     },
     "2572": {
-      "meta_title": "Mens Standard Fit Suit Jacket Goodfellow Indaccu Solutions",
-      "meta_description": "Shop Mens Standard Fit Suit Jacket Goodfellow at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Standard Fit Suit Jacket Goodfellow Mangalbookstore",
+      "meta_description": "Shop Mens Standard Fit Suit Jacket Goodfellow at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Standard Fit Suit Jacket Goodfellow",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-standard-fit-suit-jacket-goodfellow"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-standard-fit-suit-jacket-goodfellow"
     },
     "2574": {
-      "meta_title": "Mens Solid Color Casual Single Breasted Blazer Indaccu Solutions",
-      "meta_description": "Shop Mens Solid Color Casual Single Breasted Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Solid Color Casual Single Breasted Blazer Mangalbookstore",
+      "meta_description": "Shop Mens Solid Color Casual Single Breasted Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Solid Color Casual Single Breasted Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-solid-color-casual-single-breasted-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-solid-color-casual-single-breasted-blazer"
     },
     "2576": {
-      "meta_title": "Mens Slim Fit Blazer Jackets Casual Sport Coats Indaccu Solutions",
-      "meta_description": "Shop Mens Slim Fit Blazer Jackets Casual Sport Coats at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Slim Fit Blazer Jackets Casual Sport Coats Mangalbookstore",
+      "meta_description": "Shop Mens Slim Fit Blazer Jackets Casual Sport Coats at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Slim Fit Blazer Jackets Casual Sport Coats",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-slim-fit-blazer-jackets-casual-sport-coats"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-slim-fit-blazer-jackets-casual-sport-coats"
     },
     "2579": {
-      "meta_title": "Mens Premium Wool Blend Business Dress Suit Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Premium Wool Blend Business Dress Suit Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
+      "meta_title": "Mens Premium Wool Blend Business Dress Suit Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Premium Wool Blend Business Dress Suit Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
       "meta_keywords": "Mens Premium Wool Blend Business Dress Suit Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-premium-wool-blend-business-dress-suit-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-premium-wool-blend-business-dress-suit-jacket"
     },
     "2580": {
-      "meta_title": "Modern Mens Suit Jacket Indaccu Solutions",
-      "meta_description": "Shop Modern Mens Suit Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Modern Mens Suit Jacket Mangalbookstore",
+      "meta_description": "Shop Modern Mens Suit Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Modern Mens Suit Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/modern-men-s-suit-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/modern-men-s-suit-jacket"
     },
     "2583": {
-      "meta_title": "Men Formal Dress Waistcoat Indaccu Solutions",
-      "meta_description": "Shop Men Formal Dress Waistcoat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Formal Dress Waistcoat Mangalbookstore",
+      "meta_description": "Shop Men Formal Dress Waistcoat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Formal Dress Waistcoat",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-formal-dress-waistcoat"
+      "canonical_url": "https://Mangalbookstore.in/product/men-formal-dress-waistcoat"
     },
     "2585": {
-      "meta_title": "Men Solid Navy Blue Vests Indaccu Solutions",
-      "meta_description": "Shop Men Solid Navy Blue Vests at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Solid Navy Blue Vests Mangalbookstore",
+      "meta_description": "Shop Men Solid Navy Blue Vests at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Solid Navy Blue Vests",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-solid-navy-blue-vests"
+      "canonical_url": "https://Mangalbookstore.in/product/men-solid-navy-blue-vests"
     },
     "2586": {
-      "meta_title": "Mens Printed Tank Top Black Indaccu Solutions",
-      "meta_description": "Shop Mens Printed Tank Top Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Printed Tank Top Black Mangalbookstore",
+      "meta_description": "Shop Mens Printed Tank Top Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Printed Tank Top Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-printed-tank-top-black"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-printed-tank-top-black"
     },
     "2588": {
-      "meta_title": "Mens Charcoal Solid Tank Top Indaccu Solutions",
-      "meta_description": "Shop Mens Charcoal Solid Tank Top at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Charcoal Solid Tank Top Mangalbookstore",
+      "meta_description": "Shop Mens Charcoal Solid Tank Top at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Charcoal Solid Tank Top",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-charcoal-solid-tank-top"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-charcoal-solid-tank-top"
     },
     "2589": {
-      "meta_title": "Men Outdoor Training Maroon Sleeveless Tank Top Indaccu Solutions",
-      "meta_description": "Shop Men Outdoor Training Maroon Sleeveless Tank Top at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Outdoor Training Maroon Sleeveless Tank Top Mangalbookstore",
+      "meta_description": "Shop Men Outdoor Training Maroon Sleeveless Tank Top at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Outdoor Training Maroon Sleeveless Tank Top",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-outdoor-training-maroon-sleeveless-tank-top"
+      "canonical_url": "https://Mangalbookstore.in/product/men-outdoor-training-maroon-sleeveless-tank-top"
     },
     "2591": {
-      "meta_title": "Mehr Printed Bandhgala Indaccu Solutions",
-      "meta_description": "Shop Mehr Printed Bandhgala at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mehr Printed Bandhgala Mangalbookstore",
+      "meta_description": "Shop Mehr Printed Bandhgala at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mehr Printed Bandhgala",
-      "canonical_url": "https://Indaccu Solutions.in/product/mehr-printed-bandhgala"
+      "canonical_url": "https://Mangalbookstore.in/product/mehr-printed-bandhgala"
     },
     "2593": {
-      "meta_title": "Blue Ganesha Foil Kurta Indaccu Solutions",
-      "meta_description": "Shop Blue Ganesha Foil Kurta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Blue Ganesha Foil Kurta Mangalbookstore",
+      "meta_description": "Shop Blue Ganesha Foil Kurta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Blue Ganesha Foil Kurta",
-      "canonical_url": "https://Indaccu Solutions.in/product/blue-ganesha-foil-kurta"
+      "canonical_url": "https://Mangalbookstore.in/product/blue-ganesha-foil-kurta"
     },
     "2594": {
-      "meta_title": "Rust Palm Print Nehru Jacket Kurta With Pant Indaccu Solutions",
-      "meta_description": "Shop Rust Palm Print Nehru Jacket Kurta With Pant at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Rust Palm Print Nehru Jacket Kurta With Pant Mangalbookstore",
+      "meta_description": "Shop Rust Palm Print Nehru Jacket Kurta With Pant at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Rust Palm Print Nehru Jacket Kurta With Pant",
-      "canonical_url": "https://Indaccu Solutions.in/product/rust-palm-print-nehru-jacket-kurta-with-pant"
+      "canonical_url": "https://Mangalbookstore.in/product/rust-palm-print-nehru-jacket-kurta-with-pant"
     },
     "2605": {
-      "meta_title": "Black Three Piece Suit Indaccu Solutions",
-      "meta_description": "Shop Black Three Piece Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Black Three Piece Suit Mangalbookstore",
+      "meta_description": "Shop Black Three Piece Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Black Three Piece Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-three-piece-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/black-three-piece-suit"
     },
     "2608": {
-      "meta_title": "Black Two Piece Suit Set Of 2 Indaccu Solutions",
-      "meta_description": "Shop Black Two Piece Suit Set Of 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Black Two Piece Suit Set Of 2 Mangalbookstore",
+      "meta_description": "Shop Black Two Piece Suit Set Of 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Black Two Piece Suit Set Of 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-two-piece-suit-set-of-2"
+      "canonical_url": "https://Mangalbookstore.in/product/black-two-piece-suit-set-of-2"
     },
     "2611": {
-      "meta_title": "Mens Maroon Velvet Indaccu Solutions",
-      "meta_description": "Shop Mens Maroon Velvet at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Maroon Velvet Mangalbookstore",
+      "meta_description": "Shop Mens Maroon Velvet at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Maroon Velvet",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-maroon-velvet"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-maroon-velvet"
     },
     "2613": {
-      "meta_title": "Mens Silk Blend Embroidered Green Indaccu Solutions",
-      "meta_description": "Shop Mens Silk Blend Embroidered Green at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Silk Blend Embroidered Green Mangalbookstore",
+      "meta_description": "Shop Mens Silk Blend Embroidered Green at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Silk Blend Embroidered Green",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-silk-blend-embroidered-green"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-silk-blend-embroidered-green"
     },
     "2617": {
-      "meta_title": "Mens Suit Vest Business Formal Dress Waistcoat Indaccu Solutions",
-      "meta_description": "Shop Mens Suit Vest Business Formal Dress Waistcoat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Suit Vest Business Formal Dress Waistcoat Mangalbookstore",
+      "meta_description": "Shop Mens Suit Vest Business Formal Dress Waistcoat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Suit Vest Business Formal Dress Waistcoat",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-suit-vest-business-formal-dress-waistcoat"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-suit-vest-business-formal-dress-waistcoat"
     },
     "2620": {
-      "meta_title": "Mens Suit Vest Business Formal Dress Waistcoat 2 Indaccu Solutions",
-      "meta_description": "Shop Mens Suit Vest Business Formal Dress Waistcoat 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Suit Vest Business Formal Dress Waistcoat 2 Mangalbookstore",
+      "meta_description": "Shop Mens Suit Vest Business Formal Dress Waistcoat 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Suit Vest Business Formal Dress Waistcoat 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-suit-vest-business-formal-dress-waistcoat-2"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-suit-vest-business-formal-dress-waistcoat-2"
     },
     "2623": {
-      "meta_title": "Mens Formal Wedding Tuxedo Vest Tie Hankie Set Indaccu Solutions",
-      "meta_description": "Shop Mens Formal Wedding Tuxedo Vest Tie Hankie Set at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Formal Wedding Tuxedo Vest Tie Hankie Set Mangalbookstore",
+      "meta_description": "Shop Mens Formal Wedding Tuxedo Vest Tie Hankie Set at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Formal Wedding Tuxedo Vest Tie Hankie Set",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-formal-wedding-tuxedo-vest-tie-hankie-set"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-formal-wedding-tuxedo-vest-tie-hankie-set"
     },
     "2627": {
-      "meta_title": "Mens Hooded Waterproof Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Hooded Waterproof Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Hooded Waterproof Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Hooded Waterproof Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Hooded Waterproof Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-hooded-waterproof-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-hooded-waterproof-jacket"
     },
     "3496": {
-      "meta_title": "Mens Supreme Half Sleeve 100 Cotton White Vest Indaccu Solutions",
-      "meta_description": "Shop Mens Supreme Half Sleeve 100 Cotton White Vest at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Supreme Half Sleeve 100 Cotton White Vest Mangalbookstore",
+      "meta_description": "Shop Mens Supreme Half Sleeve 100 Cotton White Vest at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Supreme Half Sleeve 100 Cotton White Vest",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-supreme-half-sleeve-100-cotton-white-vest"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-supreme-half-sleeve-100-cotton-white-vest"
     },
     "3497": {
-      "meta_title": "Solid Knitted Winter Beanie White Indaccu Solutions",
-      "meta_description": "Shop Solid Knitted Winter Beanie White at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Solid Knitted Winter Beanie White Mangalbookstore",
+      "meta_description": "Shop Solid Knitted Winter Beanie White at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Solid Knitted Winter Beanie White",
-      "canonical_url": "https://Indaccu Solutions.in/product/solid-knitted-winter-beanie-white"
+      "canonical_url": "https://Mangalbookstore.in/product/solid-knitted-winter-beanie-white"
     },
     "3498": {
-      "meta_title": "Yellow Colour Blocked No Show Socks Indaccu Solutions",
-      "meta_description": "Shop Yellow Colour Blocked No Show Socks at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Yellow Colour Blocked No Show Socks Mangalbookstore",
+      "meta_description": "Shop Yellow Colour Blocked No Show Socks at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Yellow Colour Blocked No Show Socks",
-      "canonical_url": "https://Indaccu Solutions.in/product/yellow-colour-blocked-no-show-socks"
+      "canonical_url": "https://Mangalbookstore.in/product/yellow-colour-blocked-no-show-socks"
     },
     "3501": {
-      "meta_title": "Ultra Soft Tencel Inner Elastic Trunk Indaccu Solutions",
-      "meta_description": "Shop Ultra Soft Tencel Inner Elastic Trunk at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Ultra Soft Tencel Inner Elastic Trunk Mangalbookstore",
+      "meta_description": "Shop Ultra Soft Tencel Inner Elastic Trunk at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Ultra Soft Tencel Inner Elastic Trunk",
-      "canonical_url": "https://Indaccu Solutions.in/product/ultra-soft-tencel-inner-elastic-trunk"
+      "canonical_url": "https://Mangalbookstore.in/product/ultra-soft-tencel-inner-elastic-trunk"
     },
     "3503": {
-      "meta_title": "Mens Gym Tank Tops Sleeveless Sports Vest Indaccu Solutions",
-      "meta_description": "Shop Mens Gym Tank Tops Sleeveless Sports Vest at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Gym Tank Tops Sleeveless Sports Vest Mangalbookstore",
+      "meta_description": "Shop Mens Gym Tank Tops Sleeveless Sports Vest at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Gym Tank Tops Sleeveless Sports Vest",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-gym-tank-tops-sleeveless-sports-vest"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-gym-tank-tops-sleeveless-sports-vest"
     },
     "3505": {
-      "meta_title": "Black Mens Color Block Sleeveless Tank Indaccu Solutions",
-      "meta_description": "Shop Black Mens Color Block Sleeveless Tank at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Black Mens Color Block Sleeveless Tank Mangalbookstore",
+      "meta_description": "Shop Black Mens Color Block Sleeveless Tank at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Black Mens Color Block Sleeveless Tank",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-mens-color-block-sleeveless-tank"
+      "canonical_url": "https://Mangalbookstore.in/product/black-mens-color-block-sleeveless-tank"
     },
     "3506": {
       "meta_title": "Mens Blue 5 Pocket Wide Leg Enzyme Wash Cotton Jeans Stylexi",
-      "meta_description": "Shop Mens Blue 5 Pocket Wide Leg Enzyme Wash Cotton Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Mens Blue 5 Pocket Wide Leg Enzyme Wash Cotton Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Mens Blue 5 Pocket Wide Leg Enzyme Wash Cotton Jeans Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-blue-5-pocket-wide-leg-enzyme-wash-cotton-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-blue-5-pocket-wide-leg-enzyme-wash-cotton-jeans"
     },
     "3508": {
-      "meta_title": "Blue Printed Party Shirt Indaccu Solutions",
-      "meta_description": "Shop Blue Printed Party Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Blue Printed Party Shirt Mangalbookstore",
+      "meta_description": "Shop Blue Printed Party Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Blue Printed Party Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/blue-printed-party-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/blue-printed-party-shirt"
     },
     "3511": {
-      "meta_title": "Dark Purple Color Silk Kurta Indaccu Solutions",
-      "meta_description": "Shop Dark Purple Color Silk Kurta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Dark Purple Color Silk Kurta Mangalbookstore",
+      "meta_description": "Shop Dark Purple Color Silk Kurta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Dark Purple Color Silk Kurta",
-      "canonical_url": "https://Indaccu Solutions.in/product/dark-purple-color-silk-kurta"
+      "canonical_url": "https://Mangalbookstore.in/product/dark-purple-color-silk-kurta"
     },
     "3512": {
-      "meta_title": "Mens Silk Blend Emboss Fabric Nehru Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Silk Blend Emboss Fabric Nehru Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Silk Blend Emboss Fabric Nehru Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Silk Blend Emboss Fabric Nehru Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Silk Blend Emboss Fabric Nehru Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-silk-blend-emboss-fabric-nehru-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-silk-blend-emboss-fabric-nehru-jacket"
     },
     "3514": {
-      "meta_title": "Green Tissue Kurta With Pant With Dupatta Indaccu Solutions",
-      "meta_description": "Shop Green Tissue Kurta With Pant With Dupatta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Green Tissue Kurta With Pant With Dupatta Mangalbookstore",
+      "meta_description": "Shop Green Tissue Kurta With Pant With Dupatta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Green Tissue Kurta With Pant With Dupatta",
-      "canonical_url": "https://Indaccu Solutions.in/product/green-tissue-kurta-with-pant-with-dupatta"
+      "canonical_url": "https://Mangalbookstore.in/product/green-tissue-kurta-with-pant-with-dupatta"
     },
     "3521": {
-      "meta_title": "Red Haaath Phool Kurta Indaccu Solutions",
-      "meta_description": "Shop Red Haaath Phool Kurta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Red Haaath Phool Kurta Mangalbookstore",
+      "meta_description": "Shop Red Haaath Phool Kurta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Red Haaath Phool Kurta",
-      "canonical_url": "https://Indaccu Solutions.in/product/red-haaath-phool-kurta"
+      "canonical_url": "https://Mangalbookstore.in/product/red-haaath-phool-kurta"
     },
     "3523": {
-      "meta_title": "Black Haaath Phool Kurta Indaccu Solutions",
-      "meta_description": "Shop Black Haaath Phool Kurta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Black Haaath Phool Kurta Mangalbookstore",
+      "meta_description": "Shop Black Haaath Phool Kurta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Black Haaath Phool Kurta",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-haaath-phool-kurta"
+      "canonical_url": "https://Mangalbookstore.in/product/black-haaath-phool-kurta"
     },
     "3524": {
-      "meta_title": "Snow Cut Pipe Bundi Jacket Indaccu Solutions",
-      "meta_description": "Shop Snow Cut Pipe Bundi Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Snow Cut Pipe Bundi Jacket Mangalbookstore",
+      "meta_description": "Shop Snow Cut Pipe Bundi Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Snow Cut Pipe Bundi Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/snow-cut-pipe-bundi-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/snow-cut-pipe-bundi-jacket"
     },
     "3525": {
-      "meta_title": "Elara Kurta Pant Indaccu Solutions",
-      "meta_description": "Shop Elara Kurta Pant at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Elara Kurta Pant Mangalbookstore",
+      "meta_description": "Shop Elara Kurta Pant at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Elara Kurta Pant",
-      "canonical_url": "https://Indaccu Solutions.in/product/elara-kurta-pant"
+      "canonical_url": "https://Mangalbookstore.in/product/elara-kurta-pant"
     },
     "3528": {
-      "meta_title": "Mens Utility Jacket 2 Indaccu Solutions",
-      "meta_description": "Shop Mens Utility Jacket 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Utility Jacket 2 Mangalbookstore",
+      "meta_description": "Shop Mens Utility Jacket 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Utility Jacket 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-utility-jacket-2"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-utility-jacket-2"
     },
     "3529": {
-      "meta_title": "Polar Fleece Cargo Jacket Full Zip Stand Collar Indaccu Solutions",
-      "meta_description": "Shop Polar Fleece Cargo Jacket Full Zip Stand Collar at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Polar Fleece Cargo Jacket Full Zip Stand Collar Mangalbookstore",
+      "meta_description": "Shop Polar Fleece Cargo Jacket Full Zip Stand Collar at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Polar Fleece Cargo Jacket Full Zip Stand Collar",
-      "canonical_url": "https://Indaccu Solutions.in/product/polar-fleece-cargo-jacket-full-zip-stand-collar"
+      "canonical_url": "https://Mangalbookstore.in/product/polar-fleece-cargo-jacket-full-zip-stand-collar"
     },
     "3533": {
       "meta_title": "Jacket Big Tall Mock Neck Zip Up Hooded Snow Jackets Stylexi",
-      "meta_description": "Shop Jacket Big Tall Mock Neck Zip Up Hooded Snow Jackets at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Jacket Big Tall Mock Neck Zip Up Hooded Snow Jackets at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Jacket Big Tall Mock Neck Zip Up Hooded Snow Jackets Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/jacket-big-tall-mock-neck-zip-up-hooded-snow-jackets"
+      "canonical_url": "https://Mangalbookstore.in/product/jacket-big-tall-mock-neck-zip-up-hooded-snow-jackets"
     },
     "3536": {
       "meta_title": "Mens Winter Full Length Trench Coat Warm Long Jacket Stylexi",
-      "meta_description": "Shop Mens Winter Full Length Trench Coat Warm Long Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Mens Winter Full Length Trench Coat Warm Long Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Mens Winter Full Length Trench Coat Warm Long Jacket Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-winter-full-length-trench-coat-warm-long-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-winter-full-length-trench-coat-warm-long-jacket"
     },
     "3539": {
-      "meta_title": "Men Solid Color Pockets Hooded Coat Indaccu Solutions",
-      "meta_description": "Shop Men Solid Color Pockets Hooded Coat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Solid Color Pockets Hooded Coat Mangalbookstore",
+      "meta_description": "Shop Men Solid Color Pockets Hooded Coat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Solid Color Pockets Hooded Coat",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-solid-color-pockets-hooded-coat"
+      "canonical_url": "https://Mangalbookstore.in/product/men-solid-color-pockets-hooded-coat"
     },
     "3541": {
-      "meta_title": "Mens Hooded Coat Jacket Zipper Casual Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Hooded Coat Jacket Zipper Casual Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Hooded Coat Jacket Zipper Casual Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Hooded Coat Jacket Zipper Casual Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Hooded Coat Jacket Zipper Casual Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-hooded-coat-jacket-zipper-casual-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-hooded-coat-jacket-zipper-casual-jacket"
     },
     "3542": {
-      "meta_title": "Mens Jacquard Plaid Cloth Zipper Hooded Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Jacquard Plaid Cloth Zipper Hooded Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Jacquard Plaid Cloth Zipper Hooded Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Jacquard Plaid Cloth Zipper Hooded Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Jacquard Plaid Cloth Zipper Hooded Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-jacquard-plaid-cloth-zipper-hooded-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-jacquard-plaid-cloth-zipper-hooded-jacket"
     },
     "3546": {
-      "meta_title": "Mens Relaxed Fit Stonewashed Carpenter Jeans Indaccu Solutions",
-      "meta_description": "Shop Mens Relaxed Fit Stonewashed Carpenter Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Relaxed Fit Stonewashed Carpenter Jeans Mangalbookstore",
+      "meta_description": "Shop Mens Relaxed Fit Stonewashed Carpenter Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Relaxed Fit Stonewashed Carpenter Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-relaxed-fit-stonewashed-carpenter-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-relaxed-fit-stonewashed-carpenter-jeans"
     },
     "3549": {
-      "meta_title": "3 Pack Mens Slim Fit Cotton Chino Pants Indaccu Solutions",
-      "meta_description": "Shop 3 Pack Mens Slim Fit Cotton Chino Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "3 Pack Mens Slim Fit Cotton Chino Pants Mangalbookstore",
+      "meta_description": "Shop 3 Pack Mens Slim Fit Cotton Chino Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "3 Pack Mens Slim Fit Cotton Chino Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/3-pack-men-s-slim-fit-cotton-chino-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/3-pack-men-s-slim-fit-cotton-chino-pants"
     },
     "3557": {
-      "meta_title": "Oversized Heavyweight Short Sleeve T Shirt Black Indaccu Solutions",
-      "meta_description": "Shop Oversized Heavyweight Short Sleeve T Shirt Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Oversized Heavyweight Short Sleeve T Shirt Black Mangalbookstore",
+      "meta_description": "Shop Oversized Heavyweight Short Sleeve T Shirt Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Oversized Heavyweight Short Sleeve T Shirt Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/oversized-heavyweight-short-sleeve-t-shirt-black"
+      "canonical_url": "https://Mangalbookstore.in/product/oversized-heavyweight-short-sleeve-t-shirt-black"
     },
     "3559": {
-      "meta_title": "Jogger Black Indaccu Solutions",
-      "meta_description": "Shop Jogger Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Jogger Black Mangalbookstore",
+      "meta_description": "Shop Jogger Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Jogger Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/jogger-black"
+      "canonical_url": "https://Mangalbookstore.in/product/jogger-black"
     },
     "3577": {
-      "meta_title": "Mindset Oversized Short Sleeve T Shirt Indaccu Solutions",
-      "meta_description": "Shop Mindset Oversized Short Sleeve T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mindset Oversized Short Sleeve T Shirt Mangalbookstore",
+      "meta_description": "Shop Mindset Oversized Short Sleeve T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mindset Oversized Short Sleeve T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/mindset-oversized-short-sleeve-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/mindset-oversized-short-sleeve-t-shirt"
     },
     "3580": {
-      "meta_title": "Show Up Short Sleeve Cuban Shirt Off White Indaccu Solutions",
-      "meta_description": "Shop Show Up Short Sleeve Cuban Shirt Off White at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Show Up Short Sleeve Cuban Shirt Off White Mangalbookstore",
+      "meta_description": "Shop Show Up Short Sleeve Cuban Shirt Off White at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Show Up Short Sleeve Cuban Shirt Off White",
-      "canonical_url": "https://Indaccu Solutions.in/product/show-up-short-sleeve-cuban-shirt-off-white"
+      "canonical_url": "https://Mangalbookstore.in/product/show-up-short-sleeve-cuban-shirt-off-white"
     },
     "3582": {
-      "meta_title": "Beg For Me Coated Stacked Skinny Flare Pants Black Indaccu Solutions",
-      "meta_description": "Shop Beg For Me Coated Stacked Skinny Flare Pants Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
+      "meta_title": "Beg For Me Coated Stacked Skinny Flare Pants Black Mangalbookstore",
+      "meta_description": "Shop Beg For Me Coated Stacked Skinny Flare Pants Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
       "meta_keywords": "Beg For Me Coated Stacked Skinny Flare Pants Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/beg-for-me-coated-stacked-skinny-flare-pants-black"
+      "canonical_url": "https://Mangalbookstore.in/product/beg-for-me-coated-stacked-skinny-flare-pants-black"
     },
     "3584": {
-      "meta_title": "Cargo Relaxed Shorts Indaccu Solutions",
-      "meta_description": "Shop Cargo Relaxed Shorts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Cargo Relaxed Shorts Mangalbookstore",
+      "meta_description": "Shop Cargo Relaxed Shorts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Cargo Relaxed Shorts",
-      "canonical_url": "https://Indaccu Solutions.in/product/cargo-relaxed-shorts"
+      "canonical_url": "https://Mangalbookstore.in/product/cargo-relaxed-shorts"
     },
     "3586": {
-      "meta_title": "Turtleneck Sweater Black Indaccu Solutions",
-      "meta_description": "Shop Turtleneck Sweater Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Turtleneck Sweater Black Mangalbookstore",
+      "meta_description": "Shop Turtleneck Sweater Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Turtleneck Sweater Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/turtleneck-sweater-black"
+      "canonical_url": "https://Mangalbookstore.in/product/turtleneck-sweater-black"
     },
     "3588": {
-      "meta_title": "Stacked Skinny Flare Jeans Black Indaccu Solutions",
-      "meta_description": "Shop Stacked Skinny Flare Jeans Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Stacked Skinny Flare Jeans Black Mangalbookstore",
+      "meta_description": "Shop Stacked Skinny Flare Jeans Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Stacked Skinny Flare Jeans Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/stacked-skinny-flare-jeans-black"
+      "canonical_url": "https://Mangalbookstore.in/product/stacked-skinny-flare-jeans-black"
     },
     "3592": {
-      "meta_title": "Oversized T Shirt Green Indaccu Solutions",
-      "meta_description": "Shop Oversized T Shirt Green at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Oversized T Shirt Green Mangalbookstore",
+      "meta_description": "Shop Oversized T Shirt Green at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Oversized T Shirt Green",
-      "canonical_url": "https://Indaccu Solutions.in/product/oversized-t-shirt-green"
+      "canonical_url": "https://Mangalbookstore.in/product/oversized-t-shirt-green"
     },
     "3598": {
-      "meta_title": "Dress Socks Indaccu Solutions",
-      "meta_description": "Shop Dress Socks at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Dress Socks Mangalbookstore",
+      "meta_description": "Shop Dress Socks at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Dress Socks",
-      "canonical_url": "https://Indaccu Solutions.in/product/dress-socks"
+      "canonical_url": "https://Mangalbookstore.in/product/dress-socks"
     },
     "3608": {
-      "meta_title": "Scallop Tank Top White Indaccu Solutions",
-      "meta_description": "Shop Scallop Tank Top White at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Scallop Tank Top White Mangalbookstore",
+      "meta_description": "Shop Scallop Tank Top White at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Scallop Tank Top White",
-      "canonical_url": "https://Indaccu Solutions.in/product/scallop-tank-top-white"
+      "canonical_url": "https://Mangalbookstore.in/product/scallop-tank-top-white"
     },
     "3613": {
-      "meta_title": "Short Sleeve Crew Tee Mauve Indaccu Solutions",
-      "meta_description": "Shop Short Sleeve Crew Tee Mauve at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Short Sleeve Crew Tee Mauve Mangalbookstore",
+      "meta_description": "Shop Short Sleeve Crew Tee Mauve at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Short Sleeve Crew Tee Mauve",
-      "canonical_url": "https://Indaccu Solutions.in/product/short-sleeve-crew-tee-mauve"
+      "canonical_url": "https://Mangalbookstore.in/product/short-sleeve-crew-tee-mauve"
     },
     "3619": {
-      "meta_title": "Short Sleeve Crew Tee Mustard Indaccu Solutions",
-      "meta_description": "Shop Short Sleeve Crew Tee Mustard at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Short Sleeve Crew Tee Mustard Mangalbookstore",
+      "meta_description": "Shop Short Sleeve Crew Tee Mustard at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Short Sleeve Crew Tee Mustard",
-      "canonical_url": "https://Indaccu Solutions.in/product/short-sleeve-crew-tee-mustard"
+      "canonical_url": "https://Mangalbookstore.in/product/short-sleeve-crew-tee-mustard"
     },
     "3623": {
-      "meta_title": "Heavyweight Short Sleeve Tee Heather Grey Indaccu Solutions",
-      "meta_description": "Shop Heavyweight Short Sleeve Tee Heather Grey at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Heavyweight Short Sleeve Tee Heather Grey Mangalbookstore",
+      "meta_description": "Shop Heavyweight Short Sleeve Tee Heather Grey at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Heavyweight Short Sleeve Tee Heather Grey",
-      "canonical_url": "https://Indaccu Solutions.in/product/heavyweight-short-sleeve-tee-heather-grey"
+      "canonical_url": "https://Mangalbookstore.in/product/heavyweight-short-sleeve-tee-heather-grey"
     },
     "3626": {
-      "meta_title": "Tank Top Red Indaccu Solutions",
-      "meta_description": "Shop Tank Top Red at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Tank Top Red Mangalbookstore",
+      "meta_description": "Shop Tank Top Red at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Tank Top Red",
-      "canonical_url": "https://Indaccu Solutions.in/product/tank-top-red"
+      "canonical_url": "https://Mangalbookstore.in/product/tank-top-red"
     },
     "3631": {
-      "meta_title": "Stacked Skinny Flare Jeans Bleach Blue Indaccu Solutions",
-      "meta_description": "Shop Stacked Skinny Flare Jeans Bleach Blue at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Stacked Skinny Flare Jeans Bleach Blue Mangalbookstore",
+      "meta_description": "Shop Stacked Skinny Flare Jeans Bleach Blue at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Stacked Skinny Flare Jeans Bleach Blue",
-      "canonical_url": "https://Indaccu Solutions.in/product/stacked-skinny-flare-jeans-bleach-blue"
+      "canonical_url": "https://Mangalbookstore.in/product/stacked-skinny-flare-jeans-bleach-blue"
     },
     "3636": {
-      "meta_title": "Oversized Zip Up Hoodie Green Combo Indaccu Solutions",
-      "meta_description": "Shop Oversized Zip Up Hoodie Green Combo at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Oversized Zip Up Hoodie Green Combo Mangalbookstore",
+      "meta_description": "Shop Oversized Zip Up Hoodie Green Combo at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Oversized Zip Up Hoodie Green Combo",
-      "canonical_url": "https://Indaccu Solutions.in/product/oversized-zip-up-hoodie-green-combo"
+      "canonical_url": "https://Mangalbookstore.in/product/oversized-zip-up-hoodie-green-combo"
     },
     "3640": {
-      "meta_title": "Slim Slit Pants Red Indaccu Solutions",
-      "meta_description": "Shop Slim Slit Pants Red at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Slim Slit Pants Red Mangalbookstore",
+      "meta_description": "Shop Slim Slit Pants Red at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Slim Slit Pants Red",
-      "canonical_url": "https://Indaccu Solutions.in/product/slim-slit-pants-red"
+      "canonical_url": "https://Mangalbookstore.in/product/slim-slit-pants-red"
     },
     "3642": {
-      "meta_title": "Contrast Stitch Cargo Pants Ivory Indaccu Solutions",
-      "meta_description": "Shop Contrast Stitch Cargo Pants Ivory at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Contrast Stitch Cargo Pants Ivory Mangalbookstore",
+      "meta_description": "Shop Contrast Stitch Cargo Pants Ivory at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Contrast Stitch Cargo Pants Ivory",
-      "canonical_url": "https://Indaccu Solutions.in/product/contrast-stitch-cargo-pants-ivory"
+      "canonical_url": "https://Mangalbookstore.in/product/contrast-stitch-cargo-pants-ivory"
     },
     "3644": {
-      "meta_title": "Textured Stripes Slim Trousers Grey Indaccu Solutions",
-      "meta_description": "Shop Textured Stripes Slim Trousers Grey at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Textured Stripes Slim Trousers Grey Mangalbookstore",
+      "meta_description": "Shop Textured Stripes Slim Trousers Grey at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Textured Stripes Slim Trousers Grey",
-      "canonical_url": "https://Indaccu Solutions.in/product/textured-stripes-slim-trousers-grey"
+      "canonical_url": "https://Mangalbookstore.in/product/textured-stripes-slim-trousers-grey"
     },
     "3647": {
-      "meta_title": "Solid Texture Straight Trousers Navy Indaccu Solutions",
-      "meta_description": "Shop Solid Texture Straight Trousers Navy at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Solid Texture Straight Trousers Navy Mangalbookstore",
+      "meta_description": "Shop Solid Texture Straight Trousers Navy at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Solid Texture Straight Trousers Navy",
-      "canonical_url": "https://Indaccu Solutions.in/product/solid-texture-straight-trousers-navy"
+      "canonical_url": "https://Mangalbookstore.in/product/solid-texture-straight-trousers-navy"
     },
     "3649": {
-      "meta_title": "Short Sleeve Polo Navy Indaccu Solutions",
-      "meta_description": "Shop Short Sleeve Polo Navy at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Short Sleeve Polo Navy Mangalbookstore",
+      "meta_description": "Shop Short Sleeve Polo Navy at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Short Sleeve Polo Navy",
-      "canonical_url": "https://Indaccu Solutions.in/product/short-sleeve-polo-navy"
+      "canonical_url": "https://Mangalbookstore.in/product/short-sleeve-polo-navy"
     },
     "3652": {
-      "meta_title": "Short Sleeve Tee Multi Color Indaccu Solutions",
-      "meta_description": "Shop Short Sleeve Tee Multi Color at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Short Sleeve Tee Multi Color Mangalbookstore",
+      "meta_description": "Shop Short Sleeve Tee Multi Color at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Short Sleeve Tee Multi Color",
-      "canonical_url": "https://Indaccu Solutions.in/product/short-sleeve-tee-multi-color"
+      "canonical_url": "https://Mangalbookstore.in/product/short-sleeve-tee-multi-color"
     },
     "3655": {
-      "meta_title": "Bustdown Polo Black Indaccu Solutions",
-      "meta_description": "Shop Bustdown Polo Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Bustdown Polo Black Mangalbookstore",
+      "meta_description": "Shop Bustdown Polo Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Bustdown Polo Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/bustdown-polo-black"
+      "canonical_url": "https://Mangalbookstore.in/product/bustdown-polo-black"
     },
     "3656": {
-      "meta_title": "Short Sleeve Polo Mustard Indaccu Solutions",
-      "meta_description": "Shop Short Sleeve Polo Mustard at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Short Sleeve Polo Mustard Mangalbookstore",
+      "meta_description": "Shop Short Sleeve Polo Mustard at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Short Sleeve Polo Mustard",
-      "canonical_url": "https://Indaccu Solutions.in/product/short-sleeve-polo-mustard"
+      "canonical_url": "https://Mangalbookstore.in/product/short-sleeve-polo-mustard"
     },
     "3661": {
-      "meta_title": "Puffer Jacket Tan Indaccu Solutions",
-      "meta_description": "Shop Puffer Jacket Tan at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Puffer Jacket Tan Mangalbookstore",
+      "meta_description": "Shop Puffer Jacket Tan at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Puffer Jacket Tan",
-      "canonical_url": "https://Indaccu Solutions.in/product/puffer-jacket-tan"
+      "canonical_url": "https://Mangalbookstore.in/product/puffer-jacket-tan"
     },
     "3666": {
-      "meta_title": "Men Sweater Cardigan Black Indaccu Solutions",
-      "meta_description": "Shop Men Sweater Cardigan Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Sweater Cardigan Black Mangalbookstore",
+      "meta_description": "Shop Men Sweater Cardigan Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Sweater Cardigan Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-sweater-cardigan-black"
+      "canonical_url": "https://Mangalbookstore.in/product/men-sweater-cardigan-black"
     },
     "3668": {
-      "meta_title": "Resort Knit Shirt Mustard Indaccu Solutions",
-      "meta_description": "Shop Resort Knit Shirt Mustard at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Resort Knit Shirt Mustard Mangalbookstore",
+      "meta_description": "Shop Resort Knit Shirt Mustard at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Resort Knit Shirt Mustard",
-      "canonical_url": "https://Indaccu Solutions.in/product/resort-knit-shirt-mustard"
+      "canonical_url": "https://Mangalbookstore.in/product/resort-knit-shirt-mustard"
     },
     "3671": {
-      "meta_title": "Textured Johnny Collar Shirt Cream Indaccu Solutions",
-      "meta_description": "Shop Textured Johnny Collar Shirt Cream at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Textured Johnny Collar Shirt Cream Mangalbookstore",
+      "meta_description": "Shop Textured Johnny Collar Shirt Cream at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Textured Johnny Collar Shirt Cream",
-      "canonical_url": "https://Indaccu Solutions.in/product/textured-johnny-collar-shirt-cream"
+      "canonical_url": "https://Mangalbookstore.in/product/textured-johnny-collar-shirt-cream"
     },
     "3677": {
-      "meta_title": "Camo Straight Sweatpants Camouflage Indaccu Solutions",
-      "meta_description": "Shop Camo Straight Sweatpants Camouflage at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Camo Straight Sweatpants Camouflage Mangalbookstore",
+      "meta_description": "Shop Camo Straight Sweatpants Camouflage at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Camo Straight Sweatpants Camouflage",
-      "canonical_url": "https://Indaccu Solutions.in/product/camo-straight-sweatpants-camouflage"
+      "canonical_url": "https://Mangalbookstore.in/product/camo-straight-sweatpants-camouflage"
     },
     "3680": {
-      "meta_title": "Patched Straight Jeans Indigo Indaccu Solutions",
-      "meta_description": "Shop Patched Straight Jeans Indigo at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Patched Straight Jeans Indigo Mangalbookstore",
+      "meta_description": "Shop Patched Straight Jeans Indigo at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Patched Straight Jeans Indigo",
-      "canonical_url": "https://Indaccu Solutions.in/product/patched-straight-jeans-indigo"
+      "canonical_url": "https://Mangalbookstore.in/product/patched-straight-jeans-indigo"
     },
     "3702": {
-      "meta_title": "Plaid Flannel Shirt Multi Color Indaccu Solutions",
-      "meta_description": "Shop Plaid Flannel Shirt Multi Color at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Plaid Flannel Shirt Multi Color Mangalbookstore",
+      "meta_description": "Shop Plaid Flannel Shirt Multi Color at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Plaid Flannel Shirt Multi Color",
-      "canonical_url": "https://Indaccu Solutions.in/product/plaid-flannel-shirt-multi-color"
+      "canonical_url": "https://Mangalbookstore.in/product/plaid-flannel-shirt-multi-color"
     },
     "3704": {
-      "meta_title": "Long Sleeve Shirt Dark Wash Indaccu Solutions",
-      "meta_description": "Shop Long Sleeve Shirt Dark Wash at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Long Sleeve Shirt Dark Wash Mangalbookstore",
+      "meta_description": "Shop Long Sleeve Shirt Dark Wash at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Long Sleeve Shirt Dark Wash",
-      "canonical_url": "https://Indaccu Solutions.in/product/long-sleeve-shirt-dark-wash"
+      "canonical_url": "https://Mangalbookstore.in/product/long-sleeve-shirt-dark-wash"
     },
     "3705": {
-      "meta_title": "Brushed Oversized Hoodie Olive Indaccu Solutions",
-      "meta_description": "Shop Brushed Oversized Hoodie Olive at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Brushed Oversized Hoodie Olive Mangalbookstore",
+      "meta_description": "Shop Brushed Oversized Hoodie Olive at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Brushed Oversized Hoodie Olive",
-      "canonical_url": "https://Indaccu Solutions.in/product/brushed-oversized-hoodie-olive"
+      "canonical_url": "https://Mangalbookstore.in/product/brushed-oversized-hoodie-olive"
     },
     "3707": {
-      "meta_title": "Short Sleeve Button Up Shirt Mauve Indaccu Solutions",
-      "meta_description": "Shop Short Sleeve Button Up Shirt Mauve at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Short Sleeve Button Up Shirt Mauve Mangalbookstore",
+      "meta_description": "Shop Short Sleeve Button Up Shirt Mauve at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Short Sleeve Button Up Shirt Mauve",
-      "canonical_url": "https://Indaccu Solutions.in/product/short-sleeve-button-up-shirt-mauve"
+      "canonical_url": "https://Mangalbookstore.in/product/short-sleeve-button-up-shirt-mauve"
     },
     "3709": {
-      "meta_title": "Flannel Shirt Black Combo Indaccu Solutions",
-      "meta_description": "Shop Flannel Shirt Black Combo at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Flannel Shirt Black Combo Mangalbookstore",
+      "meta_description": "Shop Flannel Shirt Black Combo at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Flannel Shirt Black Combo",
-      "canonical_url": "https://Indaccu Solutions.in/product/flannel-shirt-black-combo"
+      "canonical_url": "https://Mangalbookstore.in/product/flannel-shirt-black-combo"
     },
     "3715": {
-      "meta_title": "Long Sleeve Shirt Light Wash Indaccu Solutions",
-      "meta_description": "Shop Long Sleeve Shirt Light Wash at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Long Sleeve Shirt Light Wash Mangalbookstore",
+      "meta_description": "Shop Long Sleeve Shirt Light Wash at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Long Sleeve Shirt Light Wash",
-      "canonical_url": "https://Indaccu Solutions.in/product/long-sleeve-shirt-light-wash"
+      "canonical_url": "https://Mangalbookstore.in/product/long-sleeve-shirt-light-wash"
     },
     "3717": {
-      "meta_title": "Tracks Jacquard Shirt Black Indaccu Solutions",
-      "meta_description": "Shop Tracks Jacquard Shirt Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Tracks Jacquard Shirt Black Mangalbookstore",
+      "meta_description": "Shop Tracks Jacquard Shirt Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Tracks Jacquard Shirt Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/tracks-jacquard-shirt-black"
+      "canonical_url": "https://Mangalbookstore.in/product/tracks-jacquard-shirt-black"
     },
     "3720": {
-      "meta_title": "Unwind Cable Knit Short Sleeve Button Up Dark Brown Indaccu Solutions",
-      "meta_description": "Shop Unwind Cable Knit Short Sleeve Button Up Dark Brown at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
+      "meta_title": "Unwind Cable Knit Short Sleeve Button Up Dark Brown Mangalbookstore",
+      "meta_description": "Shop Unwind Cable Knit Short Sleeve Button Up Dark Brown at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
       "meta_keywords": "Unwind Cable Knit Short Sleeve Button Up Dark Brown",
-      "canonical_url": "https://Indaccu Solutions.in/product/unwind-cable-knit-short-sleeve-button-up-dark-brown"
+      "canonical_url": "https://Mangalbookstore.in/product/unwind-cable-knit-short-sleeve-button-up-dark-brown"
     },
     "3774": {
-      "meta_title": "Men Slim Fit Formal Blazer With Trouser Indaccu Solutions",
-      "meta_description": "Shop Men Slim Fit Formal Blazer With Trouser at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Slim Fit Formal Blazer With Trouser Mangalbookstore",
+      "meta_description": "Shop Men Slim Fit Formal Blazer With Trouser at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Slim Fit Formal Blazer With Trouser",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-slim-fit-formal-blazer-with-trouser"
+      "canonical_url": "https://Mangalbookstore.in/product/men-slim-fit-formal-blazer-with-trouser"
     },
     "3775": {
-      "meta_title": "Men Green Solid Skinny Fit Wedding Three Piece Suit Indaccu Solutions",
-      "meta_description": "Shop Men Green Solid Skinny Fit Wedding Three Piece Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
+      "meta_title": "Men Green Solid Skinny Fit Wedding Three Piece Suit Mangalbookstore",
+      "meta_description": "Shop Men Green Solid Skinny Fit Wedding Three Piece Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
       "meta_keywords": "Men Green Solid Skinny Fit Wedding Three Piece Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-green-solid-skinny-fit-wedding-three-piece-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/men-green-solid-skinny-fit-wedding-three-piece-suit"
     },
     "3776": {
-      "meta_title": "Mint Parijat Floral Kurta Indaccu Solutions",
-      "meta_description": "Shop Mint Parijat Floral Kurta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mint Parijat Floral Kurta Mangalbookstore",
+      "meta_description": "Shop Mint Parijat Floral Kurta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mint Parijat Floral Kurta",
-      "canonical_url": "https://Indaccu Solutions.in/product/mint-parijat-floral-kurta"
+      "canonical_url": "https://Mangalbookstore.in/product/mint-parijat-floral-kurta"
     },
     "3777": {
-      "meta_title": "Men Silk Blue Full Sleeves Long Kurta Indaccu Solutions",
-      "meta_description": "Shop Men Silk Blue Full Sleeves Long Kurta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Silk Blue Full Sleeves Long Kurta Mangalbookstore",
+      "meta_description": "Shop Men Silk Blue Full Sleeves Long Kurta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Silk Blue Full Sleeves Long Kurta",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-silk-blue-full-sleeves-long-kurta"
+      "canonical_url": "https://Mangalbookstore.in/product/men-silk-blue-full-sleeves-long-kurta"
     },
     "3778": {
-      "meta_title": "White Leopard Print Shirt Indaccu Solutions",
-      "meta_description": "Shop White Leopard Print Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "White Leopard Print Shirt Mangalbookstore",
+      "meta_description": "Shop White Leopard Print Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "White Leopard Print Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/white-leopard-print-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/white-leopard-print-shirt"
     },
     "3779": {
-      "meta_title": "Patola Printed Lurex Shirt Indaccu Solutions",
-      "meta_description": "Shop Patola Printed Lurex Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Patola Printed Lurex Shirt Mangalbookstore",
+      "meta_description": "Shop Patola Printed Lurex Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Patola Printed Lurex Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/patola-printed-lurex-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/patola-printed-lurex-shirt"
     },
     "3780": {
-      "meta_title": "Tan Solid Jacket Indaccu Solutions",
-      "meta_description": "Shop Tan Solid Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Tan Solid Jacket Mangalbookstore",
+      "meta_description": "Shop Tan Solid Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Tan Solid Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/tan-solid-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/tan-solid-jacket"
     },
     "3782": {
       "meta_title": "Men Black Checked Stand Collar Long Sleeves Overcoat Stylexi",
-      "meta_description": "Shop Men Black Checked Stand Collar Long Sleeves Overcoat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Men Black Checked Stand Collar Long Sleeves Overcoat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Men Black Checked Stand Collar Long Sleeves Overcoat Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-black-checked-stand-collar-long-sleeves-overcoat"
+      "canonical_url": "https://Mangalbookstore.in/product/men-black-checked-stand-collar-long-sleeves-overcoat"
     },
     "3783": {
-      "meta_title": "Men Cream Textured Slim Fit Party Blazer Trouser Indaccu Solutions",
-      "meta_description": "Shop Men Cream Textured Slim Fit Party Blazer Trouser at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Cream Textured Slim Fit Party Blazer Trouser Mangalbookstore",
+      "meta_description": "Shop Men Cream Textured Slim Fit Party Blazer Trouser at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Cream Textured Slim Fit Party Blazer Trouser",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-cream-textured-slim-fit-party-blazer-trouser"
+      "canonical_url": "https://Mangalbookstore.in/product/men-cream-textured-slim-fit-party-blazer-trouser"
     },
     "3784": {
-      "meta_title": "Men Casual Regular Fit Dark Grey Trench Coat Indaccu Solutions",
-      "meta_description": "Shop Men Casual Regular Fit Dark Grey Trench Coat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Casual Regular Fit Dark Grey Trench Coat Mangalbookstore",
+      "meta_description": "Shop Men Casual Regular Fit Dark Grey Trench Coat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Casual Regular Fit Dark Grey Trench Coat",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-casual-regular-fit-dark-grey-trench-coat"
+      "canonical_url": "https://Mangalbookstore.in/product/men-casual-regular-fit-dark-grey-trench-coat"
     },
     "3785": {
-      "meta_title": "Starburst Bowling Shirt Indaccu Solutions",
-      "meta_description": "Shop Starburst Bowling Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Starburst Bowling Shirt Mangalbookstore",
+      "meta_description": "Shop Starburst Bowling Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Starburst Bowling Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/starburst-bowling-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/starburst-bowling-shirt"
     },
     "3786": {
-      "meta_title": "Mens 511 Blue Slim Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Mens 511 Blue Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens 511 Blue Slim Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Mens 511 Blue Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens 511 Blue Slim Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-511-blue-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-511-blue-slim-fit-jeans"
     },
     "3787": {
-      "meta_title": "Men Blue Color Jeans Indaccu Solutions",
-      "meta_description": "Shop Men Blue Color Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Blue Color Jeans Mangalbookstore",
+      "meta_description": "Shop Men Blue Color Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Blue Color Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-blue-color-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/men-blue-color-jeans"
     },
     "3788": {
-      "meta_title": "Oakfield Twill Co Ord Indaccu Solutions",
-      "meta_description": "Shop Oakfield Twill Co Ord at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Oakfield Twill Co Ord Mangalbookstore",
+      "meta_description": "Shop Oakfield Twill Co Ord at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Oakfield Twill Co Ord",
-      "canonical_url": "https://Indaccu Solutions.in/product/oakfield-twill-co-ord"
+      "canonical_url": "https://Mangalbookstore.in/product/oakfield-twill-co-ord"
     },
     "3789": {
-      "meta_title": "Indigo Stream Co Ord Indaccu Solutions",
-      "meta_description": "Shop Indigo Stream Co Ord at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Indigo Stream Co Ord Mangalbookstore",
+      "meta_description": "Shop Indigo Stream Co Ord at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Indigo Stream Co Ord",
-      "canonical_url": "https://Indaccu Solutions.in/product/indigo-stream-co-ord"
+      "canonical_url": "https://Mangalbookstore.in/product/indigo-stream-co-ord"
     },
     "3790": {
-      "meta_title": "Men Maroon Solid Slim Fit Party Blazer Indaccu Solutions",
-      "meta_description": "Shop Men Maroon Solid Slim Fit Party Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Maroon Solid Slim Fit Party Blazer Mangalbookstore",
+      "meta_description": "Shop Men Maroon Solid Slim Fit Party Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Maroon Solid Slim Fit Party Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-maroon-solid-slim-fit-party-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/men-maroon-solid-slim-fit-party-blazer"
     },
     "3791": {
-      "meta_title": "Men Beige Checks Formal Blazer Indaccu Solutions",
-      "meta_description": "Shop Men Beige Checks Formal Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Beige Checks Formal Blazer Mangalbookstore",
+      "meta_description": "Shop Men Beige Checks Formal Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Beige Checks Formal Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-beige-checks-formal-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/men-beige-checks-formal-blazer"
     },
     "3792": {
-      "meta_title": "Multi Color Casual Slim Colorblock Leather Jacket Indaccu Solutions",
-      "meta_description": "Shop Multi Color Casual Slim Colorblock Leather Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Multi Color Casual Slim Colorblock Leather Jacket Mangalbookstore",
+      "meta_description": "Shop Multi Color Casual Slim Colorblock Leather Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Multi Color Casual Slim Colorblock Leather Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/multi-color-casual-slim-colorblock-leather-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/multi-color-casual-slim-colorblock-leather-jacket"
     },
     "3793": {
-      "meta_title": "Men Grey Textured Slim Fit Formal Blazer Indaccu Solutions",
-      "meta_description": "Shop Men Grey Textured Slim Fit Formal Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Grey Textured Slim Fit Formal Blazer Mangalbookstore",
+      "meta_description": "Shop Men Grey Textured Slim Fit Formal Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Grey Textured Slim Fit Formal Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-grey-textured-slim-fit-formal-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/men-grey-textured-slim-fit-formal-blazer"
     },
     "3794": {
-      "meta_title": "Men Purple Textured Slim Fit Formal Blazer Indaccu Solutions",
-      "meta_description": "Shop Men Purple Textured Slim Fit Formal Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Purple Textured Slim Fit Formal Blazer Mangalbookstore",
+      "meta_description": "Shop Men Purple Textured Slim Fit Formal Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Purple Textured Slim Fit Formal Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-purple-textured-slim-fit-formal-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/men-purple-textured-slim-fit-formal-blazer"
     },
     "3795": {
-      "meta_title": "Men Blue Color Blocked Hooded Full Sleeves Hoodie Indaccu Solutions",
-      "meta_description": "Shop Men Blue Color Blocked Hooded Full Sleeves Hoodie at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Men Blue Color Blocked Hooded Full Sleeves Hoodie Mangalbookstore",
+      "meta_description": "Shop Men Blue Color Blocked Hooded Full Sleeves Hoodie at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Men Blue Color Blocked Hooded Full Sleeves Hoodie",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-blue-color-blocked-hooded-full-sleeves-hoodie"
+      "canonical_url": "https://Mangalbookstore.in/product/men-blue-color-blocked-hooded-full-sleeves-hoodie"
     },
     "3796": {
-      "meta_title": "Bandhej Printed Co Ord Indaccu Solutions",
-      "meta_description": "Shop Bandhej Printed Co Ord at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Bandhej Printed Co Ord Mangalbookstore",
+      "meta_description": "Shop Bandhej Printed Co Ord at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Bandhej Printed Co Ord",
-      "canonical_url": "https://Indaccu Solutions.in/product/bandhej-printed-co-ord"
+      "canonical_url": "https://Mangalbookstore.in/product/bandhej-printed-co-ord"
     },
     "3797": {
-      "meta_title": "Men Navy Blue Three Piece Suit Indaccu Solutions",
-      "meta_description": "Shop Men Navy Blue Three Piece Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Navy Blue Three Piece Suit Mangalbookstore",
+      "meta_description": "Shop Men Navy Blue Three Piece Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Navy Blue Three Piece Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-navy-blue-three-piece-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/men-navy-blue-three-piece-suit"
     },
     "3798": {
-      "meta_title": "Men Sherwani Dhoti Pant Dupatta With Zari Design Indaccu Solutions",
-      "meta_description": "Shop Men Sherwani Dhoti Pant Dupatta With Zari Design at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Sherwani Dhoti Pant Dupatta With Zari Design Mangalbookstore",
+      "meta_description": "Shop Men Sherwani Dhoti Pant Dupatta With Zari Design at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Sherwani Dhoti Pant Dupatta With Zari Design",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-sherwani-dhoti-pant-dupatta-with-zari-design"
+      "canonical_url": "https://Mangalbookstore.in/product/men-sherwani-dhoti-pant-dupatta-with-zari-design"
     },
     "3799": {
       "meta_title": "Mens Black Solid Embroidered Collar Sherwani With Pant Style",
-      "meta_description": "Shop Mens Black Solid Embroidered Collar Sherwani With Pant at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
+      "meta_description": "Shop Mens Black Solid Embroidered Collar Sherwani With Pant at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
       "meta_keywords": "Mens Black Solid Embroidered Collar Sherwani With Pant Style",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-black-solid-embroidered-collar-sherwani-with-pant"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-black-solid-embroidered-collar-sherwani-with-pant"
     },
     "3800": {
-      "meta_title": "Quint Mint Green Kurta Indaccu Solutions",
-      "meta_description": "Shop Quint Mint Green Kurta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Quint Mint Green Kurta Mangalbookstore",
+      "meta_description": "Shop Quint Mint Green Kurta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Quint Mint Green Kurta",
-      "canonical_url": "https://Indaccu Solutions.in/product/quint-mint-green-kurta"
+      "canonical_url": "https://Mangalbookstore.in/product/quint-mint-green-kurta"
     },
     "3801": {
-      "meta_title": "Premium Quality Linen Made Kurta For Men Purple Indaccu Solutions",
-      "meta_description": "Shop Premium Quality Linen Made Kurta For Men Purple at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Premium Quality Linen Made Kurta For Men Purple Mangalbookstore",
+      "meta_description": "Shop Premium Quality Linen Made Kurta For Men Purple at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Premium Quality Linen Made Kurta For Men Purple",
-      "canonical_url": "https://Indaccu Solutions.in/product/premium-quality-linen-made-kurta-for-men-purple"
+      "canonical_url": "https://Mangalbookstore.in/product/premium-quality-linen-made-kurta-for-men-purple"
     },
     "3802": {
-      "meta_title": "Oatmeal Cotton Candy Kurta Indaccu Solutions",
-      "meta_description": "Shop Oatmeal Cotton Candy Kurta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Oatmeal Cotton Candy Kurta Mangalbookstore",
+      "meta_description": "Shop Oatmeal Cotton Candy Kurta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Oatmeal Cotton Candy Kurta",
-      "canonical_url": "https://Indaccu Solutions.in/product/oatmeal-cotton-candy-kurta"
+      "canonical_url": "https://Mangalbookstore.in/product/oatmeal-cotton-candy-kurta"
     },
     "3803": {
-      "meta_title": "Men Dark Green Solid Regular Fit Coat Indaccu Solutions",
-      "meta_description": "Shop Men Dark Green Solid Regular Fit Coat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Dark Green Solid Regular Fit Coat Mangalbookstore",
+      "meta_description": "Shop Men Dark Green Solid Regular Fit Coat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Dark Green Solid Regular Fit Coat",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-dark-green-solid-regular-fit-coat"
+      "canonical_url": "https://Mangalbookstore.in/product/men-dark-green-solid-regular-fit-coat"
     },
     "3804": {
-      "meta_title": "Super Slim Jacket Kirsten Indaccu Solutions",
-      "meta_description": "Shop Super Slim Jacket Kirsten at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Super Slim Jacket Kirsten Mangalbookstore",
+      "meta_description": "Shop Super Slim Jacket Kirsten at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Super Slim Jacket Kirsten",
-      "canonical_url": "https://Indaccu Solutions.in/product/super-slim-jacket-kirsten"
+      "canonical_url": "https://Mangalbookstore.in/product/super-slim-jacket-kirsten"
     },
     "3805": {
-      "meta_title": "Hypernova Shirt With Pant Indaccu Solutions",
-      "meta_description": "Shop Hypernova Shirt With Pant at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Hypernova Shirt With Pant Mangalbookstore",
+      "meta_description": "Shop Hypernova Shirt With Pant at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Hypernova Shirt With Pant",
-      "canonical_url": "https://Indaccu Solutions.in/product/hypernova-shirt-with-pant"
+      "canonical_url": "https://Mangalbookstore.in/product/hypernova-shirt-with-pant"
     },
     "3806": {
-      "meta_title": "Mens Green Color Blazer Indaccu Solutions",
-      "meta_description": "Shop Mens Green Color Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Green Color Blazer Mangalbookstore",
+      "meta_description": "Shop Mens Green Color Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Green Color Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-green-color-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-green-color-blazer"
     },
     "3807": {
-      "meta_title": "Men Olive Slim Fit Solid Formal Blazer Indaccu Solutions",
-      "meta_description": "Shop Men Olive Slim Fit Solid Formal Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Olive Slim Fit Solid Formal Blazer Mangalbookstore",
+      "meta_description": "Shop Men Olive Slim Fit Solid Formal Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Olive Slim Fit Solid Formal Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-olive-slim-fit-solid-formal-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/men-olive-slim-fit-solid-formal-blazer"
     },
     "3808": {
-      "meta_title": "Mens Solid Blue Collar Denim Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Solid Blue Collar Denim Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Solid Blue Collar Denim Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Solid Blue Collar Denim Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Solid Blue Collar Denim Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-solid-blue-collar-denim-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-solid-blue-collar-denim-jacket"
     },
     "3828": {
-      "meta_title": "Mens Bedford Rib Quarter Zip Sweater Indaccu Solutions",
-      "meta_description": "Shop Mens Bedford Rib Quarter Zip Sweater at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Bedford Rib Quarter Zip Sweater Mangalbookstore",
+      "meta_description": "Shop Mens Bedford Rib Quarter Zip Sweater at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Bedford Rib Quarter Zip Sweater",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-bedford-rib-quarter-zip-sweater"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-bedford-rib-quarter-zip-sweater"
     },
     "3831": {
-      "meta_title": "Mens Short Sleeve Camp Collar Sweater Polo Indaccu Solutions",
-      "meta_description": "Shop Mens Short Sleeve Camp Collar Sweater Polo at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Short Sleeve Camp Collar Sweater Polo Mangalbookstore",
+      "meta_description": "Shop Mens Short Sleeve Camp Collar Sweater Polo at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Short Sleeve Camp Collar Sweater Polo",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-camp-collar-sweater-polo"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-camp-collar-sweater-polo"
     },
     "3833": {
-      "meta_title": "Mens Deck Pants Indaccu Solutions",
-      "meta_description": "Shop Mens Deck Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Deck Pants Mangalbookstore",
+      "meta_description": "Shop Mens Deck Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Deck Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-deck-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-deck-pants"
     },
     "3837": {
-      "meta_title": "Mens Traditional Fit Stretch Wool Dress Pants Indaccu Solutions",
-      "meta_description": "Shop Mens Traditional Fit Stretch Wool Dress Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Traditional Fit Stretch Wool Dress Pants Mangalbookstore",
+      "meta_description": "Shop Mens Traditional Fit Stretch Wool Dress Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Traditional Fit Stretch Wool Dress Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-traditional-fit-stretch-wool-dress-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-traditional-fit-stretch-wool-dress-pants"
     },
     "3840": {
-      "meta_title": "Mens Traditional Fit Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Traditional Fit Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Traditional Fit Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Traditional Fit Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Traditional Fit Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-traditional-fit-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-traditional-fit-jacket"
     },
     "3842": {
-      "meta_title": "Mens Insulated Vest Indaccu Solutions",
-      "meta_description": "Shop Mens Insulated Vest at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Insulated Vest Mangalbookstore",
+      "meta_description": "Shop Mens Insulated Vest at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Insulated Vest",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-insulated-vest"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-insulated-vest"
     },
     "3844": {
       "meta_title": "Mens Squall Waterproof Insulated Winter Stadium Coat Stylexi",
-      "meta_description": "Shop Mens Squall Waterproof Insulated Winter Stadium Coat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Mens Squall Waterproof Insulated Winter Stadium Coat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Mens Squall Waterproof Insulated Winter Stadium Coat Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-squall-waterproof-insulated-winter-stadium-coat"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-squall-waterproof-insulated-winter-stadium-coat"
     },
     "3847": {
-      "meta_title": "Unisex Short Sleeve Basic Jersey T Shirt Indaccu Solutions",
-      "meta_description": "Shop Unisex Short Sleeve Basic Jersey T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Unisex Short Sleeve Basic Jersey T Shirt Mangalbookstore",
+      "meta_description": "Shop Unisex Short Sleeve Basic Jersey T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Unisex Short Sleeve Basic Jersey T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/unisex-short-sleeve-basic-jersey-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/unisex-short-sleeve-basic-jersey-t-shirt"
     },
     "3848": {
-      "meta_title": "Mens Performance Over The Calf Socks Indaccu Solutions",
-      "meta_description": "Shop Mens Performance Over The Calf Socks at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Performance Over The Calf Socks Mangalbookstore",
+      "meta_description": "Shop Mens Performance Over The Calf Socks at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Performance Over The Calf Socks",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-performance-over-the-calf-socks"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-performance-over-the-calf-socks"
     },
     "3850": {
-      "meta_title": "Mens Novelty Crew Socks Indaccu Solutions",
-      "meta_description": "Shop Mens Novelty Crew Socks at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Novelty Crew Socks Mangalbookstore",
+      "meta_description": "Shop Mens Novelty Crew Socks at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Novelty Crew Socks",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-novelty-crew-socks"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-novelty-crew-socks"
     },
     "3852": {
-      "meta_title": "Adult Fleece Jogger Sweatpants Indaccu Solutions",
-      "meta_description": "Shop Adult Fleece Jogger Sweatpants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Adult Fleece Jogger Sweatpants Mangalbookstore",
+      "meta_description": "Shop Adult Fleece Jogger Sweatpants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Adult Fleece Jogger Sweatpants",
-      "canonical_url": "https://Indaccu Solutions.in/product/adult-fleece-jogger-sweatpants"
+      "canonical_url": "https://Mangalbookstore.in/product/adult-fleece-jogger-sweatpants"
     },
     "3908": {
-      "meta_title": "Core Swim Shorts Indaccu Solutions",
-      "meta_description": "Shop Core Swim Shorts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Core Swim Shorts Mangalbookstore",
+      "meta_description": "Shop Core Swim Shorts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Core Swim Shorts",
-      "canonical_url": "https://Indaccu Solutions.in/product/core-swim-shorts"
+      "canonical_url": "https://Mangalbookstore.in/product/core-swim-shorts"
     },
     "3909": {
-      "meta_title": "3 Pack Classic Woven Boxers Indaccu Solutions",
-      "meta_description": "Shop 3 Pack Classic Woven Boxers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "3 Pack Classic Woven Boxers Mangalbookstore",
+      "meta_description": "Shop 3 Pack Classic Woven Boxers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "3 Pack Classic Woven Boxers",
-      "canonical_url": "https://Indaccu Solutions.in/product/3-pack-classic-woven-boxers"
+      "canonical_url": "https://Mangalbookstore.in/product/3-pack-classic-woven-boxers"
     },
     "4036": {
-      "meta_title": "Mens Wool Blend Top Coat Indaccu Solutions",
-      "meta_description": "Shop Mens Wool Blend Top Coat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Wool Blend Top Coat Mangalbookstore",
+      "meta_description": "Shop Mens Wool Blend Top Coat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Wool Blend Top Coat",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-wool-blend-top-coat"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-wool-blend-top-coat"
     },
     "4037": {
-      "meta_title": "Mens Big Expedition Waterproof Down Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Big Expedition Waterproof Down Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Big Expedition Waterproof Down Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Big Expedition Waterproof Down Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Big Expedition Waterproof Down Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-big-expedition-waterproof-down-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-big-expedition-waterproof-down-jacket"
     },
     "4038": {
       "meta_title": "Mens Squall Waterproof Insulated Winter Stadium Coat 2 Style",
-      "meta_description": "Shop Mens Squall Waterproof Insulated Winter Stadium Coat 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
+      "meta_description": "Shop Mens Squall Waterproof Insulated Winter Stadium Coat 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
       "meta_keywords": "Mens Squall Waterproof Insulated Winter Stadium Coat 2 Style",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-squall-waterproof-insulated-winter-stadium-coat-2"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-squall-waterproof-insulated-winter-stadium-coat-2"
     },
     "4039": {
-      "meta_title": "Mens Velvet Blazer Indaccu Solutions",
-      "meta_description": "Shop Mens Velvet Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Velvet Blazer Mangalbookstore",
+      "meta_description": "Shop Mens Velvet Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Velvet Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-velvet-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-velvet-blazer"
     },
     "4040": {
       "meta_title": "Mens Washable Wool 2 Button Tailored Fit Suit Jacket Stylexi",
-      "meta_description": "Shop Mens Washable Wool 2 Button Tailored Fit Suit Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Mens Washable Wool 2 Button Tailored Fit Suit Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Mens Washable Wool 2 Button Tailored Fit Suit Jacket Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-washable-wool-2-button-tailored-fit-suit-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-washable-wool-2-button-tailored-fit-suit-jacket"
     },
     "4041": {
-      "meta_title": "Men Leather Bomber Jacket Indaccu Solutions",
-      "meta_description": "Shop Men Leather Bomber Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Leather Bomber Jacket Mangalbookstore",
+      "meta_description": "Shop Men Leather Bomber Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Leather Bomber Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-leather-bomber-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-leather-bomber-jacket"
     },
     "4042": {
-      "meta_title": "Mens Wander Free Insulated Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Wander Free Insulated Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Wander Free Insulated Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Wander Free Insulated Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Wander Free Insulated Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-wander-free-insulated-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-wander-free-insulated-jacket"
     },
     "4043": {
-      "meta_title": "Mens Packable Down Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Packable Down Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Packable Down Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Packable Down Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Packable Down Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-packable-down-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-packable-down-jacket"
     },
     "4044": {
-      "meta_title": "Mens Wander Weight Packable Down Shirt Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Wander Weight Packable Down Shirt Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Wander Weight Packable Down Shirt Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Wander Weight Packable Down Shirt Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Wander Weight Packable Down Shirt Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-wander-weight-packable-down-shirt-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-wander-weight-packable-down-shirt-jacket"
     },
     "4045": {
-      "meta_title": "Mens Anyweather Fleece Quarter Zip Pullover Indaccu Solutions",
-      "meta_description": "Shop Mens Anyweather Fleece Quarter Zip Pullover at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Anyweather Fleece Quarter Zip Pullover Mangalbookstore",
+      "meta_description": "Shop Mens Anyweather Fleece Quarter Zip Pullover at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Anyweather Fleece Quarter Zip Pullover",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-anyweather-fleece-quarter-zip-pullover"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-anyweather-fleece-quarter-zip-pullover"
     },
     "4046": {
-      "meta_title": "Mens Long Sleeve Raglan Social Active Quarter Zip Indaccu Solutions",
-      "meta_description": "Shop Mens Long Sleeve Raglan Social Active Quarter Zip at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Mens Long Sleeve Raglan Social Active Quarter Zip Mangalbookstore",
+      "meta_description": "Shop Mens Long Sleeve Raglan Social Active Quarter Zip at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Mens Long Sleeve Raglan Social Active Quarter Zip",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-long-sleeve-raglan-social-active-quarter-zip"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-long-sleeve-raglan-social-active-quarter-zip"
     },
     "4054": {
-      "meta_title": "Sherwani With Kurta Trouser Dupatta For Boys Indaccu Solutions",
-      "meta_description": "Shop Sherwani With Kurta Trouser Dupatta For Boys at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Sherwani With Kurta Trouser Dupatta For Boys Mangalbookstore",
+      "meta_description": "Shop Sherwani With Kurta Trouser Dupatta For Boys at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Sherwani With Kurta Trouser Dupatta For Boys",
-      "canonical_url": "https://Indaccu Solutions.in/product/sherwani-with-kurta-trouser-dupatta-for-boys"
+      "canonical_url": "https://Mangalbookstore.in/product/sherwani-with-kurta-trouser-dupatta-for-boys"
     },
     "4092": {
-      "meta_title": "Mens Waxed Cotton Barn Jacket Indaccu Solutions",
-      "meta_description": "Shop Mens Waxed Cotton Barn Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Waxed Cotton Barn Jacket Mangalbookstore",
+      "meta_description": "Shop Mens Waxed Cotton Barn Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Waxed Cotton Barn Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-waxed-cotton-barn-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-waxed-cotton-barn-jacket"
     },
     "4093": {
-      "meta_title": "Mens Hooded Blazer Indaccu Solutions",
-      "meta_description": "Shop Mens Hooded Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Hooded Blazer Mangalbookstore",
+      "meta_description": "Shop Mens Hooded Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Hooded Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-hooded-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-hooded-blazer"
     },
     "4094": {
-      "meta_title": "Mens Linen Cotton Cargo Pants Indaccu Solutions",
-      "meta_description": "Shop Mens Linen Cotton Cargo Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Linen Cotton Cargo Pants Mangalbookstore",
+      "meta_description": "Shop Mens Linen Cotton Cargo Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Linen Cotton Cargo Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-linen-cotton-cargo-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-linen-cotton-cargo-pants"
     },
     "4095": {
-      "meta_title": "Mens Short Sleeve Racked Button Down Sweater Polo Indaccu Solutions",
-      "meta_description": "Shop Mens Short Sleeve Racked Button Down Sweater Polo at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Mens Short Sleeve Racked Button Down Sweater Polo Mangalbookstore",
+      "meta_description": "Shop Mens Short Sleeve Racked Button Down Sweater Polo at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Mens Short Sleeve Racked Button Down Sweater Polo",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-racked-button-down-sweater-polo"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-racked-button-down-sweater-polo"
     },
     "4283": {
-      "meta_title": "Otto Textured Polo Indaccu Solutions",
-      "meta_description": "Shop Otto Textured Polo at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Otto Textured Polo Mangalbookstore",
+      "meta_description": "Shop Otto Textured Polo at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Otto Textured Polo",
-      "canonical_url": "https://Indaccu Solutions.in/product/otto-textured-polo"
+      "canonical_url": "https://Mangalbookstore.in/product/otto-textured-polo"
     },
     "4285": {
-      "meta_title": "Charlie Canvas Short Indaccu Solutions",
-      "meta_description": "Shop Charlie Canvas Short at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Charlie Canvas Short Mangalbookstore",
+      "meta_description": "Shop Charlie Canvas Short at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Charlie Canvas Short",
-      "canonical_url": "https://Indaccu Solutions.in/product/charlie-canvas-short"
+      "canonical_url": "https://Mangalbookstore.in/product/charlie-canvas-short"
     },
     "4287": {
-      "meta_title": "Chester Harrington Jacket Indaccu Solutions",
-      "meta_description": "Shop Chester Harrington Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Chester Harrington Jacket Mangalbookstore",
+      "meta_description": "Shop Chester Harrington Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Chester Harrington Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/chester-harrington-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/chester-harrington-jacket"
     },
     "4289": {
-      "meta_title": "Textured Green Full Sleeves Blazer Indaccu Solutions",
-      "meta_description": "Shop Textured Green Full Sleeves Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Textured Green Full Sleeves Blazer Mangalbookstore",
+      "meta_description": "Shop Textured Green Full Sleeves Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Textured Green Full Sleeves Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/textured-green-full-sleeves-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/textured-green-full-sleeves-blazer"
     },
     "4291": {
-      "meta_title": "Black Mens Body Tailored Fit Ceremonial Suit Indaccu Solutions",
-      "meta_description": "Shop Black Mens Body Tailored Fit Ceremonial Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Black Mens Body Tailored Fit Ceremonial Suit Mangalbookstore",
+      "meta_description": "Shop Black Mens Body Tailored Fit Ceremonial Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Black Mens Body Tailored Fit Ceremonial Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-men-s-body-tailored-fit-ceremonial-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/black-men-s-body-tailored-fit-ceremonial-suit"
     },
     "4294": {
-      "meta_title": "Newport Textured Linen Blend Shirt Indaccu Solutions",
-      "meta_description": "Shop Newport Textured Linen Blend Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Newport Textured Linen Blend Shirt Mangalbookstore",
+      "meta_description": "Shop Newport Textured Linen Blend Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Newport Textured Linen Blend Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/newport-textured-linen-blend-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/newport-textured-linen-blend-shirt"
     },
     "4297": {
-      "meta_title": "Linen Blend Resort Shirt Indaccu Solutions",
-      "meta_description": "Shop Linen Blend Resort Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Linen Blend Resort Shirt Mangalbookstore",
+      "meta_description": "Shop Linen Blend Resort Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Linen Blend Resort Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/linen-blend-resort-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/linen-blend-resort-shirt"
     },
     "4299": {
-      "meta_title": "Cigi Shorts Indaccu Solutions",
-      "meta_description": "Shop Cigi Shorts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Cigi Shorts Mangalbookstore",
+      "meta_description": "Shop Cigi Shorts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Cigi Shorts",
-      "canonical_url": "https://Indaccu Solutions.in/product/cigi-shorts"
+      "canonical_url": "https://Mangalbookstore.in/product/cigi-shorts"
     },
     "4300": {
-      "meta_title": "Interlock Sweatpants Indaccu Solutions",
-      "meta_description": "Shop Interlock Sweatpants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Interlock Sweatpants Mangalbookstore",
+      "meta_description": "Shop Interlock Sweatpants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Interlock Sweatpants",
-      "canonical_url": "https://Indaccu Solutions.in/product/interlock-sweatpants"
+      "canonical_url": "https://Mangalbookstore.in/product/interlock-sweatpants"
     },
     "4301": {
-      "meta_title": "Slouch Pull On Hoodie Indaccu Solutions",
-      "meta_description": "Shop Slouch Pull On Hoodie at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Slouch Pull On Hoodie Mangalbookstore",
+      "meta_description": "Shop Slouch Pull On Hoodie at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Slouch Pull On Hoodie",
-      "canonical_url": "https://Indaccu Solutions.in/product/slouch-pull-on-hoodie"
+      "canonical_url": "https://Mangalbookstore.in/product/slouch-pull-on-hoodie"
     },
     "4305": {
-      "meta_title": "Cotlin Two Button Blazer Indaccu Solutions",
-      "meta_description": "Shop Cotlin Two Button Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Cotlin Two Button Blazer Mangalbookstore",
+      "meta_description": "Shop Cotlin Two Button Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Cotlin Two Button Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/cotlin-two-button-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/cotlin-two-button-blazer"
     },
     "4308": {
-      "meta_title": "Linen Blend Slim Fit Jacket Indaccu Solutions",
-      "meta_description": "Shop Linen Blend Slim Fit Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Linen Blend Slim Fit Jacket Mangalbookstore",
+      "meta_description": "Shop Linen Blend Slim Fit Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Linen Blend Slim Fit Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/linen-blend-slim-fit-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/linen-blend-slim-fit-jacket"
     },
     "4312": {
-      "meta_title": "Relaxed Stripe Ss Shirt Indaccu Solutions",
-      "meta_description": "Shop Relaxed Stripe Ss Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Relaxed Stripe Ss Shirt Mangalbookstore",
+      "meta_description": "Shop Relaxed Stripe Ss Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Relaxed Stripe Ss Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/relaxed-stripe-ss-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/relaxed-stripe-ss-shirt"
     },
     "4317": {
-      "meta_title": "Oversize Leather Effect Bomber Jacket Indaccu Solutions",
-      "meta_description": "Shop Oversize Leather Effect Bomber Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Oversize Leather Effect Bomber Jacket Mangalbookstore",
+      "meta_description": "Shop Oversize Leather Effect Bomber Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Oversize Leather Effect Bomber Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/oversize-leather-effect-bomber-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/oversize-leather-effect-bomber-jacket"
     },
     "4321": {
-      "meta_title": "Distressed Faux Leather Shacket Indaccu Solutions",
-      "meta_description": "Shop Distressed Faux Leather Shacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Distressed Faux Leather Shacket Mangalbookstore",
+      "meta_description": "Shop Distressed Faux Leather Shacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Distressed Faux Leather Shacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/distressed-faux-leather-shacket"
+      "canonical_url": "https://Mangalbookstore.in/product/distressed-faux-leather-shacket"
     },
     "4327": {
-      "meta_title": "Knit Holiday Shirt Indaccu Solutions",
-      "meta_description": "Shop Knit Holiday Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Knit Holiday Shirt Mangalbookstore",
+      "meta_description": "Shop Knit Holiday Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Knit Holiday Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/knit-holiday-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/knit-holiday-shirt"
     },
     "4329": {
-      "meta_title": "Marco Short Trench Coat Indaccu Solutions",
-      "meta_description": "Shop Marco Short Trench Coat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Marco Short Trench Coat Mangalbookstore",
+      "meta_description": "Shop Marco Short Trench Coat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Marco Short Trench Coat",
-      "canonical_url": "https://Indaccu Solutions.in/product/marco-short-trench-coat"
+      "canonical_url": "https://Mangalbookstore.in/product/marco-short-trench-coat"
     },
     "4330": {
-      "meta_title": "Wool Rich Twill Overcoat Indaccu Solutions",
-      "meta_description": "Shop Wool Rich Twill Overcoat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Wool Rich Twill Overcoat Mangalbookstore",
+      "meta_description": "Shop Wool Rich Twill Overcoat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Wool Rich Twill Overcoat",
-      "canonical_url": "https://Indaccu Solutions.in/product/wool-rich-twill-overcoat"
+      "canonical_url": "https://Mangalbookstore.in/product/wool-rich-twill-overcoat"
     },
     "4335": {
-      "meta_title": "Wool Rich Overcoat Indaccu Solutions",
-      "meta_description": "Shop Wool Rich Overcoat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Wool Rich Overcoat Mangalbookstore",
+      "meta_description": "Shop Wool Rich Overcoat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Wool Rich Overcoat",
-      "canonical_url": "https://Indaccu Solutions.in/product/wool-rich-overcoat"
+      "canonical_url": "https://Mangalbookstore.in/product/wool-rich-overcoat"
     },
     "4338": {
-      "meta_title": "Collins Shirt Indaccu Solutions",
-      "meta_description": "Shop Collins Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Collins Shirt Mangalbookstore",
+      "meta_description": "Shop Collins Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Collins Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/collins-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/collins-shirt"
     },
     "4440": {
-      "meta_title": "Relaxed Fit Carpenter Jeans Indaccu Solutions",
-      "meta_description": "Shop Relaxed Fit Carpenter Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Relaxed Fit Carpenter Jeans Mangalbookstore",
+      "meta_description": "Shop Relaxed Fit Carpenter Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Relaxed Fit Carpenter Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/relaxed-fit-carpenter-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/relaxed-fit-carpenter-jeans"
     },
     "4441": {
-      "meta_title": "JaGSTto Denim Jacket Indaccu Solutions",
-      "meta_description": "Shop JaGSTto Denim Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "JaGSTto Denim Jacket Mangalbookstore",
+      "meta_description": "Shop JaGSTto Denim Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "JaGSTto Denim Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/jaGSTto-denim-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/jaGSTto-denim-jacket"
     },
     "4442": {
-      "meta_title": "Men Original Jeans Indaccu Solutions",
-      "meta_description": "Shop Men Original Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Original Jeans Mangalbookstore",
+      "meta_description": "Shop Men Original Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Original Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-original-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/men-original-jeans"
     },
     "4443": {
-      "meta_title": "Premium Wool Half Zip Sweater Indaccu Solutions",
-      "meta_description": "Shop Premium Wool Half Zip Sweater at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Premium Wool Half Zip Sweater Mangalbookstore",
+      "meta_description": "Shop Premium Wool Half Zip Sweater at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Premium Wool Half Zip Sweater",
-      "canonical_url": "https://Indaccu Solutions.in/product/premium-wool-half-zip-sweater"
+      "canonical_url": "https://Mangalbookstore.in/product/premium-wool-half-zip-sweater"
     },
     "4444": {
-      "meta_title": "Organic Cotton Worker Check Shirt Indaccu Solutions",
-      "meta_description": "Shop Organic Cotton Worker Check Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Organic Cotton Worker Check Shirt Mangalbookstore",
+      "meta_description": "Shop Organic Cotton Worker Check Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Organic Cotton Worker Check Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/organic-cotton-worker-check-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/organic-cotton-worker-check-shirt"
     },
     "4445": {
-      "meta_title": "Linen Blend Blazer Indaccu Solutions",
-      "meta_description": "Shop Linen Blend Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Linen Blend Blazer Mangalbookstore",
+      "meta_description": "Shop Linen Blend Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Linen Blend Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/linen-blend-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/linen-blend-blazer"
     },
     "4446": {
-      "meta_title": "Type 3 Sherpa Trucker Indaccu Solutions",
-      "meta_description": "Shop Type 3 Sherpa Trucker at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Type 3 Sherpa Trucker Mangalbookstore",
+      "meta_description": "Shop Type 3 Sherpa Trucker at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Type 3 Sherpa Trucker",
-      "canonical_url": "https://Indaccu Solutions.in/product/type-3-sherpa-trucker"
+      "canonical_url": "https://Mangalbookstore.in/product/type-3-sherpa-trucker"
     },
     "4447": {
-      "meta_title": "Prentis Vest Liner Indaccu Solutions",
-      "meta_description": "Shop Prentis Vest Liner at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Prentis Vest Liner Mangalbookstore",
+      "meta_description": "Shop Prentis Vest Liner at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Prentis Vest Liner",
-      "canonical_url": "https://Indaccu Solutions.in/product/prentis-vest-liner"
+      "canonical_url": "https://Mangalbookstore.in/product/prentis-vest-liner"
     },
     "4448": {
-      "meta_title": "Lean Dean Jeans Indaccu Solutions",
-      "meta_description": "Shop Lean Dean Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Lean Dean Jeans Mangalbookstore",
+      "meta_description": "Shop Lean Dean Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Lean Dean Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/lean-dean-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/lean-dean-jeans"
     },
     "4449": {
-      "meta_title": "Dunbar Herringbone Wool Rich Coat Indaccu Solutions",
-      "meta_description": "Shop Dunbar Herringbone Wool Rich Coat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Dunbar Herringbone Wool Rich Coat Mangalbookstore",
+      "meta_description": "Shop Dunbar Herringbone Wool Rich Coat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Dunbar Herringbone Wool Rich Coat",
-      "canonical_url": "https://Indaccu Solutions.in/product/dunbar-herringbone-wool-rich-coat"
+      "canonical_url": "https://Mangalbookstore.in/product/dunbar-herringbone-wool-rich-coat"
     },
     "4450": {
-      "meta_title": "Twill Seta Stamp Foulard Treni Shirt Indaccu Solutions",
-      "meta_description": "Shop Twill Seta Stamp Foulard Treni Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Twill Seta Stamp Foulard Treni Shirt Mangalbookstore",
+      "meta_description": "Shop Twill Seta Stamp Foulard Treni Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Twill Seta Stamp Foulard Treni Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/twill-seta-stamp-foulard-treni-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/twill-seta-stamp-foulard-treni-shirt"
     },
     "4451": {
-      "meta_title": "Luxury Half Canvas Suit Jacket Indaccu Solutions",
-      "meta_description": "Shop Luxury Half Canvas Suit Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Luxury Half Canvas Suit Jacket Mangalbookstore",
+      "meta_description": "Shop Luxury Half Canvas Suit Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Luxury Half Canvas Suit Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/luxury-half-canvas-suit-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/luxury-half-canvas-suit-jacket"
     },
     "4452": {
-      "meta_title": "Cotton Cashmere Cardigan Indaccu Solutions",
-      "meta_description": "Shop Cotton Cashmere Cardigan at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Cotton Cashmere Cardigan Mangalbookstore",
+      "meta_description": "Shop Cotton Cashmere Cardigan at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Cotton Cashmere Cardigan",
-      "canonical_url": "https://Indaccu Solutions.in/product/cotton-cashmere-cardigan"
+      "canonical_url": "https://Mangalbookstore.in/product/cotton-cashmere-cardigan"
     },
     "4453": {
-      "meta_title": "Puffer Jacket Indaccu Solutions",
-      "meta_description": "Shop Puffer Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Puffer Jacket Mangalbookstore",
+      "meta_description": "Shop Puffer Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Puffer Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/puffer-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/puffer-jacket"
     },
     "4454": {
-      "meta_title": "Mance Shirt Indaccu Solutions",
-      "meta_description": "Shop Mance Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mance Shirt Mangalbookstore",
+      "meta_description": "Shop Mance Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mance Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/mance-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/mance-shirt"
     },
     "4455": {
-      "meta_title": "Delonge Wool Db Coat Indaccu Solutions",
-      "meta_description": "Shop Delonge Wool Db Coat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Delonge Wool Db Coat Mangalbookstore",
+      "meta_description": "Shop Delonge Wool Db Coat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Delonge Wool Db Coat",
-      "canonical_url": "https://Indaccu Solutions.in/product/delonge-wool-db-coat"
+      "canonical_url": "https://Mangalbookstore.in/product/delonge-wool-db-coat"
     },
     "4456": {
-      "meta_title": "Oden Puffer Jacket Indaccu Solutions",
-      "meta_description": "Shop Oden Puffer Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Oden Puffer Jacket Mangalbookstore",
+      "meta_description": "Shop Oden Puffer Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Oden Puffer Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/oden-puffer-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/oden-puffer-jacket"
     },
     "4457": {
-      "meta_title": "Slim Fit Cargo Trousers Indaccu Solutions",
-      "meta_description": "Shop Slim Fit Cargo Trousers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Slim Fit Cargo Trousers Mangalbookstore",
+      "meta_description": "Shop Slim Fit Cargo Trousers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Slim Fit Cargo Trousers",
-      "canonical_url": "https://Indaccu Solutions.in/product/slim-fit-cargo-trousers"
+      "canonical_url": "https://Mangalbookstore.in/product/slim-fit-cargo-trousers"
     },
     "4458": {
-      "meta_title": "Purple Kurta With Pant And Ombre Dupatta Indaccu Solutions",
-      "meta_description": "Shop Purple Kurta With Pant And Ombre Dupatta at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Purple Kurta With Pant And Ombre Dupatta Mangalbookstore",
+      "meta_description": "Shop Purple Kurta With Pant And Ombre Dupatta at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Purple Kurta With Pant And Ombre Dupatta",
-      "canonical_url": "https://Indaccu Solutions.in/product/purple-kurta-with-pant-and-ombre-dupatta"
+      "canonical_url": "https://Mangalbookstore.in/product/purple-kurta-with-pant-and-ombre-dupatta"
     },
     "4459": {
-      "meta_title": "Beige Ombre Kurta With Pant Set Of 2 Indaccu Solutions",
-      "meta_description": "Shop Beige Ombre Kurta With Pant Set Of 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Beige Ombre Kurta With Pant Set Of 2 Mangalbookstore",
+      "meta_description": "Shop Beige Ombre Kurta With Pant Set Of 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Beige Ombre Kurta With Pant Set Of 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/beige-ombre-kurta-with-pant-set-of-2"
+      "canonical_url": "https://Mangalbookstore.in/product/beige-ombre-kurta-with-pant-set-of-2"
     },
     "4460": {
-      "meta_title": "Mirror Work Kurta With Salwar Set Of 2 Indaccu Solutions",
-      "meta_description": "Shop Mirror Work Kurta With Salwar Set Of 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mirror Work Kurta With Salwar Set Of 2 Mangalbookstore",
+      "meta_description": "Shop Mirror Work Kurta With Salwar Set Of 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mirror Work Kurta With Salwar Set Of 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/mirror-work-kurta-with-salwar-set-of-2"
+      "canonical_url": "https://Mangalbookstore.in/product/mirror-work-kurta-with-salwar-set-of-2"
     },
     "4461": {
-      "meta_title": "Elara Kurta Pant Set Of 2 Indaccu Solutions",
-      "meta_description": "Shop Elara Kurta Pant Set Of 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Elara Kurta Pant Set Of 2 Mangalbookstore",
+      "meta_description": "Shop Elara Kurta Pant Set Of 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Elara Kurta Pant Set Of 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/elara-kurta-pant-set-of-2"
+      "canonical_url": "https://Mangalbookstore.in/product/elara-kurta-pant-set-of-2"
     },
     "4462": {
-      "meta_title": "Adah Bundi With Kurta Set Of 3 Indaccu Solutions",
-      "meta_description": "Shop Adah Bundi With Kurta Set Of 3 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Adah Bundi With Kurta Set Of 3 Mangalbookstore",
+      "meta_description": "Shop Adah Bundi With Kurta Set Of 3 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Adah Bundi With Kurta Set Of 3",
-      "canonical_url": "https://Indaccu Solutions.in/product/adah-bundi-with-kurta-set-of-3"
+      "canonical_url": "https://Mangalbookstore.in/product/adah-bundi-with-kurta-set-of-3"
     },
     "4463": {
-      "meta_title": "Mens Black Color Jeans Indaccu Solutions",
-      "meta_description": "Shop Mens Black Color Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Black Color Jeans Mangalbookstore",
+      "meta_description": "Shop Mens Black Color Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Black Color Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-black-color-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-black-color-jeans"
     },
     "4464": {
-      "meta_title": "Black Loose Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Black Loose Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Black Loose Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Black Loose Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Black Loose Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-loose-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/black-loose-fit-jeans"
     },
     "4465": {
-      "meta_title": "Pullover Contrast Stitch Hoodie Indaccu Solutions",
-      "meta_description": "Shop Pullover Contrast Stitch Hoodie at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Pullover Contrast Stitch Hoodie Mangalbookstore",
+      "meta_description": "Shop Pullover Contrast Stitch Hoodie at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Pullover Contrast Stitch Hoodie",
-      "canonical_url": "https://Indaccu Solutions.in/product/pullover-contrast-stitch-hoodie"
+      "canonical_url": "https://Mangalbookstore.in/product/pullover-contrast-stitch-hoodie"
     },
     "4466": {
-      "meta_title": "Absent Hoodie Indaccu Solutions",
-      "meta_description": "Shop Absent Hoodie at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Absent Hoodie Mangalbookstore",
+      "meta_description": "Shop Absent Hoodie at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Absent Hoodie",
-      "canonical_url": "https://Indaccu Solutions.in/product/absent-hoodie"
+      "canonical_url": "https://Mangalbookstore.in/product/absent-hoodie"
     },
     "4467": {
-      "meta_title": "Livorno Essential Slim Fit Black Suit Indaccu Solutions",
-      "meta_description": "Shop Livorno Essential Slim Fit Black Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Livorno Essential Slim Fit Black Suit Mangalbookstore",
+      "meta_description": "Shop Livorno Essential Slim Fit Black Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Livorno Essential Slim Fit Black Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/livorno-essential-slim-fit-black-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/livorno-essential-slim-fit-black-suit"
     },
     "4468": {
-      "meta_title": "Panorama Printed Pile Snap Indaccu Solutions",
-      "meta_description": "Shop Panorama Printed Pile Snap at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Panorama Printed Pile Snap Mangalbookstore",
+      "meta_description": "Shop Panorama Printed Pile Snap at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Panorama Printed Pile Snap",
-      "canonical_url": "https://Indaccu Solutions.in/product/panorama-printed-pile-snap"
+      "canonical_url": "https://Mangalbookstore.in/product/panorama-printed-pile-snap"
     },
     "4469": {
-      "meta_title": "Sport Yogger Windbreaker Jacket For Men Indaccu Solutions",
-      "meta_description": "Shop Sport Yogger Windbreaker Jacket For Men at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Sport Yogger Windbreaker Jacket For Men Mangalbookstore",
+      "meta_description": "Shop Sport Yogger Windbreaker Jacket For Men at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Sport Yogger Windbreaker Jacket For Men",
-      "canonical_url": "https://Indaccu Solutions.in/product/sport-yogger-windbreaker-jacket-for-men"
+      "canonical_url": "https://Mangalbookstore.in/product/sport-yogger-windbreaker-jacket-for-men"
     },
     "4470": {
-      "meta_title": "Boxy Denim Jacket Indaccu Solutions",
-      "meta_description": "Shop Boxy Denim Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Boxy Denim Jacket Mangalbookstore",
+      "meta_description": "Shop Boxy Denim Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Boxy Denim Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/boxy-denim-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/boxy-denim-jacket"
     },
     "4471": {
-      "meta_title": "Ashby Wax Jacket Unisex Indaccu Solutions",
-      "meta_description": "Shop Ashby Wax Jacket Unisex at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Ashby Wax Jacket Unisex Mangalbookstore",
+      "meta_description": "Shop Ashby Wax Jacket Unisex at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Ashby Wax Jacket Unisex",
-      "canonical_url": "https://Indaccu Solutions.in/product/ashby-wax-jacket-unisex"
+      "canonical_url": "https://Mangalbookstore.in/product/ashby-wax-jacket-unisex"
     },
     "4472": {
-      "meta_title": "Quilted Jacket Indaccu Solutions",
-      "meta_description": "Shop Quilted Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Quilted Jacket Mangalbookstore",
+      "meta_description": "Shop Quilted Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Quilted Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/quilted-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/quilted-jacket"
     },
     "4473": {
-      "meta_title": "Recycled Puffer Jacket Indaccu Solutions",
-      "meta_description": "Shop Recycled Puffer Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Recycled Puffer Jacket Mangalbookstore",
+      "meta_description": "Shop Recycled Puffer Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Recycled Puffer Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/recycled-puffer-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/recycled-puffer-jacket"
     },
     "4474": {
-      "meta_title": "Vintage Carhartt Double Knee Carpenter Pants Indaccu Solutions",
-      "meta_description": "Shop Vintage Carhartt Double Knee Carpenter Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Vintage Carhartt Double Knee Carpenter Pants Mangalbookstore",
+      "meta_description": "Shop Vintage Carhartt Double Knee Carpenter Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Vintage Carhartt Double Knee Carpenter Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/vintage-carhartt-double-knee-carpenter-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/vintage-carhartt-double-knee-carpenter-pants"
     },
     "4475": {
-      "meta_title": "90S Carhartt Active Workwear Jacket Indaccu Solutions",
-      "meta_description": "Shop 90S Carhartt Active Workwear Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "90S Carhartt Active Workwear Jacket Mangalbookstore",
+      "meta_description": "Shop 90S Carhartt Active Workwear Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "90S Carhartt Active Workwear Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/90s-carhartt-active-workwear-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/90s-carhartt-active-workwear-jacket"
     },
     "4476": {
-      "meta_title": "Slim Fit Organically Grown Cotton Stretch Jacket Indaccu Solutions",
-      "meta_description": "Shop Slim Fit Organically Grown Cotton Stretch Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Slim Fit Organically Grown Cotton Stretch Jacket Mangalbookstore",
+      "meta_description": "Shop Slim Fit Organically Grown Cotton Stretch Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Slim Fit Organically Grown Cotton Stretch Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/slim-fit-organically-grown-cotton-stretch-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/slim-fit-organically-grown-cotton-stretch-jacket"
     },
     "4477": {
-      "meta_title": "Cotton Linen Suit Jacket Indaccu Solutions",
-      "meta_description": "Shop Cotton Linen Suit Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Cotton Linen Suit Jacket Mangalbookstore",
+      "meta_description": "Shop Cotton Linen Suit Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Cotton Linen Suit Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/cotton-linen-suit-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/cotton-linen-suit-jacket"
     },
     "4478": {
-      "meta_title": "Cotton Textured Blazer Indaccu Solutions",
-      "meta_description": "Shop Cotton Textured Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Cotton Textured Blazer Mangalbookstore",
+      "meta_description": "Shop Cotton Textured Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Cotton Textured Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/cotton-textured-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/cotton-textured-blazer"
     },
     "4479": {
-      "meta_title": "Felton Textured Blazer Indaccu Solutions",
-      "meta_description": "Shop Felton Textured Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Felton Textured Blazer Mangalbookstore",
+      "meta_description": "Shop Felton Textured Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Felton Textured Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/felton-textured-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/felton-textured-blazer"
     },
     "4480": {
-      "meta_title": "Regular Fit Linen Cotton Textured Jacket Indaccu Solutions",
-      "meta_description": "Shop Regular Fit Linen Cotton Textured Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Regular Fit Linen Cotton Textured Jacket Mangalbookstore",
+      "meta_description": "Shop Regular Fit Linen Cotton Textured Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Regular Fit Linen Cotton Textured Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/regular-fit-linen-cotton-textured-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/regular-fit-linen-cotton-textured-jacket"
     },
     "5571": {
-      "meta_title": "Mens Long Sleeve Oxford Woven Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Long Sleeve Oxford Woven Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Long Sleeve Oxford Woven Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Long Sleeve Oxford Woven Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Long Sleeve Oxford Woven Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-long-sleeve-oxford-woven-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-long-sleeve-oxford-woven-shirt"
     },
     "5572": {
-      "meta_title": "Mens Short Sleeve Everyday Performance Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Short Sleeve Everyday Performance Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Short Sleeve Everyday Performance Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Short Sleeve Everyday Performance Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Short Sleeve Everyday Performance Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-everyday-performance-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-everyday-performance-shirt"
     },
     "5573": {
-      "meta_title": "Mens Microfiber Button Up Shirt With Short Sleeves Indaccu Solutions",
-      "meta_description": "Shop Mens Microfiber Button Up Shirt With Short Sleeves at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
+      "meta_title": "Mens Microfiber Button Up Shirt With Short Sleeves Mangalbookstore",
+      "meta_description": "Shop Mens Microfiber Button Up Shirt With Short Sleeves at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
       "meta_keywords": "Mens Microfiber Button Up Shirt With Short Sleeves",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-microfiber-button-up-shirt-with-short-sleeves"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-microfiber-button-up-shirt-with-short-sleeves"
     },
     "5574": {
-      "meta_title": "Mens Short Sleeve Poplin Button Up Shirt 2 Indaccu Solutions",
-      "meta_description": "Shop Mens Short Sleeve Poplin Button Up Shirt 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Short Sleeve Poplin Button Up Shirt 2 Mangalbookstore",
+      "meta_description": "Shop Mens Short Sleeve Poplin Button Up Shirt 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Short Sleeve Poplin Button Up Shirt 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-poplin-button-up-shirt-2"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-poplin-button-up-shirt-2"
     },
     "5575": {
-      "meta_title": "Mens Short Sleeve Shirt Casual Indaccu Solutions",
-      "meta_description": "Shop Mens Short Sleeve Shirt Casual at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Short Sleeve Shirt Casual Mangalbookstore",
+      "meta_description": "Shop Mens Short Sleeve Shirt Casual at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Short Sleeve Shirt Casual",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-shirt-casual"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-shirt-casual"
     },
     "5576": {
-      "meta_title": "Mens Casual Button Down Shirts Indaccu Solutions",
-      "meta_description": "Shop Mens Casual Button Down Shirts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Casual Button Down Shirts Mangalbookstore",
+      "meta_description": "Shop Mens Casual Button Down Shirts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Casual Button Down Shirts",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-casual-button-down-shirts"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-casual-button-down-shirts"
     },
     "5577": {
-      "meta_title": "Mens Workwear Henley Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Workwear Henley Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Workwear Henley Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Workwear Henley Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Workwear Henley Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-workwear-henley-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-workwear-henley-shirt"
     },
     "5578": {
-      "meta_title": "Mens Short Sleeve Performance Henley Pocket Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Short Sleeve Performance Henley Pocket Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Mens Short Sleeve Performance Henley Pocket Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Short Sleeve Performance Henley Pocket Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Mens Short Sleeve Performance Henley Pocket Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-performance-henley-pocket-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-performance-henley-pocket-shirt"
     },
     "5579": {
-      "meta_title": "Mens Short Sleeve Pocket T Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Short Sleeve Pocket T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Short Sleeve Pocket T Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Short Sleeve Pocket T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Short Sleeve Pocket T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-pocket-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-pocket-t-shirt"
     },
     "5580": {
-      "meta_title": "Mens Driworks Mesh Tee With Short Sleeves Indaccu Solutions",
-      "meta_description": "Shop Mens Driworks Mesh Tee With Short Sleeves at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Driworks Mesh Tee With Short Sleeves Mangalbookstore",
+      "meta_description": "Shop Mens Driworks Mesh Tee With Short Sleeves at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Driworks Mesh Tee With Short Sleeves",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-driworks-mesh-tee-with-short-sleeves"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-driworks-mesh-tee-with-short-sleeves"
     },
     "5581": {
-      "meta_title": "Mens Relaxed Fit Jeans With Flex Indaccu Solutions",
-      "meta_description": "Shop Mens Relaxed Fit Jeans With Flex at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Relaxed Fit Jeans With Flex Mangalbookstore",
+      "meta_description": "Shop Mens Relaxed Fit Jeans With Flex at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Relaxed Fit Jeans With Flex",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-relaxed-fit-jeans-with-flex"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-relaxed-fit-jeans-with-flex"
     },
     "5582": {
-      "meta_title": "Mens Relaxed Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Mens Relaxed Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Relaxed Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Mens Relaxed Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Relaxed Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-relaxed-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-relaxed-fit-jeans"
     },
     "5583": {
-      "meta_title": "Mens 100 Cotton Regular Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Mens 100 Cotton Regular Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens 100 Cotton Regular Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Mens 100 Cotton Regular Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens 100 Cotton Regular Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-100-cotton-regular-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-100-cotton-regular-fit-jeans"
     },
     "5608": {
-      "meta_title": "Mens Everyday Performance Golf Polo Indaccu Solutions",
-      "meta_description": "Shop Mens Everyday Performance Golf Polo at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Everyday Performance Golf Polo Mangalbookstore",
+      "meta_description": "Shop Mens Everyday Performance Golf Polo at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Everyday Performance Golf Polo",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-everyday-performance-golf-polo"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-everyday-performance-golf-polo"
     },
     "5609": {
-      "meta_title": "Mens Short Sleeve Birdseye Polo Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Short Sleeve Birdseye Polo Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Short Sleeve Birdseye Polo Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Short Sleeve Birdseye Polo Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Short Sleeve Birdseye Polo Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-short-sleeve-birdseye-polo-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-short-sleeve-birdseye-polo-shirt"
     },
     "5610": {
-      "meta_title": "Mens Advantage Chino Short Indaccu Solutions",
-      "meta_description": "Shop Mens Advantage Chino Short at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Advantage Chino Short Mangalbookstore",
+      "meta_description": "Shop Mens Advantage Chino Short at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Advantage Chino Short",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-advantage-chino-short"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-advantage-chino-short"
     },
     "5611": {
-      "meta_title": "Mens Cotton Chino 10 Red Pink Shorts Indaccu Solutions",
-      "meta_description": "Shop Mens Cotton Chino 10 Red Pink Shorts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Cotton Chino 10 Red Pink Shorts Mangalbookstore",
+      "meta_description": "Shop Mens Cotton Chino 10 Red Pink Shorts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Cotton Chino 10 Red Pink Shorts",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-cotton-chino-10-red-pink-shorts"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-cotton-chino-10-red-pink-shorts"
     },
     "5612": {
-      "meta_title": "Mens Cotton Graphic T Shirt With Short Sleeves Indaccu Solutions",
-      "meta_description": "Shop Mens Cotton Graphic T Shirt With Short Sleeves at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Cotton Graphic T Shirt With Short Sleeves Mangalbookstore",
+      "meta_description": "Shop Mens Cotton Graphic T Shirt With Short Sleeves at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Cotton Graphic T Shirt With Short Sleeves",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-cotton-graphic-t-shirt-with-short-sleeves"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-cotton-graphic-t-shirt-with-short-sleeves"
     },
     "5613": {
-      "meta_title": "Men Cotton Oversize T Shirt With Short Sleeves Indaccu Solutions",
-      "meta_description": "Shop Men Cotton Oversize T Shirt With Short Sleeves at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Cotton Oversize T Shirt With Short Sleeves Mangalbookstore",
+      "meta_description": "Shop Men Cotton Oversize T Shirt With Short Sleeves at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Cotton Oversize T Shirt With Short Sleeves",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-cotton-oversize-t-shirt-with-short-sleeves"
+      "canonical_url": "https://Mangalbookstore.in/product/men-cotton-oversize-t-shirt-with-short-sleeves"
     },
     "5614": {
-      "meta_title": "Mens Graphic T Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Graphic T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Graphic T Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Graphic T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Graphic T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-graphic-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-graphic-t-shirt"
     },
     "5615": {
-      "meta_title": "Mens Dunn Knit Combo Quilted Down Bomber Indaccu Solutions",
-      "meta_description": "Shop Mens Dunn Knit Combo Quilted Down Bomber at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Dunn Knit Combo Quilted Down Bomber Mangalbookstore",
+      "meta_description": "Shop Mens Dunn Knit Combo Quilted Down Bomber at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Dunn Knit Combo Quilted Down Bomber",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-dunn-knit-combo-quilted-down-bomber"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-dunn-knit-combo-quilted-down-bomber"
     },
     "5616": {
-      "meta_title": "Mens Solid Color Peacoat Indaccu Solutions",
-      "meta_description": "Shop Mens Solid Color Peacoat at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Solid Color Peacoat Mangalbookstore",
+      "meta_description": "Shop Mens Solid Color Peacoat at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Solid Color Peacoat",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-solid-color-peacoat"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-solid-color-peacoat"
     },
     "5617": {
-      "meta_title": "Mens Classic Fit Quarter Zip Sweater Indaccu Solutions",
-      "meta_description": "Shop Mens Classic Fit Quarter Zip Sweater at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Classic Fit Quarter Zip Sweater Mangalbookstore",
+      "meta_description": "Shop Mens Classic Fit Quarter Zip Sweater at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Classic Fit Quarter Zip Sweater",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-classic-fit-quarter-zip-sweater"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-classic-fit-quarter-zip-sweater"
     },
     "5618": {
-      "meta_title": "Mens Vest Sweater Wool Blend Lightweight V Neck Indaccu Solutions",
-      "meta_description": "Shop Mens Vest Sweater Wool Blend Lightweight V Neck at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Vest Sweater Wool Blend Lightweight V Neck Mangalbookstore",
+      "meta_description": "Shop Mens Vest Sweater Wool Blend Lightweight V Neck at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Vest Sweater Wool Blend Lightweight V Neck",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-vest-sweater-wool-blend-lightweight-v-neck"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-vest-sweater-wool-blend-lightweight-v-neck"
     },
     "5619": {
-      "meta_title": "Infinity Oversized Short Sleeve T Shirt Indaccu Solutions",
-      "meta_description": "Shop Infinity Oversized Short Sleeve T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Infinity Oversized Short Sleeve T Shirt Mangalbookstore",
+      "meta_description": "Shop Infinity Oversized Short Sleeve T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Infinity Oversized Short Sleeve T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/infinity-oversized-short-sleeve-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/infinity-oversized-short-sleeve-t-shirt"
     },
     "5620": {
-      "meta_title": "Reality Short Sleeve T Shirt Brown Indaccu Solutions",
-      "meta_description": "Shop Reality Short Sleeve T Shirt Brown at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Reality Short Sleeve T Shirt Brown Mangalbookstore",
+      "meta_description": "Shop Reality Short Sleeve T Shirt Brown at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Reality Short Sleeve T Shirt Brown",
-      "canonical_url": "https://Indaccu Solutions.in/product/reality-short-sleeve-t-shirt-brown"
+      "canonical_url": "https://Mangalbookstore.in/product/reality-short-sleeve-t-shirt-brown"
     },
     "5621": {
-      "meta_title": "Chino Skinny 5 Pocket Pants Dark Brown Indaccu Solutions",
-      "meta_description": "Shop Chino Skinny 5 Pocket Pants Dark Brown at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Chino Skinny 5 Pocket Pants Dark Brown Mangalbookstore",
+      "meta_description": "Shop Chino Skinny 5 Pocket Pants Dark Brown at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Chino Skinny 5 Pocket Pants Dark Brown",
-      "canonical_url": "https://Indaccu Solutions.in/product/chino-skinny-5-pocket-pants-dark-brown"
+      "canonical_url": "https://Mangalbookstore.in/product/chino-skinny-5-pocket-pants-dark-brown"
     },
     "5622": {
-      "meta_title": "Summer Games Slim Cargo Pants Brown Indaccu Solutions",
-      "meta_description": "Shop Summer Games Slim Cargo Pants Brown at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Summer Games Slim Cargo Pants Brown Mangalbookstore",
+      "meta_description": "Shop Summer Games Slim Cargo Pants Brown at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Summer Games Slim Cargo Pants Brown",
-      "canonical_url": "https://Indaccu Solutions.in/product/summer-games-slim-cargo-pants-brown"
+      "canonical_url": "https://Mangalbookstore.in/product/summer-games-slim-cargo-pants-brown"
     },
     "5623": {
-      "meta_title": "All Good Slim Cargo Pants Charcoal Indaccu Solutions",
-      "meta_description": "Shop All Good Slim Cargo Pants Charcoal at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "All Good Slim Cargo Pants Charcoal Mangalbookstore",
+      "meta_description": "Shop All Good Slim Cargo Pants Charcoal at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "All Good Slim Cargo Pants Charcoal",
-      "canonical_url": "https://Indaccu Solutions.in/product/all-good-slim-cargo-pants-charcoal"
+      "canonical_url": "https://Mangalbookstore.in/product/all-good-slim-cargo-pants-charcoal"
     },
     "5624": {
-      "meta_title": "Short Sleeve Cuban Shirt Chocolate Indaccu Solutions",
-      "meta_description": "Shop Short Sleeve Cuban Shirt Chocolate at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Short Sleeve Cuban Shirt Chocolate Mangalbookstore",
+      "meta_description": "Shop Short Sleeve Cuban Shirt Chocolate at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Short Sleeve Cuban Shirt Chocolate",
-      "canonical_url": "https://Indaccu Solutions.in/product/short-sleeve-cuban-shirt-chocolate"
+      "canonical_url": "https://Mangalbookstore.in/product/short-sleeve-cuban-shirt-chocolate"
     },
     "5625": {
-      "meta_title": "Oversized Heavyweight Short Sleeve Tee Charcoal Indaccu Solutions",
-      "meta_description": "Shop Oversized Heavyweight Short Sleeve Tee Charcoal at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Oversized Heavyweight Short Sleeve Tee Charcoal Mangalbookstore",
+      "meta_description": "Shop Oversized Heavyweight Short Sleeve Tee Charcoal at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Oversized Heavyweight Short Sleeve Tee Charcoal",
-      "canonical_url": "https://Indaccu Solutions.in/product/oversized-heavyweight-short-sleeve-tee-charcoal"
+      "canonical_url": "https://Mangalbookstore.in/product/oversized-heavyweight-short-sleeve-tee-charcoal"
     },
     "5626": {
-      "meta_title": "Catch Up Nylon Cargo Shorts Grey Indaccu Solutions",
-      "meta_description": "Shop Catch Up Nylon Cargo Shorts Grey at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Catch Up Nylon Cargo Shorts Grey Mangalbookstore",
+      "meta_description": "Shop Catch Up Nylon Cargo Shorts Grey at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Catch Up Nylon Cargo Shorts Grey",
-      "canonical_url": "https://Indaccu Solutions.in/product/catch-up-nylon-cargo-shorts-grey"
+      "canonical_url": "https://Mangalbookstore.in/product/catch-up-nylon-cargo-shorts-grey"
     },
     "5627": {
-      "meta_title": "Relaxed Cargo Shorts Black Indaccu Solutions",
-      "meta_description": "Shop Relaxed Cargo Shorts Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Relaxed Cargo Shorts Black Mangalbookstore",
+      "meta_description": "Shop Relaxed Cargo Shorts Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Relaxed Cargo Shorts Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/relaxed-cargo-shorts-black"
+      "canonical_url": "https://Mangalbookstore.in/product/relaxed-cargo-shorts-black"
     },
     "5628": {
-      "meta_title": "Cobain Denim Jacket Black Indaccu Solutions",
-      "meta_description": "Shop Cobain Denim Jacket Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Cobain Denim Jacket Black Mangalbookstore",
+      "meta_description": "Shop Cobain Denim Jacket Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Cobain Denim Jacket Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/cobain-denim-jacket-black"
+      "canonical_url": "https://Mangalbookstore.in/product/cobain-denim-jacket-black"
     },
     "5629": {
-      "meta_title": "Trucker Jacket Vintage Blue Wash Indaccu Solutions",
-      "meta_description": "Shop Trucker Jacket Vintage Blue Wash at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Trucker Jacket Vintage Blue Wash Mangalbookstore",
+      "meta_description": "Shop Trucker Jacket Vintage Blue Wash at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Trucker Jacket Vintage Blue Wash",
-      "canonical_url": "https://Indaccu Solutions.in/product/trucker-jacket-vintage-blue-wash"
+      "canonical_url": "https://Mangalbookstore.in/product/trucker-jacket-vintage-blue-wash"
     },
     "5630": {
-      "meta_title": "Denim Shirt Medium Blue Wash Indaccu Solutions",
-      "meta_description": "Shop Denim Shirt Medium Blue Wash at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Denim Shirt Medium Blue Wash Mangalbookstore",
+      "meta_description": "Shop Denim Shirt Medium Blue Wash at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Denim Shirt Medium Blue Wash",
-      "canonical_url": "https://Indaccu Solutions.in/product/denim-shirt-medium-blue-wash"
+      "canonical_url": "https://Mangalbookstore.in/product/denim-shirt-medium-blue-wash"
     },
     "5631": {
-      "meta_title": "Heavy Wash T Shirt Green Indaccu Solutions",
-      "meta_description": "Shop Heavy Wash T Shirt Green at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Heavy Wash T Shirt Green Mangalbookstore",
+      "meta_description": "Shop Heavy Wash T Shirt Green at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Heavy Wash T Shirt Green",
-      "canonical_url": "https://Indaccu Solutions.in/product/heavy-wash-t-shirt-green"
+      "canonical_url": "https://Mangalbookstore.in/product/heavy-wash-t-shirt-green"
     },
     "7460": {
-      "meta_title": "Leather Trimmed Suede Bomber Jacket Indaccu Solutions",
-      "meta_description": "Shop Leather Trimmed Suede Bomber Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Leather Trimmed Suede Bomber Jacket Mangalbookstore",
+      "meta_description": "Shop Leather Trimmed Suede Bomber Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Leather Trimmed Suede Bomber Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/leather-trimmed-suede-bomber-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/leather-trimmed-suede-bomber-jacket"
     },
     "7461": {
-      "meta_title": "Camp Collar Printed Twill Shirt Indaccu Solutions",
-      "meta_description": "Shop Camp Collar Printed Twill Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Camp Collar Printed Twill Shirt Mangalbookstore",
+      "meta_description": "Shop Camp Collar Printed Twill Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Camp Collar Printed Twill Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/camp-collar-printed-twill-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/camp-collar-printed-twill-shirt"
     },
     "7462": {
       "meta_title": "Straight Leg Wool Linen And Silk Blend Suit Trousers Stylexi",
-      "meta_description": "Shop Straight Leg Wool Linen And Silk Blend Suit Trousers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Straight Leg Wool Linen And Silk Blend Suit Trousers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Straight Leg Wool Linen And Silk Blend Suit Trousers Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/straight-leg-wool-linen-and-silk-blend-suit-trousers"
+      "canonical_url": "https://Mangalbookstore.in/product/straight-leg-wool-linen-and-silk-blend-suit-trousers"
     },
     "7463": {
-      "meta_title": "Triomphe Logo Embroidered Wool Blend Twill Jacket Indaccu Solutions",
-      "meta_description": "Shop Triomphe Logo Embroidered Wool Blend Twill Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Triomphe Logo Embroidered Wool Blend Twill Jacket Mangalbookstore",
+      "meta_description": "Shop Triomphe Logo Embroidered Wool Blend Twill Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Triomphe Logo Embroidered Wool Blend Twill Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/triomphe-logo-embroidered-wool-blend-twill-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/triomphe-logo-embroidered-wool-blend-twill-jacket"
     },
     "7464": {
-      "meta_title": "Straight Leg Distressed Cotton Twill Cargo Shorts Indaccu Solutions",
-      "meta_description": "Shop Straight Leg Distressed Cotton Twill Cargo Shorts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Straight Leg Distressed Cotton Twill Cargo Shorts Mangalbookstore",
+      "meta_description": "Shop Straight Leg Distressed Cotton Twill Cargo Shorts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Straight Leg Distressed Cotton Twill Cargo Shorts",
-      "canonical_url": "https://Indaccu Solutions.in/product/straight-leg-distressed-cotton-twill-cargo-shorts"
+      "canonical_url": "https://Mangalbookstore.in/product/straight-leg-distressed-cotton-twill-cargo-shorts"
     },
     "7465": {
-      "meta_title": "Reversible Linen Bomber Jacket Indaccu Solutions",
-      "meta_description": "Shop Reversible Linen Bomber Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Reversible Linen Bomber Jacket Mangalbookstore",
+      "meta_description": "Shop Reversible Linen Bomber Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Reversible Linen Bomber Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/reversible-linen-bomber-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/reversible-linen-bomber-jacket"
     },
     "7466": {
-      "meta_title": "Striped Cotton And Linen Blend Shirt Indaccu Solutions",
-      "meta_description": "Shop Striped Cotton And Linen Blend Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Striped Cotton And Linen Blend Shirt Mangalbookstore",
+      "meta_description": "Shop Striped Cotton And Linen Blend Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Striped Cotton And Linen Blend Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/striped-cotton-and-linen-blend-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/striped-cotton-and-linen-blend-shirt"
     },
     "7467": {
       "meta_title": "Cedric Tapered Cotton And Linen Blend Canvas Trousers Stylex",
-      "meta_description": "Shop Cedric Tapered Cotton And Linen Blend Canvas Trousers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order t",
+      "meta_description": "Shop Cedric Tapered Cotton And Linen Blend Canvas Trousers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order t",
       "meta_keywords": "Cedric Tapered Cotton And Linen Blend Canvas Trousers Stylex",
-      "canonical_url": "https://Indaccu Solutions.in/product/cedric-tapered-cotton-and-linen-blend-canvas-trousers"
+      "canonical_url": "https://Mangalbookstore.in/product/cedric-tapered-cotton-and-linen-blend-canvas-trousers"
     },
     "7468": {
-      "meta_title": "Logo Intarsia Merino Wool Cardigan Indaccu Solutions",
-      "meta_description": "Shop Logo Intarsia Merino Wool Cardigan at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Logo Intarsia Merino Wool Cardigan Mangalbookstore",
+      "meta_description": "Shop Logo Intarsia Merino Wool Cardigan at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Logo Intarsia Merino Wool Cardigan",
-      "canonical_url": "https://Indaccu Solutions.in/product/logo-intarsia-merino-wool-cardigan"
+      "canonical_url": "https://Mangalbookstore.in/product/logo-intarsia-merino-wool-cardigan"
     },
     "7469": {
-      "meta_title": "Jiro Corduroy Shorts Indaccu Solutions",
-      "meta_description": "Shop Jiro Corduroy Shorts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Jiro Corduroy Shorts Mangalbookstore",
+      "meta_description": "Shop Jiro Corduroy Shorts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Jiro Corduroy Shorts",
-      "canonical_url": "https://Indaccu Solutions.in/product/jiro-corduroy-shorts"
+      "canonical_url": "https://Mangalbookstore.in/product/jiro-corduroy-shorts"
     },
     "7472": {
       "meta_title": "Slim Fit Ribbed Mulberry Silk And Organic Polo Shirt Stylexi",
-      "meta_description": "Shop Slim Fit Ribbed Mulberry Silk And Organic Polo Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Slim Fit Ribbed Mulberry Silk And Organic Polo Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Slim Fit Ribbed Mulberry Silk And Organic Polo Shirt Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/slim-fit-ribbed-mulberry-silk-and-organic-polo-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/slim-fit-ribbed-mulberry-silk-and-organic-polo-shirt"
     },
     "7473": {
-      "meta_title": "Linen Shirt Jacket Indaccu Solutions",
-      "meta_description": "Shop Linen Shirt Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Linen Shirt Jacket Mangalbookstore",
+      "meta_description": "Shop Linen Shirt Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Linen Shirt Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/linen-shirt-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/linen-shirt-jacket"
     },
     "7474": {
-      "meta_title": "Crocheted Organic Cotton Shirt Indaccu Solutions",
-      "meta_description": "Shop Crocheted Organic Cotton Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Crocheted Organic Cotton Shirt Mangalbookstore",
+      "meta_description": "Shop Crocheted Organic Cotton Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Crocheted Organic Cotton Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/crocheted-organic-cotton-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/crocheted-organic-cotton-shirt"
     },
     "7475": {
-      "meta_title": "Straight Leg Mid Length Striped Seersucker Shorts Indaccu Solutions",
-      "meta_description": "Shop Straight Leg Mid Length Striped Seersucker Shorts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Straight Leg Mid Length Striped Seersucker Shorts Mangalbookstore",
+      "meta_description": "Shop Straight Leg Mid Length Striped Seersucker Shorts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Straight Leg Mid Length Striped Seersucker Shorts",
-      "canonical_url": "https://Indaccu Solutions.in/product/straight-leg-mid-length-striped-seersucker-shorts"
+      "canonical_url": "https://Mangalbookstore.in/product/straight-leg-mid-length-striped-seersucker-shorts"
     },
     "7476": {
-      "meta_title": "Frank Corduroy Trimmed Brushed Cotton Jacket Indaccu Solutions",
-      "meta_description": "Shop Frank Corduroy Trimmed Brushed Cotton Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Frank Corduroy Trimmed Brushed Cotton Jacket Mangalbookstore",
+      "meta_description": "Shop Frank Corduroy Trimmed Brushed Cotton Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Frank Corduroy Trimmed Brushed Cotton Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/frank-corduroy-trimmed-brushed-cotton-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/frank-corduroy-trimmed-brushed-cotton-jacket"
     },
     "7477": {
-      "meta_title": "Straight Leg Jeans 2 Indaccu Solutions",
-      "meta_description": "Shop Straight Leg Jeans 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Straight Leg Jeans 2 Mangalbookstore",
+      "meta_description": "Shop Straight Leg Jeans 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Straight Leg Jeans 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/straight-leg-jeans-2"
+      "canonical_url": "https://Mangalbookstore.in/product/straight-leg-jeans-2"
     },
     "7478": {
-      "meta_title": "Slim Fit Logo Embroidered Cotton Jersey T Shirt Indaccu Solutions",
-      "meta_description": "Shop Slim Fit Logo Embroidered Cotton Jersey T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Slim Fit Logo Embroidered Cotton Jersey T Shirt Mangalbookstore",
+      "meta_description": "Shop Slim Fit Logo Embroidered Cotton Jersey T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Slim Fit Logo Embroidered Cotton Jersey T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/slim-fit-logo-embroidered-cotton-jersey-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/slim-fit-logo-embroidered-cotton-jersey-t-shirt"
     },
     "7479": {
-      "meta_title": "Metallic Embroidered Cotton Twill Blouson Jacket Indaccu Solutions",
-      "meta_description": "Shop Metallic Embroidered Cotton Twill Blouson Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Metallic Embroidered Cotton Twill Blouson Jacket Mangalbookstore",
+      "meta_description": "Shop Metallic Embroidered Cotton Twill Blouson Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Metallic Embroidered Cotton Twill Blouson Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/metallic-embroidered-cotton-twill-blouson-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/metallic-embroidered-cotton-twill-blouson-jacket"
     },
     "7480": {
-      "meta_title": "Camp Collar Embroidered Shirt Indaccu Solutions",
-      "meta_description": "Shop Camp Collar Embroidered Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Camp Collar Embroidered Shirt Mangalbookstore",
+      "meta_description": "Shop Camp Collar Embroidered Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Camp Collar Embroidered Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/camp-collar-embroidered-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/camp-collar-embroidered-shirt"
     },
     "7481": {
-      "meta_title": "Wide Leg Cotton Twill Drawstring Cargo Trousers Indaccu Solutions",
-      "meta_description": "Shop Wide Leg Cotton Twill Drawstring Cargo Trousers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Wide Leg Cotton Twill Drawstring Cargo Trousers Mangalbookstore",
+      "meta_description": "Shop Wide Leg Cotton Twill Drawstring Cargo Trousers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Wide Leg Cotton Twill Drawstring Cargo Trousers",
-      "canonical_url": "https://Indaccu Solutions.in/product/wide-leg-cotton-twill-drawstring-cargo-trousers"
+      "canonical_url": "https://Mangalbookstore.in/product/wide-leg-cotton-twill-drawstring-cargo-trousers"
     },
     "7482": {
-      "meta_title": "Convertible Collar Woven Shirt Indaccu Solutions",
-      "meta_description": "Shop Convertible Collar Woven Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Convertible Collar Woven Shirt Mangalbookstore",
+      "meta_description": "Shop Convertible Collar Woven Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Convertible Collar Woven Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/convertible-collar-woven-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/convertible-collar-woven-shirt"
     },
     "7483": {
-      "meta_title": "Padded Quilted Shell Down Vest Indaccu Solutions",
-      "meta_description": "Shop Padded Quilted Shell Down Vest at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Padded Quilted Shell Down Vest Mangalbookstore",
+      "meta_description": "Shop Padded Quilted Shell Down Vest at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Padded Quilted Shell Down Vest",
-      "canonical_url": "https://Indaccu Solutions.in/product/padded-quilted-shell-down-vest"
+      "canonical_url": "https://Mangalbookstore.in/product/padded-quilted-shell-down-vest"
     },
     "7484": {
-      "meta_title": "Finn Striped Cotton Poplin Shirt Indaccu Solutions",
-      "meta_description": "Shop Finn Striped Cotton Poplin Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Finn Striped Cotton Poplin Shirt Mangalbookstore",
+      "meta_description": "Shop Finn Striped Cotton Poplin Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Finn Striped Cotton Poplin Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/finn-striped-cotton-poplin-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/finn-striped-cotton-poplin-shirt"
     },
     "7485": {
-      "meta_title": "Slim Fit Pleated Stretch Cotton Trousers Indaccu Solutions",
-      "meta_description": "Shop Slim Fit Pleated Stretch Cotton Trousers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Slim Fit Pleated Stretch Cotton Trousers Mangalbookstore",
+      "meta_description": "Shop Slim Fit Pleated Stretch Cotton Trousers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Slim Fit Pleated Stretch Cotton Trousers",
-      "canonical_url": "https://Indaccu Solutions.in/product/slim-fit-pleated-stretch-cotton-trousers"
+      "canonical_url": "https://Mangalbookstore.in/product/slim-fit-pleated-stretch-cotton-trousers"
     },
     "7486": {
-      "meta_title": "Embroidered Denim Jacket Indaccu Solutions",
-      "meta_description": "Shop Embroidered Denim Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Embroidered Denim Jacket Mangalbookstore",
+      "meta_description": "Shop Embroidered Denim Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Embroidered Denim Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/embroidered-denim-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/embroidered-denim-jacket"
     },
     "7487": {
-      "meta_title": "Camp Collar Embroidered Shirt 2 Indaccu Solutions",
-      "meta_description": "Shop Camp Collar Embroidered Shirt 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Camp Collar Embroidered Shirt 2 Mangalbookstore",
+      "meta_description": "Shop Camp Collar Embroidered Shirt 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Camp Collar Embroidered Shirt 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/camp-collar-embroidered-shirt-2"
+      "canonical_url": "https://Mangalbookstore.in/product/camp-collar-embroidered-shirt-2"
     },
     "7488": {
-      "meta_title": "Straight Leg Mid Length Printed Swim Shorts Indaccu Solutions",
-      "meta_description": "Shop Straight Leg Mid Length Printed Swim Shorts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Straight Leg Mid Length Printed Swim Shorts Mangalbookstore",
+      "meta_description": "Shop Straight Leg Mid Length Printed Swim Shorts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Straight Leg Mid Length Printed Swim Shorts",
-      "canonical_url": "https://Indaccu Solutions.in/product/straight-leg-mid-length-printed-swim-shorts"
+      "canonical_url": "https://Mangalbookstore.in/product/straight-leg-mid-length-printed-swim-shorts"
     },
     "7489": {
-      "meta_title": "Distressed Corduroy Trimmed Denim Jacket Indaccu Solutions",
-      "meta_description": "Shop Distressed Corduroy Trimmed Denim Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Distressed Corduroy Trimmed Denim Jacket Mangalbookstore",
+      "meta_description": "Shop Distressed Corduroy Trimmed Denim Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Distressed Corduroy Trimmed Denim Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/distressed-corduroy-trimmed-denim-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/distressed-corduroy-trimmed-denim-jacket"
     },
     "7490": {
-      "meta_title": "Camp Collar Floral Print Woven Shirt Indaccu Solutions",
-      "meta_description": "Shop Camp Collar Floral Print Woven Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Camp Collar Floral Print Woven Shirt Mangalbookstore",
+      "meta_description": "Shop Camp Collar Floral Print Woven Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Camp Collar Floral Print Woven Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/camp-collar-floral-print-woven-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/camp-collar-floral-print-woven-shirt"
     },
     "7491": {
-      "meta_title": "Cotton Jersey T Shirt Indaccu Solutions",
-      "meta_description": "Shop Cotton Jersey T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Cotton Jersey T Shirt Mangalbookstore",
+      "meta_description": "Shop Cotton Jersey T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Cotton Jersey T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/cotton-jersey-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/cotton-jersey-t-shirt"
     },
     "7492": {
-      "meta_title": "Straight Leg Cotton Trousers Indaccu Solutions",
-      "meta_description": "Shop Straight Leg Cotton Trousers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Straight Leg Cotton Trousers Mangalbookstore",
+      "meta_description": "Shop Straight Leg Cotton Trousers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Straight Leg Cotton Trousers",
-      "canonical_url": "https://Indaccu Solutions.in/product/straight-leg-cotton-trousers"
+      "canonical_url": "https://Mangalbookstore.in/product/straight-leg-cotton-trousers"
     },
     "7493": {
-      "meta_title": "Heathered Suede Jacket Indaccu Solutions",
-      "meta_description": "Shop Heathered Suede Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Heathered Suede Jacket Mangalbookstore",
+      "meta_description": "Shop Heathered Suede Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Heathered Suede Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/heathered-suede-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/heathered-suede-jacket"
     },
     "7495": {
-      "meta_title": "Button Down Collar Checked Cotton Shirt Indaccu Solutions",
-      "meta_description": "Shop Button Down Collar Checked Cotton Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Button Down Collar Checked Cotton Shirt Mangalbookstore",
+      "meta_description": "Shop Button Down Collar Checked Cotton Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Button Down Collar Checked Cotton Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/button-down-collar-checked-cotton-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/button-down-collar-checked-cotton-shirt"
     },
     "7497": {
-      "meta_title": "Mens Airforce Self Design Shirt With Collar Indaccu Solutions",
-      "meta_description": "Shop Mens Airforce Self Design Shirt With Collar at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Airforce Self Design Shirt With Collar Mangalbookstore",
+      "meta_description": "Shop Mens Airforce Self Design Shirt With Collar at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Airforce Self Design Shirt With Collar",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-airforce-self-design-shirt-with-collar"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-airforce-self-design-shirt-with-collar"
     },
     "7498": {
-      "meta_title": "Black Round Neck Printed T Shirt Indaccu Solutions",
-      "meta_description": "Shop Black Round Neck Printed T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Black Round Neck Printed T Shirt Mangalbookstore",
+      "meta_description": "Shop Black Round Neck Printed T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Black Round Neck Printed T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-round-neck-printed-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/black-round-neck-printed-t-shirt"
     },
     "7499": {
-      "meta_title": "Men Black Poly Corduroy T Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Black Poly Corduroy T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Black Poly Corduroy T Shirt Mangalbookstore",
+      "meta_description": "Shop Men Black Poly Corduroy T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Black Poly Corduroy T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-black-poly-corduroy-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-black-poly-corduroy-t-shirt"
     },
     "7500": {
-      "meta_title": "Mens Sleeveless Athletic Tank Top Indaccu Solutions",
-      "meta_description": "Shop Mens Sleeveless Athletic Tank Top at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Sleeveless Athletic Tank Top Mangalbookstore",
+      "meta_description": "Shop Mens Sleeveless Athletic Tank Top at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Sleeveless Athletic Tank Top",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-sleeveless-athletic-tank-top"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-sleeveless-athletic-tank-top"
     },
     "7501": {
-      "meta_title": "Mens Black The Dark Knight Graphic Printed T Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Black The Dark Knight Graphic Printed T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
+      "meta_title": "Mens Black The Dark Knight Graphic Printed T Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Black The Dark Knight Graphic Printed T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
       "meta_keywords": "Mens Black The Dark Knight Graphic Printed T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-s-black-the-dark-knight-graphic-printed-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-s-black-the-dark-knight-graphic-printed-t-shirt"
     },
     "7502": {
-      "meta_title": "Men Tie Dye Crew Neck Tee Indaccu Solutions",
-      "meta_description": "Shop Men Tie Dye Crew Neck Tee at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Tie Dye Crew Neck Tee Mangalbookstore",
+      "meta_description": "Shop Men Tie Dye Crew Neck Tee at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Tie Dye Crew Neck Tee",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-tie-dye-crew-neck-tee"
+      "canonical_url": "https://Mangalbookstore.in/product/men-tie-dye-crew-neck-tee"
     },
     "7503": {
-      "meta_title": "Men Aster White Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Aster White Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Aster White Shirt Mangalbookstore",
+      "meta_description": "Shop Men Aster White Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Aster White Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-aster-white-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-aster-white-shirt"
     },
     "7504": {
-      "meta_title": "Men White Solid Crew Neck T Shirt Indaccu Solutions",
-      "meta_description": "Shop Men White Solid Crew Neck T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men White Solid Crew Neck T Shirt Mangalbookstore",
+      "meta_description": "Shop Men White Solid Crew Neck T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men White Solid Crew Neck T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-white-solid-crew-neck-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-white-solid-crew-neck-t-shirt"
     },
     "7505": {
-      "meta_title": "Men White Round Neck Polyester Activewear T Shirt Indaccu Solutions",
-      "meta_description": "Shop Men White Round Neck Polyester Activewear T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Men White Round Neck Polyester Activewear T Shirt Mangalbookstore",
+      "meta_description": "Shop Men White Round Neck Polyester Activewear T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Men White Round Neck Polyester Activewear T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-white-round-neck-polyester-activewear-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-white-round-neck-polyester-activewear-t-shirt"
     },
     "7506": {
-      "meta_title": "Basic Crew Neck Oversized Fit T Shirt Indaccu Solutions",
-      "meta_description": "Shop Basic Crew Neck Oversized Fit T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Basic Crew Neck Oversized Fit T Shirt Mangalbookstore",
+      "meta_description": "Shop Basic Crew Neck Oversized Fit T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Basic Crew Neck Oversized Fit T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/basic-crew-neck-oversized-fit-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/basic-crew-neck-oversized-fit-t-shirt"
     },
     "7507": {
-      "meta_title": "Men Solid Navy Blue T Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Solid Navy Blue T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Solid Navy Blue T Shirt Mangalbookstore",
+      "meta_description": "Shop Men Solid Navy Blue T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Solid Navy Blue T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-solid-navy-blue-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-solid-navy-blue-t-shirt"
     },
     "7508": {
-      "meta_title": "Round Neck Solid T Shirt Navy Blue Indaccu Solutions",
-      "meta_description": "Shop Round Neck Solid T Shirt Navy Blue at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Round Neck Solid T Shirt Navy Blue Mangalbookstore",
+      "meta_description": "Shop Round Neck Solid T Shirt Navy Blue at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Round Neck Solid T Shirt Navy Blue",
-      "canonical_url": "https://Indaccu Solutions.in/product/round-neck-solid-t-shirt-navy-blue"
+      "canonical_url": "https://Mangalbookstore.in/product/round-neck-solid-t-shirt-navy-blue"
     },
     "7509": {
-      "meta_title": "Men Paisley Print Patch Teal Blue Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Paisley Print Patch Teal Blue Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Paisley Print Patch Teal Blue Shirt Mangalbookstore",
+      "meta_description": "Shop Men Paisley Print Patch Teal Blue Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Paisley Print Patch Teal Blue Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-paisley-print-patch-teal-blue-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-paisley-print-patch-teal-blue-shirt"
     },
     "7510": {
       "meta_title": "Mens Peach Solid Half Sleeve Cotton Round Neck T Shirt Style",
-      "meta_description": "Shop Mens Peach Solid Half Sleeve Cotton Round Neck T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
+      "meta_description": "Shop Mens Peach Solid Half Sleeve Cotton Round Neck T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
       "meta_keywords": "Mens Peach Solid Half Sleeve Cotton Round Neck T Shirt Style",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-peach-solid-half-sleeve-cotton-round-neck-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-peach-solid-half-sleeve-cotton-round-neck-t-shirt"
     },
     "7511": {
-      "meta_title": "Grey Half Sleeves Poly Pique Polo T Shirt Indaccu Solutions",
-      "meta_description": "Shop Grey Half Sleeves Poly Pique Polo T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Grey Half Sleeves Poly Pique Polo T Shirt Mangalbookstore",
+      "meta_description": "Shop Grey Half Sleeves Poly Pique Polo T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Grey Half Sleeves Poly Pique Polo T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/grey-half-sleeves-poly-pique-polo-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/grey-half-sleeves-poly-pique-polo-t-shirt"
     },
     "7512": {
-      "meta_title": "Mens Striped Crew Neck Tee Blue Indaccu Solutions",
-      "meta_description": "Shop Mens Striped Crew Neck Tee Blue at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Striped Crew Neck Tee Blue Mangalbookstore",
+      "meta_description": "Shop Mens Striped Crew Neck Tee Blue at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Striped Crew Neck Tee Blue",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-striped-crew-neck-tee-blue"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-striped-crew-neck-tee-blue"
     },
     "7513": {
-      "meta_title": "Men Solid Yellow T Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Solid Yellow T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Solid Yellow T Shirt Mangalbookstore",
+      "meta_description": "Shop Men Solid Yellow T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Solid Yellow T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-solid-yellow-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-solid-yellow-t-shirt"
     },
     "7514": {
       "meta_title": "Men Navy Blue White Color Blocked Pullover Sweatshirt Stylex",
-      "meta_description": "Shop Men Navy Blue White Color Blocked Pullover Sweatshirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order t",
+      "meta_description": "Shop Men Navy Blue White Color Blocked Pullover Sweatshirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order t",
       "meta_keywords": "Men Navy Blue White Color Blocked Pullover Sweatshirt Stylex",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-navy-blue-white-color-blocked-pullover-sweatshirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-navy-blue-white-color-blocked-pullover-sweatshirt"
     },
     "7515": {
-      "meta_title": "Mens Navy Textured Polo Neck T Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Navy Textured Polo Neck T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Navy Textured Polo Neck T Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Navy Textured Polo Neck T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Navy Textured Polo Neck T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-navy-textured-polo-neck-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-navy-textured-polo-neck-t-shirt"
     },
     "7516": {
-      "meta_title": "Raw Edge Salmon Pink T Shirt Indaccu Solutions",
-      "meta_description": "Shop Raw Edge Salmon Pink T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Raw Edge Salmon Pink T Shirt Mangalbookstore",
+      "meta_description": "Shop Raw Edge Salmon Pink T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Raw Edge Salmon Pink T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/raw-edge-salmon-pink-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/raw-edge-salmon-pink-t-shirt"
     },
     "7517": {
-      "meta_title": "Kalakari Navy Blue Shirt Indaccu Solutions",
-      "meta_description": "Shop Kalakari Navy Blue Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Kalakari Navy Blue Shirt Mangalbookstore",
+      "meta_description": "Shop Kalakari Navy Blue Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Kalakari Navy Blue Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/kalakari-navy-blue-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/kalakari-navy-blue-shirt"
     },
     "7521": {
-      "meta_title": "Mens Pastel Green Printed Half Sleeve T Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Pastel Green Printed Half Sleeve T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Pastel Green Printed Half Sleeve T Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Pastel Green Printed Half Sleeve T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Pastel Green Printed Half Sleeve T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-pastel-green-printed-half-sleeve-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-pastel-green-printed-half-sleeve-t-shirt"
     },
     "7522": {
-      "meta_title": "Mens Crimson Red Midnight Black Paisley Flora Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Crimson Red Midnight Black Paisley Flora Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
+      "meta_title": "Mens Crimson Red Midnight Black Paisley Flora Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Crimson Red Midnight Black Paisley Flora Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
       "meta_keywords": "Mens Crimson Red Midnight Black Paisley Flora Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-crimson-red-midnight-black-paisley-flora-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-crimson-red-midnight-black-paisley-flora-shirt"
     },
     "7523": {
-      "meta_title": "Men Lining Black Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Lining Black Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Lining Black Shirt Mangalbookstore",
+      "meta_description": "Shop Men Lining Black Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Lining Black Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-lining-black-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-lining-black-shirt"
     },
     "7524": {
-      "meta_title": "Trendy Printed Blue Causal Shirt For Men Indaccu Solutions",
-      "meta_description": "Shop Trendy Printed Blue Causal Shirt For Men at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Trendy Printed Blue Causal Shirt For Men Mangalbookstore",
+      "meta_description": "Shop Trendy Printed Blue Causal Shirt For Men at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Trendy Printed Blue Causal Shirt For Men",
-      "canonical_url": "https://Indaccu Solutions.in/product/trendy-printed-blue-causal-shirt-for-men"
+      "canonical_url": "https://Mangalbookstore.in/product/trendy-printed-blue-causal-shirt-for-men"
     },
     "7525": {
-      "meta_title": "Men Checks Cutaway Collar Casual Shirt Olive Indaccu Solutions",
-      "meta_description": "Shop Men Checks Cutaway Collar Casual Shirt Olive at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Checks Cutaway Collar Casual Shirt Olive Mangalbookstore",
+      "meta_description": "Shop Men Checks Cutaway Collar Casual Shirt Olive at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Checks Cutaway Collar Casual Shirt Olive",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-checks-cutaway-collar-casual-shirt-olive"
+      "canonical_url": "https://Mangalbookstore.in/product/men-checks-cutaway-collar-casual-shirt-olive"
     },
     "7526": {
-      "meta_title": "Black Solid Plain Regular Fit Polo T Shirt Indaccu Solutions",
-      "meta_description": "Shop Black Solid Plain Regular Fit Polo T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Black Solid Plain Regular Fit Polo T Shirt Mangalbookstore",
+      "meta_description": "Shop Black Solid Plain Regular Fit Polo T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Black Solid Plain Regular Fit Polo T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-solid-plain-regular-fit-polo-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/black-solid-plain-regular-fit-polo-t-shirt"
     },
     "7527": {
-      "meta_title": "Mens Maroon Checked Slim Fit Casual Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Maroon Checked Slim Fit Casual Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Maroon Checked Slim Fit Casual Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Maroon Checked Slim Fit Casual Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Maroon Checked Slim Fit Casual Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-maroon-checked-slim-fit-casual-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-maroon-checked-slim-fit-casual-shirt"
     },
     "7528": {
-      "meta_title": "Oversized Green T Shirt Indaccu Solutions",
-      "meta_description": "Shop Oversized Green T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Oversized Green T Shirt Mangalbookstore",
+      "meta_description": "Shop Oversized Green T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Oversized Green T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/oversized-green-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/oversized-green-t-shirt"
     },
     "7529": {
-      "meta_title": "Men Peach Slim Fit Flex Pique Polo Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Peach Slim Fit Flex Pique Polo Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Peach Slim Fit Flex Pique Polo Shirt Mangalbookstore",
+      "meta_description": "Shop Men Peach Slim Fit Flex Pique Polo Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Peach Slim Fit Flex Pique Polo Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-peach-slim-fit-flex-pique-polo-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-peach-slim-fit-flex-pique-polo-shirt"
     },
     "7531": {
-      "meta_title": "Men Black Waffle Knit Solid Polo T Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Black Waffle Knit Solid Polo T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Black Waffle Knit Solid Polo T Shirt Mangalbookstore",
+      "meta_description": "Shop Men Black Waffle Knit Solid Polo T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Black Waffle Knit Solid Polo T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-black-waffle-knit-solid-polo-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-black-waffle-knit-solid-polo-t-shirt"
     },
     "7532": {
-      "meta_title": "Men Grey And Navy Blue Bonnet Ombre Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Grey And Navy Blue Bonnet Ombre Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Grey And Navy Blue Bonnet Ombre Shirt Mangalbookstore",
+      "meta_description": "Shop Men Grey And Navy Blue Bonnet Ombre Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Grey And Navy Blue Bonnet Ombre Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-grey-and-navy-blue-bonnet-ombre-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-grey-and-navy-blue-bonnet-ombre-shirt"
     },
     "7535": {
-      "meta_title": "Black Regular Fit Solid Polo T Shirt Indaccu Solutions",
-      "meta_description": "Shop Black Regular Fit Solid Polo T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Black Regular Fit Solid Polo T Shirt Mangalbookstore",
+      "meta_description": "Shop Black Regular Fit Solid Polo T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Black Regular Fit Solid Polo T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-regular-fit-solid-polo-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/black-regular-fit-solid-polo-t-shirt"
     },
     "7537": {
-      "meta_title": "Dark Blue Organic Cotton Polo T Shirt Indaccu Solutions",
-      "meta_description": "Shop Dark Blue Organic Cotton Polo T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Dark Blue Organic Cotton Polo T Shirt Mangalbookstore",
+      "meta_description": "Shop Dark Blue Organic Cotton Polo T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Dark Blue Organic Cotton Polo T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/dark-blue-organic-cotton-polo-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/dark-blue-organic-cotton-polo-t-shirt"
     },
     "7538": {
-      "meta_title": "Men White Linen Cotton Button Down Solid Shirt Indaccu Solutions",
-      "meta_description": "Shop Men White Linen Cotton Button Down Solid Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men White Linen Cotton Button Down Solid Shirt Mangalbookstore",
+      "meta_description": "Shop Men White Linen Cotton Button Down Solid Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men White Linen Cotton Button Down Solid Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-white-linen-cotton-button-down-solid-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-white-linen-cotton-button-down-solid-shirt"
     },
     "7539": {
-      "meta_title": "Men Blue Slim Fit Stripes Full Sleeves Casual Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Blue Slim Fit Stripes Full Sleeves Casual Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
+      "meta_title": "Men Blue Slim Fit Stripes Full Sleeves Casual Shirt Mangalbookstore",
+      "meta_description": "Shop Men Blue Slim Fit Stripes Full Sleeves Casual Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
       "meta_keywords": "Men Blue Slim Fit Stripes Full Sleeves Casual Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-blue-slim-fit-stripes-full-sleeves-casual-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-blue-slim-fit-stripes-full-sleeves-casual-shirt"
     },
     "7540": {
-      "meta_title": "Nordic Beige Polo T Shirt 2 Indaccu Solutions",
-      "meta_description": "Shop Nordic Beige Polo T Shirt 2 at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Nordic Beige Polo T Shirt 2 Mangalbookstore",
+      "meta_description": "Shop Nordic Beige Polo T Shirt 2 at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Nordic Beige Polo T Shirt 2",
-      "canonical_url": "https://Indaccu Solutions.in/product/nordic-beige-polo-t-shirt-2"
+      "canonical_url": "https://Mangalbookstore.in/product/nordic-beige-polo-t-shirt-2"
     },
     "7543": {
-      "meta_title": "Men Beige Slim Fit Solid Cotton Satin Evening Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Beige Slim Fit Solid Cotton Satin Evening Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
+      "meta_title": "Men Beige Slim Fit Solid Cotton Satin Evening Shirt Mangalbookstore",
+      "meta_description": "Shop Men Beige Slim Fit Solid Cotton Satin Evening Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order tod",
       "meta_keywords": "Men Beige Slim Fit Solid Cotton Satin Evening Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-beige-slim-fit-solid-cotton-satin-evening-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-beige-slim-fit-solid-cotton-satin-evening-shirt"
     },
     "7545": {
       "meta_title": "Mens Blue Stripes Cotton Loose Fit Spread Collar Shirt Style",
-      "meta_description": "Shop Mens Blue Stripes Cotton Loose Fit Spread Collar Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
+      "meta_description": "Shop Mens Blue Stripes Cotton Loose Fit Spread Collar Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
       "meta_keywords": "Mens Blue Stripes Cotton Loose Fit Spread Collar Shirt Style",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-blue-stripes-cotton-loose-fit-spread-collar-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-blue-stripes-cotton-loose-fit-spread-collar-shirt"
     },
     "7547": {
-      "meta_title": "Men Black Slim Fit Solid Full Sleeves Formal Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Black Slim Fit Solid Full Sleeves Formal Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
+      "meta_title": "Men Black Slim Fit Solid Full Sleeves Formal Shirt Mangalbookstore",
+      "meta_description": "Shop Men Black Slim Fit Solid Full Sleeves Formal Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
       "meta_keywords": "Men Black Slim Fit Solid Full Sleeves Formal Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-black-slim-fit-solid-full-sleeves-formal-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-black-slim-fit-solid-full-sleeves-formal-shirt"
     },
     "7549": {
-      "meta_title": "Blue Printed Regular Fit Jacket And Joggers Indaccu Solutions",
-      "meta_description": "Shop Blue Printed Regular Fit Jacket And Joggers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Blue Printed Regular Fit Jacket And Joggers Mangalbookstore",
+      "meta_description": "Shop Blue Printed Regular Fit Jacket And Joggers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Blue Printed Regular Fit Jacket And Joggers",
-      "canonical_url": "https://Indaccu Solutions.in/product/blue-printed-regular-fit-jacket-and-joggers"
+      "canonical_url": "https://Mangalbookstore.in/product/blue-printed-regular-fit-jacket-and-joggers"
     },
     "7551": {
-      "meta_title": "Black Contrast Stitch Short Sleeves Solid Shirt Indaccu Solutions",
-      "meta_description": "Shop Black Contrast Stitch Short Sleeves Solid Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Black Contrast Stitch Short Sleeves Solid Shirt Mangalbookstore",
+      "meta_description": "Shop Black Contrast Stitch Short Sleeves Solid Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Black Contrast Stitch Short Sleeves Solid Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-contrast-stitch-short-sleeves-solid-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/black-contrast-stitch-short-sleeves-solid-shirt"
     },
     "7553": {
-      "meta_title": "Men Green Suede Solid Cut And Sew Jacket Indaccu Solutions",
-      "meta_description": "Shop Men Green Suede Solid Cut And Sew Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Green Suede Solid Cut And Sew Jacket Mangalbookstore",
+      "meta_description": "Shop Men Green Suede Solid Cut And Sew Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Green Suede Solid Cut And Sew Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-green-suede-solid-cut-and-sew-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/men-green-suede-solid-cut-and-sew-jacket"
     },
     "7554": {
-      "meta_title": "Men Maroon Jacquard Blazer Indaccu Solutions",
-      "meta_description": "Shop Men Maroon Jacquard Blazer at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Maroon Jacquard Blazer Mangalbookstore",
+      "meta_description": "Shop Men Maroon Jacquard Blazer at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Maroon Jacquard Blazer",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-maroon-jacquard-blazer"
+      "canonical_url": "https://Mangalbookstore.in/product/men-maroon-jacquard-blazer"
     },
     "7556": {
-      "meta_title": "Regular Fit Front Pocket Trucker Blue Jacket Indaccu Solutions",
-      "meta_description": "Shop Regular Fit Front Pocket Trucker Blue Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Regular Fit Front Pocket Trucker Blue Jacket Mangalbookstore",
+      "meta_description": "Shop Regular Fit Front Pocket Trucker Blue Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Regular Fit Front Pocket Trucker Blue Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/regular-fit-front-pocket-trucker-blue-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/regular-fit-front-pocket-trucker-blue-jacket"
     },
     "7558": {
-      "meta_title": "Caped Crusader Mens Denim Jacket Indaccu Solutions",
-      "meta_description": "Shop Caped Crusader Mens Denim Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Caped Crusader Mens Denim Jacket Mangalbookstore",
+      "meta_description": "Shop Caped Crusader Mens Denim Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Caped Crusader Mens Denim Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/caped-crusader-mens-denim-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/caped-crusader-mens-denim-jacket"
     },
     "7559": {
-      "meta_title": "Men Blue Cotton Relaxed Fit Casual Shirt Indaccu Solutions",
-      "meta_description": "Shop Men Blue Cotton Relaxed Fit Casual Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Blue Cotton Relaxed Fit Casual Shirt Mangalbookstore",
+      "meta_description": "Shop Men Blue Cotton Relaxed Fit Casual Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Blue Cotton Relaxed Fit Casual Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-blue-cotton-relaxed-fit-casual-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/men-blue-cotton-relaxed-fit-casual-shirt"
     },
     "7560": {
-      "meta_title": "Men Pure Cotton Solid Regular Blue Suits Indaccu Solutions",
-      "meta_description": "Shop Men Pure Cotton Solid Regular Blue Suits at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Pure Cotton Solid Regular Blue Suits Mangalbookstore",
+      "meta_description": "Shop Men Pure Cotton Solid Regular Blue Suits at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Pure Cotton Solid Regular Blue Suits",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-pure-cotton-solid-regular-blue-suits"
+      "canonical_url": "https://Mangalbookstore.in/product/men-pure-cotton-solid-regular-blue-suits"
     },
     "7562": {
-      "meta_title": "Brown Self Design Relaxed Fit Polo T Shirt Indaccu Solutions",
-      "meta_description": "Shop Brown Self Design Relaxed Fit Polo T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Brown Self Design Relaxed Fit Polo T Shirt Mangalbookstore",
+      "meta_description": "Shop Brown Self Design Relaxed Fit Polo T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Brown Self Design Relaxed Fit Polo T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/brown-self-design-relaxed-fit-polo-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/brown-self-design-relaxed-fit-polo-t-shirt"
     },
     "7563": {
-      "meta_title": "Mens Blue Color Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Blue Color Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Blue Color Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Blue Color Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Blue Color Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-blue-color-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-blue-color-shirt"
     },
     "7564": {
-      "meta_title": "Solid Linen Shirt Indaccu Solutions",
-      "meta_description": "Shop Solid Linen Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Solid Linen Shirt Mangalbookstore",
+      "meta_description": "Shop Solid Linen Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Solid Linen Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/solid-linen-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/solid-linen-shirt"
     },
     "7565": {
-      "meta_title": "Beavers Blue Shirt Indaccu Solutions",
-      "meta_description": "Shop Beavers Blue Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Beavers Blue Shirt Mangalbookstore",
+      "meta_description": "Shop Beavers Blue Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Beavers Blue Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/beavers-blue-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/beavers-blue-shirt"
     },
     "7566": {
-      "meta_title": "Regular Fit Linen Casual Shirt Full Sleeves Black Indaccu Solutions",
-      "meta_description": "Shop Regular Fit Linen Casual Shirt Full Sleeves Black at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Regular Fit Linen Casual Shirt Full Sleeves Black Mangalbookstore",
+      "meta_description": "Shop Regular Fit Linen Casual Shirt Full Sleeves Black at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Regular Fit Linen Casual Shirt Full Sleeves Black",
-      "canonical_url": "https://Indaccu Solutions.in/product/regular-fit-linen-casual-shirt-full-sleeves-black"
+      "canonical_url": "https://Mangalbookstore.in/product/regular-fit-linen-casual-shirt-full-sleeves-black"
     },
     "7567": {
-      "meta_title": "Mens Blue Checks Shirt Indaccu Solutions",
-      "meta_description": "Shop Mens Blue Checks Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Mens Blue Checks Shirt Mangalbookstore",
+      "meta_description": "Shop Mens Blue Checks Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Mens Blue Checks Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/mens-blue-checks-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/mens-blue-checks-shirt"
     },
     "7568": {
-      "meta_title": "Convertible Collar Garment Dyed Linen Shirt Indaccu Solutions",
-      "meta_description": "Shop Convertible Collar Garment Dyed Linen Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Convertible Collar Garment Dyed Linen Shirt Mangalbookstore",
+      "meta_description": "Shop Convertible Collar Garment Dyed Linen Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Convertible Collar Garment Dyed Linen Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/convertible-collar-garment-dyed-linen-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/convertible-collar-garment-dyed-linen-shirt"
     },
     "7569": {
-      "meta_title": "Vast Straight Leg Jeans Indaccu Solutions",
-      "meta_description": "Shop Vast Straight Leg Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Vast Straight Leg Jeans Mangalbookstore",
+      "meta_description": "Shop Vast Straight Leg Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Vast Straight Leg Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/vast-straight-leg-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/vast-straight-leg-jeans"
     },
     "7571": {
-      "meta_title": "Oversized Striped Cotton Jersey Polo Shirt Indaccu Solutions",
-      "meta_description": "Shop Oversized Striped Cotton Jersey Polo Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Oversized Striped Cotton Jersey Polo Shirt Mangalbookstore",
+      "meta_description": "Shop Oversized Striped Cotton Jersey Polo Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Oversized Striped Cotton Jersey Polo Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/oversized-striped-cotton-jersey-polo-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/oversized-striped-cotton-jersey-polo-shirt"
     },
     "7573": {
-      "meta_title": "Teddy Full Grain Leather Bomber Jacket Indaccu Solutions",
-      "meta_description": "Shop Teddy Full Grain Leather Bomber Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Teddy Full Grain Leather Bomber Jacket Mangalbookstore",
+      "meta_description": "Shop Teddy Full Grain Leather Bomber Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Teddy Full Grain Leather Bomber Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/teddy-full-grain-leather-bomber-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/teddy-full-grain-leather-bomber-jacket"
     },
     "7575": {
-      "meta_title": "Double Breasted Linen Tuxedo Jacket Indaccu Solutions",
-      "meta_description": "Shop Double Breasted Linen Tuxedo Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Double Breasted Linen Tuxedo Jacket Mangalbookstore",
+      "meta_description": "Shop Double Breasted Linen Tuxedo Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Double Breasted Linen Tuxedo Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/double-breasted-linen-tuxedo-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/double-breasted-linen-tuxedo-jacket"
     },
     "7577": {
-      "meta_title": "Slim Fit Pleated Linen Suit Trousers Indaccu Solutions",
-      "meta_description": "Shop Slim Fit Pleated Linen Suit Trousers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Slim Fit Pleated Linen Suit Trousers Mangalbookstore",
+      "meta_description": "Shop Slim Fit Pleated Linen Suit Trousers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Slim Fit Pleated Linen Suit Trousers",
-      "canonical_url": "https://Indaccu Solutions.in/product/slim-fit-pleated-linen-suit-trousers"
+      "canonical_url": "https://Mangalbookstore.in/product/slim-fit-pleated-linen-suit-trousers"
     },
     "7578": {
-      "meta_title": "Woven Shirt Indaccu Solutions",
-      "meta_description": "Shop Woven Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Woven Shirt Mangalbookstore",
+      "meta_description": "Shop Woven Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Woven Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/woven-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/woven-shirt"
     },
     "7580": {
-      "meta_title": "Norwich Straight Leg Linen Shorts Indaccu Solutions",
-      "meta_description": "Shop Norwich Straight Leg Linen Shorts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Norwich Straight Leg Linen Shorts Mangalbookstore",
+      "meta_description": "Shop Norwich Straight Leg Linen Shorts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Norwich Straight Leg Linen Shorts",
-      "canonical_url": "https://Indaccu Solutions.in/product/norwich-straight-leg-linen-shorts"
+      "canonical_url": "https://Mangalbookstore.in/product/norwich-straight-leg-linen-shorts"
     },
     "7581": {
-      "meta_title": "Camp Collar Embroidered Pintucked Linen Shirt Indaccu Solutions",
-      "meta_description": "Shop Camp Collar Embroidered Pintucked Linen Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Camp Collar Embroidered Pintucked Linen Shirt Mangalbookstore",
+      "meta_description": "Shop Camp Collar Embroidered Pintucked Linen Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Camp Collar Embroidered Pintucked Linen Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/camp-collar-embroidered-pintucked-linen-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/camp-collar-embroidered-pintucked-linen-shirt"
     },
     "7582": {
-      "meta_title": "Distressed Denim Shorts Indaccu Solutions",
-      "meta_description": "Shop Distressed Denim Shorts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Distressed Denim Shorts Mangalbookstore",
+      "meta_description": "Shop Distressed Denim Shorts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Distressed Denim Shorts",
-      "canonical_url": "https://Indaccu Solutions.in/product/distressed-denim-shorts"
+      "canonical_url": "https://Mangalbookstore.in/product/distressed-denim-shorts"
     },
     "7583": {
-      "meta_title": "Wide Leg Distressed Selvedge Jeans Indaccu Solutions",
-      "meta_description": "Shop Wide Leg Distressed Selvedge Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Wide Leg Distressed Selvedge Jeans Mangalbookstore",
+      "meta_description": "Shop Wide Leg Distressed Selvedge Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Wide Leg Distressed Selvedge Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/wide-leg-distressed-selvedge-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/wide-leg-distressed-selvedge-jeans"
     },
     "7584": {
-      "meta_title": "Full Grain Leather Varsity Jacket Indaccu Solutions",
-      "meta_description": "Shop Full Grain Leather Varsity Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Full Grain Leather Varsity Jacket Mangalbookstore",
+      "meta_description": "Shop Full Grain Leather Varsity Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Full Grain Leather Varsity Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/full-grain-leather-varsity-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/full-grain-leather-varsity-jacket"
     },
     "7585": {
-      "meta_title": "Double Breasted Herringbone Linen Suit Jacket Indaccu Solutions",
-      "meta_description": "Shop Double Breasted Herringbone Linen Suit Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Double Breasted Herringbone Linen Suit Jacket Mangalbookstore",
+      "meta_description": "Shop Double Breasted Herringbone Linen Suit Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Double Breasted Herringbone Linen Suit Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/double-breasted-herringbone-linen-suit-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/double-breasted-herringbone-linen-suit-jacket"
     },
     "9851": {
-      "meta_title": "Men Travel Oversized Joggers Indaccu Solutions",
-      "meta_description": "Shop Men Travel Oversized Joggers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Travel Oversized Joggers Mangalbookstore",
+      "meta_description": "Shop Men Travel Oversized Joggers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Travel Oversized Joggers",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-travel-oversized-joggers"
+      "canonical_url": "https://Mangalbookstore.in/product/men-travel-oversized-joggers"
     },
     "9853": {
-      "meta_title": "Men Solid Slim Fit Track Pants Indaccu Solutions",
-      "meta_description": "Shop Men Solid Slim Fit Track Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Solid Slim Fit Track Pants Mangalbookstore",
+      "meta_description": "Shop Men Solid Slim Fit Track Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Solid Slim Fit Track Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-solid-slim-fit-track-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/men-solid-slim-fit-track-pants"
     },
     "9854": {
-      "meta_title": "Men Oversized Relaxed Fit With Utility Box Pockets Indaccu Solutions",
-      "meta_description": "Shop Men Oversized Relaxed Fit With Utility Box Pockets at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
+      "meta_title": "Men Oversized Relaxed Fit With Utility Box Pockets Mangalbookstore",
+      "meta_description": "Shop Men Oversized Relaxed Fit With Utility Box Pockets at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
       "meta_keywords": "Men Oversized Relaxed Fit With Utility Box Pockets",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-oversized-relaxed-fit-with-utility-box-pockets"
+      "canonical_url": "https://Mangalbookstore.in/product/men-oversized-relaxed-fit-with-utility-box-pockets"
     },
     "9855": {
-      "meta_title": "Men Track Pants Indaccu Solutions",
-      "meta_description": "Shop Men Track Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Men Track Pants Mangalbookstore",
+      "meta_description": "Shop Men Track Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Men Track Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-track-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/men-track-pants"
     },
     "9856": {
       "meta_title": "Men Full Sleeves Shirt Collar Regular Fit Casual Shirts Styl",
-      "meta_description": "Shop Men Full Sleeves Shirt Collar Regular Fit Casual Shirts at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
+      "meta_description": "Shop Men Full Sleeves Shirt Collar Regular Fit Casual Shirts at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
       "meta_keywords": "Men Full Sleeves Shirt Collar Regular Fit Casual Shirts Styl",
-      "canonical_url": "https://Indaccu Solutions.in/product/men-full-sleeves-shirt-collar-regular-fit-casual-shirts"
+      "canonical_url": "https://Mangalbookstore.in/product/men-full-sleeves-shirt-collar-regular-fit-casual-shirts"
     },
     "9857": {
       "meta_title": "Medium Blue Solid Mid Rise Casual Men Slim Fit Jeans Stylexi",
-      "meta_description": "Shop Medium Blue Solid Mid Rise Casual Men Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Medium Blue Solid Mid Rise Casual Men Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Medium Blue Solid Mid Rise Casual Men Slim Fit Jeans Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/medium-blue-solid-mid-rise-casual-men-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/medium-blue-solid-mid-rise-casual-men-slim-fit-jeans"
     },
     "9859": {
-      "meta_title": "Grey Solid Full Length Men Slim Fit Casual Trouser Indaccu Solutions",
-      "meta_description": "Shop Grey Solid Full Length Men Slim Fit Casual Trouser at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
+      "meta_title": "Grey Solid Full Length Men Slim Fit Casual Trouser Mangalbookstore",
+      "meta_description": "Shop Grey Solid Full Length Men Slim Fit Casual Trouser at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
       "meta_keywords": "Grey Solid Full Length Men Slim Fit Casual Trouser",
-      "canonical_url": "https://Indaccu Solutions.in/product/grey-solid-full-length-men-slim-fit-casual-trouser"
+      "canonical_url": "https://Mangalbookstore.in/product/grey-solid-full-length-men-slim-fit-casual-trouser"
     },
     "9861": {
-      "meta_title": "Medium Blue Solid Casual Men Slim Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Medium Blue Solid Casual Men Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Medium Blue Solid Casual Men Slim Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Medium Blue Solid Casual Men Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Medium Blue Solid Casual Men Slim Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/medium-blue-solid-casual-men-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/medium-blue-solid-casual-men-slim-fit-jeans"
     },
     "9864": {
-      "meta_title": "Light Blue Full Length Casual Men Skinny Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Light Blue Full Length Casual Men Skinny Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
+      "meta_title": "Light Blue Full Length Casual Men Skinny Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Light Blue Full Length Casual Men Skinny Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order toda",
       "meta_keywords": "Light Blue Full Length Casual Men Skinny Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/light-blue-full-length-casual-men-skinny-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/light-blue-full-length-casual-men-skinny-fit-jeans"
     },
     "9865": {
-      "meta_title": "Beige Solid Chino Pants Indaccu Solutions",
-      "meta_description": "Shop Beige Solid Chino Pants at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Beige Solid Chino Pants Mangalbookstore",
+      "meta_description": "Shop Beige Solid Chino Pants at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Beige Solid Chino Pants",
-      "canonical_url": "https://Indaccu Solutions.in/product/beige-solid-chino-pants"
+      "canonical_url": "https://Mangalbookstore.in/product/beige-solid-chino-pants"
     },
     "9866": {
-      "meta_title": "Tan Textured Men Slim Fit Casual Shirt Indaccu Solutions",
-      "meta_description": "Shop Tan Textured Men Slim Fit Casual Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Tan Textured Men Slim Fit Casual Shirt Mangalbookstore",
+      "meta_description": "Shop Tan Textured Men Slim Fit Casual Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Tan Textured Men Slim Fit Casual Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/tan-textured-men-slim-fit-casual-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/tan-textured-men-slim-fit-casual-shirt"
     },
     "9869": {
-      "meta_title": "Khaki Solid Ankle Length Slim Fit Casual Trouser Indaccu Solutions",
-      "meta_description": "Shop Khaki Solid Ankle Length Slim Fit Casual Trouser at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Khaki Solid Ankle Length Slim Fit Casual Trouser Mangalbookstore",
+      "meta_description": "Shop Khaki Solid Ankle Length Slim Fit Casual Trouser at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Khaki Solid Ankle Length Slim Fit Casual Trouser",
-      "canonical_url": "https://Indaccu Solutions.in/product/khaki-solid-ankle-length-slim-fit-casual-trouser"
+      "canonical_url": "https://Mangalbookstore.in/product/khaki-solid-ankle-length-slim-fit-casual-trouser"
     },
     "9875": {
-      "meta_title": "Grey Solid Full Length Casual Men Slim Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Grey Solid Full Length Casual Men Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Grey Solid Full Length Casual Men Slim Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Grey Solid Full Length Casual Men Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Grey Solid Full Length Casual Men Slim Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/grey-solid-full-length-casual-men-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/grey-solid-full-length-casual-men-slim-fit-jeans"
     },
     "9876": {
       "meta_title": "Light Blue Solid Full Length Casual Men Slim Fit Jeans Style",
-      "meta_description": "Shop Light Blue Solid Full Length Casual Men Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
+      "meta_description": "Shop Light Blue Solid Full Length Casual Men Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order",
       "meta_keywords": "Light Blue Solid Full Length Casual Men Slim Fit Jeans Style",
-      "canonical_url": "https://Indaccu Solutions.in/product/light-blue-solid-full-length-casual-men-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/light-blue-solid-full-length-casual-men-slim-fit-jeans"
     },
     "9877": {
       "meta_title": "Solid Full Length Mid Rise Casual Men Slim Fit Jeans Stylexi",
-      "meta_description": "Shop Solid Full Length Mid Rise Casual Men Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Solid Full Length Mid Rise Casual Men Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Solid Full Length Mid Rise Casual Men Slim Fit Jeans Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/solid-full-length-mid-rise-casual-men-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/solid-full-length-mid-rise-casual-men-slim-fit-jeans"
     },
     "9878": {
-      "meta_title": "Jet Black Crop Length Slim Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Jet Black Crop Length Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Jet Black Crop Length Slim Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Jet Black Crop Length Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Jet Black Crop Length Slim Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/jet-black-crop-length-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/jet-black-crop-length-slim-fit-jeans"
     },
     "9879": {
-      "meta_title": "Light Blue Textured Slim Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Light Blue Textured Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Light Blue Textured Slim Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Light Blue Textured Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Light Blue Textured Slim Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/light-blue-textured-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/light-blue-textured-slim-fit-jeans"
     },
     "9881": {
-      "meta_title": "Full Length Low Rise Casual Men Slim Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Full Length Low Rise Casual Men Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Full Length Low Rise Casual Men Slim Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Full Length Low Rise Casual Men Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Full Length Low Rise Casual Men Slim Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/full-length-low-rise-casual-men-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/full-length-low-rise-casual-men-slim-fit-jeans"
     },
     "9885": {
       "meta_title": "Black Full Length Low Rise Casual Men Slim Fit Jeans Stylexi",
-      "meta_description": "Shop Black Full Length Low Rise Casual Men Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Black Full Length Low Rise Casual Men Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Black Full Length Low Rise Casual Men Slim Fit Jeans Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/black-full-length-low-rise-casual-men-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/black-full-length-low-rise-casual-men-slim-fit-jeans"
     },
     "9892": {
       "meta_title": "Medium Grey Solid Mid Rise Casual Men Slim Fit Jeans Stylexi",
-      "meta_description": "Shop Medium Grey Solid Mid Rise Casual Men Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
+      "meta_description": "Shop Medium Grey Solid Mid Rise Casual Men Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order to",
       "meta_keywords": "Medium Grey Solid Mid Rise Casual Men Slim Fit Jeans Stylexi",
-      "canonical_url": "https://Indaccu Solutions.in/product/medium-grey-solid-mid-rise-casual-men-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/medium-grey-solid-mid-rise-casual-men-slim-fit-jeans"
     },
     "9904": {
-      "meta_title": "Light Blue Casual Tapered Jeans Indaccu Solutions",
-      "meta_description": "Shop Light Blue Casual Tapered Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Light Blue Casual Tapered Jeans Mangalbookstore",
+      "meta_description": "Shop Light Blue Casual Tapered Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Light Blue Casual Tapered Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/light-blue-casual-tapered-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/light-blue-casual-tapered-jeans"
     },
     "9907": {
-      "meta_title": "Medium Blue Acid Washed Slim Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Medium Blue Acid Washed Slim Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Medium Blue Acid Washed Slim Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Medium Blue Acid Washed Slim Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Medium Blue Acid Washed Slim Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/medium-blue-acid-washed-slim-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/medium-blue-acid-washed-slim-fit-jeans"
     },
     "9918": {
-      "meta_title": "Jet Black Tapered Fit Jeans Indaccu Solutions",
-      "meta_description": "Shop Jet Black Tapered Fit Jeans at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Jet Black Tapered Fit Jeans Mangalbookstore",
+      "meta_description": "Shop Jet Black Tapered Fit Jeans at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Jet Black Tapered Fit Jeans",
-      "canonical_url": "https://Indaccu Solutions.in/product/jet-black-tapered-fit-jeans"
+      "canonical_url": "https://Mangalbookstore.in/product/jet-black-tapered-fit-jeans"
     },
     "630": {
-      "meta_title": "Floral Grace Womens Print Outfit Indaccu Solutions",
-      "meta_description": "Shop Floral Grace Womens Print Outfit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Floral Grace Womens Print Outfit Mangalbookstore",
+      "meta_description": "Shop Floral Grace Womens Print Outfit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Floral Grace Womens Print Outfit",
-      "canonical_url": "https://Indaccu Solutions.in/product/floral-grace-women-s-print-outfit"
+      "canonical_url": "https://Mangalbookstore.in/product/floral-grace-women-s-print-outfit"
     },
     "631": {
-      "meta_title": "Elegant Womens Trousers Indaccu Solutions",
-      "meta_description": "Shop Elegant Womens Trousers at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Elegant Womens Trousers Mangalbookstore",
+      "meta_description": "Shop Elegant Womens Trousers at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Elegant Womens Trousers",
-      "canonical_url": "https://Indaccu Solutions.in/product/elegant-women-s-trousers"
+      "canonical_url": "https://Mangalbookstore.in/product/elegant-women-s-trousers"
     },
     "632": {
-      "meta_title": "Activefit Womens Tracksuit Indaccu Solutions",
-      "meta_description": "Shop Activefit Womens Tracksuit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Activefit Womens Tracksuit Mangalbookstore",
+      "meta_description": "Shop Activefit Womens Tracksuit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Activefit Womens Tracksuit",
-      "canonical_url": "https://Indaccu Solutions.in/product/activefit-women-s-tracksuit"
+      "canonical_url": "https://Mangalbookstore.in/product/activefit-women-s-tracksuit"
     },
     "633": {
-      "meta_title": "Chic Comfort Womens T Shirt Indaccu Solutions",
-      "meta_description": "Shop Chic Comfort Womens T Shirt at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Chic Comfort Womens T Shirt Mangalbookstore",
+      "meta_description": "Shop Chic Comfort Womens T Shirt at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Chic Comfort Womens T Shirt",
-      "canonical_url": "https://Indaccu Solutions.in/product/chic-comfort-women-s-t-shirt"
+      "canonical_url": "https://Mangalbookstore.in/product/chic-comfort-women-s-t-shirt"
     },
     "634": {
-      "meta_title": "Royal Grace Womens Indian Suit Indaccu Solutions",
-      "meta_description": "Shop Royal Grace Womens Indian Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Royal Grace Womens Indian Suit Mangalbookstore",
+      "meta_description": "Shop Royal Grace Womens Indian Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Royal Grace Womens Indian Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/royal-grace-women-s-indian-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/royal-grace-women-s-indian-suit"
     },
     "635": {
-      "meta_title": "Urban Chic Womens Top Jeans Set Indaccu Solutions",
-      "meta_description": "Shop Urban Chic Womens Top Jeans Set at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Urban Chic Womens Top Jeans Set Mangalbookstore",
+      "meta_description": "Shop Urban Chic Womens Top Jeans Set at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Urban Chic Womens Top Jeans Set",
-      "canonical_url": "https://Indaccu Solutions.in/product/urban-chic-women-s-top-jeans-set"
+      "canonical_url": "https://Mangalbookstore.in/product/urban-chic-women-s-top-jeans-set"
     },
     "636": {
-      "meta_title": "Scarlet Elegance Womens Red Full Suit Indaccu Solutions",
-      "meta_description": "Shop Scarlet Elegance Womens Red Full Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Scarlet Elegance Womens Red Full Suit Mangalbookstore",
+      "meta_description": "Shop Scarlet Elegance Womens Red Full Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Scarlet Elegance Womens Red Full Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/scarlet-elegance-women-s-red-full-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/scarlet-elegance-women-s-red-full-suit"
     },
     "637": {
-      "meta_title": "Midnight Majesty Womens Black Suit Indaccu Solutions",
-      "meta_description": "Shop Midnight Majesty Womens Black Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Midnight Majesty Womens Black Suit Mangalbookstore",
+      "meta_description": "Shop Midnight Majesty Womens Black Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Midnight Majesty Womens Black Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/midnight-majesty-women-s-black-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/midnight-majesty-women-s-black-suit"
     },
     "638": {
-      "meta_title": "Emerald Dream Womens Green Suit Indaccu Solutions",
-      "meta_description": "Shop Emerald Dream Womens Green Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Emerald Dream Womens Green Suit Mangalbookstore",
+      "meta_description": "Shop Emerald Dream Womens Green Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Emerald Dream Womens Green Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/emerald-dream-women-s-green-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/emerald-dream-women-s-green-suit"
     },
     "639": {
-      "meta_title": "Verdant Glow Womens Green Suit Indaccu Solutions",
-      "meta_description": "Shop Verdant Glow Womens Green Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Verdant Glow Womens Green Suit Mangalbookstore",
+      "meta_description": "Shop Verdant Glow Womens Green Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Verdant Glow Womens Green Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/verdant-glow-women-s-green-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/verdant-glow-women-s-green-suit"
     },
     "640": {
-      "meta_title": "Maroon Majesty Womens Maroon Suit Indaccu Solutions",
-      "meta_description": "Shop Maroon Majesty Womens Maroon Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Maroon Majesty Womens Maroon Suit Mangalbookstore",
+      "meta_description": "Shop Maroon Majesty Womens Maroon Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Maroon Majesty Womens Maroon Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/maroon-majesty-women-s-maroon-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/maroon-majesty-women-s-maroon-suit"
     },
     "641": {
-      "meta_title": "Sapphire Grace Womens Blue Suit Indaccu Solutions",
-      "meta_description": "Shop Sapphire Grace Womens Blue Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Sapphire Grace Womens Blue Suit Mangalbookstore",
+      "meta_description": "Shop Sapphire Grace Womens Blue Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Sapphire Grace Womens Blue Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/sapphire-grace-women-s-blue-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/sapphire-grace-women-s-blue-suit"
     },
     "642": {
-      "meta_title": "Timeless Elegance Womens Suit Indaccu Solutions",
-      "meta_description": "Shop Timeless Elegance Womens Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Timeless Elegance Womens Suit Mangalbookstore",
+      "meta_description": "Shop Timeless Elegance Womens Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Timeless Elegance Womens Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/timeless-elegance-women-s-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/timeless-elegance-women-s-suit"
     },
     "643": {
-      "meta_title": "Classic Charm Womens Suit Indaccu Solutions",
-      "meta_description": "Shop Classic Charm Womens Suit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Classic Charm Womens Suit Mangalbookstore",
+      "meta_description": "Shop Classic Charm Womens Suit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Classic Charm Womens Suit",
-      "canonical_url": "https://Indaccu Solutions.in/product/classic-charm-women-s-suit"
+      "canonical_url": "https://Mangalbookstore.in/product/classic-charm-women-s-suit"
     },
     "645": {
-      "meta_title": "Allure Chic Womens Outfit Indaccu Solutions",
-      "meta_description": "Shop Allure Chic Womens Outfit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Allure Chic Womens Outfit Mangalbookstore",
+      "meta_description": "Shop Allure Chic Womens Outfit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Allure Chic Womens Outfit",
-      "canonical_url": "https://Indaccu Solutions.in/product/allure-chic-women-s-outfit"
+      "canonical_url": "https://Mangalbookstore.in/product/allure-chic-women-s-outfit"
     },
     "646": {
-      "meta_title": "Radiant Glow Womens Outfit Indaccu Solutions",
-      "meta_description": "Shop Radiant Glow Womens Outfit at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Radiant Glow Womens Outfit Mangalbookstore",
+      "meta_description": "Shop Radiant Glow Womens Outfit at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Radiant Glow Womens Outfit",
-      "canonical_url": "https://Indaccu Solutions.in/product/radiant-glow-women-s-outfit"
+      "canonical_url": "https://Mangalbookstore.in/product/radiant-glow-women-s-outfit"
     },
     "647": {
-      "meta_title": "Vintage Vibe Womens Denim Jacket Indaccu Solutions",
-      "meta_description": "Shop Vintage Vibe Womens Denim Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Vintage Vibe Womens Denim Jacket Mangalbookstore",
+      "meta_description": "Shop Vintage Vibe Womens Denim Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Vintage Vibe Womens Denim Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/vintage-vibe-women-s-denim-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/vintage-vibe-women-s-denim-jacket"
     },
     "648": {
-      "meta_title": "Midnight Rebel Womens Black Leather Jacket Indaccu Solutions",
-      "meta_description": "Shop Midnight Rebel Womens Black Leather Jacket at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Midnight Rebel Womens Black Leather Jacket Mangalbookstore",
+      "meta_description": "Shop Midnight Rebel Womens Black Leather Jacket at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Midnight Rebel Womens Black Leather Jacket",
-      "canonical_url": "https://Indaccu Solutions.in/product/midnight-rebel-women-s-black-leather-jacket"
+      "canonical_url": "https://Mangalbookstore.in/product/midnight-rebel-women-s-black-leather-jacket"
     },
     "1678": {
-      "meta_title": "Blue Formal Shirt For Men Premium Cotton Indaccu Solutions Indaccu Solutions",
-      "meta_description": "Shop Blue Formal Shirt For Men Premium Cotton Indaccu Solutions at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
+      "meta_title": "Blue Formal Shirt For Men Premium Cotton Mangalbookstore Mangalbookstore",
+      "meta_description": "Shop Blue Formal Shirt For Men Premium Cotton Mangalbookstore at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today",
       "meta_keywords": "Blue Formal Shirt For Men Premium Cotton",
-      "canonical_url": "https://Indaccu Solutions.in/product/blue-formal-shirt-for-men-premium-cotton-Indaccu Solutions"
+      "canonical_url": "https://Mangalbookstore.in/product/blue-formal-shirt-for-men-premium-cotton-Mangalbookstore"
     },
     "2224": {
-      "meta_title": "Athletic Fit Jeans For Men Stretch Denim Indaccu Solutions",
-      "meta_description": "Shop Athletic Fit Jeans For Men Stretch Denim at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Athletic Fit Jeans For Men Stretch Denim Mangalbookstore",
+      "meta_description": "Shop Athletic Fit Jeans For Men Stretch Denim at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Athletic Fit Jeans For Men Stretch Denim",
-      "canonical_url": "https://Indaccu Solutions.in/product/athletic-fit-jeans-for-men-stretch-denim"
+      "canonical_url": "https://Mangalbookstore.in/product/athletic-fit-jeans-for-men-stretch-denim"
     },
     "3746": {
-      "meta_title": "Womens Cotton Half Sleeve Top Indaccu Solutions",
-      "meta_description": "Shop Womens Cotton Half Sleeve Top at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Womens Cotton Half Sleeve Top Mangalbookstore",
+      "meta_description": "Shop Womens Cotton Half Sleeve Top at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Womens Cotton Half Sleeve Top",
-      "canonical_url": "https://Indaccu Solutions.in/product/women-s-cotton-half-sleeve-top"
+      "canonical_url": "https://Mangalbookstore.in/product/women-s-cotton-half-sleeve-top"
     },
     "3902": {
-      "meta_title": "Off White Printed Cotton Kurti Indaccu Solutions",
-      "meta_description": "Shop Off White Printed Cotton Kurti at Indaccu Solutions. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
+      "meta_title": "Off White Printed Cotton Kurti Mangalbookstore",
+      "meta_description": "Shop Off White Printed Cotton Kurti at Mangalbookstore. Premium quality with fast PAN India shipping COD and easy returns. Limited stock order today.",
       "meta_keywords": "Off White Printed Cotton Kurti",
-      "canonical_url": "https://Indaccu Solutions.in/product/off-white-printed-cotton-kurti"
+      "canonical_url": "https://Mangalbookstore.in/product/off-white-printed-cotton-kurti"
     }
 };
 

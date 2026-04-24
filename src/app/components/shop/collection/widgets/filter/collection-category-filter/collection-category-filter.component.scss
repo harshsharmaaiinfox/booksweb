@@ -1,96 +1,73 @@
-﻿// ============================================
-// Indaccu Solutions — Category Filter
+// ============================================
+// Category Filter — #8B10FF theme
 // ============================================
 
-$primary: #6B8E23;
-$secondary: #D2B48C;
-$accent: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.08);
+$text:         #1a1a1a;
+$muted:        #888;
+$border:       #e5e7eb;
 
 .category-filter-wrapper {
   padding: 0;
 
   .theme-form {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 
     .search-box .form-control {
-      padding: 10px 12px;
-      border: 1.5px solid #ddd;
-      border-radius: 0;
+      padding: 9px 12px;
+      border: 1.5px solid $border;
+      border-radius: 8px;
       font-size: 13px;
       transition: border-color 0.2s;
 
-      &:focus {
-        outline: none;
-        border-color: $text;
-        box-shadow: none;
-      }
+      &:focus { outline: none; border-color: $purple; box-shadow: 0 0 0 3px $purple-light; }
     }
   }
 
   .category-list {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 1px;
     padding: 0;
     margin: 0;
     list-style: none;
 
     li {
-      margin-bottom: 0;
       display: flex;
       flex-direction: column;
 
       .category-item {
         display: flex;
         align-items: center;
-        padding: 10px 12px;
+        padding: 9px 10px;
         cursor: pointer;
-        transition: all 0.2s;
-        background: transparent;
-        border: none;
-        border-left: 3px solid transparent;
-        width: 100%;
+        border-radius: 8px;
+        border-left: 2px solid transparent;
+        transition: all 0.18s;
 
         .category-name {
-          color: lighten($text, 25%);
+          color: $muted;
+          font-size: 13.5px;
           font-weight: 400;
-          font-size: 14px;
-          transition: all 0.2s;
+          transition: all 0.18s;
         }
 
         &:hover {
-          background: rgba($secondary, 0.1);
-
-          .category-name {
-            color: $text;
-            padding-left: 4px;
-          }
+          background: $purple-light;
+          .category-name { color: $purple; }
         }
 
         &.selected {
-          background: rgba($primary, 0.06);
-          border-left-color: $primary;
-
-          .category-name {
-            color: $primary;
-            font-weight: 600;
-          }
-
-          &:hover {
-            background: rgba($primary, 0.1);
-          }
+          background: $purple-light;
+          border-left-color: $purple;
+          .category-name { color: $purple; font-weight: 600; }
         }
 
         &.non-clickable {
-          cursor: not-allowed !important;
+          cursor: not-allowed;
           pointer-events: none;
-          opacity: 0.5;
-
-          .category-name { color: #999 !important; }
-          &:hover { background: transparent !important; .category-name { padding-left: 0 !important; } }
-          &.selected { background: rgba(#999, 0.06) !important; border-left-color: #ccc !important; .category-name { color: #999 !important; } }
+          opacity: 0.45;
         }
       }
 
@@ -98,42 +75,20 @@ $bg: #FAF9F6;
         margin: 0;
         padding: 0;
         list-style: none;
-        display: flex;
-        flex-direction: column;
-        gap: 0;
 
         li .category-item {
-          padding: 8px 12px 8px 28px;
-
-          .category-name { font-size: 13px; color: #999; }
-          &:hover .category-name { color: $accent; }
-          &.selected .category-name { color: $primary; font-weight: 500; }
-          &.non-clickable .category-name { color: #999 !important; }
-          &.non-clickable:hover .category-name { color: #999 !important; }
-          &.non-clickable.selected .category-name { color: #999 !important; }
+          padding: 7px 10px 7px 24px;
+          .category-name { font-size: 12.5px; color: #bbb; }
+          &:hover .category-name { color: $purple; }
+          &.selected .category-name { color: $purple; font-weight: 500; }
         }
       }
     }
   }
 
   .search-not-found-box {
-    padding: 20px;
+    padding: 16px;
     text-align: center;
-
-    h5 { color: #999; font-size: 14px; font-weight: 400; margin: 0; }
-  }
-}
-
-// Dark mode
-html.dark {
-  .category-filter-wrapper {
-    .theme-form .search-box .form-control { background: #222; border-color: #444; color: #ccc; &:focus { border-color: #888; } }
-    .category-list li {
-      .category-item .category-name { color: #888; }
-      .category-item:hover { background: #2a2a2a; .category-name { color: #ccc; } }
-      .category-item.selected { background: rgba($primary, 0.1); border-left-color: $primary; .category-name { color: lighten($primary, 15%); } }
-      .sub-category-list li .category-item .category-name { color: #666; }
-      .sub-category-list li .category-item.selected .category-name { color: lighten($primary, 15%); }
-    }
+    h5 { color: $muted; font-size: 13px; font-weight: 400; margin: 0; }
   }
 }
