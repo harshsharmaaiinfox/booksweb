@@ -1,14 +1,18 @@
-﻿// ============================================
-// Mangalbookstore — Account Order Details
+// ============================================
+// Account Order Details — Purple Design System
 // ============================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
-$border: #e8e4df;
-$error: #c0392b;
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.08);
+$purple-mid:   rgba(139, 16, 255, 0.18);
+$text:         #1a1a2e;
+$muted:        #6b7280;
+$border:       #e5e7eb;
+$bg:           #f8f7ff;
+$white:        #fff;
+$success:      #16a34a;
+$danger:       #dc2626;
+$warning:      #d97706;
 
 // =============================================
 // PAGE CONTAINER
@@ -30,26 +34,21 @@ $error: #c0392b;
   align-items: center;
   justify-content: center;
 
-  .spinner-border {
-    color: $warm;
-    width: 24px;
-    height: 24px;
-    border-width: 2px;
-  }
+  .spinner-border { color: $purple; width: 28px; height: 28px; border-width: 2px; }
 }
 
 // =============================================
 // PAGE HEADER
 // =============================================
 .order-details-header {
-  background: $text;
+  background: linear-gradient(135deg, $purple 0%, #6b0fd4 100%);
   padding: 20px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   flex-wrap: wrap;
-  border-radius: 6px;
+  border-radius: 12px;
 
   .header-content {
     display: flex;
@@ -58,16 +57,16 @@ $error: #c0392b;
   }
 
   .header-icon-wrapper {
-    width: 44px;
-    height: 44px;
-    background: rgba($white, 0.1);
+    width: 46px;
+    height: 46px;
+    background: rgba($white, 0.15);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
 
-    i { font-size: 20px; color: $white; }
+    i { font-size: 22px; color: $white; }
   }
 
   .header-text-content {
@@ -76,7 +75,6 @@ $error: #c0392b;
       font-weight: 700;
       color: $white;
       margin: 0 0 2px;
-      letter-spacing: -0.2px;
     }
 
     .page-subtitle {
@@ -111,45 +109,44 @@ $error: #c0392b;
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  padding: 9px 16px;
+  font-size: 12px;
+  font-weight: 600;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.2s;
   border: 1.5px solid transparent;
-  border-radius: 4px;
+  border-radius: 8px;
 
   i { font-size: 14px; }
 }
 
 .btn-back-orders {
   @extend %btn-base;
-  border-color: rgba($white, 0.3);
-  color: rgba($white, 0.8);
+  border-color: rgba($white, 0.35);
+  color: rgba($white, 0.85);
   background: transparent;
 
-  &:hover { border-color: $white; color: $white; }
+  &:hover { background: rgba($white, 0.15); border-color: $white; color: $white; }
 }
 
 .btn-pay-now {
   @extend %btn-base;
-  background: $olive;
-  border-color: $olive;
-  color: $white;
+  background: $white;
+  border-color: $white;
+  color: $purple;
+  font-weight: 700;
 
-  &:hover { background: darken($olive, 8%); border-color: darken($olive, 8%); }
+  &:hover { background: rgba($white, 0.88); }
 }
 
 .btn-download-invoice {
   @extend %btn-base;
-  border-color: rgba($white, 0.3);
-  color: rgba($white, 0.8);
+  border-color: rgba($white, 0.35);
+  color: rgba($white, 0.85);
   background: transparent;
 
-  &:hover { border-color: $white; color: $white; }
+  &:hover { background: rgba($white, 0.15); border-color: $white; color: $white; }
 }
 
 // =============================================
@@ -159,27 +156,26 @@ $error: #c0392b;
   .tracking-card {
     background: $white;
     border: 1px solid $border;
-    border-radius: 6px;
+    border-radius: 12px;
     overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
   }
 
   .tracking-header {
     padding: 14px 20px;
     border-bottom: 1px solid $border;
-    background: $bg;
+    background: $purple-light;
 
     .tracking-title {
       font-size: 13px;
       font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
       color: $text;
       margin: 0;
       display: flex;
       align-items: center;
       gap: 8px;
 
-      i { color: $olive; font-size: 16px; }
+      i { color: $purple; font-size: 16px; }
     }
   }
 
@@ -197,7 +193,7 @@ $error: #c0392b;
       top: 44px;
       left: 40px;
       right: 40px;
-      height: 1.5px;
+      height: 2px;
       background: $border;
       z-index: 0;
     }
@@ -205,7 +201,7 @@ $error: #c0392b;
     @media (max-width: 575px) {
       flex-direction: column;
       align-items: flex-start;
-      gap: 14px;
+      gap: 16px;
       &::before { display: none; }
     }
   }
@@ -215,31 +211,33 @@ $error: #c0392b;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     position: relative;
     z-index: 1;
 
     .step-icon-wrapper {
-      width: 40px;
-      height: 40px;
-      border: 1.5px solid $border;
+      width: 44px;
+      height: 44px;
+      border: 2px solid $border;
       background: $white;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      transition: all 0.2s;
+      transition: all 0.25s;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
 
       .step-icon {
-        width: 18px;
-        height: 18px;
+        width: 20px;
+        height: 20px;
         opacity: 0.25;
         filter: grayscale(1);
       }
 
       &.cancelled {
-        background: $error;
-        border-color: $error;
+        background: $danger;
+        border-color: $danger;
+        box-shadow: 0 4px 12px rgba($danger, 0.25);
 
         .step-icon { opacity: 1; filter: brightness(0) invert(1); }
       }
@@ -247,9 +245,9 @@ $error: #c0392b;
 
     .step-label {
       font-size: 10px;
-      font-weight: 700;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.3px;
+      letter-spacing: 0.4px;
       color: #ccc;
       text-align: center;
       line-height: 1.3;
@@ -257,27 +255,29 @@ $error: #c0392b;
 
     &.active {
       .step-icon-wrapper {
-        background: $olive;
-        border-color: $olive;
+        background: $purple;
+        border-color: $purple;
+        box-shadow: 0 4px 14px rgba($purple, 0.35);
 
         .step-icon { opacity: 1; filter: brightness(0) invert(1); }
       }
 
-      .step-label { color: $text; font-weight: 700; }
+      .step-label { color: $purple; font-weight: 700; }
     }
 
     &.completed {
       .step-icon-wrapper {
-        background: $olive;
-        border-color: $olive;
+        background: $purple;
+        border-color: $purple;
+        box-shadow: 0 4px 14px rgba($purple, 0.25);
 
         .step-icon { opacity: 1; filter: brightness(0) invert(1); }
       }
 
-      .step-label { color: $warm; }
+      .step-label { color: $muted; }
     }
 
-    &.cancelled-step .step-label { color: $error; }
+    &.cancelled-step .step-label { color: $danger; }
 
     @media (max-width: 575px) {
       flex-direction: row;
@@ -292,35 +292,36 @@ $error: #c0392b;
 }
 
 // =============================================
-// PRODUCTS SECTION
+// SHARED CARD HEADER
 // =============================================
-.order-products-section {
-  .products-card {
-    background: $white;
-    border: 1px solid $border;
-    border-radius: 6px;
-    overflow: hidden;
-  }
-}
-
-// Shared card header
 .card-header-modern {
   padding: 14px 20px;
   border-bottom: 1px solid $border;
-  background: $bg;
+  background: $purple-light;
 
   .section-title {
     font-size: 13px;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
     color: $text;
     margin: 0;
     display: flex;
     align-items: center;
     gap: 8px;
 
-    i { color: $olive; font-size: 16px; }
+    i { color: $purple; font-size: 16px; }
+  }
+}
+
+// =============================================
+// PRODUCTS SECTION
+// =============================================
+.order-products-section {
+  .products-card {
+    background: $white;
+    border: 1px solid $border;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
   }
 }
 
@@ -331,8 +332,10 @@ $error: #c0392b;
     gap: 16px;
     padding: 16px 20px;
     border-bottom: 1px solid $border;
+    transition: background 0.15s;
 
     &:last-child { border-bottom: none; }
+    &:hover { background: $purple-light; }
 
     @media (max-width: 640px) {
       flex-wrap: wrap;
@@ -345,7 +348,7 @@ $error: #c0392b;
     height: 72px;
     flex-shrink: 0;
     border: 1px solid $border;
-    border-radius: 4px;
+    border-radius: 10px;
     overflow: hidden;
 
     .product-img {
@@ -361,7 +364,7 @@ $error: #c0392b;
     min-width: 0;
 
     .product-name {
-      font-size: 13px;
+      font-size: 14px;
       font-weight: 600;
       color: $text;
       margin: 0 0 10px;
@@ -379,14 +382,14 @@ $error: #c0392b;
     .product-info-item {
       display: flex;
       flex-direction: column;
-      gap: 2px;
+      gap: 3px;
 
       .info-label {
         font-size: 9px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 1px;
-        color: #bbb;
+        color: $muted;
       }
 
       .info-value {
@@ -394,7 +397,7 @@ $error: #c0392b;
         font-weight: 500;
         color: $text;
 
-        &.amount { font-weight: 700; }
+        &.amount { font-weight: 700; color: $purple; }
       }
     }
   }
@@ -416,21 +419,21 @@ $error: #c0392b;
   align-items: center;
   gap: 6px;
   padding: 7px 14px;
-  border: 1.5px solid $text;
-  color: $text;
+  border: 1.5px solid $purple;
+  color: $purple;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.2s;
   background: transparent;
-  border-radius: 4px;
+  border-radius: 8px;
 
   i { font-size: 13px; }
 
-  &:hover { background: $text; color: $white; }
+  &:hover { background: $purple; color: $white; }
 
   &.disabled {
     opacity: 0.4;
@@ -438,28 +441,24 @@ $error: #c0392b;
     pointer-events: none;
   }
 
-  @media (max-width: 640px) {
-    width: 100%;
-    justify-content: center;
-  }
+  @media (max-width: 640px) { width: 100%; justify-content: center; }
 }
 
 // Refund status badges
 .refund-status-badge {
-  display: inline-block;
-  padding: 4px 10px;
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  border: 1.5px solid $border;
-  color: $warm;
-  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 20px;
+  background: $border;
+  color: $muted;
 
-  &.non-refundable { color: #999; border-color: #ddd; }
-  &.status-pending  { border-color: #e0a800; color: #b8860b; }
-  &.status-approved { border-color: $olive; color: $olive; }
-  &.status-rejected { border-color: $error; color: $error; }
+  &.non-refundable  { background: rgba($muted, 0.1); color: $muted; }
+  &.status-pending  { background: rgba($warning, 0.1); color: $warning; }
+  &.status-approved { background: rgba($success, 0.1); color: $success; }
+  &.status-rejected { background: rgba($danger, 0.1);  color: $danger; }
 }
 
 // =============================================
@@ -470,19 +469,17 @@ $error: #c0392b;
   .order-summary-card {
     background: $white;
     border: 1px solid $border;
-    border-radius: 6px;
+    border-radius: 12px;
     overflow: hidden;
     height: 100%;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
   }
 
-  .card-body-modern {
-    padding: 20px;
-  }
+  .card-body-modern { padding: 20px; }
 
   .details-grid {
     display: flex;
     flex-direction: column;
-    gap: 0;
   }
 
   .detail-item {
@@ -496,9 +493,9 @@ $error: #c0392b;
   }
 
   .detail-icon-wrapper {
-    width: 32px;
-    height: 32px;
-    background: $bg;
+    width: 34px;
+    height: 34px;
+    background: $purple-light;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -506,7 +503,7 @@ $error: #c0392b;
     flex-shrink: 0;
     margin-top: 2px;
 
-    i { font-size: 14px; color: $olive; }
+    i { font-size: 15px; color: $purple; }
   }
 
   .detail-content {
@@ -519,26 +516,23 @@ $error: #c0392b;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 1px;
-      color: #bbb;
-      margin-bottom: 4px;
+      color: $purple;
+      margin-bottom: 5px;
     }
 
     .detail-value {
       font-size: 13px;
       color: $text;
       font-weight: 500;
-      line-height: 1.7;
+      line-height: 1.8;
       margin: 0;
 
-      .phone-text { font-size: 12px; color: $warm; }
+      .phone-text { font-size: 12px; color: $muted; }
     }
   }
 
   // Summary card
-  .summary-list {
-    display: flex;
-    flex-direction: column;
-  }
+  .summary-list { display: flex; flex-direction: column; }
 
   .summary-item {
     display: flex;
@@ -547,10 +541,7 @@ $error: #c0392b;
     padding: 10px 0;
     border-bottom: 1px solid $border;
 
-    .summary-label {
-      font-size: 13px;
-      color: $warm;
-    }
+    .summary-label { font-size: 13px; color: $muted; }
 
     .summary-value {
       font-size: 13px;
@@ -559,8 +550,7 @@ $error: #c0392b;
     }
 
     &.discount {
-      .summary-label,
-      .summary-value { color: $olive; }
+      .summary-label, .summary-value { color: $success; }
     }
 
     &.total {
@@ -568,36 +558,33 @@ $error: #c0392b;
       padding-top: 14px;
 
       .summary-label {
-        font-size: 11px;
+        font-size: 13px;
         font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 1px;
         color: $text;
       }
 
       .summary-value {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 700;
-        color: $text;
+        color: $purple;
       }
     }
   }
 
   // Payment status badge
   .payment-status-badge {
-    display: inline-block;
-    padding: 3px 10px;
-    font-size: 10px;
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    font-size: 11px;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border: 1.5px solid $border;
-    color: $warm;
-    border-radius: 4px;
+    border-radius: 20px;
+    background: $border;
+    color: $muted;
 
-    &.status-completed, &.status-paid { border-color: $olive; color: $olive; }
-    &.status-pending                   { border-color: #e0a800; color: #b8860b; }
-    &.status-failed                    { border-color: $error; color: $error; }
+    &.status-completed, &.status-paid { background: rgba($success, 0.1); color: $success; }
+    &.status-pending                   { background: rgba($warning, 0.1); color: $warning; }
+    &.status-failed                    { background: rgba($danger, 0.1);  color: $danger; }
   }
 }
 
@@ -608,14 +595,14 @@ $error: #c0392b;
   .sub-orders-card {
     background: $white;
     border: 1px solid $border;
-    border-radius: 6px;
+    border-radius: 12px;
     overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
   }
 
   .sub-orders-list {
     .sub-order-card {
       border-bottom: 1px solid $border;
-
       &:last-child { border-bottom: none; }
     }
 
@@ -633,22 +620,20 @@ $error: #c0392b;
       grid-template-columns: repeat(4, 1fr);
       gap: 8px;
 
-      @media (max-width: 640px) {
-        grid-template-columns: 1fr 1fr;
-      }
+      @media (max-width: 640px) { grid-template-columns: 1fr 1fr; }
     }
 
     .info-row {
       display: flex;
       flex-direction: column;
-      gap: 3px;
+      gap: 4px;
 
       .info-label {
         font-size: 9px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 1px;
-        color: #bbb;
+        color: $muted;
       }
 
       .info-value {
@@ -656,7 +641,7 @@ $error: #c0392b;
         color: $text;
         font-weight: 500;
 
-        &.amount { font-weight: 700; }
+        &.amount { font-weight: 700; color: $purple; }
       }
     }
   }
@@ -664,22 +649,21 @@ $error: #c0392b;
 
 // Status badges
 .status-badge {
-  display: inline-block;
-  padding: 3px 8px;
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-  border: 1.5px solid $border;
-  color: $warm;
-  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 20px;
+  background: $border;
+  color: $muted;
   width: fit-content;
 
-  &.status-delivered  { border-color: $olive; color: $olive; }
-  &.status-cancelled  { border-color: $error; color: $error; }
-  &.status-pending    { border-color: #e0a800; color: #b8860b; }
-  &.status-processing { border-color: $warm; color: $warm; }
-  &.status-shipped    { border-color: $text; color: $text; }
+  &.status-delivered  { background: rgba($success, 0.1); color: $success; }
+  &.status-cancelled  { background: rgba($danger, 0.1);  color: $danger; }
+  &.status-pending    { background: rgba($warning, 0.1); color: $warning; }
+  &.status-processing { background: $purple-light;       color: $purple; }
+  &.status-shipped    { background: rgba($text, 0.08);   color: $text; }
 }
 
 .btn-view-sub-order {
@@ -687,32 +671,27 @@ $error: #c0392b;
   align-items: center;
   gap: 6px;
   padding: 8px 16px;
-  border: 1.5px solid $text;
-  color: $text;
+  border: 1.5px solid $purple;
+  color: $purple;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   text-decoration: none;
   transition: all 0.2s;
   flex-shrink: 0;
   white-space: nowrap;
-  border-radius: 4px;
+  border-radius: 8px;
 
   i { font-size: 14px; }
-  &:hover { background: $text; color: $white; }
+  &:hover { background: $purple; color: $white; }
 
-  @media (max-width: 640px) {
-    width: 100%;
-    justify-content: center;
-  }
+  @media (max-width: 640px) { width: 100%; justify-content: center; }
 }
 
 // Tooltip
-.black-tooltip {
-  .tooltip-inner {
-    background: $text;
-    color: $white;
-    font-size: 11px;
-  }
+.black-tooltip .tooltip-inner {
+  background: $text;
+  color: $white;
+  font-size: 11px;
 }

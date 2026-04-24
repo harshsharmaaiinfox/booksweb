@@ -46,8 +46,11 @@
             <!-- ORDER TRACKING -->
             <div class="kfo-panel" *ngIf="!order?.sub_orders?.length">
               <div class="kfo-panel-head">
-                <p class="kfo-eyebrow">Live Status</p>
-                <h3>Order Tracking</h3>
+                <i class="ri-map-pin-2-line"></i>
+                <div class="kfo-panel-head-text">
+                  <p class="kfo-eyebrow">Live Status</p>
+                  <h3>Order Tracking</h3>
+                </div>
               </div>
               <div class="kfo-panel-body">
                 <div class="kfo-tracker">
@@ -82,8 +85,11 @@
             <!-- ORDERED PRODUCTS -->
             <div class="kfo-panel" *ngIf="order?.products?.length">
               <div class="kfo-panel-head">
-                <p class="kfo-eyebrow">What you ordered</p>
-                <h3>Ordered Products</h3>
+                <i class="ri-shopping-bag-2-line"></i>
+                <div class="kfo-panel-head-text">
+                  <p class="kfo-eyebrow">What you ordered</p>
+                  <h3>Ordered Products</h3>
+                </div>
               </div>
               <div class="kfo-panel-body kfo-no-pad">
 
@@ -159,8 +165,11 @@
             <!-- SUB ORDERS -->
             <div class="kfo-panel" *ngIf="order?.sub_orders?.length">
               <div class="kfo-panel-head">
-                <p class="kfo-eyebrow">Sub-orders</p>
-                <h3>{{ 'sub_orders' | translate }}</h3>
+                <i class="ri-stack-line"></i>
+                <div class="kfo-panel-head-text">
+                  <p class="kfo-eyebrow">Sub-orders</p>
+                  <h3>{{ 'sub_orders' | translate }}</h3>
+                </div>
               </div>
               <div class="kfo-panel-body kfo-no-pad">
 
@@ -236,13 +245,16 @@
             <!-- CONSUMER DETAILS -->
             <div class="kfo-panel">
               <div class="kfo-panel-head">
-                <p class="kfo-eyebrow">Who & Where</p>
-                <h3>{{ 'consumer_details' | translate }}</h3>
+                <i class="ri-user-3-line"></i>
+                <div class="kfo-panel-head-text">
+                  <p class="kfo-eyebrow">Who & Where</p>
+                  <h3>{{ 'consumer_details' | translate }}</h3>
+                </div>
               </div>
               <div class="kfo-panel-body">
 
                 <div class="kfo-detail-block" *ngIf="order?.billing_address">
-                  <span class="kfo-detail-label">{{ 'billing_address' | translate }}</span>
+                  <span class="kfo-detail-label"><i class="ri-map-pin-line"></i>{{ 'billing_address' | translate }}</span>
                   <div class="kfo-detail-value">
                     <div *ngIf="order.billing_address.floor_no">Floor {{ order.billing_address.floor_no }}</div>
                     <div *ngIf="order.billing_address.flat_no">Flat {{ order.billing_address.flat_no }}</div>
@@ -255,7 +267,7 @@
                 </div>
 
                 <div class="kfo-detail-block" *ngIf="order?.shipping_address && !order?.is_digital_only">
-                  <span class="kfo-detail-label">{{ 'shipping_address' | translate }}</span>
+                  <span class="kfo-detail-label"><i class="ri-truck-line"></i>{{ 'shipping_address' | translate }}</span>
                   <div class="kfo-detail-value">
                     <div *ngIf="order.shipping_address.floor_no">Floor {{ order.shipping_address.floor_no }}</div>
                     <div *ngIf="order.shipping_address.flat_no">Flat {{ order.shipping_address.flat_no }}</div>
@@ -268,12 +280,12 @@
                 </div>
 
                 <div class="kfo-detail-block" *ngIf="order?.delivery_description && !order?.is_digital_only">
-                  <span class="kfo-detail-label">{{ 'delivery_slot' | translate }}</span>
+                  <span class="kfo-detail-label"><i class="ri-time-line"></i>{{ 'delivery_slot' | translate }}</span>
                   <div class="kfo-detail-value">{{ order.delivery_description }}</div>
                 </div>
 
                 <div class="kfo-detail-block" *ngIf="order?.payment_method">
-                  <span class="kfo-detail-label">{{ 'payment_mode' | translate }}</span>
+                  <span class="kfo-detail-label"><i class="ri-bank-card-line"></i>{{ 'payment_mode' | translate }}</span>
                   <div class="kfo-detail-value">
                     <ng-container [ngSwitch]="order?.payment_method">
                       <span *ngSwitchCase="'mangal fashion_nabu'">Pay By UPI INTENT 3</span>
@@ -285,7 +297,7 @@
                 </div>
 
                 <div class="kfo-detail-block" *ngIf="order?.payment_method">
-                  <span class="kfo-detail-label">{{ 'payment_status' | translate }}</span>
+                  <span class="kfo-detail-label"><i class="ri-shield-check-line"></i>{{ 'payment_status' | translate }}</span>
                   <div class="kfo-detail-value">
                     <span class="kfo-payment-status kfo-ps-{{ order.payment_status }}">
                       {{ order.payment_status | uppercase }}
@@ -299,8 +311,11 @@
             <!-- SUMMARY -->
             <div class="kfo-panel">
               <div class="kfo-panel-head">
-                <p class="kfo-eyebrow">Financials</p>
-                <h3>{{ 'summary' | translate }}</h3>
+                <i class="ri-receipt-line"></i>
+                <div class="kfo-panel-head-text">
+                  <p class="kfo-eyebrow">Financials</p>
+                  <h3>{{ 'summary' | translate }}</h3>
+                </div>
               </div>
               <div class="kfo-panel-body">
                 <div class="kfo-summary">

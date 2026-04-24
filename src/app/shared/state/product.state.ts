@@ -258,9 +258,9 @@ export class ProductState {
     if (action.payload) { action.payload['store_id'] = 30 }
     return this.productService.getProductBySearch(action.payload).pipe(
       tap({
-        next: (result) => {
+        next: (result: ProductModel) => {
           ctx.patchState({
-            productBySearch: result,
+            productBySearch: result?.data ?? result,
           });
         },
         complete: () => {

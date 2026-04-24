@@ -24,6 +24,6 @@ export class ProductService {
   }
 
   getProductBySearch(payload?: Params): Observable<any> {
-    return this.http.get<any>(`${environment.URL}/product/minify/list`, { params: payload });
+    return this.http.get<any>(`${environment.URL}/product`, { params: payload });
   }
 }

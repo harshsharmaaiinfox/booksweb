@@ -1,25 +1,18 @@
-﻿// ============================================
-// Mangalbookstore — Order Details Page
+// ============================================
+// Order Details — Purple Design System
 // ============================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
-$border: #e8e4df;
-
-// =============================================
-// EYEBROW
-// =============================================
-.kfo-eyebrow {
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: $olive;
-  margin: 0 0 6px;
-}
+$purple:  #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.08);
+$purple-mid:   rgba(139, 16, 255, 0.15);
+$text:    #1a1a2e;
+$muted:   #6b7280;
+$border:  #e5e7eb;
+$bg:      #f5f3ff;
+$white:   #fff;
+$success: #16a34a;
+$danger:  #dc2626;
+$warning: #d97706;
 
 // =============================================
 // LOADING
@@ -31,50 +24,50 @@ $border: #e8e4df;
   align-items: center;
   justify-content: center;
   gap: 14px;
-  background: $bg;
 
-  .spinner-border {
-    color: $warm;
-    width: 28px;
-    height: 28px;
-    border-width: 2px;
-  }
+  .spinner-border { color: $purple; width: 28px; height: 28px; border-width: 2px; }
 
   p {
     font-size: 13px;
-    color: $warm;
+    color: $muted;
     margin: 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
 // =============================================
-// HERO
+// HERO BANNER
 // =============================================
 .kfo-hero {
-  background: $text;
-  padding: 48px 0 40px;
+  background: linear-gradient(135deg, $purple 0%, #6b0fd4 100%);
+  padding: 36px 0 32px;
 
   .kfo-hero-inner {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 16px;
     flex-wrap: wrap;
   }
 
   .kfo-hero-left {
+    .kfo-eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: rgba($white, 0.65);
+      margin: 0 0 6px;
+    }
+
     h1 {
-      font-size: 38px;
+      font-size: 32px;
       font-weight: 700;
       color: $white;
       margin: 0;
       letter-spacing: -0.5px;
-      line-height: 1.1;
 
-      @media (max-width: 768px) { font-size: 28px; }
+      @media (max-width: 768px) { font-size: 24px; }
     }
   }
 
@@ -82,19 +75,19 @@ $border: #e8e4df;
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 10px 20px;
-    border: 1.5px solid rgba($white, 0.25);
-    color: rgba($white, 0.7);
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    padding: 9px 18px;
+    border: 1.5px solid rgba($white, 0.35);
+    border-radius: 6px;
+    color: rgba($white, 0.85);
+    font-size: 12px;
+    font-weight: 600;
     text-decoration: none;
     transition: all 0.2s;
 
-    i { font-size: 16px; }
+    i { font-size: 15px; }
 
     &:hover {
+      background: rgba($white, 0.12);
       border-color: $white;
       color: $white;
     }
@@ -106,37 +99,32 @@ $border: #e8e4df;
 // =============================================
 .kfo-body {
   background: $bg;
-  padding: 32px 0 60px;
+  padding: 28px 0 60px;
 }
 
 .kfo-layout {
   display: grid;
   grid-template-columns: 1fr 340px;
-  gap: 24px;
+  gap: 20px;
   align-items: flex-start;
 
-  @media (max-width: 1100px) {
-    grid-template-columns: 1fr;
-  }
+  @media (max-width: 1100px) { grid-template-columns: 1fr; }
 }
 
 .kfo-main {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 16px;
 }
 
 .kfo-sidebar {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 16px;
   position: sticky;
   top: 24px;
 
-  @media (max-width: 1100px) {
-    position: relative;
-    top: 0;
-  }
+  @media (max-width: 1100px) { position: relative; top: 0; }
 }
 
 // =============================================
@@ -144,36 +132,52 @@ $border: #e8e4df;
 // =============================================
 .kfo-panel {
   background: $white;
+  border-radius: 12px;
   border: 1px solid $border;
-
-  & + .kfo-panel {
-    border-top: none;
-  }
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 
 .kfo-panel-head {
-  padding: 18px 24px;
+  padding: 16px 20px;
   border-bottom: 1px solid $border;
-  background: $text;
+  background: $purple-light;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
-  .kfo-eyebrow { color: $olive; }
+  i {
+    font-size: 18px;
+    color: $purple;
+    flex-shrink: 0;
+  }
+
+  .kfo-panel-head-text {
+    flex: 1;
+  }
 
   h3 {
     font-size: 14px;
     font-weight: 700;
-    color: $white;
+    color: $text;
     margin: 0;
+    letter-spacing: 0.2px;
+  }
+
+  .kfo-eyebrow {
+    font-size: 10px;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.8px;
+    letter-spacing: 1.5px;
+    color: $purple;
+    margin: 0 0 2px;
   }
 }
 
 .kfo-panel-body {
-  padding: 24px;
+  padding: 20px;
 
-  &.kfo-no-pad {
-    padding: 0;
-  }
+  &.kfo-no-pad { padding: 0; }
 }
 
 // =============================================
@@ -185,15 +189,15 @@ $border: #e8e4df;
   justify-content: space-between;
   position: relative;
   gap: 8px;
-  padding: 8px 0 4px;
+  padding: 12px 0 4px;
 
   &::before {
     content: '';
     position: absolute;
-    top: 20px;
-    left: 16px;
-    right: 16px;
-    height: 1.5px;
+    top: 28px;
+    left: 20px;
+    right: 20px;
+    height: 2px;
     background: $border;
     z-index: 0;
   }
@@ -209,18 +213,20 @@ $border: #e8e4df;
   z-index: 1;
 
   .kfo-tracker-dot {
-    width: 40px;
-    height: 40px;
-    border: 1.5px solid $border;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid $border;
     background: $white;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s;
+    transition: all 0.25s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
 
     img {
-      width: 18px;
-      height: 18px;
+      width: 20px;
+      height: 20px;
       opacity: 0.3;
       filter: grayscale(1);
     }
@@ -228,7 +234,7 @@ $border: #e8e4df;
 
   .kfo-tracker-label {
     font-size: 10px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     color: #ccc;
@@ -238,8 +244,9 @@ $border: #e8e4df;
 
   &.kfo-active {
     .kfo-tracker-dot {
-      background: $olive;
-      border-color: $olive;
+      background: $purple;
+      border-color: $purple;
+      box-shadow: 0 4px 12px rgba($purple, 0.35);
 
       img {
         opacity: 1;
@@ -248,23 +255,21 @@ $border: #e8e4df;
     }
 
     .kfo-tracker-label {
-      color: $text;
+      color: $purple;
       font-weight: 700;
     }
   }
 
   &.kfo-cancelled {
     .kfo-tracker-dot {
-      background: #c0392b;
-      border-color: #c0392b;
+      background: $danger;
+      border-color: $danger;
+      box-shadow: 0 4px 12px rgba($danger, 0.25);
 
-      img {
-        opacity: 1;
-        filter: brightness(0) invert(1);
-      }
+      img { opacity: 1; filter: brightness(0) invert(1); }
     }
 
-    .kfo-tracker-label { color: #c0392b; }
+    .kfo-tracker-label { color: $danger; }
   }
 }
 
@@ -284,9 +289,7 @@ $border: #e8e4df;
     align-items: center;
     gap: 14px;
 
-    .kfo-tracker-label {
-      text-align: left;
-    }
+    .kfo-tracker-label { text-align: left; }
   }
 }
 
@@ -299,26 +302,28 @@ $border: #e8e4df;
 
   thead tr {
     background: $bg;
-    border-bottom: 1px solid $border;
 
     th {
-      padding: 12px 20px;
+      padding: 12px 16px;
       font-size: 10px;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 1px;
-      color: #bbb;
+      color: $muted;
       text-align: left;
+      border-bottom: 1px solid $border;
     }
   }
 
   tbody tr {
     border-bottom: 1px solid $border;
+    transition: background 0.15s;
 
     &:last-child { border-bottom: none; }
+    &:hover { background: $purple-light; }
 
     td {
-      padding: 16px 20px;
+      padding: 14px 16px;
       font-size: 13px;
       font-weight: 500;
       color: $text;
@@ -327,22 +332,16 @@ $border: #e8e4df;
   }
 
   .kfo-product-img {
-    width: 54px;
-    height: 54px;
+    width: 52px;
+    height: 52px;
     object-fit: cover;
     display: block;
+    border-radius: 8px;
     border: 1px solid $border;
   }
 
-  .kfo-product-name {
-    font-weight: 600;
-    max-width: 220px;
-  }
-
-  .kfo-subtotal {
-    font-weight: 700;
-    color: $text;
-  }
+  .kfo-product-name { font-weight: 600; max-width: 220px; }
+  .kfo-subtotal { font-weight: 700; color: $purple; }
 }
 
 // =============================================
@@ -354,16 +353,17 @@ $border: #e8e4df;
 
   .kfo-product-card {
     display: flex;
-    gap: 16px;
+    gap: 14px;
     padding: 16px;
     border-bottom: 1px solid $border;
 
     &:last-child { border-bottom: none; }
 
     .kfo-product-card-img {
-      width: 60px;
-      height: 60px;
+      width: 64px;
+      height: 64px;
       flex-shrink: 0;
+      border-radius: 8px;
       border: 1px solid $border;
       overflow: hidden;
 
@@ -380,21 +380,17 @@ $border: #e8e4df;
         margin: 0 0 10px;
       }
 
-      .kfo-product-card-rows {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-      }
+      .kfo-product-card-rows { display: flex; flex-direction: column; gap: 5px; }
 
       .kfo-product-card-row {
         display: flex;
         justify-content: space-between;
         font-size: 12px;
-        color: $warm;
+        color: $muted;
 
         span:last-child { font-weight: 600; color: $text; }
 
-        &--total span:last-child { font-weight: 700; color: $text; }
+        &--total span:last-child { font-weight: 700; color: $purple; }
       }
     }
   }
@@ -420,7 +416,7 @@ $border: #e8e4df;
       display: flex;
       justify-content: space-between;
       font-size: 12px;
-      color: $warm;
+      color: $muted;
 
       span:last-child { font-weight: 600; color: $text; }
     }
@@ -431,16 +427,17 @@ $border: #e8e4df;
       gap: 6px;
       margin-top: 4px;
       padding: 8px 14px;
-      border: 1.5px solid $text;
-      color: $text;
+      border-radius: 6px;
+      border: 1.5px solid $purple;
+      color: $purple;
       font-size: 11px;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
       text-decoration: none;
       transition: all 0.2s;
 
-      &:hover { background: $text; color: $white; }
+      &:hover { background: $purple; color: $white; }
     }
   }
 }
@@ -449,32 +446,40 @@ $border: #e8e4df;
 // STATUS BADGES
 // =============================================
 .kfo-status-badge {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   padding: 3px 10px;
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  border: 1.5px solid $border;
-  color: $warm;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  background: $border;
+  color: $muted;
 
-  &.kfo-status-delivered { border-color: $olive; color: $olive; }
-  &.kfo-status-cancelled { border-color: #c0392b; color: #c0392b; }
-  &.kfo-status-pending   { border-color: #e0a800; color: #b8860b; }
-  &.kfo-status-processing { border-color: $warm; color: $warm; }
-  &.kfo-status-shipped   { border-color: $text; color: $text; }
+  &.kfo-status-delivered  { background: rgba($success, 0.1); color: $success; }
+  &.kfo-status-cancelled  { background: rgba($danger, 0.1);  color: $danger; }
+  &.kfo-status-pending    { background: rgba($warning, 0.1); color: $warning; }
+  &.kfo-status-processing { background: $purple-light;       color: $purple; }
+  &.kfo-status-shipped    { background: rgba($text, 0.08);   color: $text; }
 }
 
 // =============================================
 // ICON LINK
 // =============================================
 .kfo-icon-link {
-  color: $text;
-  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: $purple-light;
+  color: $purple;
+  font-size: 15px;
   text-decoration: none;
-  transition: color 0.2s;
+  transition: all 0.2s;
 
-  &:hover { color: $olive; }
+  &:hover { background: $purple; color: $white; }
 }
 
 // =============================================
@@ -488,24 +493,28 @@ $border: #e8e4df;
   &:last-child  { border-bottom: none; padding-bottom: 0; }
 
   .kfo-detail-label {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 6px;
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #bbb;
-    margin-bottom: 6px;
+    color: $purple;
+    margin-bottom: 8px;
+
+    i { font-size: 13px; }
   }
 
   .kfo-detail-value {
     font-size: 13px;
     color: $text;
     font-weight: 500;
-    line-height: 1.7;
+    line-height: 1.8;
   }
 
   .kfo-detail-phone {
-    color: $warm;
+    color: $muted;
     font-size: 12px;
     margin-top: 2px;
   }
@@ -515,17 +524,19 @@ $border: #e8e4df;
 // PAYMENT STATUS
 // =============================================
 .kfo-payment-status {
-  display: inline-block;
-  padding: 3px 10px;
-  font-size: 10px;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.5px;
-  border: 1.5px solid $border;
-  color: $warm;
+  background: $border;
+  color: $muted;
 
-  &.kfo-ps-paid      { border-color: $olive; color: $olive; }
-  &.kfo-ps-pending   { border-color: #e0a800; color: #b8860b; }
-  &.kfo-ps-failed    { border-color: #c0392b; color: #c0392b; }
+  &.kfo-ps-paid    { background: rgba($success, 0.1); color: $success; }
+  &.kfo-ps-pending { background: rgba($warning, 0.1); color: $warning; }
+  &.kfo-ps-failed  { background: rgba($danger, 0.1);  color: $danger; }
 }
 
 // =============================================
@@ -543,37 +554,35 @@ $border: #e8e4df;
   padding: 10px 0;
   border-bottom: 1px solid $border;
   font-size: 13px;
-  color: $warm;
+  color: $muted;
 
   span:last-child { font-weight: 600; color: $text; }
 
   &.kfo-discount {
-    color: $olive;
-    span:last-child { color: $olive; }
+    color: $success;
+    span:last-child { color: $success; }
   }
 }
 
 .kfo-summary-divider {
-  height: 1.5px;
-  background: $text;
-  margin: 6px 0;
+  height: 1px;
+  background: $border;
+  margin: 4px 0;
 }
 
 .kfo-summary-total {
   border-bottom: none;
-  padding-top: 12px;
+  padding-top: 14px;
 
   span:first-child {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     color: $text;
   }
 
   span:last-child {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
-    color: $text;
+    color: $purple;
   }
 }

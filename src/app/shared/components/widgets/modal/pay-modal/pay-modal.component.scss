@@ -1,14 +1,15 @@
-﻿// ============================================
-// Mangalbookstore — Pay Modal
+// ============================================
+// Pay Modal — Purple Design System
 // ============================================
 
-$olive: #6B8E23;
-$warm: #6D645F;
-$text: #2F2F2F;
-$bg: #FAF9F6;
-$white: #fff;
-$border: #e8e4df;
-$error: #c0392b;
+$purple:       #8B10FF;
+$purple-light: rgba(139, 16, 255, 0.08);
+$text:         #1a1a2e;
+$muted:        #6b7280;
+$border:       #e5e7eb;
+$white:        #fff;
+$bg:           #f8f7ff;
+$danger:       #dc2626;
 
 // =============================================
 // HEADER
@@ -18,16 +19,15 @@ $error: #c0392b;
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  padding: 24px 28px 20px;
-  background: $text;
-  border-bottom: none;
+  padding: 22px 24px 18px;
+  background: linear-gradient(135deg, $purple 0%, #6b0fd4 100%);
 
   .kfpm-eyebrow {
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    color: $olive;
+    letter-spacing: 2.5px;
+    color: rgba($white, 0.65);
     margin: 0 0 4px;
   }
 
@@ -47,9 +47,10 @@ $error: #c0392b;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1.5px solid rgba($white, 0.2);
+  border: 1.5px solid rgba($white, 0.25);
+  border-radius: 8px;
   background: transparent;
-  color: rgba($white, 0.5);
+  color: rgba($white, 0.6);
   cursor: pointer;
   font-size: 18px;
   transition: all 0.2s;
@@ -57,6 +58,7 @@ $error: #c0392b;
   margin-top: 2px;
 
   &:hover {
+    background: rgba($white, 0.15);
     border-color: $white;
     color: $white;
   }
@@ -66,13 +68,13 @@ $error: #c0392b;
 // BODY
 // =============================================
 .kfpm-body {
-  padding: 24px 28px;
+  padding: 22px 24px;
   background: $bg;
 
   .kfpm-instruction {
-    font-size: 12px;
-    color: $warm;
-    margin: 0 0 18px;
+    font-size: 13px;
+    color: $muted;
+    margin: 0 0 16px;
     font-weight: 500;
   }
 }
@@ -83,7 +85,7 @@ $error: #c0392b;
 .kfpm-methods {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 10px;
 }
 
 .kfpm-method {
@@ -95,18 +97,19 @@ $error: #c0392b;
     display: none;
 
     &:checked + .kfpm-method-inner {
-      border-color: $text;
-      background: $white;
+      border-color: $purple;
+      background: $purple-light;
+      box-shadow: 0 0 0 3px rgba($purple, 0.12);
 
       .kfpm-method-name {
-        color: $text;
+        color: $purple;
         font-weight: 700;
       }
 
       .kfpm-method-check {
         opacity: 1;
-        background: $olive;
-        border-color: $olive;
+        background: $purple;
+        border-color: $purple;
         color: $white;
       }
     }
@@ -118,38 +121,36 @@ $error: #c0392b;
     justify-content: space-between;
     padding: 14px 16px;
     border: 1.5px solid $border;
+    border-radius: 10px;
     background: $white;
-    margin-top: -1px;
-    transition: border-color 0.2s, background 0.2s;
+    transition: all 0.2s;
 
     &:hover {
-      border-color: $warm;
-      z-index: 1;
-      position: relative;
+      border-color: $purple;
+      background: $purple-light;
     }
   }
-
-  &:first-child .kfpm-method-inner { margin-top: 0; }
 }
 
 .kfpm-method-name {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   color: $text;
   transition: all 0.15s;
 }
 
 .kfpm-method-check {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   border: 1.5px solid $border;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 12px;
   color: transparent;
   transition: all 0.15s;
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 // =============================================
@@ -162,10 +163,11 @@ $error: #c0392b;
   margin-top: 12px;
   font-size: 12px;
   font-weight: 600;
-  color: $error;
-  border: 1.5px solid rgba($error, 0.3);
+  color: $danger;
+  border: 1.5px solid rgba($danger, 0.25);
+  border-radius: 8px;
   padding: 10px 14px;
-  background: rgba($error, 0.04);
+  background: rgba($danger, 0.05);
 
   i { font-size: 15px; }
 }
@@ -177,14 +179,13 @@ $error: #c0392b;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 8px;
-  padding: 16px 28px;
+  gap: 10px;
+  padding: 16px 24px;
   border-top: 1px solid $border;
   background: $white;
 
   @media (max-width: 480px) {
     flex-direction: column-reverse;
-
     button { width: 100%; justify-content: center; }
   }
 }
@@ -193,11 +194,10 @@ $error: #c0392b;
   padding: 10px 22px;
   background: transparent;
   border: 1.5px solid $border;
-  color: $warm;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  border-radius: 8px;
+  color: $muted;
+  font-size: 12px;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
 
@@ -212,20 +212,20 @@ $error: #c0392b;
   align-items: center;
   gap: 7px;
   padding: 10px 22px;
-  background: $text;
-  border: 1.5px solid $text;
+  background: $purple;
+  border: 1.5px solid $purple;
+  border-radius: 8px;
   color: $white;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.2s;
 
   i { font-size: 14px; }
 
   &:hover {
-    background: $olive;
-    border-color: $olive;
+    background: #7209e6;
+    border-color: #7209e6;
+    box-shadow: 0 4px 14px rgba($purple, 0.35);
   }
 }

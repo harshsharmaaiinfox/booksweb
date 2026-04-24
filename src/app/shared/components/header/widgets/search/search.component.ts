@@ -39,6 +39,7 @@ export class SearchComponent {
     private router: Router, private store: Store) {
     this.category$.subscribe(res => this.categories = res.data.filter(category => category.type == 'product'));
       this.store.dispatch(new GetSearchByCategory({ status: 1, paginate: 4 }));
+      this.store.dispatch(new GetProductBySearch({ status: 1, paginate: 10 }));
       this.searchCategory$.subscribe(categories => {
         this.filteredCategory = categories
       });
@@ -46,7 +47,7 @@ export class SearchComponent {
       this.productBySearch$.subscribe(item => this.product = item);
       this.selectedCategory.valueChanges.subscribe(data => {
         this.isOpenResult = false;
-        let category = data ?  { status: 1, category_id: data } : {status: 1};
+        let category = data ? { status: 1, category_id: data, paginate: 10 } : { status: 1, paginate: 10 };
         this.store.dispatch(new GetProductBySearch(category))
         this.store.dispatch(new GetSearchByCategory(data ?  { status: 1, ids: data } : { status: 1, paginate: 4 }))
       })
